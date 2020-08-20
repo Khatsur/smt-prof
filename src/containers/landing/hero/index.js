@@ -6,6 +6,8 @@ import {Container, Row, Col} from 'react-bootstrap'
 import Heading from '../../../components/ui/heading'
 import Button from '../../../components/ui/button'
 import {HeroWrapper, HeroWrapperText, PreviewInnerImg} from './hero.style'
+import CarouselSlider from '../../elements/flexible-image-slider/carousel-slider'
+
 
 const Hero = ({headingSecondary, headingPrimary, buttonStyle}) => {
     const heroData = useStaticQuery(graphql `
@@ -82,6 +84,7 @@ const Hero = ({headingSecondary, headingPrimary, buttonStyle}) => {
                 <Img fluid={image5.childImageSharp.fluid} className="img-fluid pr-img-04 animation_images two wow fadeInDown" alt="Preview Hero"/>
             </Container>
         </HeroWrapper>
+       
     )
 }
  
