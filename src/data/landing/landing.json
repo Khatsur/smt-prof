@@ -148,23 +148,30 @@
     {
         "id": "caseStudy",
         "image": "../images/features/start3.png",
-        "title": "<span>SMT PROF  – Максимальная гибкость для контрактных производителей. </span> Case Study Layouts",
-        "desc": "In general, analyses of famous case studies help your clients, partners, and visitors have a better understanding of what is going on in the market. Your helpful advice can also be beneficial for audiences, which keeps them coming back for more.",
+        "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальная гибкость для контрактных производителей. </span> <br/>  Почувствуйте свободу!",
+        "desc": "Поставка оборудования для среднесерийного многономенклатурного производства  монтажа печатных плат разной сложности. Новейшие технологии и стабильность. Надежность в работе и быстрая переналадка. Серия гибкого оборудования с максимальными возможностями.",
         "path": "/case-studies"
     },
     {
         "id": "headerLayout",
         "image": "../images/features/Start1.png",
-        "title": "<span>SMT PROF  – Максимальный результат при минимальных инвестициях.</span> <br/> Почувствуйте легкость.",
+        "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'>    Максимальный результат при минимальных инвестициях.</span> <br/> Почувствуйте легкость!",
         "desc": "Поставка оборудование для поверхностного монтажа мелкосерийного производства SMT и производства прототипов. Компактный дизайн и высокое качество процессов монтажа электронных компонентов. Бюджетная серия оборудования на все случаи.",
         "path": "/index-appointment"
     },
     {
         "id": "headerLayoutSpeed",
-        "image": "../images/features/velo.png",
-        "title": "<span>SMT PROF  – Максимальная скорость и максимальная эффективность.</span> <br/> Почувствуйте скорость.",
+        "image": "../images/features/Start-speed.png",
+        "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальная скорость и максимальная эффективность.</span> <br/> Почувствуйте скорость!",
         "desc": "Поставка оборудования для крупносерийного производства монтажа плат. Максимальная производительность и отдача линии SMT. Надежный двигатель производства, который может долго работать на максимальных оборотах.",
         "path": "/index-appointment"
+    },
+    {
+        "id": "caseStudyAdvan",
+        "image": "../images/features/start3.png",
+        "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальные возможности и максимальные перспективы. </span> <br/>  Достигайте вершин!",
+        "desc": "Поставка инновационного оборудования класса Hi-End для серийного и крупносерийного многономенклатурного производства монтажа печатных плат повышенной сложности. Для образцовых отраслевых производств сборки печатных плат. Инновационное решение с большим запасом на развитие технологий сборки плат в будущем.",
+        "path": "/case-studies"
     },
     {
         "id": "blogLayout",

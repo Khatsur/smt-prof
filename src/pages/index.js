@@ -10,6 +10,7 @@ import InnerDemos from '../containers/landing/inner-demo-area'
 import CaseStudy from '../containers/landing/case-study'
 import HeaderLayout from '../containers/landing/header-layout'
 import HeaderLayoutSpeed from '../containers/landing/header-layout-2'
+import CaseStudyAdvan from '../containers/landing/case-study-2'
 
 import BlogLayout from '../containers/landing/blog-layout'
 import Plugins from '../containers/landing/plugins'
@@ -26,7 +27,8 @@ const IndexPage = ({location}) => (
       <HeaderLayout/>
       <CaseStudy/>
       <HeaderLayoutSpeed/>
-      <BlogLayout/>
+      <CaseStudyAdvan />
+      
       <Plugins/>
       <ExtraFeature/>
       <BlogArea />

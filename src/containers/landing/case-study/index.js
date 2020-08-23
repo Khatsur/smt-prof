@@ -44,7 +44,7 @@ const CaseStudy = ({titleStyle, textStyle}) => {
                             />
                         </ImageWrap>
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={5}>
                         <CaseStudyTextWrap>
                             <Heading {...titleStyle}>{parse(data.title)}</Heading>
                             <Text {...textStyle}>{parse(data.desc)}</Text>
