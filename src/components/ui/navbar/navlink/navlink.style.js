@@ -13,7 +13,7 @@ export const NavLinkStyled = css`
     ${props => props.hassubmenu === "false" && css`
         padding: 0;
     `}
-    
+      
     &:before{
         position: absolute;
         content: '';

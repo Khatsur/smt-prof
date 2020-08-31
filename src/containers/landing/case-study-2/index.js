@@ -18,8 +18,8 @@ const CaseStudy = ({titleStyle, textStyle}) => {
           desc
           image {
             childImageSharp {
-              fluid(maxWidth: 922, maxHeight: 585, quality: 100){
-                presentationWidth
+              fluid(maxWidth: 922, maxHeight: 630, quality: 100){
+                presentationWidth,
                 presentationHeight
                 ...GatsbyImageSharpFluid_withWebp
               }

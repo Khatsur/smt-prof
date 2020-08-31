@@ -105,7 +105,7 @@ Hero.defaultProps = {
     },
     headingPrimary: {
         as: 'h2',
-        color: 'SaddleBrown',
+        color: 'White',
         fontweight: 500,
         mb: '30px'
     },

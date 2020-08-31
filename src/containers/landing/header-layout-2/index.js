@@ -19,8 +19,8 @@ const CaseStudy = ({titleStyle, textStyle}) => {
                 id
                 image {
                     childImageSharp {
-                        fluid(maxWidth: 756, maxHeight: 435,quality: 100) {
-                            presentationWidth
+                        fluid(maxWidth: 726, quality: 100) {
+                            presentationWidth,
                             presentationHeight
                             ...GatsbyImageSharpFluid_tracedSVG
                         }

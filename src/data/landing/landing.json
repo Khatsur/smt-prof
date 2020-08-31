@@ -154,21 +154,21 @@
     },
     {
         "id": "headerLayout",
-        "image": "../images/features/Start1.png",
+        "image": "../images/features/small.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'>    Максимальный результат при минимальных инвестициях.</span> <br/> Почувствуйте легкость!",
         "desc": "Поставка оборудование для поверхностного монтажа мелкосерийного производства SMT и производства прототипов. Компактный дизайн и высокое качество процессов монтажа электронных компонентов. Бюджетная серия оборудования на все случаи.",
         "path": "/index-appointment"
     },
     {
         "id": "headerLayoutSpeed",
-        "image": "../images/features/Start-speed.png",
+        "image": "../images/features/speed.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальная скорость и максимальная эффективность.</span> <br/> Почувствуйте скорость!",
         "desc": "Поставка оборудования для крупносерийного производства монтажа плат. Максимальная производительность и отдача линии SMT. Надежный двигатель производства, который может долго работать на максимальных оборотах.",
         "path": "/index-appointment"
     },
     {
         "id": "caseStudyAdvan",
-        "image": "../images/features/start3.png",
+        "image": "../images/features/advanc.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальные возможности и максимальные перспективы. </span> <br/>  Достигайте вершин!",
         "desc": "Поставка инновационного оборудования класса Hi-End для серийного и крупносерийного многономенклатурного производства монтажа печатных плат повышенной сложности. Для образцовых отраслевых производств сборки печатных плат. Инновационное решение с большим запасом на развитие технологий сборки плат в будущем.",
         "path": "/case-studies"

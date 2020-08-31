@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SubmenuWrap = styled.ul `
+export const SubmenuWrap = styled.ul`
     position: absolute;
     top: 100%;
     left: 0;
@@ -16,5 +16,5 @@ export const SubmenuWrap = styled.ul `
     min-width: 240px;
     padding: 20px 0;
     z-index: 9;
-    pointer-events: none;
+    pointer-events: none; 
 `;

@@ -4,7 +4,7 @@ import { NavItemWrap } from '../../ui/navbar/navitem/navitem.style'
 import { NavLinkWrap, AnchorTag, SmoothScroll } from '../../ui/navbar/navlink/navlink.style'
 import { SubmenuWrap } from '../../ui/navbar/submenu/submenu.style'
 import { MegamenuWrap } from '../../ui/navbar/megamenu/megamenu.style'
-import { device } from '../../../theme'
+import { device } from '../../../theme';
 
 
 export const MainMenuWrap = styled.nav`
@@ -29,6 +29,10 @@ export const MainMenuWrap = styled.nav`
                     visibility: visible;
                     opacity: 1;
                     pointer-events: visible;
+					z-index: 9;
+					ul{
+						pointer-events: visible;
+					}
                 }
                 & > ${NavLinkWrap},
                 & > ${AnchorTag},
@@ -47,9 +51,18 @@ export const MainMenuWrap = styled.nav`
             }
         }
         & > ${NavItemWrap}{
+			${SubmenuWrap}{
+				left: 20px;  
+				@media ${device.xlarge}{
+					left: 15px; 
+				}
+			}
             &:first-child{
                 margin-left: 0;
                 padding-left: 0;
+				${SubmenuWrap}{
+					left: 0;
+				}
             }
             &:last-child{
                 margin-right: 0;
@@ -98,7 +111,7 @@ export const MainMenuWrap = styled.nav`
         }
         ${SubmenuWrap}{
             ${NavItemWrap}{
-                margin: 0;
+                padding: 0;
                 position: relative;
                 &:hover{
                     & > ${NavLinkWrap},
@@ -179,8 +192,8 @@ export const MainMenuWrap = styled.nav`
     ${props => props.layout === 3 && css`
         ${NavbarWrap}{
             & > ${NavItemWrap}{
-                margin-left: 24px;
-                margin-right: 24px;
+                padding-left: 24px;
+                padding-right: 24px;
                 & > ${NavLinkWrap},
                 & > ${AnchorTag},
                 & > ${SmoothScroll}{
@@ -213,8 +226,8 @@ export const MainMenuWrap = styled.nav`
     ${props => props.layout === 4 && css`
         ${NavbarWrap}{
             & > ${NavItemWrap}{
-                margin-left: 24px;
-                margin-right: 24px;
+                padding-left: 24px;
+                padding-right: 24px;
                 & > ${NavLinkWrap},
                 & > ${AnchorTag},
                 & > ${SmoothScroll}{
@@ -228,7 +241,9 @@ export const MainMenuWrap = styled.nav`
                         font-size: 14px;
                     }
                     &:before{
-                        height: 145%;
+                        height: 115%;
+						width: calc(100% + 48px);
+						left: -24px;
                         ${props => props.isSticky && css`
                             height: 113%;
                         `}
@@ -236,12 +251,10 @@ export const MainMenuWrap = styled.nav`
                 }
 
                 &:hover{
-                    ${SubmenuWrap}{
-                        top: 100%;
-                    }
-                    ${MegamenuWrap}{
-                        top: 100%;
-                    }
+					& > ${SubmenuWrap},
+					& > ${MegamenuWrap}{
+						top: 85%;
+					}
                 }
             } 
         }
