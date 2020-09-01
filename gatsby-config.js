@@ -3,8 +3,8 @@
 module.exports = {
 	pathPrefix: `/mitech`,
 	siteMetadata: {
-		title: "React Gatsby Technology & Blog Template",
-		titleTemplate: `Mitech`,
+		title: "Все для SMT",
+		titleTemplate: `SMT PROF`,
 		description: `Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.`,
 		author: `@HasThemes`,
 		twitterUsername: `@HasThemes`,

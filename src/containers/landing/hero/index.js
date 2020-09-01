@@ -106,7 +106,7 @@ Hero.defaultProps = {
     headingPrimary: {
         as: 'h2',
         color: 'White',
-        fontweight: 500,
+        fontweight: 700,
         mb: '30px'
     },
     buttonStyle: {
