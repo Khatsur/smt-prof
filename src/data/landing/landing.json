@@ -185,13 +185,13 @@
         "image": "../images/features/mitech-landing-extended-plugins-preview.png",
         "features": [
             {
-                "title": "Swiper Slider",
-                "desc": "Generate unlimited full-width HD retina ready sliders with effects",
+                "title": "Организация сборки электроники",
+                "desc": "Поверхностный монтаж  SMT, монтаж в отверстия плат, нанесение защитных покрытий, инспекция и тестирование.",
                 "icon": "../images/icons/icon-28-86x86.png"
             },
             {
-                "title": "Font Awesome",
-                "desc": "Professional fonts and icons help improve readability & visual.",
+                "title": "Создание заводов «под ключ»",
+                "desc": "Проектирование завод для производства электроники, строительство и организация производства.",
                 "icon": "../images/icons/icon-27-86x86.png"
             }
         ]
