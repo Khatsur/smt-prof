@@ -15,7 +15,7 @@ const Feature = ({ slider }) => {
           desc
           image {
             childImageSharp {
-              fixed(width: 80) {
+              fixed(width: 200) {
                 src
               }
             }

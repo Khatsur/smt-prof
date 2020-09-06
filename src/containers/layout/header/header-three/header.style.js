@@ -68,7 +68,7 @@ export const HeaderCol = styled.div `
             flex-basis: 20%;
         }
         @media ${device.small}{
-            flex-basis: 50%;
+            flex-basis: 30%;
         }
     `}
     ${props => props.right && css `
