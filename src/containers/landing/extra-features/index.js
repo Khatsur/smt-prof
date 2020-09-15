@@ -18,7 +18,7 @@ const ExtraFeatures = ({sectionTitle}) => {
             desc
             image {
                 childImageSharp {
-                    fixed(width: 68, height: 68) {
+                    fixed(width: 145, height: 50) {
                         ...GatsbyImageSharpFixed
                     }
                 }
@@ -38,8 +38,8 @@ const ExtraFeatures = ({sectionTitle}) => {
                     <Col lg={12}>
                         <SectionTitle
                             {...sectionTitle}
-                            subtitle="Extra Features"
-                            title="<span>Richness</span> of Theme Features"
+                            subtitle="Оборудование и материалы для сборки электроники"
+                            title="<span>SMT PROF</span> все для SMT"
                         />
                     </Col>
                 </Row>

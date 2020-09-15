@@ -37,6 +37,7 @@ export const MobileMenuWrap = styled.nav`
             padding-top: 12px;
             padding-bottom: 10px;
             pointer-events: visible;
+			z-index: 9999;
         }
     }
     ${NavLinkWrap},
@@ -74,6 +75,9 @@ export const MobileMenuWrap = styled.nav`
         transition-duration: .5s;
         transition-timing-function: ease-in-out;
         transform-origin: top;
+		ul{
+			pointer-events: visible;
+		}
         ${NavItemWrap}{
             &:last-child{
                 border-bottom: 0;

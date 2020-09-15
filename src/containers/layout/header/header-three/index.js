@@ -131,7 +131,7 @@ const Header = ({ props, ...styles }) => {
                             <Row>
                                 <Col lg={12}>
                                     <HeaderMain>
-                                        <HeaderCol left>
+                                        <HeaderCol left >
                                             <Logo {...logoStyle} darkLogo={!transparent} whiteLogo={transparent && !sticky} />
                                         </HeaderCol>
                                         <HeaderCol right>

@@ -11,24 +11,28 @@ export const PluginsWrap = styled(BackgroundImage) `
         padding-top: 60px;
     }
     @media ${device.small}{
-        padding-top: 40px;
+        padding-top: 50px;
+        
     }
 `;
 
 export const ImageWrap = styled.div `
     text-align: right;
+    margin-top: 0px;
+    margin-bottom: 30px;
 `;
 
 export const PluginsTextWrap = styled.div `
     max-width: 500px;
     width: 100%;
     margin: auto;
+    margin-top: -50px;
 `;
 
 export const FeaturesWrap = styled.div `
     margin-left: auto;
     max-width: 420px;
-    margin-top: 30px;
+    margin-top: 10px;
     transition: ${props => props.theme.transition};
 `;
 

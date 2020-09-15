@@ -182,7 +182,7 @@
     },
     {
         "id": "plugins",
-        "image": "../images/features/mitech-landing-extended-plugins-preview.png",
+        "image": "../images/features/smtprof-landing-preview.png",
         "features": [
             {
                 "title": "Организация сборки электроники",
@@ -201,39 +201,57 @@
         "items": [
             {
                 "id": 1,
-                "title": "Expert Typography",
-                "desc": "We run thorough tests on different browsers to ensure optimal performance on all devices.",
-                "image": "../images/icons/icon-21-68x68.jpg"
+                "title": "Поверхностный монтаж",
+                "desc": "Оборудование для монтажа на поверхность SMT и в отверстия плат  THT. Автоматические склады, SPI и AOI, конвейеры, ПО для производства.",
+                "image": "../images/icons/juki_logo.png"
             },
             {
                 "id": 2,
-                "title": "Fast Loading Speed",
-                "desc": "Mitech gets a very high pagespeed scores on Pagespeed Insight, Pingdom Tools & GTmetrix.",
-                "image": "../images/icons/icon-22-68x68.png"
+                "title": "Селективная пайка",
+                "desc": "Оборудование для селективной пайки компонентов в отверстия плат. Отдельно стоящие машины и оборудование для работы в линии. .",
+                "image": "../images/icons/inertec_logo.png"
             },
             {
                 "id": 3,
-                "title": "SEO Optimization",
-                "desc": "All elements are fully optimized to help your site compete with other similar ones in search engine.",
-                "image": "../images/icons/icon-23-68x68.png"
+                "title": "Селективная лакировка",
+                "desc": "Селективное нанесение защитных покрытий на электронные сборки. Автоматизация процессов дозирования материалов, герметизации, заполнения.",
+                "image": "../images/icons/pva_logo.png"
             },
             {
                 "id": 4,
-                "title": "Cross-browser Adaptability",
-                "desc": "We run thorough tests on different browsers to ensure optimal performance on all devices.",
-                "image": "../images/icons/icon-24-68x68.png"
+                "title": "Мойка плат и трафаретов",
+                "desc": "Оборудование для мойки электронных сборок после пайки. Струйные машины для мойки трафаретов. Мойка часте оборудования для пайки и оснастки.",
+                "image": "../images/icons/pbt_logo.png"
             },
             {
                 "id": 5,
-                "title": "Prompt Support",
-                "desc": "Any issues with theme configuration and site building will be solved promptly by our professionals.",
-                "image": "../images/icons/icon-25-68x68.png"
+                "title": "Малая серия SMT",
+                "desc": "Оборудование для мелкосерийного производства и прототипирования. Манипуляторы и полуавтоматические устройства для установки SMD на платы.",
+                "image": "../images/icons/fritsch_logo.png"
+            },
+            {
+                "id": 5,
+                "title": "Разделение плат",
+                "desc": "Оборудование для разделения групповых заготовок (паллет) печатных плат. Ручные и автоматизированные устройства. Магазины для плат.",
+                "image": "../images/icons/cab_logo.png"
+            },
+            {
+                "id": 5,
+                "title": "Мойка плат и трафаретов",
+                "desc": "Жидкости для отмывки электронных сборок, трафаретов и технологической оснастки. Средства контроля загрязнений и процесса мойки.",
+                "image": "../images/icons/zestron_logo.png"
+            },
+            {
+                "id": 5,
+                "title": "Паяльная паста и припой",
+                "desc": "Жидкости для отмывки электронных сборок, трафаретов и технологической оснастки. Средства контроля загрязнений и процесса мойки.",
+                "image": "../images/icons/indium_logo.png"
             },
             {
                 "id": 6,
-                "title": "Built-in Component",
-                "desc": "A wide ranging of component are added to Mitech for assisting users on page building process.",
-                "image": "../images/icons/icon-26-68x68.png"
+                "title": "Защитные покрытия",
+                "desc": "Защитные покрытия для электронных сборок: аккриловые, силиконовые, уретановые, резиновые. Лаки с УФ отвердением. Средства для снятия лака.",
+                "image": "../images/icons/humiseal_logo.png"
             }
         ]
     },
