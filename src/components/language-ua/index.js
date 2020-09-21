@@ -7,7 +7,7 @@ import DropdownSubMenu from '../ui/dropdown/dropdown-submenu'
 import enFlag from '../../assets/images/flags/en1.png'
 import ukFlag from '../../assets/images/flags/ukr.png'
 import ruFlag from '../../assets/images/flags/ru.png'
-import {LanguageWrap} from '../language-2/language.style'
+import {LanguageWrap} from '../language-ua/language.style'
 
 const Language = props => {
     const [language, setLanguage] = useState([
@@ -15,14 +15,14 @@ const Language = props => {
             id: 1,
             flag: ruFlag,
             name: ' RU',
-            isActive: true,
-            link: "https://www.smt-prof.com.ua"
+            isActive: false,
+            link: "/"
         },
         {
             id: 2,
             flag: ukFlag,
             name: ' UA',
-            isActive: false,
+            isActive: true,
             link: "../ua"
         },
         {
