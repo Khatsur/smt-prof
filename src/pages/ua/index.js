@@ -3,7 +3,7 @@ import SEO from "../../components/seo"
 import Layout from '../../containers/layout/layout'
 import Header from '../../containers/layout/header/header-three-ua'
 import Footer from '../../containers/layout/footer/footer-one'
-import Hero from '../../containers/landing/hero'
+import Hero from '../../containers/landing/hero-ua'
 import Feature from '../../containers/landing/feature'
 import Demos from '../../containers/landing/demo-area'
 import InnerDemos from '../../containers/landing/inner-demo-area'
