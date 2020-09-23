@@ -7,15 +7,15 @@ import Hero from '../../containers/landing/hero-ua'
 import Feature from '../../containers/landing/feature-ua'
 import Demos from '../../containers/landing/demo-area'
 import InnerDemos from '../../containers/landing/inner-demo-area'
-import CaseStudy from '../../containers/landing/case-study'
+import CaseStudy from '../../containers/landing/case-study-ua'
 import HeaderLayout from '../../containers/landing/header-layout-ua'
-import HeaderLayoutSpeed from '../../containers/landing/header-layout-2'
-import CaseStudyAdvan from '../../containers/landing/case-study-2'
+import HeaderLayoutSpeed from '../../containers/landing/header-layout-2-ua'
+import CaseStudyAdvan from '../../containers/landing/case-study-2-ua'
 
 import BlogLayout from '../../containers/landing/blog-layout'
-import Plugins from '../../containers/landing/plugins'
-import ExtraFeature from '../../containers/landing/extra-features'
-import BlogArea from '../../containers/index-services/blog-area'
+import Plugins from '../../containers/landing/plugins-ua'
+import ExtraFeature from '../../containers/landing/extra-features-ua'
+import BlogArea from '../../containers/index-services/blog-area-ua'
 
 const IndexPage = ({location}) => (
   <Layout location={location}>

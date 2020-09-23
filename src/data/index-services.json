@@ -68,8 +68,18 @@
         "subtitle": "PRICING AND PLAN"
     },
     {
+        "id": "services-blog-contnet-ua",
+        "title": "Новини <span>SMT PROF</span>",
+        "subtitle": "НОВИНИ ЕЛЕКТРОНІКИ"
+    },
+    {
+        "id": "services-blog-contnet-en",
+        "title": "News <span>SMT PROF</span>",
+        "subtitle": "ELECTRONICS NEWS"
+    },
+    {
         "id": "services-blog-contnet",
-        "title": "Latest news are <span>on top all times</span>",
-        "subtitle": "LATEST NEWS"
+        "title": "Новости <span>SMT PROF</span>",
+        "subtitle": "НОВОСТИ ЭЛЕКТРОНИКИ"
     }
 ]
