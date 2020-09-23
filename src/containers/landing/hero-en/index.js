@@ -13,8 +13,8 @@ import CarouselSlider from '../../elements/flexible-image-slider/carousel-slider
 const Hero = ({headingSecondary, headingPrimary, buttonStyle}) => {
     
     const heroData = useStaticQuery(graphql `
-        query UaLandingHeroQuery {
-            landingJson(id: {eq: "landing-hero-content-ua"}) {
+        query EnLandingHeroQuery {
+            landingJson(id: {eq: "landing-hero-content-en"}) {
                 title
                 subtitle
                 bgImage {

@@ -13,7 +13,7 @@ import OffCanvas, { OffCanvasHeader, OffCanvasBody } from '../../../../component
 import SearchForm from '../../../../components/forms/search-form/layout-three'
 import CloseButton from '../../../../components/ui/close-button'
 import BurgerButton from '../../../../components/ui/burger-button'
-import Language from '../../../../components/language-ua'
+import Language from '../../../../components/language-en'
 import {
     HeaderWrap,
     HeaderTop,
@@ -30,7 +30,7 @@ import {
 
 const Header = ({ props, ...styles }) => {
     const headerData = useStaticQuery(graphql`
-        query UaHeaderThreeDataQueryUa {
+        query HeaderThreeDataQueryEn {
             allMenuJson {
                 edges {
                     node {

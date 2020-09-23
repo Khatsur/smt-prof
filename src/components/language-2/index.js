@@ -16,7 +16,7 @@ const Language = props => {
             flag: ruFlag,
             name: ' RU',
             isActive: true,
-            link: "https://www.smt-prof.com.ua"
+            link: "/"
         },
         {
             id: 2,
@@ -30,7 +30,7 @@ const Language = props => {
             flag: enFlag,
             name: ' EN',
             isActive: false,
-            link: "https://www.smt-prof.com.ua"
+            link: "../en"
         }
     ])
 
