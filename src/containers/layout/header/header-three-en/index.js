@@ -31,7 +31,7 @@ import {
 const Header = ({ props, ...styles }) => {
     const headerData = useStaticQuery(graphql`
         query HeaderThreeDataQueryEn {
-            allMenuJson {
+            allMenuEnJson {
                 edges {
                     node {
                         id
@@ -89,7 +89,7 @@ const Header = ({ props, ...styles }) => {
     }, [sticky, totalHeaderHeight]);
 
     const { noticeStyle, phoneElStyle, searchElStyle, logoStyle, burgerBtnElStyle, transparent } = styles;
-    const menuArr = headerData.allMenuJson.edges;
+    const menuArr = headerData.allMenuEnJson.edges;
 
     return (
         <Fragment>

@@ -30,29 +30,29 @@ import {
 
 const Header = ({ props, ...styles }) => {
     const headerData = useStaticQuery(graphql`
-        query UaHeaderThreeDataQueryUa {
-            allMenuJson {
+        query UaHeaderThreeDataQuery {
+            allMenuUaJson {
                 edges {
-                    node {
-                        id
-                        text
-                        link
-                        submenu {
-                            link
-                            text
-                        }
-                        megamenu {
-                            title
-                            submenu {
-                                link
-                                text
-                            }
-                        }
+                  node {
+                    id
+                    text
+                    link
+                    submenu {
+                      link
+                      text
                     }
+                    megamenu {
+                      title
+                      submenu {
+                        link
+                        text
+                      }
+                    }
+                  }
                 }
+              }
             }
-        }
-    `);
+          `);
     const [flyoutOpen, setFlyoutOpen] = useState(false);
     const [offCanvasOpen, setOffcanvasOpen] = useState(false);
     const [fixedHeaderHeight, setFixedHeaderHeight] = useState(0);
@@ -89,7 +89,7 @@ const Header = ({ props, ...styles }) => {
     }, [sticky, totalHeaderHeight]);
 
     const { noticeStyle, phoneElStyle, searchElStyle, logoStyle, burgerBtnElStyle, transparent } = styles;
-    const menuArr = headerData.allMenuJson.edges;
+    const menuArr = headerData.allMenuUaJson.edges;
 
     return (
         <Fragment>
