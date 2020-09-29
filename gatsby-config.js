@@ -12,6 +12,7 @@ module.exports = {
 		siteUrl: 'http://themesmummy.com/mitech/',
 		getform: "https://getform.io/f/58c49e90-e767-4e18-959e-4fcd84bf8659",
 		copyright: "Mitech. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+		copyrightua: "Mitech. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>Всі права захищені</a>",
 		social: {
 			facebook: "https://www.facebook.com",
 			twitter: "https://www.twitter.com",
@@ -19,9 +20,9 @@ module.exports = {
 			linkedin: "https://www.linkedin.com"
 		},
 		contact: {
-			phone: '190068668',
-			address: "58 Howard Street #2 San Francisco, CA 941",
-			email: 'hello@mitech.com',
+			phone: '050.440.9925',
+			address: "ул. Дегтяревская",
+			email: 'smt-prof@smt-prof.com.ua',
 			website: "https://hasthemes.com/",
 			rating: "4.9",
 			customers: "700",
@@ -51,6 +52,107 @@ module.exports = {
 			]
 		}
 	},
+	siteMetadataUa: {
+		title: "Все для SMT",
+		titleTemplate: `SMT PROF`,
+		description: `Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.`,
+		author: `@HasThemes`,
+		twitterUsername: `@HasThemes`,
+		image: 'landing.png',
+		siteUrl: 'http://themesmummy.com/mitech/',
+		getform: "https://getform.io/f/58c49e90-e767-4e18-959e-4fcd84bf8659",
+		copyright: "Mitech. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+		copyrightua: "Mitech. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>Всі права захищені</a>",
+		social: {
+			facebook: "https://www.facebook.com",
+			twitter: "https://www.twitter.com",
+			instagram: "https://www.instagram.com",
+			linkedin: "https://www.linkedin.com"
+		},
+		contact: {
+			phone: '050.440.9925',
+			address: "вул. Дегтярівська",
+			email: 'hello@mitech.com',
+			website: "https://hasthemes.com/",
+			rating: "4.9",
+			customers: "700",
+			clients: "3200",
+			addressInfos: [
+				{
+					"id": "san-francisco",
+					"state": "San Francisco",
+					"address": "58 Howard Street #2 San Francisco, CA 941",
+					"email": "contact.sanfrancisco@mitech.com",
+					"phone": "(+68)1221 09876"
+				},
+				{
+					"id": "new-york",
+					"state": "New York",
+					"address": "58 Howard Street #14 New York",
+					"email": "contact.newyork@mitech.com",
+					"phone": "(+68)1221 09878"
+				},
+				{
+					"id": "russia",
+					"state": "Russia",
+					"address": "The Courtyard Building 11 Curtain Road, Russia",
+					"email": "contact.russia@mitech.com",
+					"phone": "(+68)1221 09877"
+				}
+			]
+		},
+	},
+	siteMetadataEn: {
+		title: "Все для SMT",
+		titleTemplate: `SMT PROF`,
+		description: `Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.`,
+		author: `@HasThemes`,
+		twitterUsername: `@HasThemes`,
+		image: 'landing.png',
+		siteUrl: 'http://themesmummy.com/mitech/',
+		getform: "https://getform.io/f/58c49e90-e767-4e18-959e-4fcd84bf8659",
+		copyright: "Mitech. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+		copyrightua: "Mitech. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>Всі права захищені</a>",
+		social: {
+			facebook: "https://www.facebook.com",
+			twitter: "https://www.twitter.com",
+			instagram: "https://www.instagram.com",
+			linkedin: "https://www.linkedin.com"
+		},
+		contact: {
+			phone: '050.440.9925',
+			address: "Degtiarivska str",
+			email: 'hello@mitech.com',
+			website: "https://hasthemes.com/",
+			rating: "4.9",
+			customers: "700",
+			clients: "3200",
+			addressInfos: [
+				{
+					"id": "san-francisco",
+					"state": "San Francisco",
+					"address": "58 Howard Street #2 San Francisco, CA 941",
+					"email": "contact.sanfrancisco@mitech.com",
+					"phone": "(+68)1221 09876"
+				},
+				{
+					"id": "new-york",
+					"state": "New York",
+					"address": "58 Howard Street #14 New York",
+					"email": "contact.newyork@mitech.com",
+					"phone": "(+68)1221 09878"
+				},
+				{
+					"id": "russia",
+					"state": "Russia",
+					"address": "The Courtyard Building 11 Curtain Road, Russia",
+					"email": "contact.russia@mitech.com",
+					"phone": "(+68)1221 09877"
+				}
+			]
+		},
+	},
+	
 	mapping: {
 		"MarkdownRemark.frontmatter.author": `AuthorsJson.name`,
 	},

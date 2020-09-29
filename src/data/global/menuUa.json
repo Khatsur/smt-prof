@@ -70,23 +70,8 @@
         ]
     },
     {
-        "text": "Services",
-        "link": "/it-services",
-        "isSubmenu": true,
-        "submenu": [
-            {
-                "text": "IT Services",
-                "link": "/it-services"
-            },
-            {
-                "text": "IT Solutions",
-                "link": "/it-solutions"
-            }
-        ]
-    },
-    {
-        "text": "Elements",
-        "link": "/",
+        "text": "Обладнання",
+        "link": "/index-resolutions-ua",
         "megamenu": [
             {
                 "title": "Element Group 01",
@@ -207,7 +192,21 @@
             }
         ]
     },
-   
+    {
+        "text": "Services",
+        "link": "/it-services",
+        "isSubmenu": true,
+        "submenu": [
+            {
+                "text": "IT Services",
+                "link": "/it-services"
+            },
+            {
+                "text": "IT Solutions",
+                "link": "/it-solutions"
+            }
+        ]
+    },
     {
         "text": "Blog",
         "link": "/blog",

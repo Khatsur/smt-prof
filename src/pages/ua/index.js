@@ -2,7 +2,7 @@ import React from "react"
 import SEO from "../../components/seo"
 import Layout from '../../containers/layout/layout'
 import Header from '../../containers/layout/header/header-three-ua'
-import Footer from '../../containers/layout/footer/footer-one'
+import Footer from '../../containers/layout/footer/footer-one-ua'
 import Hero from '../../containers/landing/hero-ua'
 import Feature from '../../containers/landing/feature-ua'
 import Demos from '../../containers/landing/demo-area'

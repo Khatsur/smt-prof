@@ -53,6 +53,8 @@ exports.components = {
   "component---src-pages-pricing-plan-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/pricing-plan.js"))),
   "component---src-pages-ua-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/index.js"))),
   "component---src-pages-why-choose-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/why-choose-us.js"))),
+  "component---src-pages-index-resolutions-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/index-resolutions-ua.js"))),
+  "component---src-pages-index-resolutions-en-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/index-resolutions-en.js"))),
   "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
   "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
   "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
