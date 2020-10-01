@@ -25,29 +25,29 @@ import {
 
 const Footer = ({ copyrightStyle, ...props }) => {
     const siteInfo = useStaticQuery(graphql`
-        query FooterSiteQueryUa {
-            site {
-                siteMetadataUa {
-                    copyright
-                    contact {
-                        phone
-                        email
-                        address
-                        website
-                    }
-                    social {
-                        facebook
-                        twitter
-                        instagram
-                        linkedin
-                    }
-                }
-            }
-        }      
+    query FooterSiteQueryUa {
+    footerlanJson(id: {eq: "footer-ua"})  {
+      footer {
+        copyright
+        contact {
+          phone
+          email
+          address
+          website
+        }
+        social {
+          facebook
+          twitter
+          instagram
+          linkedin
+        }
+      }
+    }
+    }      
     `)
-    const { phone, email, address, website } = siteInfo.site.siteMetadataUa.contact;
-    const { copyright } = siteInfo.site.siteMetadataUa;
-    const { facebook, twitter, instagram, linkedin } = siteInfo.site.siteMetadataUa.social;
+    const { phone, email, address, website } = siteInfo.footerlanJson.footer.contact;
+    const { copyright } = siteInfo.footerlanJson.footer;
+    const { facebook, twitter, instagram, linkedin } = siteInfo.footerlanJson.footer.social;
     return (
         <FooterWrap {...props}>
             <FooterTop>

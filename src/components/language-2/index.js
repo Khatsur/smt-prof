@@ -73,7 +73,7 @@ const Language = props => {
                                 const {id, name, flag, link} = lang;
                                 return (
                                     <DropdownItem key={id} onClick={() => onClickHandler(id)}>
-                                        <DropdownItemInner>
+                                        <DropdownItemInner >
                                         <a href={link}>
                                             <img src={flag} alt={name}/>
                                             <span>{name}</span>
