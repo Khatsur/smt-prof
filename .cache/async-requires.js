@@ -2,6 +2,16 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
+  "component---src-templates-service-template-service-template-js": () => import("./../src/templates/service-template/service-template.js" /* webpackChunkName: "component---src-templates-service-template-service-template-js" */),
+  "component---src-templates-it-solution-template-it-solution-template-js": () => import("./../src/templates/it-solution-template/it-solution-template.js" /* webpackChunkName: "component---src-templates-it-solution-template-it-solution-template-js" */),
+  "component---src-templates-case-study-template-case-study-template-js": () => import("./../src/templates/case-study-template/case-study-template.js" /* webpackChunkName: "component---src-templates-case-study-template-case-study-template-js" */),
+  "component---src-templates-blog-template-blog-template-js": () => import("./../src/templates/blog-template/blog-template.js" /* webpackChunkName: "component---src-templates-blog-template-blog-template-js" */),
+  "component---src-templates-blog-list-blog-list-js": () => import("./../src/templates/blog-list/blog-list.js" /* webpackChunkName: "component---src-templates-blog-list-blog-list-js" */),
+  "component---src-templates-tag-template-tag-template-js": () => import("./../src/templates/tag-template/tag-template.js" /* webpackChunkName: "component---src-templates-tag-template-tag-template-js" */),
+  "component---src-templates-category-template-category-template-js": () => import("./../src/templates/category-template/category-template.js" /* webpackChunkName: "component---src-templates-category-template-category-template-js" */),
+  "component---src-templates-author-template-author-template-js": () => import("./../src/templates/author-template/author-template.js" /* webpackChunkName: "component---src-templates-author-template-author-template-js" */),
+  "component---src-templates-date-template-date-template-js": () => import("./../src/templates/date-template/date-template.js" /* webpackChunkName: "component---src-templates-date-template-date-template-js" */),
+  "component---src-templates-search-template-search-template-js": () => import("./../src/templates/search-template/search-template.js" /* webpackChunkName: "component---src-templates-search-template-search-template-js" */),
   "component---cache-dev-404-page-js": () => import("./dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("./../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-about-us-js": () => import("./../src/pages/about-us.js" /* webpackChunkName: "component---src-pages-about-us-js" */),
@@ -34,14 +44,15 @@ exports.components = {
   "component---src-pages-elements-timeline-js": () => import("./../src/pages/elements/timeline.js" /* webpackChunkName: "component---src-pages-elements-timeline-js" */),
   "component---src-pages-elements-typed-text-js": () => import("./../src/pages/elements/typed-text.js" /* webpackChunkName: "component---src-pages-elements-typed-text-js" */),
   "component---src-pages-en-index-js": () => import("./../src/pages/en/index.js" /* webpackChunkName: "component---src-pages-en-index-js" */),
+  "component---src-pages-en-machines-index-js": () => import("./../src/pages/en/machines/index.js" /* webpackChunkName: "component---src-pages-en-machines-index-js" */),
   "component---src-pages-faq-js": () => import("./../src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
   "component---src-pages-index-appointment-js": () => import("./../src/pages/index-appointment.js" /* webpackChunkName: "component---src-pages-index-appointment-js" */),
   "component---src-pages-index-cybersecurity-js": () => import("./../src/pages/index-cybersecurity.js" /* webpackChunkName: "component---src-pages-index-cybersecurity-js" */),
   "component---src-pages-index-infotechno-js": () => import("./../src/pages/index-infotechno.js" /* webpackChunkName: "component---src-pages-index-infotechno-js" */),
+  "component---src-pages-index-machines-js": () => import("./../src/pages/index-machines.js" /* webpackChunkName: "component---src-pages-index-machines-js" */),
   "component---src-pages-index-processing-js": () => import("./../src/pages/index-processing.js" /* webpackChunkName: "component---src-pages-index-processing-js" */),
   "component---src-pages-index-resolutions-en-js": () => import("./../src/pages/index-resolutions-en.js" /* webpackChunkName: "component---src-pages-index-resolutions-en-js" */),
   "component---src-pages-index-resolutions-ua-js": () => import("./../src/pages/index-resolutions-ua.js" /* webpackChunkName: "component---src-pages-index-resolutions-ua-js" */),
-  "component---src-pages-index-resolutions-js": () => import("./../src/pages/index-resolutions.js" /* webpackChunkName: "component---src-pages-index-resolutions-js" */),
   "component---src-pages-index-services-js": () => import("./../src/pages/index-services.js" /* webpackChunkName: "component---src-pages-index-services-js" */),
   "component---src-pages-index-js": () => import("./../src/pages/index.js" /* webpackChunkName: "component---src-pages-index-js" */),
   "component---src-pages-it-services-js": () => import("./../src/pages/it-services.js" /* webpackChunkName: "component---src-pages-it-services-js" */),
@@ -51,16 +62,7 @@ exports.components = {
   "component---src-pages-page-2-js": () => import("./../src/pages/page-2.js" /* webpackChunkName: "component---src-pages-page-2-js" */),
   "component---src-pages-pricing-plan-js": () => import("./../src/pages/pricing-plan.js" /* webpackChunkName: "component---src-pages-pricing-plan-js" */),
   "component---src-pages-ua-index-js": () => import("./../src/pages/ua/index.js" /* webpackChunkName: "component---src-pages-ua-index-js" */),
-  "component---src-pages-why-choose-us-js": () => import("./../src/pages/why-choose-us.js" /* webpackChunkName: "component---src-pages-why-choose-us-js" */),
-  "component---src-templates-service-template-service-template-js": () => import("./../src/templates/service-template/service-template.js" /* webpackChunkName: "component---src-templates-service-template-service-template-js" */),
-  "component---src-templates-it-solution-template-it-solution-template-js": () => import("./../src/templates/it-solution-template/it-solution-template.js" /* webpackChunkName: "component---src-templates-it-solution-template-it-solution-template-js" */),
-  "component---src-templates-case-study-template-case-study-template-js": () => import("./../src/templates/case-study-template/case-study-template.js" /* webpackChunkName: "component---src-templates-case-study-template-case-study-template-js" */),
-  "component---src-templates-blog-template-blog-template-js": () => import("./../src/templates/blog-template/blog-template.js" /* webpackChunkName: "component---src-templates-blog-template-blog-template-js" */),
-  "component---src-templates-blog-list-blog-list-js": () => import("./../src/templates/blog-list/blog-list.js" /* webpackChunkName: "component---src-templates-blog-list-blog-list-js" */),
-  "component---src-templates-tag-template-tag-template-js": () => import("./../src/templates/tag-template/tag-template.js" /* webpackChunkName: "component---src-templates-tag-template-tag-template-js" */),
-  "component---src-templates-category-template-category-template-js": () => import("./../src/templates/category-template/category-template.js" /* webpackChunkName: "component---src-templates-category-template-category-template-js" */),
-  "component---src-templates-author-template-author-template-js": () => import("./../src/templates/author-template/author-template.js" /* webpackChunkName: "component---src-templates-author-template-author-template-js" */),
-  "component---src-templates-date-template-date-template-js": () => import("./../src/templates/date-template/date-template.js" /* webpackChunkName: "component---src-templates-date-template-date-template-js" */),
-  "component---src-templates-search-template-search-template-js": () => import("./../src/templates/search-template/search-template.js" /* webpackChunkName: "component---src-templates-search-template-search-template-js" */)
+  "component---src-pages-ua-machines-index-js": () => import("./../src/pages/ua/machines/index.js" /* webpackChunkName: "component---src-pages-ua-machines-index-js" */),
+  "component---src-pages-why-choose-us-js": () => import("./../src/pages/why-choose-us.js" /* webpackChunkName: "component---src-pages-why-choose-us-js" */)
 }
 

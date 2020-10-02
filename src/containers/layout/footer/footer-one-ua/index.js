@@ -56,13 +56,13 @@ const Footer = ({ copyrightStyle, ...props }) => {
                         <Col lg={4} sm={6}>
                             <FooterWidget responsive={{ medium: { mb: '31px' } }}>
                                 <LogoWidget>
-                                    <img src={Logo} alt="Logo" />
+                                    <img src={Logo} alt="Logo" style={{width: "50%"}}/>
                                 </LogoWidget>
                                 <TextWidget>
                                     {address && <Text mb="10px">{address}</Text>}
                                     {email && <Text mb="10px"><Anchor path={`mailto:${email}`} color="textColor" hoverstyle="2">{email}</Anchor></Text>}
-                                    {phone && <Text mb="10px"><Anchor path={`tel:${phone}`} fontWeight="800" color="#333" hoverstyle="2">{phone}</Anchor></Text>}
-                                    {website && <Text mb="10px"><Anchor path={website} hoverstyle="2">{website}</Anchor></Text>}
+                                    {phone && <Text mb="10px"><Anchor path={`tel:${phone}`} fontWeight="800" color="#333" hoverstyle="2">{}</Anchor></Text>}
+                                    {website && <Text mb="10px"><Anchor path={website} hoverstyle="2">{}</Anchor></Text>}
                                 </TextWidget>
                             </FooterWidget>
                         </Col>
