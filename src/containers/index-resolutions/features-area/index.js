@@ -9,12 +9,10 @@ import {SectionWrap} from './features-area.style'
 const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
     const featureData = useStaticQuery(graphql `
         query ResolutionsFeaturesQuery {
-            allItServicesJson(filter: {is_featured: {eq: true}}, limit: 3) {
+            allMachinesJson(sort: {order: ASC, fields: id}, limit: 8) {
                 edges {
                     node {
-                        fields {
-                            slug
-                        }
+                        
                         title
                         excerpt
                         icon {
@@ -38,20 +36,20 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
             }
         }      
     `);
-    const features = featureData.allItServicesJson.edges
+    const features = featureData.allMachinesJson.edges
     return (
         <SectionWrap>
             <Container>
                 <Row>
                     {features.map(feature => (
-                        <Col lg={4} md={6} key={feature.node.fields.slug}>
+                        <Col lg={4} md={6} key={feature.node.id}>
                             <FeatureBox
                                 {...featureBoxStyle}
                                 imageSrc={feature.node.icon.img_two.childImageSharp}
                                 hoverImg={feature.node.icon.img_hover.childImageSharp}
                                 title={feature.node.title}
                                 desc={feature.node.excerpt}
-                                path={`/it-service/${feature.node.fields.slug}`}
+                                path="/"
                             />
                         </Col>
                     ))}

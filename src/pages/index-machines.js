@@ -22,7 +22,7 @@ const IndexServices = ({ location, pageFromCMS }) => (
     <main className="site-wrapper-reveal">
       <HeroArea />
       <FeaturesArea />
-      <FunFactArea />
+      
       <ServicesArea />
       <ContactArea />
       <TestimonialArea />
