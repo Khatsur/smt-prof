@@ -4,7 +4,7 @@ import Layout from '../../../containers/layout/layout'
 import Header from '../../../containers/layout/header/header-three-ua'
 import Footer from '../../../containers/layout/footer/footer-one-ua'
 import HeroArea from '../../../containers/index-resolutions/hero-area'
-import FeaturesArea from '../../../containers/index-resolutions/features-area'
+import FeaturesArea from '../../../containers/index-resolutions/machines-ua'
 import FunFactArea from '../../../containers/index-resolutions/funfact-area'
 import ServicesArea from '../../../containers/index-resolutions/services-area'
 import ContactArea from '../../../containers/global/contact-area/contact-three'
@@ -22,7 +22,7 @@ const IndexServices = ({ location, pageFromCMS }) => (
     <main className="site-wrapper-reveal">
       <HeroArea />
       <FeaturesArea />
-      <FunFactArea />
+      
       <ServicesArea />
       <ContactArea />
       <TestimonialArea />

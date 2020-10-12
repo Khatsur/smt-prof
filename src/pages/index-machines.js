@@ -17,7 +17,7 @@ import BlogArea from '../containers/index-services/blog-area'
 
 const IndexServices = ({ location, pageFromCMS }) => (
   <Layout location={location}>
-    <SEO title="Resolutions" />
+    <SEO title="Оборудование для SMT" description="Оборудование для поверхностного монтажа  SMT" pathname="оборудование" keywords="smt"/>
     <Header transparent />
     <main className="site-wrapper-reveal">
       <HeroArea />

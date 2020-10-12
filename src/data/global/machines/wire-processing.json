@@ -1,7 +1,10 @@
 {
     "id": "wire-processing-machines",
     "title": "WIRE ",
+    "uatitle": "Обробка проводів",
+    "entitle": "EN WIRE",
     "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "uaexcerpt": "Обладнання для обробки проводів і кабелів.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
         "img": "../../images/icons/icon-04-100x108.png",

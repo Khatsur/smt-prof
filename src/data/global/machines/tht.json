@@ -1,7 +1,10 @@
 {
     "id": "2-tht-machines",
     "title": "THT Монтаж в отверстия",
+    "uatitle": "Монтаж в отвори",
+    "entitle": "THT",
     "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "uaexcerpt": "Обладнання для монтажу в отвори плат.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
         "img": "../../images/icons/icon-04-100x108.png",

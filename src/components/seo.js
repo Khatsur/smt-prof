@@ -26,7 +26,7 @@ const SEO = ({ title, description, image, pathname }) => (
       return (
         <>
           <Helmet title={titleTemplate} titleTemplate={`%s | ${seo.title}`}>
-            <html lang="en" />
+            <html lang="ru" />
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
             <meta property="og:type" content="website" />

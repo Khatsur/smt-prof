@@ -1,7 +1,10 @@
 {
     "id": "1-smt-machines",
     "title": "SMT Монтаж",
+    "uatitle": "Монтаж поверхневий",
+    "entitle": "SMT",
     "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "uaexcerpt": "Обладнання для поверхневого монтажу. Прінтери для нанесення паяльної пасти. Машини для встановлення компонентів SMD. ",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
         "img": "../../images/icons/icon-04-100x108.png",

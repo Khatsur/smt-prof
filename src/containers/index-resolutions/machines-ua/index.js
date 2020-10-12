@@ -4,19 +4,17 @@ import {Container, Row, Col} from '../../../components/ui/wrapper'
 import FeatureBox from '../../../components/box-image/layout-five'
 import Heading from '../../../components/ui/heading'
 import Anchor from '../../../components/ui/anchor'
-import {SectionWrap} from './features-area.style'
+import {SectionWrap} from './machines-ua.style'
 
 const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
     const featureData = useStaticQuery(graphql `
-        query SmtMachineUa {
-            allItServicesJson(filter: {id: {eq: "machines-ua"}}, limit: 6) {
+        query MachinesUa {
+            allMachinesJson(sort: {order: ASC, fields: id}, limit: 6) {
                 edges {
                     node {
-                        fields {
-                            slug
-                        }
-                        title
-                        excerpt
+                        
+                        uatitle
+                        uaexcerpt
                         icon {
                             img_two {
                                 childImageSharp {
@@ -38,20 +36,20 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
             }
         }      
     `);
-    const features = featureData.allItServicesJson.edges
+    const features = featureData.allMachinesJson.edges
     return (
         <SectionWrap>
             <Container>
                 <Row>
                     {features.map(feature => (
-                        <Col lg={4} md={6} key={feature.node.fields.slug}>
+                        <Col lg={4} md={6} key={feature.node.id}>
                             <FeatureBox
                                 {...featureBoxStyle}
                                 imageSrc={feature.node.icon.img_two.childImageSharp}
                                 hoverImg={feature.node.icon.img_hover.childImageSharp}
-                                title={feature.node.title}
-                                desc={feature.node.excerpt}
-                                path={`/it-service/${feature.node.fields.slug}`}
+                                title={feature.node.uatitle}
+                                desc={feature.node.uaexcerpt}
+                                path="/"
                             />
                         </Col>
                     ))}
