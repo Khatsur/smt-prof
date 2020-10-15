@@ -9,7 +9,7 @@ module.exports = {
 		author: `@HasThemes`,
 		twitterUsername: `@HasThemes`,
 		image: 'landing.png',
-		siteUrl: 'www.smt-prof.com.ua/',
+		siteUrl: 'https://smt-prof.com.ua/',
 		getform: "https://getform.io/f/58c49e90-e767-4e18-959e-4fcd84bf8659",
 		copyright: "Mitech. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
 		copyrightua: "Mitech. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>Всі права захищені</a>",
