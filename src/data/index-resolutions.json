@@ -1,10 +1,11 @@
 [
     {
         "id": "resolutions-hero-content",
-        "title": "Your Business",
-        "subtitle": "IT Services Designed For",
-        "text": "Highly Tailored IT Design, Management & Support Services.",
-        "bg_image": "./images/bg/home-resolutions-hero-bg-image.jpg",
+        "title": "SMT монтаж",
+        "subtitle": "Оборудование",
+        "text": "Поставка, пуско-наладка, поддержка.",
+        "bg_image": "./images/bg/machine-smt.png",
+        "bg_image2": "./images/bg/machine-tht.png",
         "link": "/contact-us",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     },

@@ -88,7 +88,7 @@ const Header = ({ props, ...styles }) => {
         }
     }, [sticky, totalHeaderHeight]);
 
-    const { noticeStyle, phoneElStyle, searchElStyle, logoStyle, burgerBtnElStyle, transparent } = styles;
+    const { noticeStyle, phoneElStyle, searchElStyle, logoStyle, burgerBtnElStyle, transparent} = styles;
     const menuArr = headerData.allMenuJson.edges;
 
     return (

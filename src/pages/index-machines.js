@@ -15,10 +15,12 @@ import ClientsArea from '../containers/global/clients-area'
 import BlogArea from '../containers/index-services/blog-area'
 
 
+
 const IndexServices = ({ location, pageFromCMS }) => (
   <Layout location={location}>
-    <SEO title="Оборудование для SMT" description="Оборудование для поверхностного монтажа  SMT" pathname="оборудование" keywords="smt"/>
-    <Header transparent />
+    
+    <SEO title="Оборудование для SMT" description="Оборудование для поверхностного монтажа  SMT" pathname="оборудование" />
+    <Header transparent  />
     <main className="site-wrapper-reveal">
       <HeroArea />
       <FeaturesArea />
@@ -33,5 +35,6 @@ const IndexServices = ({ location, pageFromCMS }) => (
     <Footer />
   </Layout>
 )
+
 
 export default IndexServices
