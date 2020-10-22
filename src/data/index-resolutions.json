@@ -2,10 +2,13 @@
     {
         "id": "resolutions-hero-content",
         "title": "SMT монтаж",
+        "title_tht": "THT монтаж",
+        "title_clean": "Очистка",
         "subtitle": "Оборудование",
         "text": "Поставка, пуско-наладка, поддержка.",
         "bg_image": "./images/bg/machine-smt.png",
         "bg_image2": "./images/bg/machine-tht.png",
+        "bg_image3": "./images/bg/machine-cleaning.png",
         "link": "/contact-us",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     },

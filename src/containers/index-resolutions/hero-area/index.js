@@ -14,6 +14,8 @@ const HeroArea = (props) => {
         query ResolutionsHeroQuery {
             indexResolutionsJson(id: {eq: "resolutions-hero-content"}) {
                 title
+                title_tht
+                title_clean
                 subtitle
                 text
                 link
@@ -36,10 +38,19 @@ const HeroArea = (props) => {
                         }
                     }
                 }
+                bg_image3 {
+                    childImageSharp {
+                        fluid(maxWidth: 1920, maxHeight: 890, quality: 100, srcSetBreakpoints: 6) {
+                            ...GatsbyImageSharpFluid_withWebp
+                            presentationWidth
+                            presentationHeight
+                        }
+                    }
+                }
             }
         }      
     `);
-    const {title, subtitle, text, bg_image, bg_image2, link, video_link} = heroData.indexResolutionsJson;
+    const {title, title_tht, title_clean, subtitle, text, bg_image, bg_image2, bg_image3, link, video_link} = heroData.indexResolutionsJson;
     const {subtitleStyle, titleStyle, textStyle, btnStyle, consult_btn, work_btn} = props;
     let video_arr, video_id, video_channel;
     if(video_link){
@@ -55,7 +66,7 @@ const HeroArea = (props) => {
         setVideoOpen(false)
     }
     return (
-        <Carousel>
+        <Carousel indicators={false}>
             <Carousel.Item>
         <Fragment>
             <HeroWrapper fluid={bg_image.childImageSharp.fluid}>
@@ -67,8 +78,8 @@ const HeroArea = (props) => {
                                 {title && <Heading {...titleStyle}>{title}</Heading>}
                                 {text && <Text {...textStyle}>{text}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Free Consultation</Button>}
-                                    {video_link && <Button onClick={modalVideoOpen} icon={<MdPlayArrow/>} {...btnStyle} {...work_btn}>How We Work</Button>}
+                                    {link && <Button {...btnStyle} {...consult_btn}>Подробно...</Button>}
+                                    
                                 </HeroBtnGroup>
                             </HeroContent>
                         </Col>
@@ -88,6 +99,7 @@ const HeroArea = (props) => {
             />
         </Fragment>
         </ Carousel.Item>
+        
         <Carousel.Item>
         <Fragment>
             <HeroWrapper fluid={bg_image2.childImageSharp.fluid}>
@@ -96,11 +108,11 @@ const HeroArea = (props) => {
                         <Col lg={12}>
                             <HeroContent>
                                 {subtitle && <Heading {...subtitleStyle}>{subtitle}</Heading>}
-                                {title && <Heading {...titleStyle}>{title}</Heading>}
+                                {title && <Heading {...titleStyle}>{title_tht}</Heading>}
                                 {text && <Text {...textStyle}>{text}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Free Consultation</Button>}
-                                    {video_link && <Button onClick={modalVideoOpen} icon={<MdPlayArrow/>} {...btnStyle} {...work_btn}>How We Work</Button>}
+                                    {link && <Button {...btnStyle} {...consult_btn}>Подробно...</Button>}
+                                    
                                 </HeroBtnGroup>
                             </HeroContent>
                         </Col>
@@ -121,6 +133,39 @@ const HeroArea = (props) => {
         </Fragment>
         </Carousel.Item>
         
+        <Carousel.Item>
+        <Fragment>
+            <HeroWrapper fluid={bg_image3.childImageSharp.fluid}>
+                <Container>
+                    <Row>
+                        <Col lg={12}>
+                            <HeroContent>
+                                {subtitle && <Heading {...subtitleStyle}>{subtitle}</Heading>}
+                                {title && <Heading {...titleStyle}>{title_clean}</Heading>}
+                                {text && <Text {...textStyle}>{text}</Text>}
+                                <HeroBtnGroup>
+                                    {link && <Button {...btnStyle} {...consult_btn}>Подробно...</Button>}
+                                    
+                                </HeroBtnGroup>
+                            </HeroContent>
+                        </Col>
+                    </Row>
+                </Container>
+                <HeroSeparator>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 100 100">
+                        <path d="M 0 0 L0 100 L100 100 L100 0 Q 50 200 0 0"></path>
+                    </svg>
+                </HeroSeparator>
+            </HeroWrapper>
+            <ModalVideo
+                channel={video_channel}
+                videoId={video_id}
+                isOpen={videoOpen}
+                onClose={modalVideoClose}
+            />
+        </Fragment>
+        </Carousel.Item>
+
         </Carousel>
     )
 }
