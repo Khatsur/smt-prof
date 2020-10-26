@@ -18,14 +18,14 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
                         icon {
                             img_two {
                                 childImageSharp {
-                                    fixed(width: 100, height: 98, quality: 100) {
+                                    fixed(width: 250,  quality: 100) {
                                         ...GatsbyImageSharpFixed_tracedSVG
                                     }
                                 }
                             }
                             img_hover {
                                 childImageSharp {
-                                    fixed(width: 100, height: 98, quality: 100) {
+                                    fixed(width: 250,  quality: 100) {
                                         ...GatsbyImageSharpFixed_tracedSVG
                                     }
                                 }

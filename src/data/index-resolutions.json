@@ -4,11 +4,15 @@
         "title": "SMT монтаж",
         "title_tht": "THT монтаж",
         "title_clean": "Очистка",
+        "title_coating": "Защита",
+        "title_aoi": "Инспекция",
         "subtitle": "Оборудование",
         "text": "Поставка, пуско-наладка, поддержка.",
         "bg_image": "./images/bg/machine-smt.png",
         "bg_image2": "./images/bg/machine-tht.png",
         "bg_image3": "./images/bg/machine-cleaning.png",
+        "bg_image4": "./images/bg/machine-coating.png",
+        "bg_image5": "./images/bg/machine-aoi.png",
         "link": "/contact-us",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     },
@@ -22,12 +26,12 @@
         "list": [
             {
                 "icon": "./images/icons/icon-07-60x60.png",
-                "title": "Quality Assurance System",
+                "title": "Установщики SMT",
                 "desc": "Our service offerings enhance customer experience throughout secure & highly functional end-to-end warranty management."
             },
             {
                 "icon": "./images/icons/icon-08-60x60.png",
-                "title": "Accurate Testing Processes",
+                "title": "Установщики в отверстия",
                 "desc": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
             },
             {

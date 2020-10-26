@@ -3,13 +3,15 @@
     "title": "COATING ",
     "uatitle": "Нанесення покриття",
     "entitle": "EN COATING",
+    "title2": "Установщики THT",
     "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
     "uaexcerpt": "Обладнання для нанесення захистних покриттів.",
+    "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
         "img": "../../images/icons/icon-04-100x108.png",
-        "img_two": "../../images/icons/icon-01-100x98.png",
-        "img_hover": "../../images/icons/icon-01-hover-100x98.png"
+        "img_two": "../../images/icons/coating-icon.png",
+        "img_hover": "../../images/icons/coating-icon-b.png"
     },
     "is_featured": true,
     "banner_image": "../../images/banner/banner-01.jpg",

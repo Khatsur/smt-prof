@@ -13,9 +13,9 @@ export const BoxIconInner = styled.div `
 export const BoxIconImg = styled.div `
     height: 65px;
     text-align: center;
-    width: 65px;
+    width: 135px;
     margin: auto;
-    margin-bottom: 29px;
+    margin-bottom: 60px;
     color: #086AD8;
     svg * {
         stroke: #086AD8;

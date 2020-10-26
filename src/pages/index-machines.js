@@ -13,7 +13,7 @@ import WhatsnewArea from '../containers/index-resolutions/whats-new-area'
 import CTAArea from '../containers/global/cta-area/section-one'
 import ClientsArea from '../containers/global/clients-area'
 import BlogArea from '../containers/index-services/blog-area'
-
+import CaseStudyArea from '../containers/index-appointment/case-study-area'
 
 
 const IndexServices = ({ location, pageFromCMS }) => (
@@ -24,8 +24,8 @@ const IndexServices = ({ location, pageFromCMS }) => (
     <main className="site-wrapper-reveal">
       <HeroArea />
       <FeaturesArea />
-      
-      <ServicesArea />
+      <CaseStudyArea/>
+     
       <ContactArea />
       <TestimonialArea />
       <WhatsnewArea />

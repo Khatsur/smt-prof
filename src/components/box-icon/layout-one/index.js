@@ -23,7 +23,7 @@ const BoxIcon = (props) => {
     return (
         <BoxIconWrap>
             <BoxIconInner {...boxStyles}>
-                {iconUrl && (
+               
                     <BoxIconImg>
                         <ReactVivus
                             id={`svg-${id}`}
@@ -31,11 +31,11 @@ const BoxIcon = (props) => {
                                 file: iconUrl,
                                 type: 'oneByOne',
                                 animTimingFunction: 'EASE',
-                                duration: 250
+                                duration: 350
                             }}
                         />
                     </BoxIconImg>
-                )}
+               
                 <BoxIconContent>
                     {title && <BoxIcontitle {...titleStyles}>{truncateString(title, 18, false)}</BoxIcontitle>}
                     {desc && <BoxIconText {...textStyles}>{truncateString(desc, 90)}</BoxIconText>}

@@ -16,6 +16,8 @@ const HeroArea = (props) => {
                 title
                 title_tht
                 title_clean
+                title_coating
+                title_aoi
                 subtitle
                 text
                 link
@@ -47,10 +49,28 @@ const HeroArea = (props) => {
                         }
                     }
                 }
+                bg_image4 {
+                    childImageSharp {
+                        fluid(maxWidth: 1920, maxHeight: 890, quality: 100, srcSetBreakpoints: 6) {
+                            ...GatsbyImageSharpFluid_withWebp
+                            presentationWidth
+                            presentationHeight
+                        }
+                    }
+                }
+                bg_image5 {
+                    childImageSharp {
+                        fluid(maxWidth: 1920, maxHeight: 890, quality: 100, srcSetBreakpoints: 6) {
+                            ...GatsbyImageSharpFluid_withWebp
+                            presentationWidth
+                            presentationHeight
+                        }
+                    }
+                }
             }
         }      
     `);
-    const {title, title_tht, title_clean, subtitle, text, bg_image, bg_image2, bg_image3, link, video_link} = heroData.indexResolutionsJson;
+    const {title, title_tht, title_clean, title_coating, title_aoi, subtitle, text, bg_image, bg_image2, bg_image3, bg_image4, bg_image5, link, video_link} = heroData.indexResolutionsJson;
     const {subtitleStyle, titleStyle, textStyle, btnStyle, consult_btn, work_btn} = props;
     let video_arr, video_id, video_channel;
     if(video_link){
@@ -166,6 +186,72 @@ const HeroArea = (props) => {
         </Fragment>
         </Carousel.Item>
 
+        <Carousel.Item>
+        <Fragment>
+            <HeroWrapper fluid={bg_image4.childImageSharp.fluid}>
+                <Container>
+                    <Row>
+                        <Col lg={12}>
+                            <HeroContent>
+                                {subtitle && <Heading {...subtitleStyle}>{subtitle}</Heading>}
+                                {title && <Heading {...titleStyle}>{title_coating}</Heading>}
+                                {text && <Text {...textStyle}>{text}</Text>}
+                                <HeroBtnGroup>
+                                    {link && <Button {...btnStyle} {...consult_btn}>Подробно...</Button>}
+                                    
+                                </HeroBtnGroup>
+                            </HeroContent>
+                        </Col>
+                    </Row>
+                </Container>
+                <HeroSeparator>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 100 100">
+                        <path d="M 0 0 L0 100 L100 100 L100 0 Q 50 200 0 0"></path>
+                    </svg>
+                </HeroSeparator>
+            </HeroWrapper>
+            <ModalVideo
+                channel={video_channel}
+                videoId={video_id}
+                isOpen={videoOpen}
+                onClose={modalVideoClose}
+            />
+        </Fragment>
+        </ Carousel.Item>
+
+        <Carousel.Item>
+        <Fragment>
+            <HeroWrapper fluid={bg_image5.childImageSharp.fluid}>
+                <Container>
+                    <Row>
+                        <Col lg={12}>
+                            <HeroContent>
+                                {subtitle && <Heading {...subtitleStyle}>{subtitle}</Heading>}
+                                {title && <Heading {...titleStyle}>{title_aoi}</Heading>}
+                                {text && <Text {...textStyle}>{text}</Text>}
+                                <HeroBtnGroup>
+                                    {link && <Button {...btnStyle} {...consult_btn}>Подробно...</Button>}
+                                    
+                                </HeroBtnGroup>
+                            </HeroContent>
+                        </Col>
+                    </Row>
+                </Container>
+                <HeroSeparator>
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="none" viewBox="0 0 100 100">
+                        <path d="M 0 0 L0 100 L100 100 L100 0 Q 50 200 0 0"></path>
+                    </svg>
+                </HeroSeparator>
+            </HeroWrapper>
+            <ModalVideo
+                channel={video_channel}
+                videoId={video_id}
+                isOpen={videoOpen}
+                onClose={modalVideoClose}
+            />
+        </Fragment>
+        </ Carousel.Item>
+
         </Carousel>
     )
 }
@@ -187,7 +273,7 @@ HeroArea.defaultProps = {
     titleStyle: {
         as: 'h1',
         fontSize: '120px',
-        color: '#fff',
+        color: '#F5F5F5',
         lineHeight: 1.09,
         mb: '30px',
         responsive: {
