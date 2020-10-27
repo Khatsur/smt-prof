@@ -12,12 +12,10 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
                 title
                 subtitle
             }
-            allItServicesJson(sort: {order: DESC, fields: id}, limit: 8) {
+            allJukiJson(sort: {order: ASC, fields: id}, limit: 8) {
                 edges {
                     node {
-                        fields {
-                            slug
-                        }
+                        
                         id
                         title
                         excerpt
@@ -32,7 +30,7 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
         }   
     `);
     const {title, subtitle} = servicesData.indexResolutionsJson;
-    const services = servicesData.allItServicesJson.edges;
+    const services = servicesData.allJukiJson.edges;
     return (
         <SectionWrap>
             <Container>
@@ -47,16 +45,16 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
                 </Row>
                 <Row>
                     {services.map(service => (
-                        <Col xl={3} lg={4} md={6} key={service.node.fields.slug}>
-                            <ServiceBox
-                                {...servicBoxStyle}
-                                id={service.node.id}
-                                icon={service.node.icon}
-                                title={service.node.title}
-                                desc={service.node.excerpt}
-                                path={`/it-service/${service.node.fields.slug}`}
-                            />
-                        </Col>
+                         <Col xl={3} lg={4} md={6} key={service.node.id}>
+                         <ServiceBox
+                             {...servicBoxStyle}
+                             id={service.node.id}
+                             icon={service.node.icon}
+                             title={service.node.title}
+                             desc={service.node.excerpt}
+                             path={'/'}
+                         />
+                     </Col>
                     ))}
                 </Row>
             </Container>

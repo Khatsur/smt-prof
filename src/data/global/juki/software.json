@@ -1,0 +1,16 @@
+{
+    "id": "8-software",
+    "title": "Программное обеспечение",
+    "uatitle": "Монтаж поверхневий",
+    "entitle": "SMT",
+    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "uaexcerpt": "Обладнання для поверхневого монтажу. Прінтери для нанесення паяльної пасти. Машини для встановлення компонентів SMD. ",
+    "excerpt2": "Оборудование для поверхностного монтажа.",
+    "icon": {
+        "svg": "../../images/icons/software.svg",
+        "img": "../../images/icons/icon-04-100x108.png",
+        "img_two": "../../images/icons/smt-icon-1.png",
+        "img_hover": "../../images/icons/smt-icon-b.png"
+    },
+    "is_featured": true
+}

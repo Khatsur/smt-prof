@@ -13,7 +13,7 @@ export const BoxIconInner = styled.div `
 export const BoxIconImg = styled.div `
     height: 65px;
     text-align: center;
-    width: 135px;
+    width: 120px;
     margin: auto;
     margin-bottom: 60px;
     color: #086AD8;
