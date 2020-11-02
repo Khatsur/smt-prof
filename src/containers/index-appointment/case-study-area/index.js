@@ -35,17 +35,15 @@ const CaseStudySection = ({
             }
           }
         } 
-        allCaseStudiesJson(filter: {is_featured: {eq: true}}, limit: 4) {
+        allSmtJson(filter: {is_featured: {eq: true}}, limit: 4) {
             edges {
               node {
-                fields{
-                    slug
-                }
+               
                 id
                 title
                 category
                 excerpt
-                image{
+                image {
                   childImageSharp {
                     fluid(maxWidth: 480, maxHeight: 298, quality: 100){
                         ...GatsbyImageSharpFluid_withWebp_tracedSVG
@@ -60,7 +58,7 @@ const CaseStudySection = ({
       } 
     `);
     const caseStudySecData = caseStudyData.indexAppointmentJson;
-    const caseStudies = caseStudyData.allCaseStudiesJson.edges;
+    const caseStudies = caseStudyData.allSmtJson.edges;
     const imageData = caseStudySecData.bgImage.childImageSharp.fluid;
 
     return (
@@ -79,14 +77,14 @@ const CaseStudySection = ({
                     <Col lg={12}>
                         <SwiperSlider {...sliderStyle} settings={slider}>
                             {caseStudies.map(caseStudy => (
-                                <div className="item" key={caseStudy.node.fields.slug}>
+                                <div className="item" key={caseStudy.node.id}>
                                     <CaseStudyBox
                                         {...caseStudyStyles}
                                         imageSrc={caseStudy.node.image.childImageSharp}
                                         title={caseStudy.node.title}
                                         category={caseStudy.node.category}
                                         desc={caseStudy.node.excerpt}
-                                        path={`/case-study/${caseStudy.node.fields.slug}`}
+                                        path={'http://localhost:8000/index-machines'}
                                         btnText="View case study"
                                     />
                                 </div>
