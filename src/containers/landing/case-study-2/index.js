@@ -49,7 +49,7 @@ const CaseStudy = ({titleStyle, textStyle}) => {
                             <Heading {...titleStyle}>{parse(data.title)}</Heading>
                             <Text {...textStyle}>{parse(data.desc)}</Text>
                             <ButtonWrap>
-                                <Button as={Link} to={data.path}>Find out more</Button>
+                                <Button as={Link} to={data.path}>Подробно</Button>
                             </ButtonWrap>
                         </CaseStudyTextWrap>
                     </Col>
