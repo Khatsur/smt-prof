@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import {Container, Row, Col} from 'react-bootstrap'
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import SectionTitle from '../../../components/ui/section-title'
 import {ExtraFeaturesWrap} from './extra-features.style'
 import FeatureBox from '../../../components/box-image/layout-seven'
+
 
 const ExtraFeatures = ({sectionTitle}) => {
 
@@ -16,6 +17,7 @@ const ExtraFeatures = ({sectionTitle}) => {
             title
             id
             desc
+            path
             image {
                 childImageSharp {
                     fixed(width: 145, height: 50) {
@@ -51,8 +53,11 @@ const ExtraFeatures = ({sectionTitle}) => {
                                     title={feature.title}
                                     desc={feature.desc}
                                     imageSrc={feature.image.childImageSharp}
+                                    
                                 />
+                                
                             </Col>
+                            
                         )
                     })}
                 </Row>
