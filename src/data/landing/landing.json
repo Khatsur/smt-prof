@@ -361,12 +361,12 @@
         "features": [
             {
                 "title": "Організація складання електроніки ",
-                "desc": "Поверхностный монтаж  SMT, монтаж в отверстия плат, нанесение защитных покрытий, инспекция и тестирование.",
+                "desc": "Поверхневий монтаж SMT, монтаж в отвори плат, нанесення захисних покриттів, інспекція і тестування.",
                 "icon": "../images/icons/icon-28-86x86.png"
             },
             {
-                "title": "Создание заводов «под ключ»",
-                "desc": "Проектирование завод для производства электроники, строительство и организация производства.",
+                "title": "Створення заводів «під ключ»",
+                "desc": "Проектування заводів для виробництва електроніки, будівництво і організація виробництва.",
                 "icon": "../images/icons/icon-27-86x86.png"
             }
         ]
@@ -376,13 +376,13 @@
         "image": "../images/features/smtprof-landing-preview.png",
         "features": [
             {
-                "title": "Organization of electronics production",
-                "desc": "Поверхностный монтаж  SMT, монтаж в отверстия плат, нанесение защитных покрытий, инспекция и тестирование.",
+                "title": "Process development",
+                "desc": "SMT, THT, Cleaning, Protective Coating, Inspection and Testing.",
                 "icon": "../images/icons/icon-28-86x86.png"
             },
             {
-                "title": "Создание заводов «под ключ»",
-                "desc": "Проектирование завод для производства электроники, строительство и организация производства.",
+                "title": "Development of Greenfeald projects.",
+                "desc": "Designing a plant for the production of electronics, construction and organization of production.",
                 "icon": "../images/icons/icon-27-86x86.png"
             }
         ]
@@ -452,55 +452,55 @@
             {
                 "id": 1,
                 "title": "Монтаж на поверхню плат",
-                "desc": "Оборудование для монтажа на поверхность SMT и в отверстия плат  THT. Автоматические склады, SPI и AOI, конвейеры, ПО для производства.",
+                "desc": "Обладнання для монтажу на поверхню SMT і в отвори плат THT. Автоматичні склади, SPI і AOI, конвеєри, ПО для виробництва.",
                 "image": "../images/icons/juki_logo.png"
             },
             {
                 "id": 2,
-                "title": "Селективная пайка",
-                "desc": "Оборудование для селективной пайки компонентов в отверстия плат. Отдельно стоящие машины и оборудование для работы в линии. .",
+                "title": "Селективне паяння",
+                "desc": "Обладнання для селективного паяння компонентів в отвори плат. Окремо-стоячі машини і обладнання для роботи у виробничих лініях.",
                 "image": "../images/icons/inertec_logo.png"
             },
             {
                 "id": 3,
-                "title": "Селективная лакировка",
-                "desc": "Селективное нанесение защитных покрытий на электронные сборки. Автоматизация процессов дозирования материалов, герметизации, заполнения.",
+                "title": "Селективне лакування",
+                "desc": "Селективне нанесення захисних покриттів на електронні плати. Автоматизація процесів дозування матеріалів, герметизації, заповнення.",
                 "image": "../images/icons/pva_logo.png"
             },
             {
                 "id": 4,
-                "title": "Мойка плат и трафаретов",
-                "desc": "Оборудование для мойки электронных сборок после пайки. Струйные машины для мойки трафаретов. Мойка часте оборудования для пайки и оснастки.",
+                "title": "Миття плат і трафаретів",
+                "desc": "Устаткування для миття електронних плат після пайки. Струменеві машини для миття трафаретів. Ощичищення частина обладнання для пайки та оснастки.",
                 "image": "../images/icons/pbt_logo.png"
             },
             {
                 "id": 5,
-                "title": "Малая серия SMT",
-                "desc": "Оборудование для мелкосерийного производства и прототипирования. Манипуляторы и полуавтоматические устройства для установки SMD на платы.",
+                "title": "Малая серія SMT",
+                "desc": "Обладнання для мало-серійного виробництва і протипування. Маніпулятори та напівавтоматичні пристрої для установки SMD на плати.",
                 "image": "../images/icons/fritsch_logo.png"
             },
             {
                 "id": 5,
-                "title": "Разделение плат",
-                "desc": "Оборудование для разделения групповых заготовок (паллет) печатных плат. Ручные и автоматизированные устройства. Магазины для плат.",
+                "title": "Розділення плат",
+                "desc": "Устаткування для розділення групових заготовок друкованих плат. Ручні пристрої і автоматизовані машини. Магазини для плат.",
                 "image": "../images/icons/cab_logo.png"
             },
             {
                 "id": 5,
-                "title": "Мойка плат и трафаретов",
-                "desc": "Жидкости для отмывки электронных сборок, трафаретов и технологической оснастки. Средства контроля загрязнений и процесса мойки.",
+                "title": "Матеріали для очищення",
+                "desc": "Рідини для відмивання електронних плат, трафаретів і технологічної оснастки. Засоби контролю забруднень і процесу миття.",
                 "image": "../images/icons/zestron_logo.png"
             },
             {
                 "id": 5,
-                "title": "Паяльная паста и припой",
-                "desc": "Жидкости для отмывки электронных сборок, трафаретов и технологической оснастки. Средства контроля загрязнений и процесса мойки.",
+                "title": "Паяльна паста і припій",
+                "desc": "Паяльна паста для нанесення через трафарет. Припій з флюсом для ручного паяння. Припій в брусках для машин пайки хвилею припою.",
                 "image": "../images/icons/indium_logo.png"
             },
             {
                 "id": 6,
-                "title": "Защитные покрытия",
-                "desc": "Защитные покрытия для электронных сборок: аккриловые, силиконовые, уретановые, резиновые. Лаки с УФ отвердением. Средства для снятия лака.",
+                "title": "Захисні покриття",
+                "desc": "Захисні покриття для електронних плат: акрилові, силіконові, уретанові, гумові. Лаки з УФ затвердінням. Засоби для зняття лаку.",
                 "image": "../images/icons/humiseal_logo.png"
             }
         ]
@@ -511,55 +511,55 @@
             {
                 "id": 1,
                 "title": "SMT",
-                "desc": "Оборудование для монтажа на поверхность SMT и в отверстия плат  THT. Автоматические склады, SPI и AOI, конвейеры, ПО для производства.",
+                "desc": "Machines for SMT  and THT. Automatic components storage, SPI and AOI, conveyors, traceability and production software.",
                 "image": "../images/icons/juki_logo.png"
             },
             {
                 "id": 2,
-                "title": "Селективная пайка",
-                "desc": "Оборудование для селективной пайки компонентов в отверстия плат. Отдельно стоящие машины и оборудование для работы в линии. .",
+                "title": "Selective soldering",
+                "desc": "Machines for selective soldering. Off-line and in-line machines. Singe wave and multi-wave. Big wave module to upgrade machine to wave soldering machines.",
                 "image": "../images/icons/inertec_logo.png"
             },
             {
                 "id": 3,
-                "title": "Селективная лакировка",
-                "desc": "Селективное нанесение защитных покрытий на электронные сборки. Автоматизация процессов дозирования материалов, герметизации, заполнения.",
+                "title": "Selective coating",
+                "desc": "Selective coating of electronic assemblies. Automation of material dispensing, sealing, filling and optical bounding. Curing and inspection.",
                 "image": "../images/icons/pva_logo.png"
             },
             {
                 "id": 4,
-                "title": "Мойка плат и трафаретов",
-                "desc": "Оборудование для мойки электронных сборок после пайки. Струйные машины для мойки трафаретов. Мойка часте оборудования для пайки и оснастки.",
+                "title": "PCBA and stencil cleaning.",
+                "desc": "Machines for cleaning electronics assemblies after soldering. Jet washing machines for stencils. Cleaning of pallets and parts of soldering machines.",
                 "image": "../images/icons/pbt_logo.png"
             },
             {
                 "id": 5,
-                "title": "Малая серия SMT",
-                "desc": "Оборудование для мелкосерийного производства и прототипирования. Манипуляторы и полуавтоматические устройства для установки SMD на платы.",
+                "title": "Small SMT",
+                "desc": "Machines for small production and prototyping. Manual manipulators and semi-automatic manipulators for SMD mounting. Fine-pitch components placers.",
                 "image": "../images/icons/fritsch_logo.png"
             },
             {
                 "id": 5,
-                "title": "Разделение плат",
-                "desc": "Оборудование для разделения групповых заготовок (паллет) печатных плат. Ручные и автоматизированные устройства. Магазины для плат.",
+                "title": "PCB separation ",
+                "desc": "Stress-free separation of pre-scored PCBs. Manual and automated devices. Long boards (LED) FR4 and Al separators. Precision PCB magazines.",
                 "image": "../images/icons/cab_logo.png"
             },
             {
                 "id": 5,
-                "title": "Мойка плат и трафаретов",
-                "desc": "Жидкости для отмывки электронных сборок, трафаретов и технологической оснастки. Средства контроля загрязнений и процесса мойки.",
+                "title": "Cleaning liquids",
+                "desc": "Liquids for cleaning electronics assemblies, stencils and maintenance. Cleaners for power electronics. Process optimization products.",
                 "image": "../images/icons/zestron_logo.png"
             },
             {
                 "id": 5,
-                "title": "Паяльная паста и припой",
-                "desc": "Жидкости для отмывки электронных сборок, трафаретов и технологической оснастки. Средства контроля загрязнений и процесса мойки.",
+                "title": "Solder paste and solder",
+                "desc": "SnPb and Pb-free soldering materials. Solder paste, solder wire, solder bars. Ultra-low voiding solder paste with the best stencil print transfer efficiency.  ",
                 "image": "../images/icons/indium_logo.png"
             },
             {
                 "id": 6,
-                "title": "Защитные покрытия",
-                "desc": "Защитные покрытия для электронных сборок: аккриловые, силиконовые, уретановые, резиновые. Лаки с УФ отвердением. Средства для снятия лака.",
+                "title": "Conformal coating",
+                "desc": "Conformal coatings for electronic assemblies: acrylic, silicone, urethane, rubber. UV curable conformal coatings. Thinners and stripers.",
                 "image": "../images/icons/humiseal_logo.png"
             }
         ]
