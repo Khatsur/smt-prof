@@ -1,8 +1,8 @@
 ---
-title: "5 Ways Technology Has Improved Business Today"
-date: "2020-01-25 05:01:00"
-author: "Owen Christ"
-featured_image: "../../images/blog/blog-03-1170x600.jpg"
+title: "Новый сайт SMT PROF"
+date: "2020-05-25 05:01:00"
+author: "SMT PROF"
+featured_image: "../../images/blog/blog-03-1170x600.png"
 categories: 
     - success story
     - tips

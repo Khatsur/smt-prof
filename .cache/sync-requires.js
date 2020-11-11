@@ -61,7 +61,6 @@ exports.components = {
   "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
   "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
   "component---src-templates-blog-template-blog-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-template/blog-template.js"))),
-  "component---src-templates-blog-list-blog-list-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-list/blog-list.js"))),
   "component---src-templates-tag-template-tag-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/tag-template/tag-template.js"))),
   "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
   "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),

@@ -1,11 +1,12 @@
 {
     "id": "3-cleaning-machines",
-    "title": "CLEANING ",
+    "title": "Мойка плат и трафаретов",
     "uatitle": "Чищення плат і трафаретів",
     "entitle": "EN CLEANING",
     "title2": "Установщики THT",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
-    "uaexcerpt": "Обладнання для чищення плат і трафаретів.",
+    "excerpt": "Оборудование для очистки электронных сборок после пайки. Мойка трафаретов для нанесения паяльной пасты и технологической оснастки. Техническое обслуживание.",
+    "uaexcerpt": "Обладнання для очищення електронних блоків після пайки. Миття трафаретів для нанесення паяльної пасти і технологічної оснастки. Технічне обслуговування обладнання для паяння.",
+    "path": "ua/machines",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",

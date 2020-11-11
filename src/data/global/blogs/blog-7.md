@@ -1,8 +1,8 @@
 ---
-title: "How Wireless Technology is Changing Business"
+title: "Новый сайт SMT PROF"
 date: "2020-01-25 05:01:00"
-author: "Owen Christ"
-featured_image: "../../images/blog/blog-02-1170x600.jpg"
+author: "SMT PROF"
+featured_image: "../../images/blog/blog-03-1170x600.png
 categories: 
     - success story
     - tips

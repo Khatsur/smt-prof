@@ -1,11 +1,12 @@
 {
     "id": "coating-machines",
-    "title": "COATING ",
+    "title": "Нанесение покрытий",
     "uatitle": "Нанесення покриття",
     "entitle": "EN COATING",
     "title2": "Установщики THT",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
-    "uaexcerpt": "Обладнання для нанесення захистних покриттів.",
+    "excerpt": "Оборудование для нанесения защитных покрытый на электронные платы. Машины для селективного нанесения покрытий, герметизация и заполнение. Полимеризация.",
+    "uaexcerpt": "Обладнання для нанесення захисних покритий на електронні плати. Машини для селективного нанесення покриттів, герметизація і заповнення. Полімеризація. Інспекція покриття.",
+    "path": "ua/machines",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",

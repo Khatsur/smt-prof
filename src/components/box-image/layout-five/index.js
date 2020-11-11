@@ -57,7 +57,7 @@ const BoxImage = ({imageSrc, hoverImg, title, desc, path, ...boxStyles}) => {
                         iconposition="right"
                         icondistance="4px"
                         varient="texted"
-                        hover="false">Discover Now</Button>
+                        hover="false">Подробно</Button>
                 </BoxImgContent>
             </BoxImgInner>
         </BoxImgWrapper>
