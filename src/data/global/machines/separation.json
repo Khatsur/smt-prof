@@ -2,10 +2,11 @@
     "id": "separation-machines",
     "title": "Инспекция сборки",
     "uatitle": "Автоматична інспекція",
-    "entitle": "EN SEPARATOR",
+    "entitle": "INSPECTION",
     "title2": "Установщики THT",
     "excerpt": "Оборудование для инспекции нанесения паяльной пасты (SPI). Автоматические машины для инспекции компонентов SMD и монтируемых в отверстия после пайки (AOI).",
     "uaexcerpt": "Обладнання для інспекції нанесення паяльної пасти (SPI). Автоматичні машини для інспекції компонентів SMD і компонентів в отворах плат після пайки (AOI).",
+    "enexcerpt": "Solder paste inspection machines (SPI). Automatic optical inspection (AOI) for SMD and through hole soldering components. SPI and AOI in one machines.",
     "path": "ua/machines",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {

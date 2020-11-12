@@ -1,11 +1,12 @@
 {
     "id": "2-tht-machines",
-    "title": "THT Монтаж в отвори",
+    "title": "THT Монтаж в отверстия",
     "uatitle": "THT Монтаж в отвори",
     "entitle": "THT",
     "title2": "Установщики THT",
     "excerpt": "Оборудование для монтажа компонентов в отверстия плат. Автоматические установщики компонентов. Машины селективной пайки и пайки волной припоя.",
     "uaexcerpt": "Обладнання для монтажу компонентів в отвори плат. Автоматичні машини для встановлення електронних компонентів в отвори плат. Машини селективної пайки і пайки хвилею припою.",
+    "enexcerpt": "Machines for through hole mounting. Insertion Solution – THT. Inserters with integration in line. Selective soldering and wave soldering machines.",
     "path": "ua/machines",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {

@@ -2,10 +2,11 @@
     "id": "wire-processing-machines",
     "title": "Обработка проводов",
     "uatitle": "Обробка проводів",
-    "entitle": "EN WIRE",
+    "entitle": "WIRE PROCESSING",
     "title2": "Установщики THT",
     "excerpt": "Оборудование для обработки проводов и кабелей. Автоматическая резка и зачистка. Лужение.Обжимка терминалов. Модули для комплексной обработки проводов.",
     "uaexcerpt": "Обладнання для обробки проводів і кабелів. Машини для автоматичного різання і чищення. Лудіння. Затискання терміналів. Модулі для комплексної обробки проводів.",
+    "enexcerpt": "Equipment for wires and cables processing. Automatic cutting and stripping. Tinning. Crimping terminals. Modules for complete processing of wires.",
     "path": "ua/machines",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
