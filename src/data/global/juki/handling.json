@@ -1,10 +1,11 @@
 {
     "id": "7-handling",
     "title": "Перемещение плат",
-    "uatitle": "Монтаж поверхневий",
-    "entitle": "SMT",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
-    "uaexcerpt": "Обладнання для поверхневого монтажу. Прінтери для нанесення паяльної пасти. Машини для встановлення компонентів SMD. ",
+    "uatitle": "Переміщення плат",
+    "entitle": "Handling",
+    "excerpt": "Решение JUKI по перемещению плат позволяют  подобрать оборудование под  индивидуальные требования. От небольших производств до крупных линейных решений. Специальные предложения для нестандартных задач.",
+    "uaexcerpt": "Рішення JUKI по переміщенню плат дозволяють підібрати обладнання під індивідуальні вимоги. Від невеликих виробництв до великих лінійних рішень. Спеціальні пропозиції для нестандартних завдань.",
+    "enexcerpt": "JUKI's board handling solution allows you to customize the equipment to your individual requirements. From small production facilities to big line solutions. Special offers for non-standard tasks.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/handling.svg",

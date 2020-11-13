@@ -1,10 +1,11 @@
 {
     "id": "3-printing",
     "title": "Принтеры",
-    "uatitle": "Монтаж поверхневий",
-    "entitle": "SMT",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
-    "uaexcerpt": "Обладнання для поверхневого монтажу. Прінтери для нанесення паяльної пасти. Машини для встановлення компонентів SMD. ",
+    "uatitle": "Принтери",
+    "entitle": "Printing",
+    "excerpt": "Трафаретные принтеры JUKI – это машины высочайшего качества. Доступны для печатных плат различных размеров. Используются с установщиками JUKI,  с печами для пайки JUKI, создавая SMART решения SMT.",
+    "uaexcerpt": "Трафаретні принтери JUKI - це машини найвищої якості. Доступні для друкованих плат різних розмірів. Використовуються з обладнанням JUKI для монтажу плат, створюючи SMART рішення для SMT.",
+    "enexcerpt": "JUKI stencil printers are machines of the highest quality. Available for various PCB sizes. Used with JUKI mounters, with JUKI soldering ovens, creating SMART SMT solutions.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/printing.svg",

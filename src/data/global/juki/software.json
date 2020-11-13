@@ -1,10 +1,11 @@
 {
     "id": "8-software",
-    "title": "Программное обеспечение",
-    "uatitle": "Монтаж поверхневий",
-    "entitle": "SMT",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
-    "uaexcerpt": "Обладнання для поверхневого монтажу. Прінтери для нанесення паяльної пасти. Машини для встановлення компонентів SMD. ",
+    "title": "Управление",
+    "uatitle": "Керування",
+    "entitle": "Software",
+    "excerpt": "Программные решения JUKI повышают производительность  производства. Модульная концепция программного обеспечения позволяет  ориентироваться на индивидуальные требования заказчиков.",
+    "uaexcerpt": "Програмні рішення JUKI підвищують продуктивність та єффективність виробництва. Модульна концепція програмного забезпечення дозволяє орієнтуватися на індивідуальні вимоги замовників.",
+    "enexcerpt": "JUKI software solutions improve production productivity. The modular software concept allows easy to fit software to individual customer requirements. Continuously improving production processes.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/software.svg",

@@ -1,10 +1,11 @@
 {
     "id": "1-placement",
     "title": "Установщики SMT",
-    "uatitle": "Монтаж поверхневий",
+    "uatitle": "Встановлення SMD",
     "entitle": "SMT",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
-    "uaexcerpt": "Обладнання для поверхневого монтажу. Прінтери для нанесення паяльної пасти. Машини для встановлення компонентів SMD. ",
+    "excerpt": "Установщики SMT JUKI подходят для разных типов производств от мелких до крупных серий. Это оптимальное решение для компаний которым нужны надежные и долгосрочные решения для сборки электроники.",
+    "uaexcerpt": "Машини для встановлення  SMD від JUKI підходять для різних типів виробництв від дрібних до великих серій. Це оптимальне рішення для компаній яким потрібні надійні і довгострокові рішення.",
+    "enexcerpt": "JUKI SMT mounters are suitable for different types of production from small to mass production. It is the optimal solution for companies looking for reliable and long-term assembly solutions.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/placement.svg",

@@ -1,10 +1,11 @@
 {
     "id": "2-insertion",
-    "title": "Установщики в отверстия",
-    "uatitle": "Монтаж поверхневий",
-    "entitle": "SMT",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
-    "uaexcerpt": "Обладнання для поверхневого монтажу. Прінтери для нанесення паяльної пасти. Машини для встановлення компонентів SMD. ",
+    "title": "Установщики в THT",
+    "uatitle": "Монтаж в отвори",
+    "entitle": "THT",
+    "excerpt": "Установщики в отверстия плат JUKI устанавливают компоненты сложной форми и компоненты в отверстия печатных плат. Высокая точность и надежность. Возможность встраивания в линии SMT без снижения цикла.",
+    "uaexcerpt": "Обладнання для встановлення в отвори плат. JUKI встановлюють різні компоненти складної форми. Висока точність і надійність. Можливість вбудовування в лінії SMT без зниження циклу виробництва.",
+    "enexcerpt": "The best insertion Solution on the market. Machine can mount a lot of components on PCB. High precision and reliability. Highest Speed. Integration into SMT lines without cycle reduction.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/insertion.svg",

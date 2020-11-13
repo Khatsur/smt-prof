@@ -41,7 +41,7 @@ const BoxIcon = (props) => {
                     {desc && <BoxIconText {...textStyles} style={{textAlign: "justify"}}>{truncateString(desc, 200)}</BoxIconText>}
                     <BoxIconBtn>
                         <Button to={path} as={Link} {...buttonStyles} icon={<MdTrendingFlat />}>
-                            Подробно
+                            Докладно
                         </Button>
                     </BoxIconBtn>
                 </BoxIconContent>

@@ -1,10 +1,11 @@
 {
     "id": "5-storage",
-    "title": "Автоматические склады",
-    "uatitle": "Монтаж поверхневий",
-    "entitle": "SMT",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
-    "uaexcerpt": "Обладнання для поверхневого монтажу. Прінтери для нанесення паяльної пасти. Машини для встановлення компонентів SMD. ",
+    "title": "SMART склады",
+    "uatitle": "SMART склади",
+    "entitle": "Storage",
+    "excerpt": "JUKI предлагает интеллектуальных решений для хранения и подготовки компонентов. Эффективная система комплектования экономит время и деньги на протяжении всего производственного процесса.",
+    "uaexcerpt": "JUKI пропонує інтелектуальних рішень для зберігання і підготовки компонентів. Ефективна система комплектування економить час і гроші на протязі всього виробничого процесу складання електронікі.",
+    "enexcerpt": "JUKI offers intelligent storage solutions for components. An intelligent and efficient storage management saves time and money throughout the entire production process.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/storage.svg",
