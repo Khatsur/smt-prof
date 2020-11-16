@@ -4,17 +4,17 @@ import {Container, Row, Col} from '../../../components/ui/wrapper'
 import FeatureBox from '../../../components/box-image/layout-five'
 import Heading from '../../../components/ui/heading'
 import Anchor from '../../../components/ui/anchor'
-import {SectionWrap} from './machines-en.style'
+import {SectionWrap} from './machines-ua.style'
 
 const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
     const featureData = useStaticQuery(graphql `
-        query MachinesEn {
+        query MachinesUa {
             allMachinesJson(sort: {order: ASC, fields: id}, limit: 6) {
                 edges {
                     node {
                         
-                        entitle
-                        enexcerpt
+                        uatitle
+                        uaexcerpt
                         icon {
                             img_two {
                                 childImageSharp {
@@ -47,8 +47,8 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
                                 {...featureBoxStyle}
                                 imageSrc={feature.node.icon.img_two.childImageSharp}
                                 hoverImg={feature.node.icon.img_hover.childImageSharp}
-                                title={feature.node.entitle}
-                                desc={feature.node.enexcerpt}
+                                title={feature.node.uatitle}
+                                desc={feature.node.uaexcerpt}
                                 path="/"
                             />
                         </Col>
@@ -57,7 +57,7 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
                 </Row>
                 <Row>
                     <Col lg={12}>
-                        <Heading {...headingStyle}>Challenges are just opportunities in disguise. <Anchor {...linkStyle} path="/">Take the challenge!</Anchor></Heading>
+                        <Heading {...headingStyle}></Heading>
                     </Col>
                 </Row>
             </Container>

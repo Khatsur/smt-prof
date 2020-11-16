@@ -2,23 +2,23 @@ import React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 import {Container, Row, Col} from '../../../components/ui/wrapper'
 import SectionTitle from '../../../components/ui/section-title'
-import ServiceBox from '../../../components/box-icon/layout-one-en'
+import ServiceBox from '../../../components/box-icon/layout-one-ua'
 import {SectionWrap} from './services-area.style'
 
 const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
     const servicesData = useStaticQuery(graphql `
-        query JukiEn {
+        query JukiUa {
             indexResolutionsJson(id: {eq: "resolutions-services-content"}) {
-                title
-                subtitle
+                uatitle
+                uasubtitle
             }
             allJukiJson(sort: {order: ASC, fields: id}, limit: 8) {
                 edges {
                     node {
                         
                         id
-                        entitle
-                        enexcerpt
+                        uatitle
+                        uaexcerpt
                         icon {
                             svg {
                                 publicURL
@@ -29,7 +29,7 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
             }
         }   
     `);
-    const {title, subtitle} = servicesData.indexResolutionsJson;
+    const {uatitle, uasubtitle} = servicesData.indexResolutionsJson;
     const services = servicesData.allJukiJson.edges;
     return (
         <SectionWrap>
@@ -38,8 +38,8 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
                     <Col lg={12}>
                         <SectionTitle
                             {...sectionTitleStyle}
-                            title={title}
-                            subtitle={subtitle}
+                            title={uatitle}
+                            subtitle={uasubtitle}
                         />
                     </Col>
                 </Row>
@@ -50,8 +50,8 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
                              {...servicBoxStyle}
                              id={service.node.id}
                              icon={service.node.icon}
-                             title={service.node.entitle}
-                             desc={service.node.enexcerpt}
+                             title={service.node.uatitle}
+                             desc={service.node.uaexcerpt}
                              path={'/'}
                          />
                      </Col>

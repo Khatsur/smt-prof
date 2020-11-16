@@ -71,7 +71,7 @@
     },
     {
         "text": "Оборудование",
-        "link": "/index-machines",
+        "link": "/machines",
         "megamenu": [
             {
                 "title": "Element Group 01",
