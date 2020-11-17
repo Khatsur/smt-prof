@@ -35,7 +35,7 @@ const CaseStudySection = ({
             }
           }
         } 
-        allSmtJson(filter: {is_featured: {eq: true}}, limit: 4) {
+        allSmtJson(filter: {is_featured: {eq: true}}, limit: 4, sort: {order: ASC, fields: id}) {
             edges {
               node {
                
@@ -45,7 +45,7 @@ const CaseStudySection = ({
                 excerpt
                 image {
                   childImageSharp {
-                    fluid(maxWidth: 480, maxHeight: 298, quality: 100){
+                    fluid(maxHeight: 198, quality: 100){
                         ...GatsbyImageSharpFluid_withWebp_tracedSVG
                         presentationWidth
                         presentationHeight
@@ -85,21 +85,14 @@ const CaseStudySection = ({
                                         category={caseStudy.node.category}
                                         desc={caseStudy.node.excerpt}
                                         path={'http://localhost:8000/index-machines'}
-                                        btnText="View case study"
+                                        btnText="Подробно"
                                     />
                                 </div>
                             ))}
                         </SwiperSlider>
                     </Col>
                 </Row>
-                <Row {...bottomRowStyle}>
-                    <Col lg={12}>
-                        <Text {...bottomTextStyle}>
-                            {caseStudySecData.bottom_text}
-                            <Anchor {...bottoTextLinkStyle} path={caseStudySecData.bottom_link}>{caseStudySecData.bottom_link_text}</Anchor>
-                        </Text>
-                    </Col>
-                </Row>
+                
             </Container>
         </CaseStudyWrapper>
     )
