@@ -28,9 +28,9 @@ const IndexServices = ({ location, pageFromCMS }) => (
       <CaseStudyArea/>
      
       <ContactArea />
-      <TestimonialArea />
+      
       <WhatsnewArea />
-      <CTAArea />
+      
       
     </main>
     <Footer />
