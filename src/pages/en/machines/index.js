@@ -11,7 +11,8 @@ import TestimonialArea from '../../../containers/global/testimonial-area/section
 import WhatsnewArea from '../../../containers/machines/whats-new-area'
 import CTAArea from '../../../containers/global/cta-area/section-one'
 import ClientsArea from '../../../containers/global/clients-area'
-import BlogArea from '../../../containers/index-services/blog-area'
+import BlogArea from '../../../containers/index-services/blog-area';
+import CaseStudyArea from '../../../containers/machines/smt-big-en'
 
 
 const IndexServices = ({ location, pageFromCMS }) => (
@@ -19,15 +20,12 @@ const IndexServices = ({ location, pageFromCMS }) => (
     <SEO title="Resolutions" />
     <Header transparent />
     <main className="site-wrapper-reveal">
-      <HeroArea />
+    <HeroArea />
       <FeaturesArea />
-      
       <ServicesArea />
+      <CaseStudyArea/>
       <ContactArea />
-      <TestimonialArea />
       <WhatsnewArea />
-      <CTAArea />
-      
     </main>
     <Footer />
   </Layout>
