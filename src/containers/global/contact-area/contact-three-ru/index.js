@@ -44,18 +44,18 @@ const ContactArea = ({
                 <Row alignitems="center">
                     <Col lg={6}>
                         <Box>
-                            <Heading {...headingStyle}>Obtaining further information by <span>make a contact</span> with our experienced staffs.</Heading>
-                            <Text {...descStyle}>We’re available for 8 hours a day! <br/></Text>
+                            <Heading {...headingStyle}>Для получения полной информации <span>свяжитесь</span> с нашими специалистами.</Heading>
+                            <Text {...descStyle}>Мы доступны полный рабочий день.! <br/></Text>
                         </Box>
                     </Col>
                     <Col lg={6}>
                         <ContactInfoBox>
                             <MdPhone className="icon"/>
-                            <Heading {...titleStyle}>REACH OUT NOW!</Heading>
+                            <Heading {...titleStyle}>ПОЗВОНИТЕ СЕЙЧАС!</Heading>
                             {phone && (
                                 <Heading><Anchor path="/" {...phoneAnchorStyle}>{phone}</Anchor></Heading>
                             )}
-                            <Button {...btnStyle}>Contact Us</Button>
+                            <Button {...btnStyle}>Сообщение</Button>
                         </ContactInfoBox>
                     </Col>
                 </Row>
