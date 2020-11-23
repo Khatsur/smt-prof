@@ -44,23 +44,39 @@
         "list": [
             {
                 "icon": "./images/icons/icon-07-60x60.png",
-                "title": "Установщики SMT",
-                "desc": "Our service offerings enhance customer experience throughout secure & highly functional end-to-end warranty management."
+                "title": "High End Оборудование",
+                "uatitle": "High End Обладнання",
+                "entitle": "High End machines",
+                "desc": "Минимальные риски при поставке оборудования. Машины от лидирующих  производителей оборудования для монтажа плат.",
+                "uadesc": "Мінімальні ризики при постачанні обладнання. Машини від лідируючих виробників обладнання для монтажу плат.",
+                "endesc": "Minimal risks in the delivery of equipment. Machines from leading manufacturers of PCB assembly equipment."
             },
             {
                 "icon": "./images/icons/icon-08-60x60.png",
-                "title": "Установщики в отверстия",
-                "desc": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+                "title": "Комплексные решения",
+                "uatitle": "Комплексні рішення",
+                "entitle": "Complete solution",
+                "desc": "Оптимизированные комплексные производственные решения под требования Заказчика. Организация производственных процессов.",
+                "uadesc": "Оптимізовані комплексні виробничі рішення під вимоги Замовника. Організація виробничих процесів.",
+                "endesc": "Optimized integrated manufacturing solutions for customer requirements. Organization of production processes."
             },
             {
                 "icon": "./images/icons/icon-09-60x60.png",
-                "title": "Smart API Generation",
-                "desc": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+                "title": "Пусконаладка и обучение",
+                "uatitle": "Запуск обладнання і навчання",
+                "entitle": "Installation and training",
+                "desc": "Пусконаладка оборудования на производственных площадях Заказчика. Отработка процессов. Техническое обучение.",
+                "uadesc": "Пусконалагоджувальні роботи для запуску обладнання Замовника. Відпрацювання процесів. Технічне навчання.",
+                "endesc": "Machines installation at the production facilities of the Customer. Process development. Technical training."
             },
             {
                 "icon": "./images/icons/icon-10-60x60.png",
-                "title": "Infrastructure Integration Technology",
-                "desc": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution."
+                "title": "Техническая поддержка",
+                "uatitle": "Технічна підтримка",
+                "entitle": "Technical support",
+                "desc": "Техническая и технологическая поддержка удаленно по телефону и электронной почте. Выезд специалистов по требованию.",
+                "uadesc": "Технічна і технологічна підтримка віддалено по телефону та електронною поштою. Виїзд фахівців на вимогу.",
+                "endesc": "Technical and technological support by phone and email. Technical support at the customer's production"
             }
         ] 
     }

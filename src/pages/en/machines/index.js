@@ -8,7 +8,7 @@ import FeaturesArea from '../../../containers/machines/machines-en'
 import ServicesArea from '../../../containers/machines/juki-en'
 import ContactArea from '../../../containers/global/contact-area/contact-three'
 import TestimonialArea from '../../../containers/global/testimonial-area/section-one'
-import WhatsnewArea from '../../../containers/machines/whats-new-area'
+import WhatsnewArea from '../../../containers/machines/whats-new-area-en'
 import CTAArea from '../../../containers/global/cta-area/section-one'
 import ClientsArea from '../../../containers/global/clients-area'
 import BlogArea from '../../../containers/index-services/blog-area';
