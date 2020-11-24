@@ -68,13 +68,13 @@ const Footer = ({ copyrightStyle, ...props }) => {
                         </Col>
                         <Col lg={2} md={4} sm={6}>
                             <FooterWidget responsive={{ medium: { mb: '31px' } }}>
-                                <Heading as="h6" mt="-3px" mb="20px">IT Services</Heading>
+                                <Heading as="h6" mt="-3px" mb="20px">JUKI</Heading>
                                 <FooterWidgetList>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Managed IT</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">IT Support</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">IT Consultancy</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Cloud Computing</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Cyber Security</Anchor></li>
+                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Установщики SMT</Anchor></li>
+                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Принтеры</Anchor></li>
+                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Паяльные печи</Anchor></li>
+                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Инспекция</Anchor></li>
+                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Склады</Anchor></li>
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>

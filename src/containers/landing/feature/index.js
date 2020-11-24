@@ -13,6 +13,7 @@ const Feature = ({ slider }) => {
         items {
           title
           desc
+          path
           image {
             childImageSharp {
               fixed(width: 200) {
@@ -37,7 +38,7 @@ const Feature = ({ slider }) => {
                 title={feature.title}
                 desc={feature.desc}
                 imageSrc={feature.image.childImageSharp.fixed.src}
-                
+                path={feature.path}
               />
             </div>
           )

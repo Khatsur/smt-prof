@@ -39,14 +39,16 @@
                 "id": 1,
                 "image": "../images/icons/icon-13-80x83.png",
                 "title": "Оборудование для SMT",
-                "desc": "Поставка оборудования для поверхностного монтажа и монтажа в отверстия."
+                "desc": "Поставка оборудования для поверхностного монтажа и монтажа в отверстия.",
+                "path": "/machines"
                 
             },
             {
                 "id": 2,
                 "image": "../images/icons/icon-14-80x83.png",
                 "title": "Материалы для монтажа",
-                "desc": "Материалы для монтажа, мойки плат и трафаретов. Защитные покрытия для плат."
+                "desc": "Материалы для монтажа, мойки плат и трафаретов. Защитные покрытия для плат.",
+                "path": "/materials"
             },
             {
                 "id": 3,
@@ -83,7 +85,7 @@
                 "image": "../images/icons/icon-14-80x83.png",
                 "title": "Матеріали для монтажу",
                 "desc": "Матеріали для монтажу, мийки плат і трафаретів. Захисні покриття для плат.",
-                "path": "/ua"
+                "path": "/ua/materials"
             },
             {
                 "id": 3,
@@ -116,14 +118,14 @@
                 "image": "../images/icons/icon-13-80x83.png",
                 "title": "Machines for SMT",
                 "desc": "Supply of machines for surface mounting and  through holes mounting.",
-                "path": "/ua"
+                "path": "/en/machines"
             },
             {
                 "id": 2,
                 "image": "../images/icons/icon-14-80x83.png",
                 "title": "Materials for soldering",
                 "desc": "Materials for soldering, cleaning boards and stencils. Conformal coatings for PCBA.",
-                "path": "/ua"
+                "path": "/en/materials"
             },
             {
                 "id": 3,
