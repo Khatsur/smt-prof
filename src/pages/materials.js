@@ -3,7 +3,7 @@ import SEO from "../components/seo"
 import Layout from '../containers/layout/layout'
 import Header from '../containers/layout/header/header-three'
 import Footer from '../containers/layout/footer/footer-one'
-import HeroArea from '../containers/machines/hero-area'
+import HeroArea from '../containers/materials/hero-area'
 import FeaturesArea from '../containers/machines/features-area'
 import FunFactArea from '../containers/machines/funfact-area'
 import ServicesArea from '../containers/machines/juki'
