@@ -47,6 +47,7 @@ exports.components = {
   "component---src-pages-elements-typed-text-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/elements/typed-text.js"))),
   "component---src-pages-en-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/en/index.js"))),
   "component---src-pages-en-machines-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/en/machines/index.js"))),
+  "component---src-pages-en-materials-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/en/materials/index.js"))),
   "component---src-pages-faq-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/faq.js"))),
   "component---src-pages-index-appointment-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/index-appointment.js"))),
   "component---src-pages-index-cybersecurity-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/index-cybersecurity.js"))),

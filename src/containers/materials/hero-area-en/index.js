@@ -11,17 +11,17 @@ import Carousel from 'react-bootstrap/Carousel'
 
 const HeroArea = (props) => {
     const heroData = useStaticQuery(graphql `
-        query MaterialsQueryUa {
+        query MaterialsQueryEn {
             indexResolutionsJson(id: {eq: "materials-content"}) {
-                uatitle
-                uatitle_tht
-                title_clean
-                uatitle_coating
+                entitle
+                entitle_tht
+                entitle_clean
+                entitle_coating
                 title_aoi
-                uasubtitle
-                uatext_solder
-                uatext_coating
-                uatext_clean
+                ensubtitle
+                entext_solder
+                entext_coating
+                entext_clean
                 link
                 video_link
                 bg_image {
@@ -72,7 +72,7 @@ const HeroArea = (props) => {
             }
         }      
     `);
-    const {uatitle, uatitle_tht, uatitle_coating, uasubtitle, uatext_solder, uatext_clean, uatext_coating, bg_image, bg_image2, bg_image4, link, video_link} = heroData.indexResolutionsJson;
+    const {entitle, entitle_clean, entitle_coating, ensubtitle, entext_solder, entext_clean, entext_coating, bg_image, bg_image2, bg_image4, link, video_link} = heroData.indexResolutionsJson;
     const {subtitleStyle, titleStyle, textStyle, btnStyle, consult_btn, work_btn} = props;
     let video_arr, video_id, video_channel;
     if(video_link){
@@ -96,11 +96,11 @@ const HeroArea = (props) => {
                     <Row>
                         <Col lg={12}>
                             <HeroContent>
-                                {uasubtitle && <Heading {...subtitleStyle}>{uasubtitle}</Heading>}
-                                {uatitle && <Heading {...titleStyle}>{uatitle}</Heading>}
-                                {uatext_solder && <Text {...textStyle}>{uatext_solder}</Text>}
+                                {ensubtitle && <Heading {...subtitleStyle}>{ensubtitle}</Heading>}
+                                {entitle && <Heading {...titleStyle}>{entitle}</Heading>}
+                                {entext_solder && <Text {...textStyle}>{entext_solder}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Докладно...</Button>}
+                                    {link && <Button {...btnStyle} {...consult_btn}>Find out more...</Button>}
                                     
                                 </HeroBtnGroup>
                             </HeroContent>
@@ -129,11 +129,11 @@ const HeroArea = (props) => {
                     <Row>
                         <Col lg={12}>
                             <HeroContent>
-                                {uasubtitle && <Heading {...subtitleStyle}>{uasubtitle}</Heading>}
-                                {uatitle_tht && <Heading {...titleStyle}>{uatitle_tht}</Heading>}
-                                {uatext_clean && <Text {...textStyle}>{uatext_clean}</Text>}
+                                {ensubtitle && <Heading {...subtitleStyle}>{ensubtitle}</Heading>}
+                                {entitle_clean && <Heading {...titleStyle}>{entitle_clean}</Heading>}
+                                {entext_clean && <Text {...textStyle}>{entext_clean}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Докладно...</Button>}
+                                    {link && <Button {...btnStyle} {...consult_btn}>Find out more...</Button>}
                                     
                                 </HeroBtnGroup>
                             </HeroContent>
@@ -162,11 +162,11 @@ const HeroArea = (props) => {
                     <Row>
                         <Col lg={12}>
                             <HeroContent>
-                                {uasubtitle && <Heading {...subtitleStyle}>{uasubtitle}</Heading>}
-                                {uatitle_coating && <Heading {...titleStyle}>{uatitle_coating}</Heading>}
-                                {uatext_coating && <Text {...textStyle}>{uatext_coating}</Text>}
+                                {ensubtitle && <Heading {...subtitleStyle}>{ensubtitle}</Heading>}
+                                {entitle_coating && <Heading {...titleStyle}>{entitle_coating}</Heading>}
+                                {entext_coating && <Text {...textStyle}>{entext_coating}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Докладно...</Button>}
+                                    {link && <Button {...btnStyle} {...consult_btn}>Find out more...</Button>}
                                     
                                 </HeroBtnGroup>
                             </HeroContent>

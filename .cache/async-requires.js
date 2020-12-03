@@ -44,6 +44,7 @@ exports.components = {
   "component---src-pages-elements-typed-text-js": () => import("./../src/pages/elements/typed-text.js" /* webpackChunkName: "component---src-pages-elements-typed-text-js" */),
   "component---src-pages-en-index-js": () => import("./../src/pages/en/index.js" /* webpackChunkName: "component---src-pages-en-index-js" */),
   "component---src-pages-en-machines-index-js": () => import("./../src/pages/en/machines/index.js" /* webpackChunkName: "component---src-pages-en-machines-index-js" */),
+  "component---src-pages-en-materials-index-js": () => import("./../src/pages/en/materials/index.js" /* webpackChunkName: "component---src-pages-en-materials-index-js" */),
   "component---src-pages-faq-js": () => import("./../src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
   "component---src-pages-index-appointment-js": () => import("./../src/pages/index-appointment.js" /* webpackChunkName: "component---src-pages-index-appointment-js" */),
   "component---src-pages-index-cybersecurity-js": () => import("./../src/pages/index-cybersecurity.js" /* webpackChunkName: "component---src-pages-index-cybersecurity-js" */),
