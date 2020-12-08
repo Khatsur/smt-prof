@@ -1,0 +1,17 @@
+{
+    "id": "6-residues",
+    "title": "Загрязнения",
+    "uatitle": "Переміщення плат",
+    "entitle": "Handling",
+    "excerpt": "Решение JUKI по перемещению плат позволяют  подобрать оборудование под  индивидуальные требования. От небольших производств до крупных линейных решений. Специальные предложения для нестандартных задач.",
+    "uaexcerpt": "Рішення JUKI по переміщенню плат дозволяють підібрати обладнання під індивідуальні вимоги. Від невеликих виробництв до великих лінійних рішень. Спеціальні пропозиції для нестандартних завдань.",
+    "enexcerpt": "JUKI's board handling solution allows you to customize the equipment to your individual requirements. From small production facilities to big line solutions. Special offers for non-standard tasks.",
+    "excerpt2": "Оборудование для поверхностного монтажа.",
+    "icon": {
+        "svg": "../../../images/icons/handling.svg",
+        "img": "../../../images/icons/icon-04-100x108.png",
+        "img_two": "../../../images/icons/smt-icon-1.png",
+        "img_hover": "../../../images/icons/smt-icon-b.png"
+    },
+    "is_featured": true
+}

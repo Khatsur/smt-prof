@@ -1,7 +1,7 @@
 import React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 import {Container, Row, Col} from '../../../components/ui/wrapper'
-import FeatureBox from '../../../components/box-image/layout-five'
+import FeatureBox from '../../../components/box-image/layout-five-en'
 import Heading from '../../../components/ui/heading'
 import Anchor from '../../../components/ui/anchor'
 import {SectionWrap} from './machines-en.style'
