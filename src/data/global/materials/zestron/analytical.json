@@ -1,14 +1,14 @@
 {
     "id": "8-analitics",
-    "title": "Тестирование покрытия",
-    "uatitle": "Переміщення плат",
-    "entitle": "Handling",
-    "excerpt": "Решение JUKI по перемещению плат позволяют  подобрать оборудование под  индивидуальные требования. От небольших производств до крупных линейных решений. Специальные предложения для нестандартных задач.",
-    "uaexcerpt": "Рішення JUKI по переміщенню плат дозволяють підібрати обладнання під індивідуальні вимоги. Від невеликих виробництв до великих лінійних рішень. Спеціальні пропозиції для нестандартних завдань.",
-    "enexcerpt": "JUKI's board handling solution allows you to customize the equipment to your individual requirements. From small production facilities to big line solutions. Special offers for non-standard tasks.",
+    "title": "Аналитика",
+    "uatitle": "Аналітика",
+    "entitle": "Analytics",
+    "excerpt": "Тестирование чистоты электронных сборок на соответствие  стандартам IPC, MIL в компании Zestron. Использование визуальных, химически и физических методов тестирования.",
+    "uaexcerpt": "Тестування чистоти електронних блоків на відповідність стандартам IPC, MIL в компанії Zestron. Використання візуальних, хімічних і фізичних методів тестування.",
+    "enexcerpt": "Testing the cleanliness of electronic assemblies for compliance with IPC, MIL standards by Zestron. Using visual, chemical and physical testing methods.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
-        "svg": "../../../images/icons/handling.svg",
+        "svg": "../../../images/icons/analitics.svg",
         "img": "../../../images/icons/icon-04-100x108.png",
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"

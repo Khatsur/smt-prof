@@ -8,7 +8,7 @@ import {SectionWrap} from './services-area.style'
 const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
     const servicesData = useStaticQuery(graphql `
         query ZestronQuery {
-            indexResolutionsJson(id: {eq: "resolutions-services-content"}) {
+            indexResolutionsJson(id: {eq: "materials-zestron-content"}) {
                 title
                 subtitle
             }

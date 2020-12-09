@@ -1,0 +1,17 @@
+{
+    "id": "4-pallete",
+    "title": "Чистка оснастки",
+    "uatitle": "Чищення оснастки",
+    "entitle": "Pallets cleaning",
+    "excerpt": "Моющие жидкости для технического обслуживание оборудования для пайки. Мойка технологической оснастки для оборудования для пайки и оборудования для нанесения защитных покрытий.",
+    "uaexcerpt": "Миючі рідини для технічного обслуговування обладнання для паяння. Мийка технологічного устаткування для обладнання для паяння та обладнання для нанесення захисних покриттів.",
+    "enexcerpt": "Cleaning liquids for maintenance of soldering machines. Cleaning pallets for wave and selective soldering machine and for conformal coating machines.",
+    "excerpt2": "Оборудование для поверхностного монтажа.",
+    "icon": {
+        "svg": "../../../images/icons/pallete-cleaning.svg",
+        "img": "../../../images/icons/icon-04-100x108.png",
+        "img_two": "../../../images/icons/smt-icon-1.png",
+        "img_hover": "../../../images/icons/smt-icon-b.png"
+    },
+    "is_featured": true
+}
