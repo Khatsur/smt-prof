@@ -13,5 +13,6 @@
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"
     },
+    "path": "/",
     "is_featured": true
 }

@@ -4,8 +4,8 @@
     "uatitle": "Чищення машин",
     "entitle": "Machines cleaning",
     "excerpt": "Моющие жидкости для технического обслуживание оборудования для пайки. Мойка паяльных печей, оборудования для пайки волной припоя и селективной пайки. Ручная и машинная мойка.",
-    "uaexcerpt": "Миючі рідини для технічного обслуговування обладнання для пайки. Мийка паяльних печей, устаткування для пайки хвилею припою і селективної пайки. Ручне і машинне очищення.",
-    "enexcerpt": "Cleaning liquids for maintenance of soldering machines. Cleaning of soldering ovens, wave soldering and selective soldering machines. Hand and machine cleaning.",
+    "uaexcerpt": "Миючі рідини для технічного обслуговування обладнання для пайки. Мийка паяльних печей, устаткування для пайки хвилею припою і селективної пайки. Ручне і машинне очищення частин обладнання.",
+    "enexcerpt": "Cleaning liquids for maintenance of soldering machines. Cleaning of soldering ovens, wave soldering and selective soldering machines. Hand and machine cleaning machines parts.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../../images/icons/oven-cleaning.svg",
@@ -13,5 +13,6 @@
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"
     },
+    "path": "/",
     "is_featured": true
 }

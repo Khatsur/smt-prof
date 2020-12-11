@@ -4,7 +4,7 @@
     "uatitle": "Інспекція чистоти",
     "entitle": "Cleanliness",
     "excerpt": "Определения наличия на электронных сборках остатков активаторов после пайки. Анализ чистоты поверхности печатной платы. Возможность определить  локальное распределение загрязнений на плате.",
-    "uaexcerpt": "Визначення наявності на електронних блоках залишків активаторів після паяння. Аналіз чистоти поверхні друкованої плати. Визначення локального розподілу забруднень на платі.",
+    "uaexcerpt": "Визначення наявності на електронних блоках залишків активаторів після паяння. Аналіз чистоти поверхні друкованої плати. Визначення локального розподілу забруднень на друкованій платі.",
     "enexcerpt": "Indication of activator residues on electronic assemblies after soldering. Analysis of the cleanliness  of a printed circuit board. Possibility to determine the local distribution of contamination on the board.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
@@ -13,5 +13,6 @@
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"
     },
+    "path": "/",
     "is_featured": true
 }

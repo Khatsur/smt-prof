@@ -4,8 +4,8 @@
     "uatitle": "Контроль процесів",
     "entitle": "Process control",
     "excerpt": "Технические средства и наборы для мониторинга концентрации моющего раствора. Автоматические устройства, которые встраиваются в оборудование. Мобильные наборы для мониторинга.",
-    "uaexcerpt": "Технічні засоби і набори для моніторингу концентрації миючого розчину. Автоматичні пристрої, які вбудовуються в обладнання. Мобільні набори для моніторингу.",
-    "enexcerpt": "Instruments and chemical kits for monitoring the concentration of the cleaning solution. Automatic devices that are built into equipment. Mobile monitoring kits.",
+    "uaexcerpt": "Технічні засоби і набори для моніторингу концентрації миючого розчину. Автоматичні пристрої, які вбудовуються в обладнання. Мобільні набори для моніторингу концентрації безпосередньо на робочому місці.",
+    "enexcerpt": "Instruments and chemical kits for monitoring the concentration of the cleaning solution. Automatic devices that are built into cleaning machines. Mobile monitoring kits for a local analysis.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../../images/icons/concentration.svg",
@@ -13,5 +13,6 @@
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"
     },
+    "path": "/",
     "is_featured": true
 }

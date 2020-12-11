@@ -4,8 +4,8 @@
     "uatitle": "Аналітика",
     "entitle": "Analytics",
     "excerpt": "Тестирование чистоты электронных сборок на соответствие  стандартам IPC, MIL в компании Zestron. Использование визуальных, химически и физических методов тестирования.",
-    "uaexcerpt": "Тестування чистоти електронних блоків на відповідність стандартам IPC, MIL в компанії Zestron. Використання візуальних, хімічних і фізичних методів тестування.",
-    "enexcerpt": "Testing the cleanliness of electronic assemblies for compliance with IPC, MIL standards by Zestron. Using visual, chemical and physical testing methods.",
+    "uaexcerpt": "Тестування чистоти електронних блоків на відповідність міжнародним стандартам IPC, MIL в компанії Zestron. Використання візуальних, хімічних і фізичних методів вимірювання забруднення.",
+    "enexcerpt": "Testing the cleanliness of electronic assemblies for compliance with IPC, MIL international standards by Zestron. Using visual, chemical and physical testing and measurement methods.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../../images/icons/analitics.svg",
@@ -13,5 +13,6 @@
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"
     },
+    "path": "/",
     "is_featured": true
 }
