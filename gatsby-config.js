@@ -213,21 +213,15 @@ module.exports = {
 			}
 		},
 		{
-			resolve: `gatsby-plugin-prefetch-google-fonts`,
-			options: {
+			resolve: `gatsby-plugin-google-fonts`,
+            options: {
 				fonts: [
-					{
-						family: `Rubik`,
-						subsets: [`cyrillic`],
-						variants: [`100`, `300`, `400`, `500`, `700`, `900`, `100i`, `300i`, `400i`, `500i`, `700i`, `900i`]
-					},
-					{
-						family: `Open Sans`,
-						subsets: [`cyrillic`],
-						variants: [`300`, `400`, `600`, `700`, `800`, `300i`, `400i`, `600i`, `700i`, `800i`]
-					},
+				`roboto\:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i`,
+				`open sans\:300,400,600,700,800,300i,400i,600i,700i,800i`
 				],
-			},
-		}
+				display: 'swap'
+			}
+      }
+
 	]
 }
