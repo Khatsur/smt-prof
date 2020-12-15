@@ -69,6 +69,19 @@
         "bgImage": "./images/bg/case-study-section-bg.png"
     },
     {
+        "id": "budget-stencil-cleaning",
+        "title": "Бюджетные решения для чистки  SMT трафаретов<br><span>Гарантия качества нанесения пасты.</span>",
+        "uatitle": "Комплексні рішення для поверхневого монтажу<br><span>SMT лінія - 3 роки гарантії</span>",
+        "entitle": "Complete solutions for surface mounting<br><span>SMT line</span>",
+        "subtitle": "High-End  оборудование для SMT",
+        "uasubtitle": "High-End  обладнання для SMT",
+        "ensubtitle": "High-End SMT machines",
+        "bottom_text": "Challenges are just opportunities in disguise.",
+        "bottom_link_text": "Take the challenge!",
+        "bottom_link": "/case-studies",
+        "bgImage": "./images/bg/case-study-section-bg.png"
+    },
+    {
         "id": "appointment-contact-section",
         "title": "Need a hand?",
         "subtitle": "Reach out to the world’s most reliable IT services.",

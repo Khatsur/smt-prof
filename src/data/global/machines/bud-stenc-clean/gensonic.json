@@ -1,0 +1,26 @@
+{
+    "id": "1-gensonic",
+    "title": "Устройство для чистки",
+    "uatitle": "Принтер паяльної пасти",
+    "entitle": "Solder paste printer",
+    "category": "Gensonic",
+    "excerpt": "Инспекция нанесения пасты и чистоты апертур трафарета в базовой комплектации.",
+    "uaexcerpt": "Інспекція нанесення пасти і чистоти апертур трафарету в базовій комплектації.",
+    "enexcerpt": "Solder paste inspection and stencil apertures inspection in standard configuration.",
+    "tagline": "A Freeserve case study on expanding market",
+    "logo": "../../images/icons/case-study-04-logo-83x108.png",
+    "image": "../../../images/box-image/G-Titan-Juki.png",
+    "slide_image": "../../images/box-image/case-study-slide-image-01.png",
+    "is_featured": true,
+    "banner_image": "../../images/banner/banner-04.jpg",
+    "overview": {
+        "heading": "Inventions, literary works, music & design are all intangible assets. The legal right to these ‘creations of the mind’ is Intellectual Property (IP).",
+        "short_desc": "The studio was keen to create an identity that would not interfere with any of the existing brands, settling on a helicoid system that can be easily adapted to “work with any colour system”. The studio consulted with the various brands throughout the process. (Source: designweek.co.uk)",
+        "tags": ["basic"],
+        "client": {
+            "name": "Maggie Strickland",
+            "designation": "Group Chief Information",
+            "company": "Aqua Group"
+        }
+    }
+}
