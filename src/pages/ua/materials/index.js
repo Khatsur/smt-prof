@@ -13,12 +13,12 @@ import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
 import CTAArea from '../../../containers/global/cta-area/section-one'
 import ClientsArea from '../../../containers/global/clients-area'
 import BlogArea from '../../../containers/index-services/blog-area';
-import CaseStudyArea from '../../../containers/machines/smt-big-ua'
+import CaseStudyArea from '../../../containers/machines/bud-stenc-clean-ua'
 
 
 const IndexServices = ({ location, pageFromCMS }) => (
   <Layout location={location}>
-    <SEO title="Обладнання для SMD монтажу" description="SMT PROF- обладнання для поверхневого монтажу, обладнання для SMT, SMT PROF - перший український проект з оснащення виробництв монтажу друкованих плат" pathname="обладнання-для-smd-монтажу" />
+    <SEO title="Матеріалі для SMT" description="Матеріали для SMT, Паяльна паста Indium 8.9, Паяльна паста Indium NC-SMQ92J, рідини для миття плат, VIGON, захисні покриття, lead free, PB free, HumiSeal" pathname="матеріали-для-smt" />
     <Header transparent />
     <main className="site-wrapper-reveal">
     <HeroArea />

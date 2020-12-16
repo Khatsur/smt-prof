@@ -24,6 +24,7 @@ const CaseStudySection = ({
           id
           title
           subtitle
+          rutext
           bottom_text
           bottom_link_text
           bottom_link
@@ -71,6 +72,8 @@ const CaseStudySection = ({
                             title={caseStudySecData.title}
                             subtitle={caseStudySecData.subtitle}
                         />
+                        <div style={{fontSize: 16}}>{caseStudySecData.rutext}</div><br></br>
+                        
                     </Col>
                 </Row>
                 <Row>
