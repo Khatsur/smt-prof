@@ -19,7 +19,9 @@ export const MegamenuWrap = styled.ul`
     width: 100%;
     padding: 35px 20px 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
 	ul{
 		pointer-events: none;
 	}

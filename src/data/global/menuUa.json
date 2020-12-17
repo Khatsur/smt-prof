@@ -189,6 +189,23 @@
                         "link": "/elements/typed-text"
                     }
                 ]
+            }, 
+            {
+                "title": "Element Group 05",
+                "submenu": [
+                    {
+                        "text": "Testimonials",
+                        "link": "/elements/testimonials"
+                    },
+                    {
+                        "text": "Timeline",
+                        "link": "/elements/timeline"
+                    },
+                    {
+                        "text": "Typed Text",
+                        "link": "/elements/typed-text"
+                    }
+                ]
             }
         ]
     },
