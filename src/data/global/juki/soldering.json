@@ -5,7 +5,7 @@
     "entitle": "Reflow",
     "excerpt": "Паяльные печи JUKI обеспечивают минимальный разброс температур на электронных сборках. Возможность пайки в азотной среде. Минимальное техническое обслуживание. Интеграция в систему управления.",
     "uaexcerpt": "Паяльні печі JUKI забезпечують мінімальний відхилення температур на електронних платах. Можливість пайки в азотному середовищі. Мінімальне технічне обслуговування. Інтеграція в систему управління.",
-    "enexcerpt": "JUKI brazing ovens ensure the minimum temperature variation on electronic assemblies. Soldering in nitrogen atmosphere. Minimal maintenance. Integration into the management system.",
+    "enexcerpt": "JUKI reflow ovens ensure the minimum temperature variation on electronic assemblies. Soldering in nitrogen atmosphere. Minimal maintenance. Integration into the management system.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/soldering.svg",

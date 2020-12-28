@@ -1,12 +1,12 @@
 {
     "id": "3-mass-production",
     "title": "Серийное производство электроники",
-    "uatitle": "Паяльна паста і припій.",
-    "entitle": "Solder pastes, solder wires.",
+    "uatitle": "Серійне виробництво електроніки",
+    "entitle": "Serial production of electronics",
     "title2": "Установщики SMT",
     "excerpt": "Комплексные решения для серийного производства монтажа печатных плат. Полностью автоматизированные производственные линии для поверхностного монтажа. Автоматическая инспекция на разных стадиях производства.",
-    "uaexcerpt": "Матеріали для для свинцевої і Lead-free пайки. Паяльна паста преміум класу - Indium. Припій в дроті з флюсом для ручної пайки. Бруски для пайки хвилею припою.",
-    "enexcerpt": "Materials for lead and lead-free soldering. Indium solder pastes. Core solder wire for manual and roboics soldering. Bars for wave and selective soldering.",
+    "uaexcerpt": "Комплексні рішення для серійного виробництва монтажу друкованих плат. Повністю автоматизовані виробничі лінії для поверхневого монтажу, монтажу в отвори друкованих плат та змішаного монтажу.",
+    "enexcerpt": "Complete solutions for serial production of PCB assembly. Fully automated production lines for surface mounting and through hole assembly. Automatic inspection at different stages of production.",
     "path": "ua/machines",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {

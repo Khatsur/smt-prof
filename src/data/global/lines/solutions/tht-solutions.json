@@ -1,0 +1,18 @@
+{
+    "id": "2-tht-solutions",
+    "title": "Монтаж в отверстия",
+    "uatitle": "Монтаж в отвори",
+    "entitle": "THT",
+    "excerpt": "Комплексные решения для монтажа электронных компонентов в отверстия печатных плат. Полная автоматизация установки компонентов в отверстия плат. Селективная и групповая пайка.",
+    "uaexcerpt": "Комплексні рішення для монтажу електронних компонентів в отвори друкованих плат. Повна автоматизація встановлення компонентів в отвори плат. Селективна і групова пайка компонентів.",
+    "enexcerpt": "Complete solutions for through hole electronics components mounting. Full automation of component placing into PCB holes. Selective and wave soldering.",
+    "excerpt2": "Оборудование для поверхностного монтажа.",
+    "icon": {
+        "svg": "../../../images/icons/pcb-cleaning.svg",
+        "img": "../../../images/icons/icon-04-100x108.png",
+        "img_two": "../../../images/icons/smt-icon-1.png",
+        "img_hover": "../../../images/icons/smt-icon-b.png"
+    },
+    "path": "/",
+    "is_featured": true
+}

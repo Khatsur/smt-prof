@@ -127,6 +127,15 @@
         "ensubtitle": "ELECTRONICS ASSEMBLY"
     },
     {
+        "id": "solutions-lines-content",
+        "title": "Комплексные решения для производства электроники<br/> <span>Автоматизация процессов сборки </span>",
+        "uatitle": "Комплексні рішення для виробництва електроніки<br/> <span>Автоматизація процесів складання плат</span>",
+        "entitle": "Complete solutions for electronics manufacturing<br/> <span>Automation of PCBA processes</span>",
+        "subtitle": "ПОВЕРХНОСТНЫЙ МОНТАЖ И МОНТАЖ В ОТВЕРСТИЯ, ЗАЩИТА И ИНСПЕКЦИЯ",
+        "uasubtitle": "ПОВЕРХНЕВИЙ МОНТАЖ І МОНТАЖ В ОТВОРИ, ЗАХИСТ І ІНСПЕКЦІЯ",
+        "ensubtitle": "SMT, THT, COATING, INSPECTIONS "
+    },
+    {
         "id": "resolutions-new-content",
         "list": [
             {

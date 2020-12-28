@@ -1,12 +1,12 @@
 {
     "id": "2-small-production",
     "title": "Мелкосерийное производство SMT",
-    "uatitle": "Паяльна паста і припій.",
-    "entitle": "Solder pastes, solder wires.",
+    "uatitle": "Дрібносерійне виробництво SMT",
+    "entitle": "Small series electronics production",
     "title2": "Установщики SMT",
     "excerpt": "Комплексные решения для мелкосерийного производства электронных изделий. Отдельно стоящее оборудование для монтажа электронных компонентов на платы и небольшие производственные линии для автоматизации поверхностного монтажа.",
-    "uaexcerpt": "Матеріали для для свинцевої і Lead-free пайки. Паяльна паста преміум класу - Indium. Припій в дроті з флюсом для ручної пайки. Бруски для пайки хвилею припою.",
-    "enexcerpt": "Materials for lead and lead-free soldering. Indium solder pastes. Core solder wire for manual and roboics soldering. Bars for wave and selective soldering.",
+    "uaexcerpt": "Комплексні рішення для мало-серійного виробництва електронних виробів. Окремо розташоване обладнання для монтажу електронних компонентів на плати і невеликі виробничі лінії для автоматизації поверхневого монтажу.",
+    "enexcerpt": "Complete solutions for small production of electronic products. Stand-alone machines for mounting electronic components on boards and small production lines for SMD mounting automation.",
     "path": "ua/machines",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
