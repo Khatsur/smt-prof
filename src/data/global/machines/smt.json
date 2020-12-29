@@ -12,8 +12,8 @@
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
         "img": "../../images/icons/icon-04-100x108.png",
-        "img_two": "../../images/icons/smt-icon-1.png",
-        "img_hover": "../../images/icons/smt-icon-b.png"
+        "img_two": "../../images/icons/machines/smt-icon-1.png",
+        "img_hover": "../../images/icons/machines/smt-icon-b.png"
     },
     "is_featured": true,
     "banner_image": "../../images/banner/banner-01.jpg",

@@ -12,8 +12,8 @@
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
         "img": "../../images/icons/icon-04-100x108.png",
-        "img_two": "../../images/icons/cleaning-icon.png",
-        "img_hover": "../../images/icons/cleaning-icon-b.png"
+        "img_two": "../../images/icons/machines/cleaning-icon.png",
+        "img_hover": "../../images/icons/machines/cleaning-icon-b.png"
     },
     "is_featured": true,
     "banner_image": "../../images/banner/banner-01.jpg",
