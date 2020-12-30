@@ -1,6 +1,6 @@
 {
     "id": "1-smt-solutions",
-    "title": "Поверхностный монтаж",
+    "title": "Монтаж SMT",
     "uatitle": "Монтаж на поверхню",
     "entitle": "SMT",
     "excerpt": "Комплексные решения для SMT. Производственные линии для поверхностного монтажа (SMT) производства монтажа печатных плат. Оборудование начального уровня для мелкосерийного производства и линии для серийных производств.",
@@ -8,7 +8,7 @@
     "enexcerpt": "Complete solutions for SMT. Production lines for SMT of PCB assembly production. Entry-level machines for small production and mass production lines.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
-        "svg": "../../../images/icons/pcb-cleaning.svg",
+        "svg": "../../../images/icons/materials/zestron/pcb-cleaning.svg",
         "img": "../../../images/icons/icon-04-100x108.png",
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"

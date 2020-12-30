@@ -12,8 +12,8 @@
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
         "img": "../../images/icons/icon-04-100x108.png",
-        "img_two": "../../images/icons/prototyping-icon.png",
-        "img_hover": "../../images/icons/prototyping-icon-blue.png"
+        "img_two": "../../images/icons/lines/prototyping-icon.png",
+        "img_hover": "../../images/icons/lines/prototyping-icon-blue.png"
     },
     "is_featured": true,
     "video": {

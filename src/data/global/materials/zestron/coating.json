@@ -7,7 +7,7 @@
     "uaexcerpt": "Засоби для аналізу і тестування захисного покриття на електронних блоках. Визначення дефектів нанесення захисних покриттів на поверхні плати і на краях без пошкодження шару лаку.",
     "enexcerpt": "Tools for the analysis and testing of protective coatings on electronic assemblies. Determination of defects at the protective coatings on the surface of the PCB and on the edges without damaging the conformal coating.",
     "icon": {
-        "svg": "../../../images/icons/residues.svg",
+        "svg": "../../../images/icons/materials/zestron/residues.svg",
         "img": "../../../images/icons/icon-04-100x108.png",
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"

@@ -2,7 +2,7 @@ import React from "react"
 import SEO from "../../../components/seo"
 import Layout from '../../../containers/layout/layout'
 import Header from '../../../containers/layout/header/header-three-en'
-import Footer from '../../../containers/layout/footer/footer-one-ua'
+import Footer from '../../../containers/layout/footer/footer-one-en'
 import HeroArea from '../../../containers/materials/hero-area-en'
 import FeaturesArea from '../../../containers/materials/materials-en'
 import FunFactArea from '../../../containers/machines/funfact-area'

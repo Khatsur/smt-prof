@@ -8,7 +8,7 @@
     "enexcerpt": "Instruments and chemical kits for monitoring the concentration of the cleaning solution. Automatic devices that are built into cleaning machines. Mobile monitoring kits for a local analysis.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
-        "svg": "../../../images/icons/concentration.svg",
+        "svg": "../../../images/icons/materials/zestron/concentration.svg",
         "img": "../../../images/icons/icon-04-100x108.png",
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"

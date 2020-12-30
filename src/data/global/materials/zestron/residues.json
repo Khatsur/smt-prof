@@ -8,7 +8,7 @@
     "enexcerpt": "Indication of activator residues on electronic assemblies after soldering. Analysis of the cleanliness  of a printed circuit board. Possibility to determine the local distribution of contamination on the board.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
-        "svg": "../../../images/icons/residues.svg",
+        "svg": "../../../images/icons/materials/zestron/residues.svg",
         "img": "../../../images/icons/icon-04-100x108.png",
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"

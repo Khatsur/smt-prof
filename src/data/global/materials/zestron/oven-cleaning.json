@@ -8,7 +8,7 @@
     "enexcerpt": "Cleaning liquids for maintenance of soldering machines. Cleaning of soldering ovens, wave soldering and selective soldering machines. Hand and machine cleaning machines parts.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
-        "svg": "../../../images/icons/oven-cleaning.svg",
+        "svg": "../../../images/icons/materials/zestron/oven-cleaning.svg",
         "img": "../../../images/icons/icon-04-100x108.png",
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"

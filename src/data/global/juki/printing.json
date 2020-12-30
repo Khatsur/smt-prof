@@ -8,7 +8,7 @@
     "enexcerpt": "JUKI stencil printers are machines of the highest quality. Available for various PCB sizes. Used with JUKI mounters, with JUKI soldering ovens, creating SMART SMT solutions.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
-        "svg": "../../images/icons/printing.svg",
+        "svg": "../../images/icons/machines/juki/printing.svg",
         "img": "../../images/icons/icon-04-100x108.png",
         "img_two": "../../images/icons/smt-icon-1.png",
         "img_hover": "../../images/icons/smt-icon-b.png"
