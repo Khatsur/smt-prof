@@ -13,7 +13,7 @@ import WhatsnewArea from '../../../containers/machines/whats-new-area-en'
 import CTAArea from '../../../containers/global/cta-area/section-one'
 import ClientsArea from '../../../containers/global/clients-area'
 import BlogArea from '../../../containers/index-services/blog-area'
-import CaseStudyArea from '../../../containers/machines/bud-stenc-clean'
+import SmtLineJukiEn from '../../../containers/machines/smt-big-en'
 
 
 const Materials = ({ location, pageFromCMS }) => (
@@ -25,7 +25,7 @@ const Materials = ({ location, pageFromCMS }) => (
       <HeroArea />
       <FeaturesArea />
       <ServicesArea />
-      <CaseStudyArea/>
+      <SmtLineJukiEn/>
       <ContactArea />
       <WhatsnewArea />
     </main>

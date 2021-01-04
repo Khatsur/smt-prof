@@ -2,7 +2,7 @@ import React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 import {Container, Row, Col} from '../../../components/ui/wrapper'
 import SectionTitle from '../../../components/ui/section-title'
-import ServiceBox from '../../../components/box-icon/layout-one'
+import ServiceBox from '../../../components/box-icon/layout-one-en'
 import {SectionWrap} from './services-area.style'
 
 const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {

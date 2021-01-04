@@ -13,7 +13,7 @@ import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
 import CTAArea from '../../../containers/global/cta-area/section-one'
 import ClientsArea from '../../../containers/global/clients-area'
 import BlogArea from '../../../containers/index-services/blog-area'
-import CaseStudyArea from '../../../containers/machines/bud-stenc-clean'
+import CaseStudyArea from '../../../containers/machines/smt-big-ua'
 
 
 const Materials = ({ location, pageFromCMS }) => (
