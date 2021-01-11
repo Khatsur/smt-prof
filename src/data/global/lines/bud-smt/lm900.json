@@ -1,0 +1,17 @@
+{
+    "id": "2-lm900",
+    "title": "Манипулятор SMD",
+    "uatitle": "Маніпулятор SMD",
+    "entitle": "SMD manipulator",
+    "category": "LM900",
+    "excerpt": "Оборудование для ручной установки электронных компонентов (SMD) на поверхность печатных плат - поверхностный монтаж (SMT). Манипулятор установки компонентов имеет оптимальную конфигурацию для установки SMD. Работает с различными типами питателей: для ленты, для пенала, для паллеты, с россыпи.",
+    "uaexcerpt": "Обладнання для ручного встановлення електронних компонентів (SMD) на поверхню друкованих плат - монтаж SMT. Маніпулятор компонентів має оптимальну конфігурацію для розміщення SMD. Працює з різними типами податчиків: для стрічки, для пенала, для палети, з розсипу.",
+    "enexcerpt": "Equipment for manual placement of electronic components (SMD) on the surface of printed circuit boards using surface mount technology (SMT). Works with various types of feeders: for tape, for a tube, for a pallet, from a bulk.",
+    "tagline": "A Freeserve case study on expanding market",
+    "logo": "../../images/icons/case-study-04-logo-83x108.png",
+    "image": "../../../images/bg/machines/fritsch/lm/lm900.png",
+    "slide_image": "../../images/box-image/case-study-slide-image-01.png",
+    "is_featured": true,
+    "banner_image": "../../images/banner/banner-04.jpg",
+    "path": "/machines"
+}

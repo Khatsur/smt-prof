@@ -1,0 +1,18 @@
+{
+    "id": "1-sd300",
+    "title": "Принтер паяльной пасты",
+    "uatitle": "Принтер паяльної пасти",
+    "entitle": "Solder paste printer",
+    "category": "SD300",
+    "excerpt": "Принтер для нанесения паяльной пасты с универсальным креплением трафарета. Самая популярная модель. Устройство укомплектовано опорами для нанесения паяльной пасты на двусторонние платы и ракелем. Подходить для применения в условиях мелкосерийного производства монтажа печатных плат.",
+    "uaexcerpt": "Принтер для нанесення паяльної пасти з універсальним кріпленням трафарету. Найпопулярніша модель. Пристрій укомплектовано опорами для нанесення паяльної пасти на двосторонні плати і ракелем. Підходить для застосування в умовах дрібносерійного виробництва монтажу друкованих плат.",
+    "enexcerpt": "Solder paste printer with fixation of stencil without frame. The most popular model. The device is equipped with supports for double-sided  solder paste printing and a squeegee. Suitable for small batch production of PCB assembly.",
+    "tagline": "A Freeserve case study on expanding market",
+    "logo": "../../images/icons/case-study-04-logo-83x108.png",
+    "image": "../../../images/bg/machines/spide/sd/sd300.png",
+    "slide_image": "../../images/box-image/case-study-slide-image-01.png",
+    "is_featured": true,
+    "banner_image": "../../images/banner/banner-04.jpg",
+    "path": "/machines"
+    
+}

@@ -14,12 +14,13 @@ import CTAArea from '../../../containers/global/cta-area/section-one'
 import ClientsArea from '../../../containers/global/clients-area'
 import BlogArea from '../../../containers/index-services/blog-area'
 import SmtLineJukiEn from '../../../containers/machines/smt-big-en'
+import SmallSmt from '../../../containers/lines/small-smt-en'
 
 
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>
     
-    <SEO title="Материалы для SMT" description="Материалы для SMT, Паяльная паста Indium 8.9, Паяльная паста Indium NC-SMQ92J, жидкости для мойки плат, VIGON, защитные покрытия, lead free, PB free, HumiSeal" pathname="материалы-для-smt" />
+    <SEO title="Complete solutions for electronics manufacturing" description="smt line, smt line, smd assembly equipment, surface mount line, surface mount line, smd assembly line, complete solutions for electronics manufacturing" pathname="complete-solutions-for-smt" />
     <Header transparent  />
     <main className="site-wrapper-reveal">
       <HeroArea />
@@ -27,6 +28,7 @@ const Materials = ({ location, pageFromCMS }) => (
       <ServicesArea />
       <SmtLineJukiEn/>
       <ContactArea />
+      <SmallSmt />
       <WhatsnewArea />
     </main>
     <Footer />

@@ -85,6 +85,22 @@
         "bgImage": "./images/bg/case-study-section-bg.png"
     },
     {
+        "id": "small-smt",
+        "title": "Бюджетные решения для мелкосерийного SMT <br><span>Минимальные инвестиции.</span>",
+        "uatitle": "Бюджетні рішення для дрібносерійного SMT<br><span>Мінімальні інвестиції.</span>",
+        "entitle": "Low cost solutions for SMT<br><span>Minimum investment.</span>",
+        "subtitle": "Решения для поверхностного монтажа компонентов",
+        "uasubtitle": "Рішення для поверхневого монтажу компонентів",
+        "ensubtitle": "Solutions for Surface Mount Technology.",
+        "rutext": "Линия SMD монтажа для мелкосерийного производства включает в себя три основные технологические процессы: нанесение паяльной пасты, установка электронных компонентов на печатную плату, оплавление паяльной пасты в печи. Нанесение паяльной пасты осуществляется на простом устройстве трафаретной печати с ручным перемещением ракелей. Для изделий с высокой плотностью монтажа рекомендуются полуавтоматические устройства для нанесения паяльной пасты. Установка электронных компонентов на плату  производится в автоматическом режиме на установщике SMD начального уровня. Оплавление припоя в конвейерной печи начального или среднего уровня. Все оборудование линии SMD монтажа имеет отдельностоящее исполнение и не завязывается в линию.",
+        "uatext": "Лінія SMD монтажу для дрібносерійного виробництва включає в себе три основні технологічні процеси: нанесення паяльної пасти, встановлення електронних компонентів на друковану плату, оплавлення паяльної пасти в печі. Нанесення паяльної пасти здійснюється на простому пристрої трафаретного друку з ручним переміщенням ракелів. Для виробів з високою щільністю монтажу рекомендуються напівавтоматичні пристрої для нанесення паяльної пасти. Встановлення електронних компонентів на плату проводиться в автоматичному режимі на машині для встановлення SMD початкового рівня. Оплавлення припою в конвеєрної печі початкового або середнього рівня. Все обладнання лінії SMD монтажу має окремо-стояче виконання і не зав'язується в лінію.",
+        "entext": "SMD assembly line for small-scale production includes three main technological processes: solder paste printing, mounting of electronic components on a printed circuit board, reflowing solder paste in an reflow oven. Solder paste printed on a simple stencil printer with manual movement of the squeegees. For products with a high mounting density, semi-automatic solder paste printing are recommended. Electronic components mounted automatically on an entry-level SMD placer. Reflow solder in an entry-level or mid-range conveyor reflow oven. All machines of the SMD assembly line has a stand-alone off line design.",
+        "bottom_text": "Challenges are just opportunities in disguise.",
+        "bottom_link_text": "Take the challenge!",
+        "bottom_link": "/case-studies",
+        "bgImage": "./images/bg/case-study-section-bg.png"
+    },
+    {
         "id": "appointment-contact-section",
         "title": "Need a hand?",
         "subtitle": "Reach out to the world’s most reliable IT services.",
