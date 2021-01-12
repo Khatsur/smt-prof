@@ -44,6 +44,7 @@ const CaseStudySection = ({
                 title
                 category
                 excerpt
+                path
                 image {
                   childImageSharp {
                     fluid(maxHeight: 198, quality: 100){
@@ -87,8 +88,8 @@ const CaseStudySection = ({
                                         title={caseStudy.node.title}
                                         category={caseStudy.node.category}
                                         desc={caseStudy.node.excerpt}
-                                        path={caseStudy.node.path}
-                                        btnText="Подробно"
+                                        path={`/${caseStudy.node.path}`}
+                                        btnText="Подробно "
                                     />
                                 </div>
                             ))}
