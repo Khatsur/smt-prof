@@ -63,6 +63,7 @@ exports.components = {
   "component---src-pages-ua-machines-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/machines/index.js"))),
   "component---src-pages-ua-materials-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/materials/index.js"))),
   "component---src-pages-why-choose-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/why-choose-us.js"))),
+  "component---src-pages-machines-smt-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/machines/smt/index.js"))),
   "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
   "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
   "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
