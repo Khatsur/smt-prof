@@ -1,13 +1,13 @@
 [
     {
-        "id": "processing-hero-content",
-        "title": "Virtual technology in a <span>Refined IT System</span>",
-        "subtitle": "IT Software and design",
-        "text": "Set the trends for desktop & server virtualization technology",
+        "id": "smt-hero-content",
+        "title": "Поверхностный монтаж",
+        "subtitle": "Оборудование для SMT",
+        "text": "Нанесение паяльной пасты, установка компонентов, пайка, инспекция",
         "link": "/index-processing",
         "video_link": "https://www.youtube.com/watch?v=vqZuSUtczbU",
-        "bg_image": "./images/hero/slider-processing-slide-01-bg.jpg",
-        "image": "./images/hero/slider-processing-slide-01-image-01.png"
+        "bg_image": "./images/bg/machines/machine-smt.png",
+        "image": "./images/bg/machines/back-machines.png"
     },
     {
         "id": "processing-about-content",

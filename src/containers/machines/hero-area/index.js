@@ -98,7 +98,7 @@ const HeroArea = (props) => {
                                 {title && <Heading {...titleStyle}>{title}</Heading>}
                                 {text && <Text {...textStyle}>{text}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Подробно...</Button>}
+                                    {link && <Button {...btnStyle} {...consult_btn} to={link}>Подробно...</Button>}
                                     
                                 </HeroBtnGroup>
                             </HeroContent>

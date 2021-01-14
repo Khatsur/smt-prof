@@ -27,7 +27,7 @@
         "bg_image3": "./images/bg/machines/machine-cleaning.png",
         "bg_image4": "./images/bg/machines/machine-coating.png",
         "bg_image5": "./images/bg/machines/machine-aoi.png",
-        "link": "/contact-us",
+        "link": "/machines/smt",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     },
     {
@@ -105,7 +105,7 @@
         "bg_image3": "./images/bg/lines/smt-series.png",
         "bg_image4": "./images/bg/lines/smt-series.png",
         "bg_image5": "./images/bg/machine-aoi.png",
-        "link": "/contact-us",
+        "link": "/machines/smt",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     },
     {
