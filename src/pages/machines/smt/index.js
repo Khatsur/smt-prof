@@ -4,7 +4,7 @@ import Layout from '../../../containers/layout/layout'
 import Header from '../../../containers/layout/header//header-three'
 import Footer from '../../../containers/layout/footer/footer-one'
 import HeroArea from '../../../containers/index-processing/smt'
-import ServicesArea from '../../../containers/it-solutions/services-area'
+import MachinesSmt from '../../../containers/machines/smt'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../containers/machines/whats-new-area'
  
@@ -14,7 +14,7 @@ const IndexPage = ({location}) => (
     <Header/>
     <main className="site-wrapper-reveal">
       <HeroArea/>
-      <ServicesArea/>
+      <MachinesSmt/>
       <ContactArea />
       <WhatsnewArea />
     </main>
