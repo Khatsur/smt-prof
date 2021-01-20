@@ -5,14 +5,9 @@ import Header from '../../../containers/layout/header/header-three-ua'
 import Footer from '../../../containers/layout/footer/footer-one-ua'
 import HeroArea from '../../../containers/machines/hero-area-ua'
 import FeaturesArea from '../../../containers/machines/machines-ua'
-import FunFactArea from '../../../containers/machines/funfact-area'
 import ServicesArea from '../../../containers/machines/juki-ua'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ua'
-import TestimonialArea from '../../../containers/global/testimonial-area/section-one'
 import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
-import CTAArea from '../../../containers/global/cta-area/section-one'
-import ClientsArea from '../../../containers/global/clients-area'
-import BlogArea from '../../../containers/index-services/blog-area';
 import CaseStudyArea from '../../../containers/machines/smt-big-ua'
 
 

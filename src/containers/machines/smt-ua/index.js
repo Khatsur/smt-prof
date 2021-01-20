@@ -4,7 +4,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { Container, Row, Col } from '../../../components/ui/wrapper'
 import Anchor from '../../../components/ui/anchor'
 import SectionTitle from '../../../components/ui/section-title'
-import BoxLargeImage from '../../../components/box-large-image/layout-one-ru'
+import BoxLargeImage from '../../../components/box-large-image/layout-one-ua'
 import { SectionWrap } from './section.style'
 
 import image1 from '../../../data/images/bg/machines/smt/smt-printing.png'
@@ -19,44 +19,44 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
         {
             id: 1,
             imageSrc: image1,
-            title: 'Принтеры паяльной пасты',
-            desc: 'Оборудование для нанесения паяльной пасты через металический трафарет на контактные площадки печатных плат.',
-            path: '/machines/smt'
+            title: 'Принтери паяльної пасти',
+            desc: 'Устаткування для нанесення паяльної пасти через металевий трафарет на контактні площадки друкованих плат.',
+            path: '/ua/machines/smt'
         },
         {
             id: 2,
             imageSrc: image2,
-            title: 'Установщики компонентов',
-            desc: 'Оборудование для автоматической установки электронных компонентов SMD на печатные платы. Установщики для работы в линии.',
-            path: '/machines/smt'
+            title: 'Машини для встановлення SMD',
+            desc: 'Обладнання для автоматичного встановлення електронних компонентів SMD на друковані плати. Машини для роботи в лінії і окремо.',
+            path: '/ua/machines/smt'
         },
         {
             id: 3,
             imageSrc: image3,
-            title: 'Печи оплавления паяльной пасты',
-            desc: 'Паяльные печи для конвекционного плавления паяльной пасты. Отдельно-стоящее оборудование и конвейерные печи.',
-            path: '/machines/smt'
+            title: 'Печі оплавлення паяльної пасти',
+            desc: 'Паяльні печі для конвекційного плавлення паяльної пасти. Окреме обладнання та конвеєрні печі для роботи в лінії.',
+            path: '/ua/machines/smt'
         },
         {
             id: 4,
             imageSrc: image4,
-            title: 'Инспекция нанесения пасты - SPI',
-            desc: 'Автоматическая оптическая инспекция нанесения паяльной пасты на контактные площадки печатных плат.  Машины для 3D измерения.',
-            path: '/machines/smt'
+            title: 'Інспекція нанесення пасти - SPI',
+            desc: 'Автоматична оптична інспекція нанесення паяльної пасти на контактні площадки друкованих плат. Машини для 3D вимірювання.',
+            path: '/ua/machines/smt'
         },
         {
             id: 5,
             imageSrc: image5,
-            title: 'Инспекция после пайки - AOI',
-            desc: 'Автоматическая оптическая инспекция качества монтажа электронных компонентов после оплавления паяльной пасты. 3D AOI.',
-            path: '/machines/smt'
+            title: 'Інспекція після пайки - AOI',
+            desc: 'Автоматична оптична інспекція якості монтажу електронних компонентів після оплавлення паяльної пасти. 3D AOI.',
+            path: '/ua/machines/smt'
         },
         {
             id: 6,
             imageSrc: image6,
-            title: 'Перемещение печатных плат',
-            desc: 'Конвейерные сборки для перемещения плат в производственной линии. Устройства загрузки и выгрузки плат. Конвейеры и буферы.',
-            path: '/machines/smt'
+            title: 'Переміщення друкованих плат',
+            desc: 'Конвеєри для переміщення плат у виробничій лінії. Пристрої завантаження і вивантаження плат. Конвеєри та буфери.',
+            path: '/ua/machines/smt'
         }
     ]
 
@@ -67,8 +67,8 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
                     <Col xl={12}>
                         <SectionTitle
                             {...sectionTitleStyle}
-                            subtitle="Оборудование для SMT"
-                            title="Автоматизация сборки плат<br><span>Поверхностный монтаж</span>"
+                            subtitle="Устаткування для SMT"
+                            title="Автоматизація складання плат<br><span>Поверхневий монтаж</span>"
                         />
                     </Col>
                 </Row>
@@ -77,7 +77,7 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
                         boxContents.map(boxContent => {
                             return (
                                 <Col lg={4} md={6} className="box-item" key={`box-image-${boxContent.id}`}>
-                                    <BoxLargeImage 
+                                    <BoxLargeImage
                                         title={boxContent.title}
                                         desc={boxContent.desc}
                                         imageSrc={boxContent.imageSrc}

@@ -2,8 +2,11 @@
     {
         "id": "smt-hero-content",
         "title": "Поверхностный монтаж",
+        "uatitle": "Поверхневий монтаж",
         "subtitle": "Оборудование для SMT",
+        "uasubtitle": "Обладнання для SMT",
         "text": "Нанесение паяльной пасты, установка компонентов, пайка, инспекция",
+        "uatext": "Нанесення паяльної пасти, встановлення компонентів, пайка, інспекція",
         "link": "/index-processing",
         "video_link": "https://www.youtube.com/watch?v=vqZuSUtczbU",
         "bg_image": "./images/bg/machines/machine-smt-m.png",
