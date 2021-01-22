@@ -473,8 +473,8 @@
         ]
     },
     {
-        "text": "Services",
-        "link": "/it-services",
+        "text": "Сервис",
+        "link": "/service",
         "isSubmenu": true,
         "submenu": [
             {

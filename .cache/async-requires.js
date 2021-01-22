@@ -62,6 +62,7 @@ exports.components = {
   "component---src-pages-ua-machines-smt-index-js": () => import("./../src/pages/ua/machines/smt/index.js" /* webpackChunkName: "component---src-pages-ua-machines-smt-index-js" */),
   "component---src-pages-ua-materials-index-js": () => import("./../src/pages/ua/materials/index.js" /* webpackChunkName: "component---src-pages-ua-materials-index-js" */),
   "component---src-pages-why-choose-us-js": () => import("./../src/pages/why-choose-us.js" /* webpackChunkName: "component---src-pages-why-choose-us-js" */),
+  "component---src-pages-service-js": () => import("./../src/pages/service.js" /* webpackChunkName: "component---src-pages-service-js" */),
   "component---src-templates-service-template-service-template-js": () => import("./../src/templates/service-template/service-template.js" /* webpackChunkName: "component---src-templates-service-template-service-template-js" */),
   "component---src-templates-it-solution-template-it-solution-template-js": () => import("./../src/templates/it-solution-template/it-solution-template.js" /* webpackChunkName: "component---src-templates-it-solution-template-it-solution-template-js" */),
   "component---src-templates-case-study-template-case-study-template-js": () => import("./../src/templates/case-study-template/case-study-template.js" /* webpackChunkName: "component---src-templates-case-study-template-case-study-template-js" */),
