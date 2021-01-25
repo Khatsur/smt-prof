@@ -473,13 +473,17 @@
         ]
     },
     {
-        "text": "Blog",
-        "link": "/blog",
+        "text": "Сервіс",
+        "link": "/ua/service",
         "isSubmenu": true,
         "submenu": [
             {
-                "text": "Single Blog",
-                "link": "/5-ways-technology-has-improved-business-today"
+                "text": "IT Services",
+                "link": "/it-services"
+            },
+            {
+                "text": "IT Solutions",
+                "link": "/it-solutions"
             }
         ]
     }
