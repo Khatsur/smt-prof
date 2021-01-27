@@ -13,6 +13,19 @@
         "image": "./images/bg/machines/back-machines.png"
     },
     {
+        "id": "tht-hero-content",
+        "title": "Монтаж в отверстия",
+        "uatitle": "Монтаж в отвори",
+        "subtitle": "Оборудование для монтажа THT",
+        "uasubtitle": "Обладнання для монтажу THT",
+        "text": "Установка выводных компонентов, селективная пайка, пайка волной",
+        "uatext": "Встановлення вивідних компонентів, селективна пайка, пайка хвилею",
+        "link": "/index-processing",
+        "video_link": "https://www.youtube.com/watch?v=vqZuSUtczbU",
+        "bg_image": "./images/bg/machines/machine-tht-m.png",
+        "image": "./images/bg/machines/back-machines.png"
+    },
+    {
         "id": "processing-about-content",
         "title": "Share the joy of achieving <span>glorious moments</span> & climbed up the top.",
         "subtitle": "OUR COMPANY",

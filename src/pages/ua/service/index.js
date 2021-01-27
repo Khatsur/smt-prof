@@ -5,25 +5,21 @@ import Header from '../../../containers/layout/header/header-three-ua'
 import Footer from '../../../containers/layout/footer/footer-one-ua'
 import HeroArea from '../../../containers/service/hero-area-ua'
 import FeaturesArea from '../../../containers/service/service-ua'
-import ServicesArea from '../../../containers/lines/solutions'
+import ServicesArea from '../../../containers/lines/solutions-ua'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
-import CaseStudyArea from '../../../containers/machines/smt-big'
-import SmallSmt from '../../../containers/lines/small-smt'
 
 
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>
     
-    <SEO title="Комплексные решения для SMT производства электроники" description="линия smt,smt линия,оборудование для smd монтажа,линия для поверхностного монтажа,линия поверхностного монтажа,линия smd монтажа,комплексные решения для SMT производства электроники" pathname="комплексные-решения-для-smt" />
+    <SEO title="Технічне обслуговування" description="технічне обслуговування, пуско-наладка обладнання, технічне навчання, технічна підтримка, виробництво електроніки, монтаж SMT, лінії для монтажу " pathname="технічне-обслуговування" />
     <Header transparent  />
     <main className="site-wrapper-reveal">
       <HeroArea />
       <FeaturesArea />
-      <ServicesArea />
-      <CaseStudyArea/>
       <ContactArea />
-      <SmallSmt />
+      <ServicesArea />
       <WhatsnewArea />
     </main>
     <Footer />

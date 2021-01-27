@@ -16,7 +16,7 @@ const IndexServices = ({ location, pageFromCMS }) => (
     <SEO title="Обладнання для SMD монтажу" description="SMT PROF- обладнання для поверхневого монтажу, обладнання для SMT, SMT PROF - перший український проект з оснащення виробництв монтажу друкованих плат" pathname="обладнання-для-smd-монтажу" />
     <Header transparent />
     <main className="site-wrapper-reveal">
-    <HeroArea />
+      <HeroArea />
       <FeaturesArea />
       <ServicesArea />
       <CaseStudyArea/>

@@ -8,22 +8,19 @@ import FeaturesArea from '../containers/service/service-ru'
 import ServicesArea from '../containers/lines/solutions'
 import ContactArea from '../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../containers/machines/whats-new-area'
-import CaseStudyArea from '../containers/machines/smt-big'
-import SmallSmt from '../containers/lines/small-smt'
+
 
 
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>
     
-    <SEO title="Комплексные решения для SMT производства электроники" description="линия smt,smt линия,оборудование для smd монтажа,линия для поверхностного монтажа,линия поверхностного монтажа,линия smd монтажа,комплексные решения для SMT производства электроники" pathname="комплексные-решения-для-smt" />
+    <SEO title="Техническое обслуживание" description="техническое обслуживание, пуско-наладка оборудования, техническое обучение, техническая поддержка, производство электроники, монтаж SMT, линии для монтажа" pathname="техническое-обслуживание" />
     <Header transparent  />
     <main className="site-wrapper-reveal">
       <HeroArea />
       <FeaturesArea />
-      <ServicesArea />
-      <CaseStudyArea/>
       <ContactArea />
-      <SmallSmt />
+      <ServicesArea />
       <WhatsnewArea />
     </main>
     <Footer />

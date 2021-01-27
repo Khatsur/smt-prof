@@ -5,21 +5,17 @@ import Header from '../../containers/layout/header/header-three-ua'
 import Footer from '../../containers/layout/footer/footer-one-ua'
 import Hero from '../../containers/landing/hero-ua'
 import Feature from '../../containers/landing/feature-ua'
-import Demos from '../../containers/landing/demo-area'
-import InnerDemos from '../../containers/landing/inner-demo-area'
 import CaseStudy from '../../containers/landing/case-study-ua'
 import HeaderLayout from '../../containers/landing/header-layout-ua'
 import HeaderLayoutSpeed from '../../containers/landing/header-layout-2-ua'
 import CaseStudyAdvan from '../../containers/landing/case-study-2-ua'
-
-import BlogLayout from '../../containers/landing/blog-layout'
 import Plugins from '../../containers/landing/plugins-ua'
 import ExtraFeature from '../../containers/landing/extra-features-ua'
 import BlogArea from '../../containers/index-services/blog-area-ua'
 
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO/>
+    <SEO title="Обладнання для SMT" description="SMT PROF - обладнання для поверхневого монтажу, обладнання для SMT, SMT PROF - перший український проект з оснащення виробництв монтажу друкованих плат, устаткування для поверхневого монтажу SMT " pathname="smt-prof"/>
     <Header transparent/>
     <main className="site-wrapper-reveal">
       <Hero/>

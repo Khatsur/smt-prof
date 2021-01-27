@@ -54,7 +54,8 @@
                 "id": 3,
                 "image": "../images/icons/icon-15-80x83.png",
                 "title": "Сервис оборудования",
-                "desc": "Пуско-наладка оборудования и отработка технологических процессов, ."
+                "desc": "Пуско-наладка оборудования и отработка технологических процессов.",
+                "path": "/service"
             },
             {
                 "id": 4,
@@ -92,7 +93,7 @@
                 "image": "../images/icons/icon-15-80x83.png",
                 "title": "Сервіс обладнання",
                 "desc": "Пуско-наладка обладнання та відпрацювання технологічних процесів.",
-                "path": "/ua"
+                "path": "/ua/service"
             },
             {
                 "id": 4,
@@ -132,7 +133,7 @@
                 "image": "../images/icons/icon-15-80x83.png",
                 "title": "Machines service",
                 "desc": "Machines installation and development of technological processes.",
-                "path": "/ua"
+                "path": "/en/service"
             },
             {
                 "id": 4,

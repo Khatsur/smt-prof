@@ -21,6 +21,7 @@ const HeroArea = (props) => {
                 subtitle
                 text
                 link
+                linktht
                 video_link
                 bg_image {
                     childImageSharp {
@@ -70,7 +71,7 @@ const HeroArea = (props) => {
             }
         }      
     `);
-    const {title, title_tht, title_clean, title_coating, title_aoi, subtitle, text, bg_image, bg_image2, bg_image3, bg_image4, bg_image5, link, video_link} = heroData.indexResolutionsJson;
+    const {title, title_tht, title_clean, title_coating, title_aoi, subtitle, text, bg_image, bg_image2, bg_image3, bg_image4, bg_image5, link, linktht, video_link} = heroData.indexResolutionsJson;
     const {subtitleStyle, titleStyle, textStyle, btnStyle, consult_btn, work_btn} = props;
     let video_arr, video_id, video_channel;
     if(video_link){
@@ -131,7 +132,7 @@ const HeroArea = (props) => {
                                 {title && <Heading {...titleStyle}>{title_tht}</Heading>}
                                 {text && <Text {...textStyle}>{text}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Подробно...</Button>}
+                                    {link && <Button {...btnStyle} {...consult_btn} to={linktht}>Подробно...</Button>}
                                     
                                 </HeroBtnGroup>
                             </HeroContent>

@@ -29,6 +29,8 @@
         "bg_image5": "./images/bg/machines/machine-aoi.png",
         "link": "/machines/smt",
         "ualink": "ua/machines/smt",
+        "linktht": "/machines/tht",
+        "ualinktht": "ua/machines/tht",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     },
     {
