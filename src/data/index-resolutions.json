@@ -30,6 +30,7 @@
         "link": "/machines/smt",
         "ualink": "ua/machines/smt",
         "linktht": "/machines/tht",
+        "linkcleaning": "/machines/cleaning",
         "ualinktht": "ua/machines/tht",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     },

@@ -70,6 +70,7 @@ exports.components = {
   "component---src-pages-ua-materials-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/materials/index.js"))),
   "component---src-pages-ua-service-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/service/index.js"))),
   "component---src-pages-why-choose-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/why-choose-us.js"))),
+  "component---src-pages-machines-cleaning-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/machines/cleaning/index.js"))),
   "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
   "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
   "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
@@ -78,6 +79,7 @@ exports.components = {
   "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
   "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
   "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
-  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js")))
+  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
+  "component---src-pages-ua-machines-cleaning-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/machines/cleaning/index.js")))
 }
 

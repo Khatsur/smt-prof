@@ -7,7 +7,7 @@
     "excerpt": "Оборудование для очистки электронных сборок после пайки. Мойка трафаретов для нанесения паяльной пасты и технологической оснастки. Техническое обслуживание.",
     "uaexcerpt": "Обладнання для очищення електронних блоків після пайки. Миття трафаретів для нанесення паяльної пасти і технологічної оснастки. Технічне обслуговування обладнання для паяння.",
     "enexcerpt": "Machines for cleaning electronic assemblies after soldering. Stencil cleaning. Cleaning of soldering pallets and mechanical parts of soldering machines.",
-    "path": "ua/machines",
+    "path": "/machines/cleaning",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",

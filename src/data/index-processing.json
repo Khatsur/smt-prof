@@ -26,6 +26,19 @@
         "image": "./images/bg/machines/back-machines.png"
     },
     {
+        "id": "cleaning-hero-content",
+        "title": "Процессы очистки",
+        "uatitle": "Процеси очищення",
+        "subtitle": "Оборудование для мойки",
+        "uasubtitle": "Обладнання для очищення",
+        "text": "Мойка плат, трафаретов, оснастки",
+        "uatext": "Очищення плат, трафаретів, оснастки",
+        "link": "/index-processing",
+        "video_link": "https://www.youtube.com/watch?v=vqZuSUtczbU",
+        "bg_image": "./images/bg/machines/machine-cleaning-m.png",
+        "image": "./images/bg/machines/back-machines.png"
+    },
+    {
         "id": "processing-about-content",
         "title": "Share the joy of achieving <span>glorious moments</span> & climbed up the top.",
         "subtitle": "OUR COMPANY",
