@@ -4,13 +4,13 @@ import Layout from '../../../containers/layout/layout'
 import Header from '../../../containers/layout/header//header-three'
 import Footer from '../../../containers/layout/footer/footer-one'
 import HeroArea from '../../../containers/index-processing/cleaning'
-import MachinesCleaning from '../../../containers/machines/tht'
+import MachinesCleaning from '../../../containers/machines/cleaning'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../containers/machines/whats-new-area'
  
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Монтаж в отверстия" description="монтаж в отверстия, выводной монтаж, установщики в отверстия плат, селективная пайка, машины селективной пайки, машины пайки волной припоя, оборудование THT" pathname="монтаж-в-отверстия" />
+    <SEO title="Оборудование для мойки" description="оборудование для мойки, оборудование для мойки плат, оборудование для мойки трафаретов, оборудование для мойки паллет, очистка трафаретов, мойка плат, smt" pathname="оборудование-для-мойки" />
     <Header/>
     <main className="site-wrapper-reveal">
       <HeroArea/>
