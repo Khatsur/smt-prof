@@ -7,7 +7,7 @@
     "excerpt": "Оборудование для нанесения защитных покрытый на электронные платы. Машины для селективного нанесения покрытий, герметизация и заполнение. Полимеризация.",
     "uaexcerpt": "Обладнання для нанесення захисних покритий на електронні плати. Машини для селективного нанесення покриттів, герметизація і заповнення. Полімеризація. Інспекція покриття.",
     "enexcerpt": "Machines for conformal coating of electronic boards. Stencil cleaning. Selective coating, sealing and filling. Optical bonding. Curing and inspection.",
-    "path": "ua/machines",
+    "path": "/machines/coating",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",

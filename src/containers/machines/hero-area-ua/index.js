@@ -23,6 +23,7 @@ const HeroArea = (props) => {
                 link
                 linktht
                 linkcleaning
+                linkcoating
                 video_link
                 bg_image {
                     childImageSharp {
@@ -72,7 +73,7 @@ const HeroArea = (props) => {
             }
         }      
     `);
-    const {uatitle, uatitle_tht, uatitle_clean, uatitle_coating, uatitle_aoi, uasubtitle, uatext, bg_image, bg_image2, bg_image3, bg_image4, bg_image5, link, linktht, linkcleaning, ualink, video_link} = heroData.indexResolutionsJson;
+    const {uatitle, uatitle_tht, uatitle_clean, uatitle_coating, uatitle_aoi, uasubtitle, uatext, bg_image, bg_image2, bg_image3, bg_image4, bg_image5, link, linktht, linkcleaning, linkcoating, ualink, video_link} = heroData.indexResolutionsJson;
     const {subtitleStyle, titleStyle, textStyle, btnStyle, consult_btn, work_btn} = props;
     let video_arr, video_id, video_channel;
     if(video_link){
@@ -199,7 +200,7 @@ const HeroArea = (props) => {
                                 {uatitle && <Heading {...titleStyle}>{uatitle_coating}</Heading>}
                                 {uatext && <Text {...textStyle}>{uatext}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Докладно...</Button>}
+                                    {link && <Button {...btnStyle} {...consult_btn} to={`/ua${linkcoating}`}>Докладно...</Button>}
                                     
                                 </HeroBtnGroup>
                             </HeroContent>
