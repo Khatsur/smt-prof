@@ -10,9 +10,9 @@ import WhatsnewArea from '../../../containers/machines/whats-new-area'
  
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Оборудование для мойки" description="оборудование для мойки, оборудование для мойки плат, оборудование для мойки трафаретов, оборудование для мойки паллет, очистка трафаретов, мойка плат, smt" pathname="оборудование-для-мойки" />
+    <SEO title="Влагозащита электроники" description="влагозащита электроники, оборудование для селективного нанесения, селективная влагозащита, нанесения защитных покрытий, нанесение лака, лакировка плат, smt" pathname="влагозащита-электроники" />
     <Header/>
-    <main className="site-wrapper-reveal">
+    <main className="влагозащита-электроники">
       <HeroArea/>
       <MachinesCoating />
       <ContactArea />
