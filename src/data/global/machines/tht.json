@@ -7,7 +7,8 @@
     "excerpt": "Оборудование для монтажа компонентов в отверстия плат. Автоматические установщики компонентов. Машины селективной пайки и пайки волной припоя.",
     "uaexcerpt": "Обладнання для монтажу компонентів в отвори плат. Автоматичні машини для встановлення електронних компонентів в отвори плат. Машини селективної пайки і пайки хвилею припою.",
     "enexcerpt": "Machines for through hole mounting. Insertion Solution – THT. Inserters with integration in line. Selective soldering and wave soldering machines.",
-    "path": "machines/tht",
+    "path": "/оборудование-для-монтажа/монтаж-в-отверстия",
+    "uapath": "/обладнання-для-монтажу/монтаж-в-отвори",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",

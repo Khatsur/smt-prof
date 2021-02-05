@@ -15,7 +15,7 @@ import SmallSmt from '../../../containers/lines/small-smt'
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>
     
-    <SEO title="Service" description="installation, maintenance, technical training, service, support, electronics manufacturing, SMT, assembly lines, service, complete solutions for electronic" pathname="service" />
+    <SEO title="Service" description="installation, maintenance, technical training, service, support, electronics manufacturing, SMT, assembly lines, service, complete solutions for electronic" pathname="en/service" />
     <Header transparent  />
     <main className="site-wrapper-reveal">
       <HeroArea />

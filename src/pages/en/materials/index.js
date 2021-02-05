@@ -18,7 +18,7 @@ import CaseStudyArea from '../../../containers/machines/bud-stenc-clean-en'
 
 const IndexServices = ({ location, pageFromCMS }) => (
   <Layout location={location}>
-    <SEO title="Materials for SMT" description="Materials for SMT, Indium 8.9 solder paste, Indium NC-SMQ92J solder paste, PCB cleaning agent, VIGON, conformal coatings, lead free, PB free, HumiSeal" pathname="materials-for-smt" />
+    <SEO title="Materials for SMT" description="Materials for SMT, Indium 8.9 solder paste, Indium NC-SMQ92J solder paste, PCB cleaning agent, VIGON, conformal coatings, lead free, PB free, HumiSeal" pathname="en/materials" />
     <Header transparent />
     <main className="site-wrapper-reveal">
     <HeroArea />

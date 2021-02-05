@@ -71,7 +71,7 @@
     },
     {
         "text": "Обладнання",
-        "link": "/ua/machines",
+        "link": "/ua/обладнання-для-монтажу",
         "megamenu": [
             {
                 "title": "Element Group 01",
@@ -211,7 +211,7 @@
     },
     {
         "text": "Лінії",
-        "link": "/ua/lines",
+        "link": "/ua/комплексні-рішення",
         "megamenu": [
             {
                 "title": "Element Group 01",
@@ -351,7 +351,7 @@
     },
     {
         "text": "Матеріали",
-        "link": "/ua/materials",
+        "link": "/ua/матеріали-для-smt",
         "megamenu": [
             {
                 "title": "Element Group 01",
@@ -474,7 +474,7 @@
     },
     {
         "text": "Сервіс",
-        "link": "/ua/service",
+        "link": "/ua/технічне-обслуговування",
         "isSubmenu": true,
         "submenu": [
             {

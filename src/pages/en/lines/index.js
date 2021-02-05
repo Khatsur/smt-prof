@@ -20,7 +20,7 @@ import SmallSmt from '../../../containers/lines/small-smt-en'
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>
     
-    <SEO title="Complete solutions for electronics manufacturing" description="smt line, smt line, smd assembly equipment, surface mount line, surface mount line, smd assembly line, complete solutions for electronics manufacturing" pathname="complete-solutions-for-smt" />
+    <SEO title="Complete solutions for electronics manufacturing" description="smt line, smt line, smd assembly equipment, surface mount line, surface mount line, smd assembly line, complete solutions for electronics manufacturing" pathname="en/lines" />
     <Header transparent  />
     <main className="site-wrapper-reveal">
       <HeroArea />

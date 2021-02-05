@@ -17,7 +17,7 @@ import CaseStudyArea from '../../../containers/machines/smt-big-en'
 
 const IndexServices = ({ location, pageFromCMS }) => (
   <Layout location={location}>
-    <SEO title="SMD mounting machines" description="SMT PROF - Machines for surface mount, SMT machines, SMT PROF – first Ukraininan company which supply and service PCBA machines" pathname="PCB-assembly-machines" />
+    <SEO title="SMD mounting machines" description="SMT PROF - Machines for surface mount, SMT machines, SMT PROF – first Ukraininan company which supply and service PCBA machines" pathname="en/machines" />
     <Header transparent />
     <main className="site-wrapper-reveal">
     <HeroArea />
