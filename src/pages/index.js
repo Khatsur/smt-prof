@@ -15,7 +15,8 @@ import BlogArea from '../containers/index-services/blog-area'
 
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Оборудование для SMT" description="SMT PROF- оборудование для поверхностного монтажа, оборудование для SMT, SMT PROF – первый украинский проект по оснащению производств монтажа печатных плат, Оборудование для поверхностного монтажа  SMT" />
+    <SEO title="Оборудование для SMT" description="Оборудование для SMT (поверхностный монтаж компонентов) и THT (монтаж компонентов в отверстия печатных плат). Комплексные решения и расходные материалы" keywords="оборудование для  SMT, материалы для монтажа, сервис оборудования, организация сборки электроники, поверхностный монтаж, создание заводов «под ключ»" lang="ru" 
+/>
     <Header transparent/>
     <main className="site-wrapper-reveal">
       <Hero/>

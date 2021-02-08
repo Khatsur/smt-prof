@@ -15,7 +15,7 @@ import BlogArea from '../../containers/index-services/blog-area-en'
 
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Machines for SMT" description="SMT PROF - machines for surface mounting, equipment for SMT, SMT PROF - the first Ukrainian project to equip production of printed circuit boards assembly, machines for SMT" pathname="en"/>
+    <SEO title="Machines for SMT" description="Machines for SMT (surface mounting of components) and for THT (through holes components mounting). Complex solutions, materials and machines service" pathname="en" keywords="machines for smt, machines for tht, materials for soldering, machines service, process development, machines and materials for electronics assembly" lang="en"/>
     <Header transparent/>
     <main className="site-wrapper-reveal">
       <Hero/>

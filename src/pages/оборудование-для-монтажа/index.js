@@ -14,7 +14,7 @@ import CaseStudyArea from '../../containers/machines/smt-big'
 const IndexServices = ({ location, pageFromCMS }) => (
   <Layout location={location}>
     
-    <SEO title="Оборудование для монтажа" description="SMT PROF- оборудование для поверхностного монтажа, оборудование для SMT, SMT PROF – первый украинский проект по оснащению производств монтажа печатных плат" pathname="оборудование-для-монтажа" />
+    <SEO title="Оборудование для монтажа" description="SMT PROF- оборудование для поверхностного монтажа, оборудование для SMT, SMT PROF – первый украинский проект по оснащению производств монтажа печатных плат" pathname="оборудование-для-монтажа" keywords="поверхностного монтажа" lang="ru" />
     <Header transparent  />
     <main className="site-wrapper-reveal">
       <HeroArea />
