@@ -14,7 +14,7 @@ import CaseStudyArea from '../../containers/machines/bud-stenc-clean'
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>
     
-    <SEO title="Материалы для SMT" description="Материалы для SMT, Паяльная паста Indium 8.9, Паяльная паста Indium NC-SMQ92J, жидкости для мойки плат, VIGON, защитные покрытия, lead free, PB free, HumiSeal" pathname="материалы-для-smt" />
+    <SEO title="Материалы для SMT" description="Материалы для SMT от ведущих производителей паяльной пасты и припоя. Материалы для мойки плат и трафаретов Zestron. Материалы для влагозащиты  Humiseal" pathname="материалы-для-smt" keywords="материалы для SMT, Паяльная паста, припой, Паяльная паста Indium, жидкости для мойки плат, VIGON, защитные покрытия, lead free, PB free, HumiSeal, ZESTRON, мойка плат, мойка трафаретов" lang="ru"/>
     <Header transparent  />
     <main className="site-wrapper-reveal">
       <HeroArea />

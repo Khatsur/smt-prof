@@ -14,7 +14,7 @@ import WhatsnewArea from '../../containers/machines/whats-new-area'
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>
     
-    <SEO title="Техническое обслуживание" description="техническое обслуживание, пуско-наладка оборудования, техническое обучение, техническая поддержка, производство электроники, монтаж SMT, линии для монтажа" pathname="техническое-обслуживание" />
+    <SEO title="Техническое обслуживание" description="Техническое обслуживание оборудование для монтажа плат JUKI, ASM, PBT Works, PVA. Пусконаладка оборудования и отработка технологических процессов. Обучение" pathname="техническое-обслуживание" keywords="техническое обслуживание, пуско-наладка оборудования, техническое обучение, техническая поддержка, производство электроники, монтаж SMT, линии для монтажа, juki, asm, pva" lang="ru"/>
     <Header transparent  />
     <main className="site-wrapper-reveal">
       <HeroArea />
