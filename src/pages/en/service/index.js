@@ -8,8 +8,7 @@ import FeaturesArea from '../../../containers/service/service-en'
 import ServicesArea from '../../../containers/lines/solutions-en'
 import ContactArea from '../../../containers/global/contact-area/contact-three'
 import WhatsnewArea from '../../../containers/machines/whats-new-area-en'
-import CaseStudyArea from '../../../containers/machines/smt-big'
-import SmallSmt from '../../../containers/lines/small-smt'
+
 
 
 const Materials = ({ location, pageFromCMS }) => (

@@ -10,7 +10,7 @@ import WhatsnewArea from '../../../../containers/machines/whats-new-area-ua'
  
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Поверхневий монтаж" description="Поверхневий монтаж, принтери паяльної пасти, машини для встановлення SMD, паяльні печі, шнспекція нанесення пасти, spi, aoi" pathname="ua/обладнання-для-монтажу/поверхневий-монтаж"/>
+    <SEO title="Поверхневий монтаж" description="Поверхневий монтаж електронних компонентів на плати - SMT. Обладнання для нанесення паяльної пасти, встановлення компонентів, пайки і оптичної інспекції" pathname="ua/обладнання-для-монтажу/поверхневий-монтаж" keywords="поверхневий монтаж, принтери паяльної пасти, машини для встановлення SMD, паяльні печі, інспекція нанесення пасти, spi, aoi, smt, juki" lang="ua"/>
     <Header/>
     <main className="site-wrapper-reveal">
       <HeroArea/>

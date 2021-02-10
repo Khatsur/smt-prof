@@ -3,7 +3,6 @@ import {useStaticQuery, graphql} from 'gatsby'
 import {Container, Row, Col} from '../../../components/ui/wrapper'
 import FeatureBox from '../../../components/box-image/layout-five'
 import Heading from '../../../components/ui/heading'
-import Anchor from '../../../components/ui/anchor'
 import {SectionWrap} from './features-area.style'
 
 const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
