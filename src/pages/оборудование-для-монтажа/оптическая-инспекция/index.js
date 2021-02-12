@@ -4,7 +4,7 @@ import Layout from '../../../containers/layout/layout'
 import Header from '../../../containers/layout/header/header-three'
 import Footer from '../../../containers/layout/footer/footer-one'
 import HeroArea from '../../../containers/index-processing/inspection'
-import MachinesInspection from '../../../containers/machines/coating'
+import MachinesInspection from '../../../containers/machines/inspection'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../containers/machines/whats-new-area'
  
