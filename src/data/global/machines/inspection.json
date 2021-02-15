@@ -8,6 +8,7 @@
     "uaexcerpt": "Обладнання для інспекції нанесення паяльної пасти (SPI). Автоматичні машини для інспекції компонентів SMD і компонентів в отворах плат після пайки (AOI).",
     "enexcerpt": "Solder paste inspection machines (SPI). Automatic optical inspection (AOI) for SMD and through hole soldering components. SPI and AOI in one machines.",
     "path": "/оборудование-для-монтажа/оптическая-инспекция",
+    "uapath": "/обладнання-для-монтажу/оптична-інспекція",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
