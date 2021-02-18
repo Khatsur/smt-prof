@@ -75,7 +75,12 @@
         "bg_image3": "./images/bg/machines/machine-cleaning.png",
         "bg_image4": "./images/bg/machines/machine-coating.png",
         "bg_image5": "./images/bg/machine-aoi.png",
-        "link": "/contact-us",
+        "link": "/материалы-для-smt/паяльная-паста-и-припой",
+        "ualink": "/обладнання-для-монтажу/поверхневий-монтаж",
+        "linkliquid": "/материалы-для-smt/жидкости-для-мойки",
+        "ualinkliquid": "/обладнання-для-монтажу/монтаж-в-отвори",
+        "linkcoating": "/материалы-для-smt/защитные-покрытия",
+        "ualinkcoating": "/обладнання-для-монтажу/обладнання-для-миття",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     },
     {

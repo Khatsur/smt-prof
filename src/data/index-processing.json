@@ -78,6 +78,19 @@
         "image": "./images/bg/machines/back-machines.png"
     },
     {
+        "id": "solder-hero-content",
+        "title": "Паяльная паста и припой",
+        "uatitle": "Обробка проводу",
+        "subtitle": "Оборудование для обработки проводов и кабелей",
+        "uasubtitle": "Обладнання для обробки проводів і кабелів",
+        "text": "Резка, зачистка, опрессовка",
+        "uatext": "Різання, чищення, пресування",
+        "link": "/index-processing",
+        "video_link": "https://www.youtube.com/watch?v=vqZuSUtczbU",
+        "bg_image": "./images/bg/machines/machine-wire-m.png",
+        "image": "./images/bg/machines/back-machines.png"
+    },
+    {
         "id": "processing-hero-content",
         "title": "Влагозащита",
         "uatitle": "Захист від вологи",
