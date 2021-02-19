@@ -5,10 +5,7 @@ import parse from 'html-react-parser'
 import { Container, Row, Col } from '../../../components/ui/wrapper'
 import Heading from '../../../components/ui/heading'
 import Text from '../../../components/ui/text'
-import Button from '../../../components/ui/button'
-import VideoButton from '../../../components/ui/video-button'
 import Image from '../../../components/image'
-import ModalVideo from '../../../components/ui/modal-video'
 import { HeroWrapper, HeroBtnGroup, HeroTextBox, ImageBox } from './hero-area.style'
 
 const HeroArea = (props) => {

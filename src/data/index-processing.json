@@ -80,14 +80,14 @@
     {
         "id": "solder-hero-content",
         "title": "Паяльная паста и припой",
-        "uatitle": "Обробка проводу",
-        "subtitle": "Оборудование для обработки проводов и кабелей",
-        "uasubtitle": "Обладнання для обробки проводів і кабелів",
-        "text": "Резка, зачистка, опрессовка",
-        "uatext": "Різання, чищення, пресування",
+        "uatitle": "Паяльна паста і припій",
+        "subtitle": "Материалы для пайки",
+        "uasubtitle": "Матеріали для паяння",
+        "text": "Паяльная паста, припой в проволоке, припой в брусках",
+        "uatext": "Паяльна паста, припій в доті, припій в брусках",
         "link": "/index-processing",
         "video_link": "https://www.youtube.com/watch?v=vqZuSUtczbU",
-        "bg_image": "./images/bg/machines/machine-wire-m.png",
+        "bg_image": "./images/bg/machines/machine-printer-m.png",
         "image": "./images/bg/machines/back-machines.png"
     },
     {
