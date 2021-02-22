@@ -10,6 +10,7 @@ import image2 from '../../../data/images/bg/machines/wire/striping.png'
 import image3 from '../../../data/images/bg/machines/wire/crimping.png'
 
 
+
 const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
     const boxContents = [
         {

@@ -8,6 +8,7 @@ import { SectionWrap } from './section.style'
 import image1 from '../../../data/images/bg/materials/solder/solder-paste.png'
 import image2 from '../../../data/images/bg/materials/solder/solder-wire.png'
 import image3 from '../../../data/images/bg/materials/solder/solder-bars.png'
+import image4 from '../../../data/images/bg/materials/solder/solder-flux.png'
 
 
 const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
@@ -31,6 +32,13 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             imageSrc: image3,
             title: 'Припой в брусках',
             desc: 'Припой в брусках для загрузки в паяльные ванны машин для пайки волной припоя и машин для селективной пайки. Разные размеры брусков.',
+            path: '/machines/smt'
+        },
+        {
+            id: 4,
+            imageSrc: image4,
+            title: 'Флюс для пайки',
+            desc: 'Флюс для машинной пайки, который применятся в машинах для групповой пайки: машины для пайки волной припоя и селективной пайки.',
             path: '/machines/smt'
         }
     ]
