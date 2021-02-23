@@ -8,6 +8,7 @@
     "uaexcerpt": "Матеріали для для свинцевої і Lead-free пайки. Паяльна паста преміум класу - Indium. Припій в дроті з флюсом для ручної пайки. Бруски для пайки хвилею припою.",
     "enexcerpt": "Materials for lead and lead-free soldering. Indium solder pastes. Core solder wire for manual and roboics soldering. Bars for wave and selective soldering.",
     "path": "/материалы-для-smt/паяльная-паста-и-припой",
+    "uapath": "/ua/матеріали-для-smt/матеріали-для-паяння",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
