@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Container, Row, Col } from '../../../components/ui/wrapper'
 import SectionTitle from '../../../components/ui/section-title'
-import BoxLargeImage from '../../../components/box-large-image/layout-one-ru'
+import BoxLargeImage from '../../../components/box-large-image/layout-one-ua'
 import { SectionWrap } from './section.style'
 
 import image1 from '../../../data/images/bg/machines/cleaning/pcb-cleaning.png'

@@ -25,6 +25,7 @@ const HeroArea = (props) => {
                 link
                 ualink
                 video_link
+                ualinkliquid
                 bg_image {
                     childImageSharp {
                         fluid(maxWidth: 1920, maxHeight: 890, quality: 100, srcSetBreakpoints: 6) {
@@ -73,7 +74,7 @@ const HeroArea = (props) => {
             }
         }      
     `);
-    const {uatitle, uatitle_tht, uatitle_coating, uasubtitle, uatext_solder, uatext_clean, uatext_coating, bg_image, bg_image2, bg_image4, link, ualink, video_link} = heroData.indexResolutionsJson;
+    const {uatitle, uatitle_tht, uatitle_coating, uasubtitle, uatext_solder, uatext_clean, uatext_coating, bg_image, bg_image2, bg_image4, link, ualink, ualinkliquid, video_link} = heroData.indexResolutionsJson;
     const {subtitleStyle, titleStyle, textStyle, btnStyle, consult_btn, work_btn} = props;
     let video_arr, video_id, video_channel;
     if(video_link){
@@ -134,7 +135,7 @@ const HeroArea = (props) => {
                                 {uatitle_tht && <Heading {...titleStyle}>{uatitle_tht}</Heading>}
                                 {uatext_clean && <Text {...textStyle}>{uatext_clean}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Докладно...</Button>}
+                                    {link && <Button {...btnStyle} {...consult_btn} to={`/ua${ualinkliquid}`}>Докладно...</Button>}
                                     
                                 </HeroBtnGroup>
                             </HeroContent>

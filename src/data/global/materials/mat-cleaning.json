@@ -7,7 +7,8 @@
     "excerpt": "Жидкости для мойки электронных сборок, трафаретов и технологической оснастки. Средства для анализа состояния моющего раствора и загрязнений на печатной плате.",
     "uaexcerpt": "Рідини для чищення електронних блоків, трафаретів і технологічного устаткування. Засоби для аналізу стану миючого розчину і забруднень на друкованій платі.",
     "enexcerpt": "Liquids for cleaning electronic assemblies, stencils and pallets. Tools for analyzing the condition of the cleaning agent and contaminations on the board assembly.",
-    "path": "жидкости-для-мойки",
+    "path": "материалы-для-smt/жидкости-для-мойки",
+    "uapath": "/ua/матеріали-для-smt/рідини-для-чищення",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
