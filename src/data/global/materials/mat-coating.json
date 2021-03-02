@@ -7,7 +7,8 @@
     "excerpt": "Защитные покрытия для электронных сборок. Акриловые, силиконовые, полиуретановые, с УФ отверждением. Двухкомпонентные материалы. Для автоматического и ручного нанесения.",
     "uaexcerpt": "Захисні покриття для електронних блоків. Акрилові, силіконові, поліуретанові, з УФ отвердінням. Двокомпонентні матеріали. Для автоматичного і ручного нанесення.",
     "enexcerpt": "Protective coatings for electronic assemblies. Acrylic, silicone, polyurethane, UV cured. Two-component materials. For automatic and manual application.",
-    "path": "ua/machines",
+    "path": "материалы-для-smt/защитные-покрытия",
+    "uapath": "/ua/матеріали-для-smt/матеріали-для-захисту",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
