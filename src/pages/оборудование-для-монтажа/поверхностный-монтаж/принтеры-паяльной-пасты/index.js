@@ -3,18 +3,24 @@ import SEO from "../../../../components/seo"
 import Layout from '../../../../containers/layout/layout'
 import Header from '../../../../containers/layout/header/header-three'
 import Footer from '../../../../containers/layout/footer/footer-one'
-import HeroArea from '../../../../containers/machines/printing'
-import MachinesTht from '../../../../containers/materials/solder'
+import PlacerPageHeader from '../../../../components/page-header/printer'
+import Printer from '../../../../containers/machines/smt/printer'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../../containers/machines/whats-new-area'
+
+
+
+
+
  
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Паяльная паста и припой" description="Паяльная паста и припой применятся для монтажа компонентов SMD на контактные площадки печатных плат – технология  SMT и в отверстия печатных плат - THT" pathname="материалы-для-smt/паяльная-паста-и-припой" keywords="паяльная паста и припой, паяльная паста, припой, безсвинцовая паста, припой с флюсом, припой для пайки, indium, indium 8.9, indium smq92j, бессвинцовый припой, безотмывочная паста, флюс, флюс для пайки" lang="ru" />
+    <SEO title="Принтеры паяльной пасты" description="Оборудование для нанесения паяльной пасты через трафарет на контактные площадки печатных плат. Применятся в технологии поверхностного монтажа - SMT" pathname="оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты" keywords="машины для нанесения паяльной пасты, принтеры паяльной пасты, паяльная паста, оборудование для поверхностного монтажа плат, принтеры паяльной пасты, G-Titan, dek" lang="ru" />
     <Header/>
     <main className="site-wrapper-reveal">
-      <HeroArea/>
-      <MachinesTht/>
+      <PlacerPageHeader />
+      
+      <Printer />
       <ContactArea />
       <WhatsnewArea />
     </main>

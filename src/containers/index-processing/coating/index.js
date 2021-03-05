@@ -14,7 +14,7 @@ import { HeroWrapper, HeroBtnGroup, HeroTextBox, ImageBox } from './hero-area.st
 const HeroArea = (props) => {
     const HeroData = useStaticQuery(graphql`
         query CoatingHeroQueryRu {
-            indexProcessingJson(id: {eq: "coating-hero-content"}) {
+            indexProcessingJson(id: {eq: "coating-hero-content-machine"}) {
                 title
                 subtitle
                 text

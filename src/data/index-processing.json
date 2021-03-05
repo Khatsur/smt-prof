@@ -26,7 +26,7 @@
         "image": "./images/bg/machines/back-machines.png"
     },
     {
-        "id": "cleaning-hero-content",
+        "id": "cleaning-hero-content-machine",
         "title": "Процессы очистки",
         "uatitle": "Процеси очищення",
         "subtitle": "Оборудование для мойки",
@@ -39,7 +39,7 @@
         "image": "./images/bg/machines/back-machines.png"
     },
     {
-        "id": "coating-hero-content",
+        "id": "coating-hero-content-machine",
         "title": "Влагозащита",
         "uatitle": "Захист від вологи",
         "subtitle": "Оборудование для нанесения покрытий",

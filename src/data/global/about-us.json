@@ -6,6 +6,18 @@
         "bg_image": "../images/banner/banner-09.jpg"
     },
     {
+        "id": "about-printers-data",
+        "title": "Принтеры паяльной пасты",
+        "desc": "Оборудование для нанесения паяльной пасте через трафарет на контактные площадки печатных плат. От прототипирования – до крупносерийного производства.",
+        "bg_image": "../images/bg/machines/machine-printer-m.png"
+    },
+    {
+        "id": "about-placer-data",
+        "title": "Автоматы установки компонентов",
+        "desc": "Оборудование для установки электронных компонентов SMD на поверхность печатных плат. От прототипирования – до крупносерийного производства.",
+        "bg_image": "../images/bg/machines/machine-smt-m.png"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
             "title": "We run all kinds of IT services that vow your <span>success</span>",

@@ -19,6 +19,7 @@ import {
     Description
 } from './style'
 
+
 const Timeline = ({ items }) => {
     return (
         <TimelineWrap>
