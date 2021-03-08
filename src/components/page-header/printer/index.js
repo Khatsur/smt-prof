@@ -5,12 +5,14 @@ import {Container, Row, Col} from '../../../components/ui/wrapper'
 import Heading from '../../../components/ui/heading'
 import {PageHeaderWrap} from './page-header.style'
 
-const PageHeader = ({sectionStyle, titleStyle, descStyle, titletext}) => {
+const PageHeader = ({sectionStyle, titleStyle, descStyle, titletext, lang}) => {
     const PageHeaderData = useStaticQuery(graphql `
         query PrinterPageHeaderQuery {
             aboutUsJson(id: {eq: "about-printers-data"}) {
                 title
                 desc
+                uatitle
+                uadesc
                 bg_image {
                     childImageSharp {
                       fluid(maxWidth: 1920, maxHeight: 570, quality: 100) {
@@ -23,20 +25,37 @@ const PageHeader = ({sectionStyle, titleStyle, descStyle, titletext}) => {
             }
         } 
     `);
-    const {title, desc, bg_image} = PageHeaderData.aboutUsJson
+
+    const {title, desc, uatitle, uadesc, bg_image} = PageHeaderData.aboutUsJson
     const imageData = bg_image.childImageSharp.fluid;
-    return (
-        <PageHeaderWrap fluid={imageData}>
-            <Container>
-                <Row textalign="center">
-                    <Col lg={8} ml="auto" mr="auto">
-                        {title && <Heading {...titleStyle}>{title }</Heading>}
-                        {desc && <Heading {...descStyle}>{desc}</Heading>}
-                    </Col>
-                </Row>
-            </Container>
-        </PageHeaderWrap>
-    )
+    if (lang === "ru") {
+        return (
+            <PageHeaderWrap fluid={imageData}>
+                <Container>
+                    <Row textalign="center">
+                        <Col lg={8} ml="auto" mr="auto">
+                            {title && <Heading {...titleStyle}>{title }</Heading>}
+                            {desc && <Heading {...descStyle}>{desc}</Heading>}
+                        </Col>
+                    </Row>
+                </Container>
+            </PageHeaderWrap>
+        )
+    } else if (lang === "ua") {
+        return (
+            <PageHeaderWrap fluid={imageData}>
+                <Container>
+                    <Row textalign="center">
+                        <Col lg={8} ml="auto" mr="auto">
+                            {uatitle && <Heading {...titleStyle}>{uatitle }</Heading>}
+                            {uadesc && <Heading {...descStyle}>{uadesc}</Heading>}
+                        </Col>
+                    </Row>
+                </Container>
+            </PageHeaderWrap>
+        )
+    }
+    
 }
 
 PageHeader.propTypes = {

@@ -26,7 +26,7 @@ const Timeline = ({ items }) => {
             <TimelineList>
                 <Line />
                 {items && items.map((item, i) => {
-                    const { year, image, title, desc, path } = item;
+                    const { year, image, title, desc, path, lang } = item;
                     const gatsbyImg = image && image.childImageSharp;
                     const imageSrc = gatsbyImg || image;
                     let boxImage;
@@ -54,7 +54,7 @@ const Timeline = ({ items }) => {
                                             {desc && <Description>{desc}</Description>}
                                         </TimelineContent>
                                         <div><br></br></div>
-                                        <Button variant="primary" href={path}>Подробно...</Button>
+                                        <Button variant="primary" href={path}>{lang}</Button>
                                     </TimelineInfoInner>
                                     
                                 </TimelineInfo>
