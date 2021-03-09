@@ -17,9 +17,9 @@ const IndexPage = ({location}) => (
     <SEO title="Автоматы установки компонентов" description="Автоматы установки компонентов SMD на поверхность печатных плат. Технология поверхностного монтажа электронных компонентов - SMT. Установщики компонентов" pathname="оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов" keywords="Установка электронных компонентов, установщики smd, smt, оборудование для smt, оборудование для smd монтажа, автоматы установки компонентов, установщик, smt, juki, asm, siplace, yamaha" lang="ru" />
     <Header/>
     <main className="site-wrapper-reveal">
-      <PlacerPageHeader />
+      <PlacerPageHeader lang="ru"/>
       
-      <Placer />
+      <Placer lang="ru"/>
       <ContactArea />
       <WhatsnewArea />
     </main>

@@ -82,6 +82,7 @@ exports.components = {
   "component---src-pages-ua-обладнання-для-монтажу-обладнання-для-миття-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/обладнання-для-миття/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-обробка-проводу-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/обробка-проводу/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-оптична-інспекція-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/оптична-інспекція/index.js"))),
+  "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-принтери-паяльної-пасти-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/index.js"))),
   "component---src-pages-ua-технічне-обслуговування-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/технічне-обслуговування/index.js"))),
@@ -96,6 +97,6 @@ exports.components = {
   "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
   "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
   "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
-  "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-принтери-паяльної-пасти-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/index.js")))
+  "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-автомати-встановлення-компонентів-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/index.js")))
 }
 
