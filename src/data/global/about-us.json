@@ -22,6 +22,14 @@
         "bg_image": "../images/bg/machines/machine-smt-m.png"
     },
     {
+        "id": "about-reflow-data",
+        "title": "Печи паяльные",
+        "uatitle": "Печі паяльні",
+        "desc": "Печи паяльные для оплавления паяльной пасты. Применяются для поверхностно монтажа – SMT. От прототипирования – до крупносерийного производства.",
+        "uadesc": "Печі паяльні для оплавлення паяльної пасти. Застосовуються для поверхнево монтажу - SMT. Від прототипування - до багато серійного виробництва.",
+        "bg_image": "../images/bg/machines/smt/reflow/machine-reflow.png"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
             "title": "We run all kinds of IT services that vow your <span>success</span>",

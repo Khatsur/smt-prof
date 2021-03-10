@@ -11,15 +11,16 @@ import WhatsnewArea from '../../../../containers/machines/whats-new-area'
 
 
 
- 
+ const language = "ru";
+ const path = "оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов";
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Автоматы установки компонентов" description="Автоматы установки компонентов SMD на поверхность печатных плат. Технология поверхностного монтажа электронных компонентов - SMT. Установщики компонентов" pathname="оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов" keywords="Установка электронных компонентов, установщики smd, smt, оборудование для smt, оборудование для smd монтажа, автоматы установки компонентов, установщик, smt, juki, asm, siplace, yamaha" lang="ru" />
-    <Header/>
+    <SEO title="Автоматы установки компонентов" description="Автоматы установки компонентов SMD на поверхность печатных плат. Технология поверхностного монтажа электронных компонентов - SMT. Установщики компонентов" pathname={path} keywords="Установка электронных компонентов, установщики smd, smt, оборудование для smt, оборудование для smd монтажа, автоматы установки компонентов, установщик, smt, juki, asm, siplace, yamaha" lang={language} />
+    <Header path={path}/>
     <main className="site-wrapper-reveal">
-      <PlacerPageHeader lang="ru"/>
+      <PlacerPageHeader lang={language}/>
       
-      <Placer lang="ru"/>
+      <Placer lang={language}/>
       <ContactArea />
       <WhatsnewArea />
     </main>

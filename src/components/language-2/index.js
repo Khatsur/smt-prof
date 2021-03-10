@@ -23,14 +23,14 @@ const Language = props => {
             flag: ukFlag,
             name: ' UA',
             isActive: false,
-            link: "../ua"
+            link: "../../ua"
         },
         {
             id: 3,
             flag: enFlag,
             name: ' EN',
             isActive: false,
-            link: "../en"
+            link: "../../en"
         }
     ])
 

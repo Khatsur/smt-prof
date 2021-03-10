@@ -35,7 +35,7 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             imageSrc: image3,
             title: 'Печі оплавлення паяльної пасти',
             desc: 'Паяльні печі для конвекційного плавлення паяльної пасти. Окреме обладнання та конвеєрні печі для роботи в лінії.',
-            path: '/ua/machines/smt'
+            path: '/ua/обладнання-для-монтажу/поверхневий-монтаж/печі-паяльні'
         },
         {
             id: 4,
