@@ -42,7 +42,7 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             imageSrc: image4,
             title: 'Інспекція нанесення пасти - SPI',
             desc: 'Автоматична оптична інспекція нанесення паяльної пасти на контактні площадки друкованих плат. Машини для 3D вимірювання.',
-            path: '/ua/machines/smt'
+            path: '/ua/обладнання-для-монтажу/поверхневий-монтаж/інспекція-паяльної-пасти'
         },
         {
             id: 5,

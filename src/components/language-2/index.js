@@ -9,7 +9,10 @@ import ukFlag from '../../assets/images/flags/ukr.png'
 import ruFlag from '../../assets/images/flags/ru.png'
 import {LanguageWrap} from '../language-2/language.style'
 
-const Language = props => {
+const Language = (props) => {
+    let ua;
+    !props.path ? ua = "../../ua" : ua = props.path;
+    // language change
     const [language, setLanguage] = useState([
         {
             id: 1,
@@ -23,7 +26,7 @@ const Language = props => {
             flag: ukFlag,
             name: ' UA',
             isActive: false,
-            link: "../../ua"
+            link: ua
         },
         {
             id: 3,

@@ -28,7 +28,8 @@ import {
 } from './header.style'
 
 
-const Header = ({ props, ...styles }) => {
+const Header = ({ path, ...styles }) => {
+    // language change add path inst props
     const headerData = useStaticQuery(graphql`
         query HeaderThreeDataQuery {
             allMenuJson {
@@ -90,6 +91,7 @@ const Header = ({ props, ...styles }) => {
 
     const { noticeStyle, phoneElStyle, searchElStyle, logoStyle, burgerBtnElStyle, transparent} = styles;
     const menuArr = headerData.allMenuJson.edges;
+    
 
     return (
         <Fragment>
@@ -146,7 +148,7 @@ const Header = ({ props, ...styles }) => {
 
                                             <HeaderElement {...searchElStyle}>
                                                 <Clickable >
-                                                <Language />
+                                                <Language path={path} />
                                                 </Clickable>
                                             </HeaderElement>
 

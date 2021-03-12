@@ -30,6 +30,14 @@
         "bg_image": "../images/bg/machines/smt/reflow/machine-reflow.png"
     },
     {
+        "id": "about-spi-data",
+        "title": "Инспекция паяльной пасты - SPI",
+        "uatitle": "Інспекція паяльної пасти - SPI",
+        "desc": "Автоматическая оптическая инспекция качества нанесения паяльной пасты на контактные площадки печатных плат. Применяется в технологии поверхностного монтажа - SMT",
+        "uadesc": "Автоматична оптична інспекція якості нанесення паяльної пасти на контактні площадки друкованих плат. Застосовується в технології поверхневого монтажу - SMT",
+        "bg_image": "../images/bg/machines/smt/spi/machine-spi.png"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
             "title": "We run all kinds of IT services that vow your <span>success</span>",
