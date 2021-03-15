@@ -10,12 +10,13 @@ import ContactArea from '../../../containers/global/contact-area/contact-three'
 import WhatsnewArea from '../../../containers/machines/whats-new-area-en'
 
 
-
+const language = "en";
+const path = "en/service"; 
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>
     
-    <SEO title="Service" description="Service machines for  SMD mounting JUKI, ASM, PBT Works, PVA. Machines installation. Manual and maintenance training. Technical support. " pathname="en/service" keywords="installation, maintenance, technical training, service, support, electronics manufacturing, SMT, assembly lines, service, complete solutions for electronic" lang="en"/>
-    <Header transparent  />
+    <SEO title="Service" description="Service machines for  SMD mounting JUKI, ASM, PBT Works, PVA. Machines installation. Manual and maintenance training. Technical support. " pathname={path} keywords="installation, maintenance, technical training, service, support, electronics manufacturing, SMT, assembly lines, service, complete solutions for electronic" lang={language}/>
+    <Header transparent path={path} />
     <main className="site-wrapper-reveal">
       <HeroArea />
       <FeaturesArea />

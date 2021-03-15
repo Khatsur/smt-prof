@@ -38,6 +38,14 @@
         "bg_image": "../images/bg/machines/smt/spi/machine-spi.png"
     },
     {
+        "id": "about-aoi-data",
+        "title": "Автоматическая оптическая инспекция - AOI",
+        "uatitle": "Автоматична оптична інспекція - AOI",
+        "desc": "Автоматическая оптическая инспекция (AOI) качества монтажа электронных компонентов на печатные платы. Применяется в технологии поверхностного монтажа – SMT.",
+        "uadesc": "Автоматична оптична інспекція (AOI) якості монтажу електронних компонентів на друковані плати. Застосовується в технології поверхневого монтажу - SMT.",
+        "bg_image": "../images/bg/machines/smt/aoi/machine-aoi.png"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
             "title": "We run all kinds of IT services that vow your <span>success</span>",

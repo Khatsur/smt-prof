@@ -9,6 +9,7 @@ import frFlag from '../../assets/images/flags/fr.png'
 import deFlag from '../../assets/images/flags/de.png'
 import {LanguageWrap} from './language.style'
 
+
 const Language = props => {
     const [language, setLanguage] = useState([
         {

@@ -11,12 +11,13 @@ import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
 import CaseStudyArea from '../../../containers/machines/smt-big-ua'
 import SmallSmt from '../../../containers/lines/small-smt-ua'
 
-
+const language = "ua";
+const path = "ua/комплексні-рішення"; 
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>
     
-    <SEO title="Комплексні рішення для виробництва електроніки" description="Комплексні рішення виробництва електроніки. Обладнання для дрібносерійного,серійного і масового виробництва електроніки. Рішення «під ключ»" pathname="ua/комплексні-рішення" keywords="серійне виробництво електроніки, лінія smt, монтаж smt, монтаж в отвори, покриття плат, мийка плат, комплексні рішення для поверхневого монтажу, JUKI, g-titan, RS-1, smt, установник SMD, принтер паяльної пасти, паяльна піч, лінія smd монтажу" lang="ua"/>
-    <Header transparent  />
+    <SEO title="Комплексні рішення для виробництва електроніки" description="Комплексні рішення виробництва електроніки. Обладнання для дрібносерійного,серійного і масового виробництва електроніки. Рішення «під ключ»" pathname={path} keywords="серійне виробництво електроніки, лінія smt, монтаж smt, монтаж в отвори, покриття плат, мийка плат, комплексні рішення для поверхневого монтажу, JUKI, g-titan, RS-1, smt, установник SMD, принтер паяльної пасти, паяльна піч, лінія smd монтажу" lang={language}/>
+    <Header transparent  path={path}/>
     <main className="site-wrapper-reveal">
       <HeroArea />
       <FeaturesArea />

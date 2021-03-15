@@ -8,29 +8,44 @@ import enFlag from '../../assets/images/flags/en1.png'
 import ukFlag from '../../assets/images/flags/ukr.png'
 import ruFlag from '../../assets/images/flags/ru.png'
 import {LanguageWrap} from '../language-ua/language.style'
+import {PagePath} from '../pagepath'
 
 export const Language = props => {
+    let ua;
+    let ru;
+    let en;
+    for (let i = 0; i < PagePath.length; i++) {
+        if (PagePath[i].ua == props.path) {
+            ru = `../../../${PagePath[i].ru}`;
+            en = `../../../${PagePath[i].en}`;
+            i = PagePath.length;
+        } else {
+            ru = "/";
+            en = "../../../en";
+        }
+    };
+    // language change
     const [language, setLanguage] = useState([
         {
             id: 1,
             flag: ruFlag,
             name: ' RU',
             isActive: false,
-            link: "/"
+            link: ru
         },
         {
             id: 2,
             flag: ukFlag,
             name: ' UA',
             isActive: true,
-            link: "../ua"
+            link: ua
         },
         {
             id: 3,
             flag: enFlag,
             name: ' EN',
             isActive: false,
-            link: "../en"
+            link: en
         }
     ])
 

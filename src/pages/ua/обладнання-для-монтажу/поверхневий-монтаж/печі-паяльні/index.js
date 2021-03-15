@@ -17,7 +17,7 @@ const path = "ua/обладнання-для-монтажу/поверхневи
 const IndexPage = ({location}) => (
   <Layout location={location}>
     <SEO title="Печі паяльні" description="Печі паяльні для оплавлення паяльної пасти на контактних площадках друкованих плат при поверхневому монтажі (SMT) електронних компонентів (SMD) на плати" pathname={path} keywords="печі паяльні, паяльні печі, печі для пайки smd, печі для пайки, печі оплавлення, печі оплавлення паяльної пасти, ersa, soltec, поверхневий монтаж, smt" lang={language} />
-    <Header/>
+    <Header path={path}/>
     <main className="site-wrapper-reveal">
       <FeflowPageHeaderUa lang={language}/>
       <Feflow lang={language} />

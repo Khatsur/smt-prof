@@ -28,7 +28,7 @@ import {
 } from './header.style'
 
 
-const Header = ({ props, ...styles }) => {
+const Header = ({ path, ...styles }) => {
     const headerData = useStaticQuery(graphql`
         query UaHeaderThreeDataQuery {
             allMenuUaJson {
@@ -146,7 +146,7 @@ const Header = ({ props, ...styles }) => {
 
                                             <HeaderElement {...searchElStyle}>
                                                 <Clickable >
-                                                <Language />
+                                                <Language path={path}/>
                                                 </Clickable>
                                             </HeaderElement>
 

@@ -11,11 +11,13 @@ import WhatsnewArea from '../../containers/machines/whats-new-area'
 import CaseStudyArea from '../../containers/machines/smt-big'
 
 
-const IndexServices = ({ location, pageFromCMS }) => (
+
+const language = "ru";
+ const path = "оборудование-для-монтажа";
+const IndexServices = ({ location }) => (
   <Layout location={location}>
-    
-    <SEO title="Оборудование для монтажа" description="Оборудование для монтажа электронных компонентов на печатные платы. Установщики JUKI. Принтеры паяльной пасты. AOI и SPI. Селективная пайка. Влагозащита" pathname="оборудование-для-монтажа" keywords="оборудование для монтажа, SMT монтаж плат, мойка плат и трафаретов, нанесение покрытий, установщики SMT, оптическая инспекция, установщики tht, паяльные печи" lang="ru" />
-    <Header transparent  />
+    <SEO title="Оборудование для монтажа" description="Оборудование для монтажа электронных компонентов на печатные платы. Установщики JUKI. Принтеры паяльной пасты. AOI и SPI. Селективная пайка. Влагозащита" pathname={path} keywords="оборудование для монтажа, SMT монтаж плат, мойка плат и трафаретов, нанесение покрытий, установщики SMT, оптическая инспекция, установщики tht, паяльные печи" lang={language}/>
+    <Header transparent path={path} />
     <main className="site-wrapper-reveal">
       <HeroArea />
       <FeaturesArea />

@@ -17,7 +17,9 @@ exports.components = {
   "component---src-pages-оборудование-для-монтажа-оборудование-для-мойки-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/оборудование-для-мойки/index.js"))),
   "component---src-pages-оборудование-для-монтажа-обработка-провода-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/обработка-провода/index.js"))),
   "component---src-pages-оборудование-для-монтажа-оптическая-инспекция-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/оптическая-инспекция/index.js"))),
+  "component---src-pages-оборудование-для-монтажа-поверхностный-монтаж-автоматическая-оптическая-инспекция-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/поверхностный-монтаж/автоматическая-оптическая-инспекция/index.js"))),
   "component---src-pages-оборудование-для-монтажа-поверхностный-монтаж-автоматы-установки-компонентов-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов/index.js"))),
+  "component---src-pages-оборудование-для-монтажа-поверхностный-монтаж-инспекция-паяльной-пасты-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/поверхностный-монтаж/инспекция-паяльной-пасты/index.js"))),
   "component---src-pages-оборудование-для-монтажа-поверхностный-монтаж-печи-паяльные-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/поверхностный-монтаж/печи-паяльные/index.js"))),
   "component---src-pages-оборудование-для-монтажа-поверхностный-монтаж-принтеры-паяльной-пасты-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/index.js"))),
   "component---src-pages-оборудование-для-монтажа-поверхностный-монтаж-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/поверхностный-монтаж/index.js"))),
@@ -84,6 +86,7 @@ exports.components = {
   "component---src-pages-ua-обладнання-для-монтажу-обробка-проводу-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/обробка-проводу/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-оптична-інспекція-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/оптична-інспекція/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-автомати-встановлення-компонентів-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/index.js"))),
+  "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-інспекція-паяльної-пасти-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/інспекція-паяльної-пасти/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-печі-паяльні-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/печі-паяльні/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-принтери-паяльної-пасти-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/index.js"))),
@@ -91,7 +94,6 @@ exports.components = {
   "component---src-pages-ua-технічне-обслуговування-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/технічне-обслуговування/index.js"))),
   "component---src-pages-ua-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/index.js"))),
   "component---src-pages-why-choose-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/why-choose-us.js"))),
-  "component---src-pages-оборудование-для-монтажа-поверхностный-монтаж-инспекция-паяльной-пасты-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/поверхностный-монтаж/инспекция-паяльной-пасты/index.js"))),
   "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
   "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
   "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
@@ -100,7 +102,6 @@ exports.components = {
   "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
   "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
   "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
-  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
-  "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-інспекція-паяльної-пасти-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/інспекція-паяльної-пасти/index.js")))
+  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js")))
 }
 

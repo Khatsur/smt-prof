@@ -10,15 +10,14 @@ import WhatsnewArea from '../../../../../containers/machines/whats-new-area-ua'
 
 
 
-
-
- 
+const language = "ua";
+const path = "ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів"; 
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Автомати встановлення компонентів" description="Автомати встановлення компонентів SMD на поверхню друкованих плат. Технологія поверхневого монтажу електронних компонентів - SMT. Машини встановлення SMD" pathname="ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів" keywords="Встановлення електронних компонентів, установщики smd, smt, обладнання для smt, обладнання для smd монтажу, автомати встановлення компонентів, установник, smt, juki, asm, siplace, yamaha, samsung" lang="ua" />
-    <Header/>
+    <SEO title="Автомати встановлення компонентів" description="Автомати встановлення компонентів SMD на поверхню друкованих плат. Технологія поверхневого монтажу електронних компонентів - SMT. Машини встановлення SMD" pathname={path} lang={language} />
+    <Header path={path}/>
     <main className="site-wrapper-reveal">
-      <PlacerPageHeaderUa lang="ua"/>
+      <PlacerPageHeaderUa lang={language}/>
       <Placer lang="ua" />
       <ContactArea />
       <WhatsnewArea />

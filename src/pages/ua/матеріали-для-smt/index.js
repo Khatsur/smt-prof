@@ -10,11 +10,12 @@ import ContactArea from '../../../containers/global/contact-area/contact-three-u
 import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
 import CaseStudyArea from '../../../containers/machines/bud-stenc-clean-ua'
 
-
+const language = "ua";
+const path = "ua/матеріали-для-smt"; 
 const IndexServices = ({ location, pageFromCMS }) => (
   <Layout location={location}>
-    <SEO title="Матеріали для SMT" description="Матеріали для SMT від провідних виробників паяльної пасти і припою. Матеріали для мийки плат і трафаретів Zestron. Матеріали для вологозахисту Humiseal" pathname="ua/матеріали-для-smt" keywords="матеріали для SMT, Паяльна паста, припій, Паяльна паста Indium, рідини для миття плат, VIGON, захисні покриття, lead free, PB free, HumiSeal, ZESTRON, миття плат, миття трафаретів, бюджетні рішення" lang="ua"/>
-    <Header transparent />
+    <SEO title="Матеріали для SMT" description="Матеріали для SMT від провідних виробників паяльної пасти і припою. Матеріали для мийки плат і трафаретів Zestron. Матеріали для вологозахисту Humiseal" pathname={path} keywords="матеріали для SMT, Паяльна паста, припій, Паяльна паста Indium, рідини для миття плат, VIGON, захисні покриття, lead free, PB free, HumiSeal, ZESTRON, миття плат, миття трафаретів, бюджетні рішення" lang={language}/>
+    <Header transparent path={path}/>
     <main className="site-wrapper-reveal">
     <HeroArea />
       <FeaturesArea />
