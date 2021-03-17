@@ -7,7 +7,7 @@ import PlacerPageHeader from '../../../../components/page-header/printer'
 import Printer from '../../../../containers/machines/smt/printer'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../../containers/machines/whats-new-area'
-
+import MachinesSmt from '../../../../containers/machines/smt'
 
 
 
@@ -21,6 +21,7 @@ const IndexPage = ({location}) => (
       <PlacerPageHeader lang="ru"/>
       <Printer lang="ru" />
       <ContactArea />
+      <MachinesSmt/>
       <WhatsnewArea />
     </main>
     <Footer/>

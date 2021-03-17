@@ -7,6 +7,7 @@ import ReflowPageHeader from '../../../../components/page-header/reflow'
 import Reflow from '../../../../containers/machines/smt/reflow'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../../containers/machines/whats-new-area'
+import MachinesSmt from '../../../../containers/machines/smt'
 
 
 
@@ -22,6 +23,7 @@ const IndexPage = ({location}) => (
       
       <Reflow lang={language}/>
       <ContactArea />
+      <MachinesSmt/>
       <WhatsnewArea />
     </main>
     <Footer/>

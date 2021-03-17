@@ -7,6 +7,7 @@ import SpiPageHeader from '../../../../components/page-header/spi'
 import Spi from '../../../../containers/machines/smt/spi'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../../containers/machines/whats-new-area'
+import MachinesSmt from '../../../../containers/machines/smt'
 
 
 
@@ -22,6 +23,7 @@ const IndexPage = ({location}) => (
       
       <Spi lang={language}/>
       <ContactArea />
+      <MachinesSmt/>
       <WhatsnewArea />
     </main>
     <Footer/>
