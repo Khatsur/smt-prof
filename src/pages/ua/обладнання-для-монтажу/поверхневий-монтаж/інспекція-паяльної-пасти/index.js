@@ -18,7 +18,7 @@ const path = "ua/обладнання-для-монтажу/поверхневи
 const IndexPage = ({location}) => (
   <Layout location={location}>
     <SEO title="Інспекція паяльної пасти" description="Інспекція паяльної пасти на контактних площадках друкованих плат в автоматичному режимі після автоматичного принтера для нанесення паяльної пасти на плати" pathname={path} keywords="автоматична оптична інспекція, оптична інспекція, інспекція нанесення паяльної пасти, RV-2, Juki, RV2-3DH, системи автоматичної оптичної інспекції, SPI, smt, omron spi" lang={language} />
-    <Header/>
+    <Header path={path}/>
     <main className="site-wrapper-reveal">
       <SpiPageHeaderUa lang={language}/>
       <Spi lang={language} />

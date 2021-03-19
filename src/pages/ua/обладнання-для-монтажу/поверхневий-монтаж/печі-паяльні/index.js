@@ -7,7 +7,7 @@ import FeflowPageHeaderUa from '../../../../../components/page-header/reflow'
 import Feflow from '../../../../../containers/machines/smt/reflow'
 import ContactArea from '../../../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../../../containers/machines/whats-new-area-ua'
-
+import MachinesSmt from '../../../../../containers/machines/smt-ua'
 
 
 
@@ -22,6 +22,7 @@ const IndexPage = ({location}) => (
       <FeflowPageHeaderUa lang={language}/>
       <Feflow lang={language} />
       <ContactArea />
+      <MachinesSmt/>
       <WhatsnewArea />
     </main>
     <Footer/>

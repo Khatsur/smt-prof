@@ -7,7 +7,7 @@ import PlacerPageHeaderUa from '../../../../../components/page-header/placer'
 import Placer from '../../../../../containers/machines/smt/placer'
 import ContactArea from '../../../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../../../containers/machines/whats-new-area-ua'
-
+import MachinesSmt from '../../../../../containers/machines/smt-ua'
 
 
 const language = "ua";
@@ -20,6 +20,7 @@ const IndexPage = ({location}) => (
       <PlacerPageHeaderUa lang={language}/>
       <Placer lang="ua" />
       <ContactArea />
+      <MachinesSmt/>
       <WhatsnewArea />
     </main>
     <Footer/>

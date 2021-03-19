@@ -7,11 +7,13 @@ import HeroArea from '../../../../containers/index-processing/coating-ua'
 import MachinesCoating from '../../../../containers/machines/coating-ua'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../../containers/machines/whats-new-area-ua'
- 
+
+const language = "ua";
+const path = "ua/обладнання-для-монтажу/захист-електроніки";
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Захист електроніки" description="Захист електроніки. Обладнання для нанесення покриттів на плати (електронні блоки). Селективне нанесення захисних матеріалів. Нанесення лаку зануренням" pathname="ua/обладнання-для-монтажу/захист-електроніки" keywords="захист електроніки, обладнання для нанесення захисних  покриттів, обладнання для селективного нанесення, нанесення вологозахисних покриттів, smt" lang="ua"/>
-    <Header/>
+    <SEO title="Захист електроніки" description="Захист електроніки. Обладнання для нанесення покриттів на плати (електронні блоки). Селективне нанесення захисних матеріалів. Нанесення лаку зануренням" pathname={path} keywords="захист електроніки, обладнання для нанесення захисних  покриттів, обладнання для селективного нанесення, нанесення вологозахисних покриттів, smt" lang={language}/>
+    <Header path={path}/>
     <main className="site-wrapper-reveal">
       <HeroArea/>
       <MachinesCoating/>

@@ -7,11 +7,13 @@ import HeroArea from '../../../containers/index-processing/tht'
 import MachinesTht from '../../../containers/machines/tht'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../containers/machines/whats-new-area'
- 
+
+const language = "ru";
+const path = "оборудование-для-монтажа/монтаж-в-отверстия";
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Монтаж в отверстия" description="Монтаж в отверстия печатных плат - THT. Оборудование для установки выводных (штыревых) компонентов. Машины для селективной пайки и пайки волной припоя." pathname="оборудование-для-монтажа/монтаж-в-отверстия" keywords="монтаж в отверстия, выводной монтаж, установщики в отверстия плат, селективная пайка, машины селективной пайки, машины пайки волной припоя, штыревой монтаж, установщики компонентов, juki jm" lang="ru" />
-    <Header/>
+    <SEO title="Монтаж в отверстия" description="Монтаж в отверстия печатных плат - THT. Оборудование для установки выводных (штыревых) компонентов. Машины для селективной пайки и пайки волной припоя." pathname={path} keywords="монтаж в отверстия, выводной монтаж, установщики в отверстия плат, селективная пайка, машины селективной пайки, машины пайки волной припоя, штыревой монтаж, установщики компонентов, juki jm" lang={language}/>
+    <Header path={path}/>
     <main className="site-wrapper-reveal">
       <HeroArea/>
       <MachinesTht/>

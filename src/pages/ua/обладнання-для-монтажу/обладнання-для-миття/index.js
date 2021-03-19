@@ -8,10 +8,13 @@ import MachinesCleaning from '../../../../containers/machines/cleaning-ua'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../../containers/machines/whats-new-area-ua'
  
+
+const language = "ua";
+const path = "ua/обладнання-для-монтажу/обладнання-для-миття";
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Обладнання для миття" description="Обладнання для миття зібраних друкованих плат, трафаретів для нанесення паяльної пасти, технологічної оснастки для пайки (палети) і частин обладнання" pathname="ua/обладнання-для-монтажу/обладнання-для-миття" keywords="обладнання для миття, обладнання для миття трафаретів, обладнання для миття устаткування, трафарети для нанесення паяльної пасти,мийка плат,мийка трафаретів" lang="ua"/>
-    <Header/>
+    <SEO title="Обладнання для миття" description="Обладнання для миття зібраних друкованих плат, трафаретів для нанесення паяльної пасти, технологічної оснастки для пайки (палети) і частин обладнання" pathname={path} keywords="обладнання для миття, обладнання для миття трафаретів, обладнання для миття устаткування, трафарети для нанесення паяльної пасти,мийка плат,мийка трафаретів" lang={language}/>
+    <Header path={path}/>
     <main className="site-wrapper-reveal">
       <HeroArea/>
       <MachinesCleaning/>

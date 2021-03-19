@@ -7,11 +7,13 @@ import HeroArea from '../../../containers/index-processing/wire'
 import MachinesWire from '../../../containers/machines/wire'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../containers/machines/whats-new-area'
- 
+
+const language = "ru";
+const path = "оборудование-для-монтажа/обработка-провода";
 const IndexPage = ({location}) => (
   <Layout location={location}>
-    <SEO title="Обработка провода" description="Обработка провода и кабелей. Мерная резка и зачистка проводов. Резка и зачистка кабелей. Опрессовка контактов.  Обработка коаксиальных и силовых кабелей." pathname="оборудование-для-монтажа/обработка-провода" keywords="обработка провода, резка провода, зачистка провода, зачистка кабеля, опрессовка контактов, кремповка контактов, обжимка провдов, обжимка терминалов" lang="ru"/>
-    <Header/>
+    <SEO title="Обработка провода" description="Обработка провода и кабелей. Мерная резка и зачистка проводов. Резка и зачистка кабелей. Опрессовка контактов.  Обработка коаксиальных и силовых кабелей." pathname={path} keywords="обработка провода, резка провода, зачистка провода, зачистка кабеля, опрессовка контактов, кремповка контактов, обжимка провдов, обжимка терминалов" lang={language}/>
+    <Header path={path}/>
     <main className="site-wrapper-reveal">
       <HeroArea/>
       <MachinesWire />
