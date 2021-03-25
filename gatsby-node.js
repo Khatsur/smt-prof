@@ -59,6 +59,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'SmallPrinterJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
 }
 
 
@@ -68,6 +75,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const servicePage = path.resolve("./src/templates/service-template/service-template.js")
     const solutionPage = path.resolve("./src/templates/it-solution-template/it-solution-template.js")
     const caseStudyPage = path.resolve("./src/templates/case-study-template/case-study-template.js")
+    const smallPrinterPage = path.resolve("./src/templates/small-printer-template/small-printer-template.js")
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
     const blogList = path.resolve("./src/templates/blog-list/blog-list.js");
     const tagPage = path.resolve("./src/templates/tag-template/tag-template.js");
@@ -98,6 +106,47 @@ exports.createPages = async ({ graphql, actions }) => {
                 }
             }  
             allCaseStudiesJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        image {
+                          childImageSharp {
+                            fixed(width: 120, height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        image {
+                          childImageSharp {
+                            fixed(width: 120, height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }  
+            allSmallPrinterJson{
                 edges {
                     node {
                         fields{
@@ -223,6 +272,21 @@ exports.createPages = async ({ graphql, actions }) => {
         createPage({
             path: `case-study/${node.fields.slug}`,
             component: caseStudyPage,
+            context: {
+                slug: node.fields.slug,
+                next,
+                previous
+            }
+        })
+    });
+
+    // Create Single Small Printer Page
+
+    const smallPrinter = result.data.allSmallPrinterJson.edges;
+    smallPrinter.forEach(({ node, next, previous }) => {
+        createPage({
+            path: `оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/принтеры-пасты-ручные/${node.fields.slug}`,
+            component: smallPrinterPage,
             context: {
                 slug: node.fields.slug,
                 next,

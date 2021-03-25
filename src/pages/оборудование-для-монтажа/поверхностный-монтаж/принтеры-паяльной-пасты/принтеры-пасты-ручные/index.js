@@ -4,7 +4,7 @@ import Layout from '../../../../../containers/layout/layout'
 import Header from '../../../../../containers/layout/header/header-three'
 import Footer from '../../../../../containers/layout/footer/footer-one'
 import SmallPrintPageHeader from '../../../../../components/pageheader/small-printer'
-import CaseStudyArea from '../../../../../containers/global/case-study-area'
+import SmallPrint from '../../../../../containers/machines/smt/printer/small-printer'
 import CTAArea from '../../../../../containers/global/cta-area/section-one'
 
 const title = "Принтеры пасты ручные";
@@ -20,7 +20,7 @@ const CaseStudiesPage = ({ pageContext, location }) => (
         title={title}
     />
     <main className="site-wrapper-reveal">
-        <CaseStudyArea/>
+        <SmallPrint path={path}/>
         <CTAArea/>
     </main>
     <Footer/>
