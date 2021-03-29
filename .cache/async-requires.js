@@ -104,6 +104,7 @@ exports.components = {
   "component---src-pages-ua-обладнання-для-монтажу-index-js": () => import("./../src/pages/ua/обладнання-для-монтажу/index.js" /* webpackChunkName: "component---src-pages-ua-обладнання-для-монтажу-index-js" */),
   "component---src-pages-ua-технічне-обслуговування-index-js": () => import("./../src/pages/ua/технічне-обслуговування/index.js" /* webpackChunkName: "component---src-pages-ua-технічне-обслуговування-index-js" */),
   "component---src-pages-ua-index-js": () => import("./../src/pages/ua/index.js" /* webpackChunkName: "component---src-pages-ua-index-js" */),
-  "component---src-pages-why-choose-us-js": () => import("./../src/pages/why-choose-us.js" /* webpackChunkName: "component---src-pages-why-choose-us-js" */)
+  "component---src-pages-why-choose-us-js": () => import("./../src/pages/why-choose-us.js" /* webpackChunkName: "component---src-pages-why-choose-us-js" */),
+  "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-принтери-паяльної-пасти-принтери-пасти-ручні-index-js": () => import("./../src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні/index.js" /* webpackChunkName: "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-принтери-паяльної-пасти-принтери-пасти-ручні-index-js" */)
 }
 

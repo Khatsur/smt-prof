@@ -107,6 +107,7 @@ exports.components = {
   "component---src-pages-ua-обладнання-для-монтажу-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/index.js"))),
   "component---src-pages-ua-технічне-обслуговування-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/технічне-обслуговування/index.js"))),
   "component---src-pages-ua-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/index.js"))),
-  "component---src-pages-why-choose-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/why-choose-us.js")))
+  "component---src-pages-why-choose-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/why-choose-us.js"))),
+  "component---src-pages-ua-обладнання-для-монтажу-поверхневий-монтаж-принтери-паяльної-пасти-принтери-пасти-ручні-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні/index.js")))
 }
 

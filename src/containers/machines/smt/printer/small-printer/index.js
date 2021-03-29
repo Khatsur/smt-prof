@@ -34,11 +34,40 @@ const CaseStudiesArea = (props) => {
     `)
     const caseStudies = smallPrinterData.allSmallPrinterJson.edges;
     const {sectionStyle, headingStyle, caseStudyStyles} = props;
+    if (props.language === "ru") 
+    {return (
+        <Section {...sectionStyle}>
+            <Row>
+                <Col>
+                    <Heading {...headingStyle}>Нанесение паяльной пасты через трафарет</Heading>
+                    <h6 style={{textAlign: "justify"}}>Оборудование предназначено для ручного нанесения паяльной пасты через металлический трафарет на контактные площадки печатных плат – принтеры для нанесения паяльной пасты. Приименяется в условиях мелкосерийного производства монтажа печатных плат для технологии поверхностного монтажа SMT. Принтеры для нанесения паяльной пасты повышают производительности технологических процессов нанесения материалов на печатные платы для технологии поверхностного монтажа SMT.</h6>
+                </Col>
+            </Row>
+            <br></br>
+            <Row>
+                {caseStudies.map(caseStudy => (
+                    <Col lg={4} md={6} mb="30px" key={caseStudy.node.id}>
+                        <CaseStudyBox
+                            {...caseStudyStyles}
+                            imageSrc={caseStudy.node.image.childImageSharp}
+                            title={caseStudy.node.title}
+                            category={caseStudy.node.category}
+                            desc={caseStudy.node.excerpt}
+                            path={`/${props.path}/${caseStudy.node.fields.slug}`}
+                            btnText="Подробно"
+                        />
+                    </Col>
+                ))}
+            </Row>
+        </Section>
+    )
+} else if (props.language === "ua") {
     return (
         <Section {...sectionStyle}>
             <Row>
                 <Col>
-                    <Heading {...headingStyle}>Proud projects that <span>make us stand out</span></Heading>
+                    <Heading {...headingStyle}>Нанесення паяльної пасти через трафарет</Heading>
+                    <h6 style={{textAlign: "justify"}}>Оборудование предназначено для ручного нанесения паяльной пасты через металлический трафарет на контактные площадки печатных плат – принтеры для нанесения паяльной пасты. Приименяется в условиях мелкосерийного производства монтажа печатных плат для технологии поверхностного монтажа SMT. Принтеры для нанесения паяльной пасты повышают производительности технологических процессов нанесения материалов на печатные платы для технологии поверхностного монтажа SMT.</h6>
                 </Col>
             </Row>
             <Row>
@@ -50,14 +79,16 @@ const CaseStudiesArea = (props) => {
                             title={caseStudy.node.title}
                             category={caseStudy.node.category}
                             desc={caseStudy.node.excerpt}
-                            path={`/оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/принтеры-пасты-ручные/${caseStudy.node.fields.slug}`}
-                            btnText="View case study"
+                            path={`/${props.path}/${caseStudy.node.fields.slug}`}
+                            btnText="Докладно"
                         />
                     </Col>
                 ))}
             </Row>
         </Section>
     )
+}
+
 }
 
 

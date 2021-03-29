@@ -16,11 +16,11 @@ export const Language = props => {
     let en;
     for (let i = 0; i < PagePath.length; i++) {
         if (PagePath[i].en == props.path) {
-            ua = `../../../${PagePath[i].ua}`;
-            ru = `../../../${PagePath[i].ru}`;
+            ua = `../../../../../${PagePath[i].ua}`;
+            ru = `../../../../../${PagePath[i].ru}`;
             i = PagePath.length;
         } else {
-            ua = "../../../ua";
+            ua = "../../../../../ua";
             ru = "/";
         }
     };
