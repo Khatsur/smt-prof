@@ -4,6 +4,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Section, {Row, Col} from '../../../../../components/ui/wrapper'
 import Heading from '../../../../../components/ui/heading'
 import CaseStudyBox from '../../../../../components/box-large-image/layout-two'
+import ChangLang from '../../../../../containers/elements/tabs/changlang.js'
+import {PagePath} from '../../../../../components/pagepath'
 
 const CaseStudiesArea = (props) => {
     const smallPrinterData = useStaticQuery(graphql `
@@ -15,6 +17,30 @@ const CaseStudiesArea = (props) => {
                             slug
                         }
                         id
+                        
+                        title
+                        category
+                        excerpt
+                        image {
+                            childImageSharp {
+                                fluid(maxWidth: 480, maxHeight: 298, quality: 100){
+                                    ...GatsbyImageSharpFluid_withWebp
+                                    presentationWidth
+                                    presentationHeight
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            allSmallPrinterUaJson {
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        id
+                        
                         title
                         category
                         excerpt
@@ -32,8 +58,13 @@ const CaseStudiesArea = (props) => {
             }
         }
     `)
+    
     const caseStudies = smallPrinterData.allSmallPrinterJson.edges;
+    const caseStudiesUa = smallPrinterData.allSmallPrinterUaJson.edges;
+
     const {sectionStyle, headingStyle, caseStudyStyles} = props;
+   
+    
     if (props.language === "ru") 
     {return (
         <Section {...sectionStyle}>
@@ -46,6 +77,7 @@ const CaseStudiesArea = (props) => {
             <br></br>
             <Row>
                 {caseStudies.map(caseStudy => (
+                    
                     <Col lg={4} md={6} mb="30px" key={caseStudy.node.id}>
                         <CaseStudyBox
                             {...caseStudyStyles}
@@ -55,7 +87,9 @@ const CaseStudiesArea = (props) => {
                             desc={caseStudy.node.excerpt}
                             path={`/${props.path}/${caseStudy.node.fields.slug}`}
                             btnText="Подробно"
+                            
                         />
+                        
                     </Col>
                 ))}
             </Row>
@@ -70,16 +104,17 @@ const CaseStudiesArea = (props) => {
                     <h6 style={{textAlign: "justify"}}>Оборудование предназначено для ручного нанесения паяльной пасты через металлический трафарет на контактные площадки печатных плат – принтеры для нанесения паяльной пасты. Приименяется в условиях мелкосерийного производства монтажа печатных плат для технологии поверхностного монтажа SMT. Принтеры для нанесения паяльной пасты повышают производительности технологических процессов нанесения материалов на печатные платы для технологии поверхностного монтажа SMT.</h6>
                 </Col>
             </Row>
+            <br></br>
             <Row>
-                {caseStudies.map(caseStudy => (
-                    <Col lg={4} md={6} mb="30px" key={caseStudy.node.id}>
+                {caseStudiesUa.map(caseStudiesUa => (
+                    <Col lg={4} md={6} mb="30px" key={caseStudiesUa.node.id}>
                         <CaseStudyBox
                             {...caseStudyStyles}
-                            imageSrc={caseStudy.node.image.childImageSharp}
-                            title={caseStudy.node.title}
-                            category={caseStudy.node.category}
-                            desc={caseStudy.node.excerpt}
-                            path={`/${props.path}/${caseStudy.node.fields.slug}`}
+                            imageSrc={caseStudiesUa.node.image.childImageSharp}
+                            title={caseStudiesUa.node.title}
+                            category={caseStudiesUa.node.category}
+                            desc={caseStudiesUa.node.excerpt}
+                            path={`/${props.path}/${caseStudiesUa.node.fields.slug}`}
                             btnText="Докладно"
                         />
                     </Col>

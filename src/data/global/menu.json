@@ -74,7 +74,7 @@
         "link": "/оборудование-для-монтажа",
         "megamenu": [
             {
-                "title": "Element Group 01",
+                "title": "Принтеры пасты",
                 "submenu": [
                     {
                         "text": "Accordion",
@@ -85,8 +85,8 @@
                         "link": "/elements/box-icon"
                     },
                     {
-                        "text": "Box Image",
-                        "link": "/elements/box-image"
+                        "text": "Ручные",
+                        "link": "/оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/принтеры-пасты-ручные"
                     },
                     {
                         "text": "Box Large Image",

@@ -14,6 +14,7 @@ const CaseStudiesPage = ({ pageContext, location }) => (
   <Layout location={location}>
     <SEO title={title} description="Оборудование для нанесения паяльной пасты через трафарет на контактные площадки печатных плат. Применятся в технологии поверхностного монтажа - SMT" pathname={path} keywords="машины для нанесения паяльной пасты, принтеры паяльной пасты, паяльная паста, оборудование для поверхностного монтажа плат, принтеры паяльной пасты, G-Titan, dek" lang={language}/>
     <Header path={path}/>
+   
     <SmallPrintPageHeader 
         pageContext={pageContext} 
         location={location}

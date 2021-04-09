@@ -16,12 +16,12 @@ const Language = (props) => {
     let en;
     for (let i = 0; i < PagePath.length; i++) {
         if (PagePath[i].ru == props.path) {
-            ua = `../../../../../${PagePath[i].ua}`;
-            en = `../../../../../${PagePath[i].en}`;
+            ua = `../../../../../../${PagePath[i].ua}`;
+            en = `../../../../../../${PagePath[i].en}`;
             i = PagePath.length;
         } else {
-            ua = "../../../../../ua";
-            en = "../../../../../en";
+            ua = "../../../../../../ua";
+            en = "../../../../../../en";
         }
     };
     // language change

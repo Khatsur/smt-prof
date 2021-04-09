@@ -66,6 +66,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'SmallPrinterUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
 }
 
 
@@ -76,6 +83,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const solutionPage = path.resolve("./src/templates/it-solution-template/it-solution-template.js")
     const caseStudyPage = path.resolve("./src/templates/case-study-template/case-study-template.js")
     const smallPrinterPage = path.resolve("./src/templates/small-printer-template/small-printer-template.js")
+    const smallPrinterPageUa = path.resolve("./src/templates/small-printer-template/small-printer-template-ua.js")
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
     const blogList = path.resolve("./src/templates/blog-list/blog-list.js");
     const tagPage = path.resolve("./src/templates/tag-template/tag-template.js");
@@ -147,6 +155,47 @@ exports.createPages = async ({ graphql, actions }) => {
                 }
             }  
             allSmallPrinterJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        image {
+                          childImageSharp {
+                            fixed(width: 120, height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        image {
+                          childImageSharp {
+                            fixed(width: 120, height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }  
+            allSmallPrinterUaJson{
                 edges {
                     node {
                         fields{
@@ -294,6 +343,21 @@ exports.createPages = async ({ graphql, actions }) => {
             }
         })
     });
+
+     // Create Single Small Printer Ua Page
+
+     const smallPrinterUa = result.data.allSmallPrinterUaJson.edges;
+     smallPrinterUa.forEach(({ node, next, previous }) => {
+         createPage({
+             path: `ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні/${node.fields.slug}`,
+             component: smallPrinterPageUa,
+             context: {
+                 slug: node.fields.slug,
+                 next,
+                 previous
+             }
+         })
+     });
 
     // Create Single Blog Page
 

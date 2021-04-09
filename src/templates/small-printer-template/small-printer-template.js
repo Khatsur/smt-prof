@@ -17,6 +17,8 @@ import ModalVideo from '../../components/ui/modal-video'
 import Social, { SocialLink } from '../../components/ui/social'
 import TestimonialSection from '../../containers/global/testimonial-area/section-one'
 import CTA from '../../containers/global/cta-area/section-one'
+import ContactArea from '../../containers/global/contact-area/contact-three-ru'
+import MachinesSmt from '../../containers/machines/smt'
 import PostNav from '../../components/post-nav/layout-one'
 import {
     Accordion,
@@ -74,8 +76,9 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
     }
     return (
         <Layout location={location}>
-            <Header />
-            <SEO title={pageData.title} />
+            
+            <Header path={`${pageData.ru}/${pageData.title}`}/>
+            <SEO title={pageData.title} pathname={`${pageData.ru}/${pageData.title}`} lang="ru"/>
             <main className="site-wrapper-reveal">
                 {(pageData.title || pageData.tagline) && (
                     <BannerArea fluid={bannerImg}>
@@ -96,7 +99,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         <Container>
                             <Row>
                                 <Col lg={12}>
-                                    <Heading as="h3" mb="30px">Overview</Heading>
+                                    <Heading as="h3" mb="30px">{pageData.title}</Heading>
                                 </Col>
                             </Row>
                             <Row>
@@ -180,7 +183,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                     {previous && (
                                         <PostNav
                                             rel="prev"
-                                            slug={`../оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/принтеры-пасты-ручные/${previous.fields.slug}`}
+                                            slug={`../${pageData.ru}/${previous.fields.slug}`}
                                             title={previous.title}
                                             image={previous.image.childImageSharp.fixed}
                                         />
@@ -188,7 +191,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                     {next && (
                                         <PostNav
                                             rel="next"
-                                            slug={`../оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/принтеры-пасты-ручные/${next.fields.slug}`}
+                                            slug={`../${pageData.ru}/${next.fields.slug}`}
                                             title={next.title}
                                             image={next.image.childImageSharp.fixed}
                                         />
@@ -198,7 +201,8 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         </Row>
                     </Container>
                 </NavigationArea>
-                <CTA />
+                <ContactArea />
+                <MachinesSmt />
             </main>
             <ModalVideo
                 channel='youtube'
@@ -215,6 +219,8 @@ export const query = graphql`
     query($slug: String!){
         smallPrinterJson(fields: {slug: {eq: $slug}}){
             title
+            ru
+            ua
             tagline
             techover
             techspec
