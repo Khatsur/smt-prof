@@ -23,7 +23,7 @@ const CaseStudiesArea = (props) => {
                         excerpt
                         image {
                             childImageSharp {
-                                fluid(maxWidth: 480, maxHeight: 298, quality: 100){
+                                fluid(maxHeight: 258, quality: 100){
                                     ...GatsbyImageSharpFluid_withWebp
                                     presentationWidth
                                     presentationHeight

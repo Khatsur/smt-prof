@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types'
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+
 import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import SEO from "../../components/seo"
@@ -45,6 +46,9 @@ import {
     Navigtion
 } from './case-study-template.style'
 import Tab from '../../containers/elements/tabs/tab-smt'
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
+
 
 const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ...restProps }) => {
     const pageData = data.smallPrinterJson;
@@ -74,11 +78,12 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
     const modalVideoClose = () => {
         setVideoOpen(false)
     }
+    const lang = "ru";
     return (
         <Layout location={location}>
             
             <Header path={`${pageData.ru}/${pageData.title}`}/>
-            <SEO title={pageData.title} pathname={`${pageData.ru}/${pageData.title}`} lang="ru"/>
+            <SEO title={pageData.title} pathname={`${pageData.ru}/${pageData.title}`} lang={lang}/>
             <main className="site-wrapper-reveal">
                 {(pageData.title || pageData.tagline) && (
                     <BannerArea fluid={bannerImg}>
@@ -86,7 +91,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                             <Row justify="center">
                                 <Col lg={10}>
                                     <BannerTextWrap>
-                                        {pageData.logo && <Img fixed={pageData.logo.childImageSharp.fixed} alt={pageData.title} />}
+                                        
                                         {pageData.tagline && <Heading {...taglineStyle}>{pageData.tagline}</Heading>}
                                     </BannerTextWrap>
                                 </Col>
@@ -94,29 +99,39 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         </Container>
                     </BannerArea>
                 )}
+                
                 {overview && (
                     <OverviewArea>
                         <Container>
                             <Row>
                                 <Col lg={12}>
-                                    <Heading as="h3" mb="30px">{pageData.title}</Heading>
+                                    <Heading as="h3" mb="30px">{pageData.bigtitle}</Heading>
+                                   
                                 </Col>
+                               
                             </Row>
+                           
                             <Row>
+                            
                                 <Col lg={5}>
-                                    {overview.heading && <Heading {...overviewHeading}>{overview.heading}</Heading>}
+                                    {overview.heading &&  
+                                   
+                                    <Image fluid={pageData.image.childImageSharp.fluid} alt={pageData.title}  />
+                                   
+                                    }
                                     
                                 </Col>
+                                
                                 <Col lg={7}>
-                                    {overview.short_desc && <Text>{overview.short_desc}</Text>}
+                                    {overview.short_desc && <Text style={{fontSize: 20}}>{overview.short_desc}</Text>}
                                     
-                                    
+                    
                                 </Col>
                             </Row>
                         </Container>
                     </OverviewArea>
                 )}
-                <Tab techover={pageData.techover} techspec={pageData.techspec}/>
+                <Tab techover={pageData.techover} techspec={pageData.techspec} lang={lang}/>
                 
                 {results && (
                     <ResultArea>
@@ -219,6 +234,7 @@ export const query = graphql`
     query($slug: String!){
         smallPrinterJson(fields: {slug: {eq: $slug}}){
             title
+            bigtitle
             ru
             ua
             tagline
@@ -233,11 +249,20 @@ export const query = graphql`
             }
             banner_image{
                 childImageSharp{
-                  fluid(maxWidth: 1920, maxHeight: 570, quality: 100){
+                  fluid(maxWidth: 1420, maxHeight: 470, quality: 100){
                     ...GatsbyImageSharpFluid_withWebp
                     presentationWidth
                     presentationHeight
                   }
+                }
+            }
+            image {
+                childImageSharp {
+                    fluid(maxHeight: 300, quality: 100){
+                        ...GatsbyImageSharpFluid_withWebp
+                        presentationWidth
+                        presentationHeight
+                    }
                 }
             }
             overview {
@@ -265,7 +290,7 @@ export const query = graphql`
                 video_link
                 preview_image{
                     childImageSharp {
-                        fluid(quality: 100, maxWidth: 570, maxHeight: 350) {
+                        fluid(quality: 100,  maxHeight: 300) {
                             ...GatsbyImageSharpFluid_withWebp
                             presentationWidth
                             presentationHeight

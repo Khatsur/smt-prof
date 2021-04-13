@@ -24,9 +24,9 @@ const PageHeader = ({pageContext, location, title}) => {
     const labelArr = label.split('-');
     const imageData = useStaticQuery(graphql `
         query SmallPrintBreadCrumbImgQuery {
-            file(relativePath: {eq: "images/bg/machines/machine-printer-m.png"}) {
+            file(relativePath: {eq: "images/bg/machines/small-print/small-print.jpg"}) {
                 childImageSharp {
-                    fluid(maxWidth: 1920, maxHeight: 400, quality: 100) {
+                    fluid(maxWidth: 1520, maxHeight: 400, quality: 100) {
                         ...GatsbyImageSharpFluid
                     }
                 }

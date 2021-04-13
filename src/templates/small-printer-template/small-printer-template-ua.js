@@ -75,10 +75,11 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
     const modalVideoClose = () => {
         setVideoOpen(false)
     }
+    const lang = "ua";
     return (
         <Layout location={location}>
             <Header path={`${pageData.ua}/${pageData.title}`}/>
-            <SEO title={pageData.title} pathname={`${pageData.ua}/${pageData.title}`} lang="ua" />
+            <SEO title={pageData.title} pathname={`${pageData.ua}/${pageData.title}`} lang={lang} />
             <main className="site-wrapper-reveal">
                 {(pageData.title || pageData.tagline) && (
                     <BannerArea fluid={bannerImg}>
@@ -104,11 +105,11 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                             </Row>
                             <Row>
                                 <Col lg={5}>
-                                    {overview.heading && <Heading {...overviewHeading}>{overview.heading}</Heading>}
+                                    {overview.heading && <Image fluid={pageData.image.childImageSharp.fluid} alt={pageData.title}  />}
                                     
                                 </Col>
                                 <Col lg={7}>
-                                    {overview.short_desc && <Text>{overview.short_desc}</Text>}
+                                    {overview.short_desc && <Text style={{fontSize: 20}}>{overview.short_desc}</Text>}
                                     
                                     
                                 </Col>
@@ -116,7 +117,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         </Container>
                     </OverviewArea>
                 )}
-                <Tab techover={pageData.techover} techspec={pageData.techspec}/>
+                <Tab techover={pageData.techover} techspec={pageData.techspec} lang={lang}/>
                 
                 {results && (
                     <ResultArea>
@@ -238,6 +239,15 @@ export const query = graphql`
                     presentationWidth
                     presentationHeight
                   }
+                }
+            }
+            image {
+                childImageSharp {
+                    fluid(maxHeight: 300, quality: 100){
+                        ...GatsbyImageSharpFluid_withWebp
+                        presentationWidth
+                        presentationHeight
+                    }
                 }
             }
             overview {

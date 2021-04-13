@@ -3,19 +3,20 @@
     "ru": "оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/принтеры-пасты-ручные",
     "ua": "ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні",
     "title": "sd240",
+    "bigtitle": "Принтер SD240",
     "category": "Cyber Security",
     "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
     "techover": "Нанесение паяльной пасты через трафарет",
     "techspec": "Размер печатных плат",
-    "tagline": "A vision for a smarter world An ARM case study",
+    "tagline": "Нанесение паяльной пасты",
     "logo": "../../../images/icons/case-study-04-logo-83x108.png",
-    "image": "../../../images/box-image/case-study-04-featured.jpg",
+    "image": "../../../images/bg/machines/small-print/sd240.jpg",
     "slide_image": "../../../images/box-image/case-study-slide-image-01.png",
     "is_featured": true,
-    "banner_image": "../../../images/banner/banner-02.jpg",
+    "banner_image": "../../../images/bg/machines/small-print/small-print.jpg",
     "overview": {
         "heading": "Inventions, literary works, music & design are all intangible assets. The legal right to these ‘creations of the mind’ is Intellectual Property (IP).",
-        "short_desc": "The studio was keen to create an identity that would not interfere with any of the existing brands, settling on a helicoid system that can be easily adapted to “work with any colour system”. The studio consulted with the various brands throughout the process. (Source: designweek.co.uk)",
+        "short_desc": "Бюджетный принтер для нанесения паяльной пасты с универсальным креплением трафарета.  Устройство укомплектовано опорами для нанесения паяльной пасты на двусторонние платы и ракелем. Подходить для применения в условиях мелкосерийного производства.",
         "tags": ["basic"],
         "client": {
             "name": "Maggie Strickland",
@@ -64,7 +65,7 @@
         }
     ],
     "video": {
-        "preview_image": "../../../images/about-us/video-01-image-01-570x350.jpg",
+        "preview_image": "../../../images/bg/machines/small-print/sd240.jpg",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     }
 }

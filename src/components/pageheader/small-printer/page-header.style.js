@@ -51,7 +51,7 @@ export const PageHeaderWrap = styled(BackgroundImage) `
                 }
             }
             &__active{
-                color: #6D70A6;
+                color: white;
                 &:after{
                     display: none;
                 }
