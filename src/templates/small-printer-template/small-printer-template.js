@@ -131,14 +131,14 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         </Container>
                     </OverviewArea>
                 )}
-                <Tab techover={pageData.techover} techspec={pageData.techspec} lang={lang}/>
+                <Tab techover={pageData.techover} techspec={pageData.techspec} techfeat={pageData.techfeat} techoption={pageData.techoption}  lang={lang}/>
                 
                 {results && (
                     <ResultArea>
                         <Container>
                             <Row>
                                 <Col lg={3}>
-                                    <Heading>Results:</Heading>
+                                    <Heading>Вопросы:</Heading>
                                 </Col>
                                 <Col lg={9}>
                                     <Text {...resultText}>{results}</Text>
@@ -239,7 +239,18 @@ export const query = graphql`
             ua
             tagline
             techover
-            techspec
+            techfeat {
+                id
+                feat
+            }
+            techspec {
+                id
+                spec
+            }
+            techoption {
+                id
+                option
+            }
             logo{
                 childImageSharp{
                     fixed(width: 83, height: 108, quality: 100){

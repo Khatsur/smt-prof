@@ -86,8 +86,8 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         <Container>
                             <Row justify="center">
                                 <Col lg={10}>
-                                    <BannerTextWrap>
-                                        {pageData.logo && <Img fixed={pageData.logo.childImageSharp.fixed} alt={pageData.title} />}
+                                <BannerTextWrap>
+                                        
                                         {pageData.tagline && <Heading {...taglineStyle}>{pageData.tagline}</Heading>}
                                     </BannerTextWrap>
                                 </Col>
@@ -117,14 +117,14 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         </Container>
                     </OverviewArea>
                 )}
-                <Tab techover={pageData.techover} techspec={pageData.techspec} lang={lang}/>
+                <Tab techover={pageData.techover} techspec={pageData.techspec} techfeat={pageData.techfeat} techoption={pageData.techoption}  lang={lang}/>
                 
                 {results && (
                     <ResultArea>
                         <Container>
                             <Row>
                                 <Col lg={3}>
-                                    <Heading>Results:</Heading>
+                                    <Heading>Вопросы</Heading>
                                 </Col>
                                 <Col lg={9}>
                                     <Text {...resultText}>{results}</Text>
@@ -217,75 +217,87 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
 }
 
 export const query = graphql`
-    query($slug: String!){
-        smallPrinterUaJson(fields: {slug: {eq: $slug}}){
-            title
-            ru
-            ua
-            tagline
-            techover
-            techspec
-            logo{
-                childImageSharp{
-                    fixed(width: 83, height: 108, quality: 100){
-                        ...GatsbyImageSharpFixed
-                    }
+query($slug: String!){
+    smallPrinterUaJson(fields: {slug: {eq: $slug}}){
+        title
+        bigtitle
+        ru
+        ua
+        tagline
+        techover
+        techfeat {
+            id
+            feat
+        }
+        techspec {
+            id
+            spec
+        }
+        techoption {
+            id
+            option
+        }
+        logo{
+            childImageSharp{
+                fixed(width: 83, height: 108, quality: 100){
+                    ...GatsbyImageSharpFixed
                 }
             }
-            banner_image{
-                childImageSharp{
-                  fluid(maxWidth: 1920, maxHeight: 570, quality: 100){
+        }
+        banner_image{
+            childImageSharp{
+              fluid(maxWidth: 1420, maxHeight: 470, quality: 100){
+                ...GatsbyImageSharpFluid_withWebp
+                presentationWidth
+                presentationHeight
+              }
+            }
+        }
+        image {
+            childImageSharp {
+                fluid(maxHeight: 300, quality: 100){
                     ...GatsbyImageSharpFluid_withWebp
                     presentationWidth
                     presentationHeight
-                  }
                 }
             }
-            image {
+        }
+        overview {
+            heading
+            short_desc
+            tags
+            client {
+                name
+                designation
+                company
+            }
+        }
+        problem_solution {
+            id
+            problem
+            solution
+        }
+        results
+        faq {
+            id
+            title
+            desc
+        }
+        video {
+            video_link
+            preview_image{
                 childImageSharp {
-                    fluid(maxHeight: 300, quality: 100){
+                    fluid(quality: 100,  maxHeight: 300) {
                         ...GatsbyImageSharpFluid_withWebp
                         presentationWidth
                         presentationHeight
-                    }
-                }
-            }
-            overview {
-                heading
-                short_desc
-                tags
-                client {
-                    name
-                    designation
-                    company
-                }
-            }
-            problem_solution {
-                id
-                problem
-                solution
-            }
-            results
-            faq {
-                id
-                title
-                desc
-            }
-            video {
-                video_link
-                preview_image{
-                    childImageSharp {
-                        fluid(quality: 100, maxWidth: 570, maxHeight: 350) {
-                            ...GatsbyImageSharpFluid_withWebp
-                            presentationWidth
-                            presentationHeight
-                            aspectRatio
-                        }
+                        aspectRatio
                     }
                 }
             }
         }
     }
+}
 `;
 
 CaseStudyTemplate.propTypes = {

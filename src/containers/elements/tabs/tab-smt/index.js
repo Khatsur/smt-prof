@@ -21,7 +21,7 @@ const TabsSection = (props) => {
                                 <NavItem eventKey="our-mission-tab">Обзор</NavItem>
                                 <NavItem eventKey="our-services-tab">Особенности</NavItem>
                                 <NavItem eventKey="partners-tab">Характеристики</NavItem>
-                                <NavItem eventKey="our-awards-tab">Документация</NavItem>
+                                <NavItem eventKey="our-awards-tab">Опции</NavItem>
                             </TabHeader>
                             <TabContent pt="50px">
                                 <TabPane eventKey="our-mission-tab">
@@ -31,16 +31,32 @@ const TabsSection = (props) => {
                                 </TabPane>
                                 <TabPane eventKey="our-services-tab">
                                     <Heading as="h4" mb="20px">Особенности оборудования</Heading>
-                                    <p>{props.techspec}</p>
+                                    <p></p>
+                                    <p>
+                                     {props.techfeat.map((des) => 
+                                     <li key={des.id} >{des.feat}</li>
+                                     )}
+                                    </p>
                                     <p>Advancements in technology – including machine-to-machine communications between smart sensors, referred to as ‘The Internet of Things’. For example, appliances in the home that can be monitored and controlled wirelessly by the homeowner wherever they are.</p>
                                 </TabPane>
                                 <TabPane eventKey="partners-tab">
                                     <Heading as="h4" mb="20px">Технические характеристики</Heading>
-                                    <p>Market development – increasing market share in new markets such as servers and networking equipment. ARM’s technology is well placed to provide lower power options to transport, distribute, analyse and store data across the internet.</p>
+                                    <p></p>
+                                    <p>
+                                     {props.techspec.map((des) => 
+                                     <li key={des.id} >{des.spec}</li>
+                                     )}
+                                    </p>
                                     <p>Market development – increasing market share in new markets such as servers and networking equipment. ARM’s technology is well placed to provide lower power options to transport, distribute, analyse and store data across the internet.</p>
                                 </TabPane>
                                 <TabPane eventKey="our-awards-tab">
-                                    <Heading as="h4" mb="20px">Информация для загрузки</Heading>
+                                    <Heading as="h4" mb="20px">Дополнительное оборудование</Heading>
+                                    <p></p>
+                                    <p>
+                                     {props.techoption.map((des) => 
+                                     <li key={des.id} >{des.option}</li>
+                                     )}
+                                    </p>
                                     <p>This case study will demonstrate how ARM’s strategies contribute to the achievement of its business vision, aims and objectives using an integrated approach focusing on innovation, its people and its network of partners.</p>
                                     <p>This case study will demonstrate how ARM’s strategies contribute to the achievement of its business vision, aims and objectives using an integrated approach focusing on innovation, its people and its network of partners.</p>
                                 </TabPane>
@@ -67,7 +83,7 @@ const TabsSection = (props) => {
                             <NavItem eventKey="our-mission-tab">Обзор</NavItem>
                             <NavItem eventKey="our-services-tab">Особенности</NavItem>
                             <NavItem eventKey="partners-tab">Характеристики</NavItem>
-                            <NavItem eventKey="our-awards-tab">Документация</NavItem>
+                            <NavItem eventKey="our-awards-tab">Опції</NavItem>
                         </TabHeader>
                         <TabContent pt="50px">
                             <TabPane eventKey="our-mission-tab">
@@ -77,16 +93,33 @@ const TabsSection = (props) => {
                             </TabPane>
                             <TabPane eventKey="our-services-tab">
                                 <Heading as="h4" mb="20px">Особенности оборудования</Heading>
-                                <p>{props.techspec}</p>
+                                <p></p>
+                                    <p>
+                                     {props.techfeat.map((des) => 
+                                     <li key={des.id} >{des.feat}</li>
+                                     )}
+                                    </p>
                                 <p>Advancements in technology – including machine-to-machine communications between smart sensors, referred to as ‘The Internet of Things’. For example, appliances in the home that can be monitored and controlled wirelessly by the homeowner wherever they are.</p>
                             </TabPane>
                             <TabPane eventKey="partners-tab">
                                 <Heading as="h4" mb="20px">Технические характеристики</Heading>
+                                <p></p>
+                                    <p>
+                                     {props.techspec.map((des) => 
+                                     <li key={des.id} >{des.spec}</li>
+                                     )}
+                                    </p>
                                 <p>Market development – increasing market share in new markets such as servers and networking equipment. ARM’s technology is well placed to provide lower power options to transport, distribute, analyse and store data across the internet.</p>
                                 <p>Market development – increasing market share in new markets such as servers and networking equipment. ARM’s technology is well placed to provide lower power options to transport, distribute, analyse and store data across the internet.</p>
                             </TabPane>
                             <TabPane eventKey="our-awards-tab">
-                                <Heading as="h4" mb="20px">Информация для загрузки</Heading>
+                                <Heading as="h4" mb="20px">Додаткове обладнання</Heading>
+                                <p></p>
+                                    <p>
+                                     {props.techoption.map((des) => 
+                                     <li key={des.id} >{des.option}</li>
+                                     )}
+                                    </p>
                                 <p>This case study will demonstrate how ARM’s strategies contribute to the achievement of its business vision, aims and objectives using an integrated approach focusing on innovation, its people and its network of partners.</p>
                                 <p>This case study will demonstrate how ARM’s strategies contribute to the achievement of its business vision, aims and objectives using an integrated approach focusing on innovation, its people and its network of partners.</p>
                             </TabPane>

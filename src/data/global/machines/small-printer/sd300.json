@@ -3,11 +3,40 @@
     "ru": "оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/принтеры-пасты-ручные",
     "ua": "ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні",
     "title": "sd300",
-    "bigtitle": "Принтер SD300",
+    "bigtitle": "Ручной принтер SD300",
     "category": "Cyber Security",
     "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
     "techover": "Нанесение паяльной пасты через трафарет",
-    "techspec": "Размер печатных плат",
+    "techfeat": [
+        {
+            "id": "tech-1",
+            "feat": "Без трафарета"
+        },
+        {
+            "id": "tech-2",
+            "feat": "Паралельное разделение"
+        }
+    ],
+    "techspec": [
+        {
+            "id": "tech-1",
+            "spec": "Размер печатних плат"
+        },
+        {
+            "id": "tech-2",
+            "spec": "Паралельное разделение"
+        }
+    ],
+    "techoption": [
+        {
+            "id": "tech-1",
+            "option": "Размер печатних плат"
+        },
+        {
+            "id": "tech-2",
+            "option": "Паралельное разделение"
+        }
+    ],
     "tagline": "Нанесение паяльной пасты",
     "logo": "../../../images/icons/case-study-04-logo-83x108.png",
     "image": "../../../images/bg/machines/small-print/sd300.jpg",
@@ -41,7 +70,7 @@
             "solution": "This case study will demonstrate how ARM’s strategies contribute to the achievement of its business vision, aims and objectives using an integrated approach focusing on innovation, its people and its network of partners."
         }
     ],
-    "results": "ARM has an innovative business model. ARM does not manufacture the products in which its technology is used.",
+    "results": "Очень коротко о самом главном :) Короткие ответы на часто задаваемие вопросы",
     "faq": [
         {
             "id": "highly-service-faq-1",

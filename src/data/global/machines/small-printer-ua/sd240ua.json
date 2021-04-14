@@ -3,10 +3,40 @@
     "ru": "оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/принтеры-пасты-ручные",
     "ua": "ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні",
     "title": "sd240",
+    "bigtitle": "Принтер SD240",
     "category": "Украъна",
     "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
     "techover": "Нанесение паяльной пасты через трафарет",
-    "techspec": "Размер печатных плат",
+    "techfeat": [
+        {
+            "id": "tech-1",
+            "feat": "Без трафарета"
+        },
+        {
+            "id": "tech-2",
+            "feat": "Паралельное разделение"
+        }
+    ],
+    "techspec": [
+        {
+            "id": "tech-1",
+            "spec": "Размер печатних плат"
+        },
+        {
+            "id": "tech-2",
+            "spec": "Паралельное разделение"
+        }
+    ],
+    "techoption": [
+        {
+            "id": "tech-1",
+            "option": "Размер печатних плат"
+        },
+        {
+            "id": "tech-2",
+            "option": "Паралельное разделение"
+        }
+    ],
     "tagline": "A vision for a smarter world An ARM case study",
     "logo": "../../../images/icons/case-study-04-logo-83x108.png",
     "image": "../../../images/box-image/case-study-04-featured.jpg",

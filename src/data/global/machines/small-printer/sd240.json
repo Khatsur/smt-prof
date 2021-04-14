@@ -7,7 +7,36 @@
     "category": "Cyber Security",
     "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
     "techover": "Нанесение паяльной пасты через трафарет",
-    "techspec": "Размер печатных плат",
+    "techfeat": [
+        {
+            "id": "tech-1",
+            "feat": "Без трафарета"
+        },
+        {
+            "id": "tech-2",
+            "feat": "Паралельное разделение"
+        }
+    ],
+    "techspec": [
+        {
+            "id": "tech-1",
+            "spec": "Без трафарета"
+        },
+        {
+            "id": "tech-2",
+            "spec": "Паралельное разделение"
+        }
+    ],
+    "techoption": [
+        {
+            "id": "tech-1",
+            "option": "Размер печатних плат"
+        },
+        {
+            "id": "tech-2",
+            "option": "Паралельное разделение"
+        }
+    ],
     "tagline": "Нанесение паяльной пасты",
     "logo": "../../../images/icons/case-study-04-logo-83x108.png",
     "image": "../../../images/bg/machines/small-print/sd240.jpg",
