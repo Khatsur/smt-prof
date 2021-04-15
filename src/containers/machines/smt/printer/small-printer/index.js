@@ -10,14 +10,14 @@ import {PagePath} from '../../../../../components/pagepath'
 const CaseStudiesArea = (props) => {
     const smallPrinterData = useStaticQuery(graphql `
         query {
-            allSmallPrinterJson {
+            allSmallPrinterJson (sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
                             slug
                         }
                         id
-                        
+                        bigtitle
                         title
                         category
                         excerpt
@@ -33,20 +33,20 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allSmallPrinterUaJson {
+            allSmallPrinterUaJson (sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
                             slug
                         }
                         id
-                        
+                        bigtitle
                         title
                         category
                         excerpt
                         image {
                             childImageSharp {
-                                fluid(maxWidth: 480, maxHeight: 298, quality: 100){
+                                fluid(maxHeight: 258, quality: 100){
                                     ...GatsbyImageSharpFluid_withWebp
                                     presentationWidth
                                     presentationHeight
@@ -82,7 +82,7 @@ const CaseStudiesArea = (props) => {
                         <CaseStudyBox
                             {...caseStudyStyles}
                             imageSrc={caseStudy.node.image.childImageSharp}
-                            title={caseStudy.node.title}
+                            title={caseStudy.node.bigtitle}
                             category={caseStudy.node.category}
                             desc={caseStudy.node.excerpt}
                             path={`/${props.path}/${caseStudy.node.fields.slug}`}
@@ -111,7 +111,7 @@ const CaseStudiesArea = (props) => {
                         <CaseStudyBox
                             {...caseStudyStyles}
                             imageSrc={caseStudiesUa.node.image.childImageSharp}
-                            title={caseStudiesUa.node.title}
+                            title={caseStudiesUa.node.bigtitle}
                             category={caseStudiesUa.node.category}
                             desc={caseStudiesUa.node.excerpt}
                             path={`/${props.path}/${caseStudiesUa.node.fields.slug}`}

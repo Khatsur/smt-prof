@@ -3,98 +3,96 @@
     "ru": "оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/принтеры-пасты-ручные",
     "ua": "ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні",
     "title": "sd240",
-    "bigtitle": "Принтер SD240",
-    "category": "Украъна",
-    "excerpt": "The prospects for a company operating in this new market are varied and exciting. The potential",
-    "techover": "Нанесение паяльной пасты через трафарет",
+    "bigtitle": "SD240 Принтер паяльной пасты",
+    "category": "Принтеры пасты ручные",
+    "excerpt": "Ручной принтер для нанесения паяльной пасты через металлический трафарет на контактные площадки печатных плат. Применяется для поверхностного монтажа",
+    "short_desc": "Бюджетный принтеры для нанесения паяльной пасты с универсальным креплением трафарета.  Устройство укомплектовано опорами для нанесения паяльной пасты на двусторонние платы и ракелем. Подходить для применения в условиях мелкосерийного производства.",
+    "techover": "Оборудование предназначено для нанесения паяльной пасты через металлический трафарет на контактные площадки печатных плат. Ручное перемещение ракеля. Крепление трафарета без дополнительной натяжной рамки. Применяется в условиях мелкосерийного и серийного производства монтажа печатных плат для технологии поверхностного монтажа SMT. Повышает производительности и качество технологических процессов нанесения материалов на печатные платы.",
     "techfeat": [
         {
             "id": "tech-1",
-            "feat": "Без трафарета"
+            "feat": "Размер печатной платы: 180х240мм"
         },
         {
             "id": "tech-2",
-            "feat": "Паралельное разделение"
+            "feat": "Привод ракелей: ручной"
+        },
+        {
+            "id": "tech-3",
+            "feat": "Регулировка по осям:X, Y, Z, угол"
+        },
+        {
+            "id": "tech-4",
+            "feat": "Работа с двухсторонними платами"
+        },
+        {
+            "id": "tech-5",
+            "feat": "Укомплектовано всем необходимым для работы"
         }
     ],
     "techspec": [
         {
             "id": "tech-1",
-            "spec": "Размер печатних плат"
+            "spec": "Размер печатной платы: 180х240мм"
         },
         {
             "id": "tech-2",
-            "spec": "Паралельное разделение"
+            "spec": "Площадь печати: 180х240мм"
+        },
+        {
+            "id": "tech-3",
+            "spec": "Размер трафарета макс.:190х270мм"
+        },
+        {
+            "id": "tech-4",
+            "spec": "Размер трафарета мин.:150х150мм"
+        },
+        {
+            "id": "tech-5",
+            "spec": "Диапазон регулировки стола – X, Y / Theta : +/– 10mm / +/– 2°"
+        },
+        {
+            "id": "tech-5",
+            "spec": "Габариты / Вес : 240 x 370 x 110 мм / ca. 7 кг"
         }
+        
     ],
     "techoption": [
         {
             "id": "tech-1",
-            "option": "Размер печатних плат"
-        },
-        {
-            "id": "tech-2",
-            "option": "Паралельное разделение"
+            "option": "По запросу"
         }
     ],
-    "tagline": "A vision for a smarter world An ARM case study",
-    "logo": "../../../images/icons/case-study-04-logo-83x108.png",
-    "image": "../../../images/box-image/case-study-04-featured.jpg",
-    "slide_image": "../../../images/box-image/case-study-slide-image-01.png",
+    "tagline": "Нанесение паяльной пасты",
+    "image": "../../../images/bg/machines/small-print/sd240.jpg",
     "is_featured": true,
     "banner_image": "../../../images/bg/machines/small-print/small-print.jpg",
-    "overview": {
-        "heading": "Украъна",
-        "short_desc": "The studio was keen to create an identity that would not interfere with any of the existing brands, settling on a helicoid system that can be easily adapted to “work with any colour system”. The studio consulted with the various brands throughout the process. (Source: designweek.co.uk)",
-        "tags": ["basic"],
-        "client": {
-            "name": "Maggie Strickland",
-            "designation": "Group Chief Information",
-            "company": "Aqua Group"
-        }
-    },
-    "problem_solution": [
-        {
-            "id": "problem-1",
-            "problem": "The communication between machines of different kinds sometimes cause troubles and inaccurate signal decoding results.",
-            "solution": "Advancements in technology – including machine-to-machine communications between smart sensors, referred to as ‘The Internet of Things’. For example, appliances in the home that can be monitored and controlled wirelessly by the homeowner wherever they are."
-        },
-        {
-            "id": "problem-2",
-            "problem": "The potential market for servers and networking equipment development is still unstable and shrinks every year.",
-            "solution": "Market development – increasing market share in new markets such as servers and networking equipment. ARM’s technology is well placed to provide lower power options to transport, distribute, analyse and store data across the internet."
-        },
-        {
-            "id": "problem-3",
-            "problem": "Demand for energy efficient technology – the market demands high performance products using low power technology.",
-            "solution": "This case study will demonstrate how ARM’s strategies contribute to the achievement of its business vision, aims and objectives using an integrated approach focusing on innovation, its people and its network of partners."
-        }
-    ],
-    "results": "ARM has an innovative business model. ARM does not manufacture the products in which its technology is used.",
+
+    "results": "Очень коротко о самом главном :) Быстрые ответы на очень часто задаваемие вопросы.",
     "faq": [
         {
             "id": "highly-service-faq-1",
-            "title": "New multiple site connectivity",
-            "desc": "We use a newly developed technology to connect sites that are based on different types of servers and networks, SiteConnect, which helps to reduce the misinterpretation of signals as well as the loss of data during transfering."
+            "title": "Для чего это?",
+            "desc": "применяется для нанесения паяльной пасты на контактные площадки при монтаже электронных компонентов на печатные платы."
         },
         {
             "id": "highly-service-faq-2",
-            "title": "IT Security & Software",
-            "desc": "To keep your systems, your devices, and network stay secure, we have developed a new program that limits the access of suspicious objects or people and authenticate all logins to the system."
+            "title": "Где используют?",
+            "desc": "используют для поверхностного монтажа (SMT) в мелкосерийном производстве и прототипировании электронных изделий."
         },
         {
             "id": "highly-service-faq-3",
-            "title": "Weak hosted capability",
-            "desc": "Some hosts are unaware of the potential risks as well as security loopholes in their system. By detecting these errors and taking prompt actions on improving firewalls, we can upgrade the system security."
+            "title": "Сколько стоит?",
+            "desc": "может иметь разную конфигурацию и дополнительное оборудование под задачи Заказчика. Обращайтесь к нашим специалистам. Прайс-листа нет."
         },
         {
             "id": "highly-service-faq-4",
-            "title": "Build internal network",
-            "desc": "The internal network is essential for all companies and corporations, especially for those working in IT sector. To avoid possible risks when sharing internal confidential files and documentation to an external receiver, internal network must be strong."
+            "title": "Как заказать?",
+            "desc": "может иметь разную конфигурацию и дополнительное оборудование. Составьте техническое задание для определения состава оборудования и отправьте нашим специалистам."
         }
     ],
     "video": {
-        "preview_image": "../../../images/about-us/video-01-image-01-570x350.jpg",
+        "preview_image": "../../../images/bg/machines/small-print/sd240.jpg",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     }
 }

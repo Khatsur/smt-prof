@@ -27,7 +27,7 @@ const TabsSection = (props) => {
                                 <TabPane eventKey="our-mission-tab">
                                     <Heading as="h4" mb="20px">Краткое описание</Heading>
                                     <p>{props.techover}</p>
-                                    <p>The studio was keen to create an identity that would not interfere with any of the existing brands, settling on a helicoid system that can be easily adapted to “work with any colour system”. The studio consulted with the various brands throughout the process. (Source: designweek.co.uk)</p>
+                                    
                                 </TabPane>
                                 <TabPane eventKey="our-services-tab">
                                     <Heading as="h4" mb="20px">Особенности оборудования</Heading>
@@ -37,7 +37,7 @@ const TabsSection = (props) => {
                                      <li key={des.id} >{des.feat}</li>
                                      )}
                                     </p>
-                                    <p>Advancements in technology – including machine-to-machine communications between smart sensors, referred to as ‘The Internet of Things’. For example, appliances in the home that can be monitored and controlled wirelessly by the homeowner wherever they are.</p>
+                                    
                                 </TabPane>
                                 <TabPane eventKey="partners-tab">
                                     <Heading as="h4" mb="20px">Технические характеристики</Heading>
@@ -47,7 +47,7 @@ const TabsSection = (props) => {
                                      <li key={des.id} >{des.spec}</li>
                                      )}
                                     </p>
-                                    <p>Market development – increasing market share in new markets such as servers and networking equipment. ARM’s technology is well placed to provide lower power options to transport, distribute, analyse and store data across the internet.</p>
+                                    
                                 </TabPane>
                                 <TabPane eventKey="our-awards-tab">
                                     <Heading as="h4" mb="20px">Дополнительное оборудование</Heading>
@@ -57,8 +57,7 @@ const TabsSection = (props) => {
                                      <li key={des.id} >{des.option}</li>
                                      )}
                                     </p>
-                                    <p>This case study will demonstrate how ARM’s strategies contribute to the achievement of its business vision, aims and objectives using an integrated approach focusing on innovation, its people and its network of partners.</p>
-                                    <p>This case study will demonstrate how ARM’s strategies contribute to the achievement of its business vision, aims and objectives using an integrated approach focusing on innovation, its people and its network of partners.</p>
+                                    
                                 </TabPane>
                             </TabContent>
                         </Tabs>
@@ -80,37 +79,36 @@ const TabsSection = (props) => {
                 <Col lg={12}>
                     <Tabs defaultActiveKey="our-mission-tab">
                         <TabHeader>
-                            <NavItem eventKey="our-mission-tab">Обзор</NavItem>
-                            <NavItem eventKey="our-services-tab">Особенности</NavItem>
+                            <NavItem eventKey="our-mission-tab">Огляд</NavItem>
+                            <NavItem eventKey="our-services-tab">Особливості</NavItem>
                             <NavItem eventKey="partners-tab">Характеристики</NavItem>
                             <NavItem eventKey="our-awards-tab">Опції</NavItem>
                         </TabHeader>
                         <TabContent pt="50px">
                             <TabPane eventKey="our-mission-tab">
-                                <Heading as="h4" mb="20px">Краткое описание</Heading>
+                                <Heading as="h4" mb="20px">Короткий опис</Heading>
                                 <p>{props.techover}</p>
-                                <p>The studio was keen to create an identity that would not interfere with any of the existing brands, settling on a helicoid system that can be easily adapted to “work with any colour system”. The studio consulted with the various brands throughout the process. (Source: designweek.co.uk)</p>
+                                
                             </TabPane>
                             <TabPane eventKey="our-services-tab">
-                                <Heading as="h4" mb="20px">Особенности оборудования</Heading>
+                                <Heading as="h4" mb="20px">Особливості обладнання</Heading>
                                 <p></p>
                                     <p>
                                      {props.techfeat.map((des) => 
                                      <li key={des.id} >{des.feat}</li>
                                      )}
                                     </p>
-                                <p>Advancements in technology – including machine-to-machine communications between smart sensors, referred to as ‘The Internet of Things’. For example, appliances in the home that can be monitored and controlled wirelessly by the homeowner wherever they are.</p>
+                               
                             </TabPane>
                             <TabPane eventKey="partners-tab">
-                                <Heading as="h4" mb="20px">Технические характеристики</Heading>
+                                <Heading as="h4" mb="20px">Технічні характеристики</Heading>
                                 <p></p>
                                     <p>
                                      {props.techspec.map((des) => 
                                      <li key={des.id} >{des.spec}</li>
                                      )}
                                     </p>
-                                <p>Market development – increasing market share in new markets such as servers and networking equipment. ARM’s technology is well placed to provide lower power options to transport, distribute, analyse and store data across the internet.</p>
-                                <p>Market development – increasing market share in new markets such as servers and networking equipment. ARM’s technology is well placed to provide lower power options to transport, distribute, analyse and store data across the internet.</p>
+                               
                             </TabPane>
                             <TabPane eventKey="our-awards-tab">
                                 <Heading as="h4" mb="20px">Додаткове обладнання</Heading>
@@ -120,8 +118,7 @@ const TabsSection = (props) => {
                                      <li key={des.id} >{des.option}</li>
                                      )}
                                     </p>
-                                <p>This case study will demonstrate how ARM’s strategies contribute to the achievement of its business vision, aims and objectives using an integrated approach focusing on innovation, its people and its network of partners.</p>
-                                <p>This case study will demonstrate how ARM’s strategies contribute to the achievement of its business vision, aims and objectives using an integrated approach focusing on innovation, its people and its network of partners.</p>
+                                
                             </TabPane>
                         </TabContent>
                     </Tabs>

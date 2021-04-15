@@ -15,6 +15,7 @@ import Icon from '../../components/ui/icon'
 import Image from '../../components/image'
 import VideoButton from '../../components/ui/video-button'
 import ModalVideo from '../../components/ui/modal-video'
+import { MapInteractionCSS } from 'react-map-interaction'
 import Social, { SocialLink } from '../../components/ui/social'
 import TestimonialSection from '../../containers/global/testimonial-area/section-one'
 import CTA from '../../containers/global/cta-area/section-one'
@@ -79,11 +80,12 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
         setVideoOpen(false)
     }
     const lang = "ru";
+    const GREY = "#9E9E9E";
     return (
         <Layout location={location}>
             
             <Header path={`${pageData.ru}/${pageData.title}`}/>
-            <SEO title={pageData.title} pathname={`${pageData.ru}/${pageData.title}`} lang={lang}/>
+            <SEO title={pageData.title.toUpperCase()} pathname={`${pageData.ru}/${pageData.title}`} description={`${pageData.title.toUpperCase()} ${pageData.excerpt}`} keywords="машины для нанесения паяльной пасты, принтеры паяльной пасты, паяльная паста, оборудование для поверхностного монтажа плат, принтеры паяльной пасты, G-Titan, dek, sd240, sd300, sd360-u, pbt works, UNIPRINT, UNIPRINT P " lang={lang}/>
             <main className="site-wrapper-reveal">
                 {(pageData.title || pageData.tagline) && (
                     <BannerArea fluid={bannerImg}>
@@ -100,7 +102,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                     </BannerArea>
                 )}
                 
-                {overview && (
+                {(
                     <OverviewArea>
                         <Container>
                             <Row>
@@ -113,17 +115,14 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                            
                             <Row>
                             
-                                <Col lg={5}>
-                                    {overview.heading &&  
-                                   
-                                    <Image fluid={pageData.image.childImageSharp.fluid} alt={pageData.title}  />
-                                   
+                                <Col lg={5} >
+                                    { 
+                                    <Image  fluid={pageData.image.childImageSharp.fluid} alt={pageData.title} />
                                     }
-                                    
                                 </Col>
                                 
                                 <Col lg={7}>
-                                    {overview.short_desc && <Text style={{fontSize: 20}}>{overview.short_desc}</Text>}
+                                    {<Text style={{fontSize: 20}}>{pageData.short_desc}</Text>}
                                     
                     
                                 </Col>
@@ -165,7 +164,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                                                     </AccordionItemButton>
                                                                 </AccordionItemHeading>
                                                                 <AccordionItemPanel>
-                                                                    <p>{el.desc}</p>
+                                                                    <p>{`${pageData.bigtitle} ${el.desc}`}</p>
                                                                 </AccordionItemPanel>
                                                             </AccordionItem>
                                                         )
@@ -199,7 +198,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                         <PostNav
                                             rel="prev"
                                             slug={`../${pageData.ru}/${previous.fields.slug}`}
-                                            title={previous.title}
+                                            title={previous.title.toUpperCase()}
                                             image={previous.image.childImageSharp.fixed}
                                         />
                                     )}
@@ -207,7 +206,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                         <PostNav
                                             rel="next"
                                             slug={`../${pageData.ru}/${next.fields.slug}`}
-                                            title={next.title}
+                                            title={next.title.toUpperCase()}
                                             image={next.image.childImageSharp.fixed}
                                         />
                                     )}
@@ -237,6 +236,8 @@ export const query = graphql`
             bigtitle
             ru
             ua
+            excerpt
+            short_desc
             tagline
             techover
             techfeat {
@@ -250,13 +251,6 @@ export const query = graphql`
             techoption {
                 id
                 option
-            }
-            logo{
-                childImageSharp{
-                    fixed(width: 83, height: 108, quality: 100){
-                        ...GatsbyImageSharpFixed
-                    }
-                }
             }
             banner_image{
                 childImageSharp{
@@ -276,21 +270,7 @@ export const query = graphql`
                     }
                 }
             }
-            overview {
-                heading
-                short_desc
-                tags
-                client {
-                    name
-                    designation
-                    company
-                }
-            }
-            problem_solution {
-                id
-                problem
-                solution
-            }
+        
             results
             faq {
                 id

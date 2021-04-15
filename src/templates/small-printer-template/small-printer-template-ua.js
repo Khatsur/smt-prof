@@ -79,7 +79,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
     return (
         <Layout location={location}>
             <Header path={`${pageData.ua}/${pageData.title}`}/>
-            <SEO title={pageData.title} pathname={`${pageData.ua}/${pageData.title}`} lang={lang} />
+            <SEO title={pageData.title.toUpperCase()} pathname={`${pageData.ua}/${pageData.title}`} description={`${pageData.title.toUpperCase()} ${pageData.excerpt}`} keywords="машины для нанесения паяльной пасты, принтеры паяльной пасты, паяльная паста, оборудование для поверхностного монтажа плат, принтеры паяльной пасты, G-Titan, dek, sd240, sd300, sd360-u, pbt works, UNIPRINT, UNIPRINT P " lang={lang} />
             <main className="site-wrapper-reveal">
                 {(pageData.title || pageData.tagline) && (
                     <BannerArea fluid={bannerImg}>
@@ -95,21 +95,21 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         </Container>
                     </BannerArea>
                 )}
-                {overview && (
+                {(
                     <OverviewArea>
                         <Container>
                             <Row>
                                 <Col lg={12}>
-                                    <Heading as="h3" mb="30px">{pageData.title}</Heading>
+                                    <Heading as="h3" mb="30px">{pageData.bigtitle}</Heading>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col lg={5}>
-                                    {overview.heading && <Image fluid={pageData.image.childImageSharp.fluid} alt={pageData.title}  />}
+                                    {<Image fluid={pageData.image.childImageSharp.fluid} alt={pageData.title}  />}
                                     
                                 </Col>
                                 <Col lg={7}>
-                                    {overview.short_desc && <Text style={{fontSize: 20}}>{overview.short_desc}</Text>}
+                                {<Text style={{fontSize: 20}}>{pageData.short_desc}</Text>}
                                     
                                     
                                 </Col>
@@ -151,7 +151,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                                                     </AccordionItemButton>
                                                                 </AccordionItemHeading>
                                                                 <AccordionItemPanel>
-                                                                    <p>{el.desc}</p>
+                                                                    <p>{`${pageData.bigtitle} ${el.desc}`}</p>
                                                                 </AccordionItemPanel>
                                                             </AccordionItem>
                                                         )
@@ -185,7 +185,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                         <PostNav
                                             rel="prev"
                                             slug={`../${pageData.ua}/${previous.fields.slug}`}
-                                            title={previous.title}
+                                            title={previous.title.toUpperCase()}
                                             image={previous.image.childImageSharp.fixed}
                                         />
                                     )}
@@ -193,7 +193,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                         <PostNav
                                             rel="next"
                                             slug={`../${pageData.ua}/${next.fields.slug}`}
-                                            title={next.title}
+                                            title={next.title.toUpperCase()}
                                             image={next.image.childImageSharp.fixed}
                                         />
                                     )}
@@ -223,6 +223,8 @@ query($slug: String!){
         bigtitle
         ru
         ua
+        excerpt
+        short_desc
         tagline
         techover
         techfeat {
@@ -236,13 +238,6 @@ query($slug: String!){
         techoption {
             id
             option
-        }
-        logo{
-            childImageSharp{
-                fixed(width: 83, height: 108, quality: 100){
-                    ...GatsbyImageSharpFixed
-                }
-            }
         }
         banner_image{
             childImageSharp{
@@ -262,21 +257,7 @@ query($slug: String!){
                 }
             }
         }
-        overview {
-            heading
-            short_desc
-            tags
-            client {
-                name
-                designation
-                company
-            }
-        }
-        problem_solution {
-            id
-            problem
-            solution
-        }
+    
         results
         faq {
             id

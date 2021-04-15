@@ -167,9 +167,10 @@ exports.createPages = async ({ graphql, actions }) => {
                         }
                         id
                         title
+                        bigtitle
                         image {
                           childImageSharp {
-                            fixed(width: 120, height: 80, quality: 100) {
+                            fixed(height: 80, quality: 100) {
                               src
                               width
                               height
@@ -183,9 +184,10 @@ exports.createPages = async ({ graphql, actions }) => {
                         }
                         id
                         title
+                        bigtitle
                         image {
                           childImageSharp {
-                            fixed(width: 120, height: 80, quality: 100) {
+                            fixed(height: 80, quality: 100) {
                               src
                               width
                               height
@@ -208,9 +210,10 @@ exports.createPages = async ({ graphql, actions }) => {
                         }
                         id
                         title
+                        bigtitle
                         image {
                           childImageSharp {
-                            fixed(width: 120, height: 80, quality: 100) {
+                            fixed(height: 80, quality: 100) {
                               src
                               width
                               height
@@ -224,9 +227,10 @@ exports.createPages = async ({ graphql, actions }) => {
                         }
                         id
                         title
+                        bigtitle
                         image {
                           childImageSharp {
-                            fixed(width: 120, height: 80, quality: 100) {
+                            fixed(height: 80, quality: 100) {
                               src
                               width
                               height
