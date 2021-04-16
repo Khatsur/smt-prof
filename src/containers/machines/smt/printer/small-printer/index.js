@@ -56,11 +56,60 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
+            allSmallPrinterPbtJson (sort: {order: ASC, fields: id}) {
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        id
+                        bigtitle
+                        title
+                        category
+                        excerpt
+                        image {
+                            childImageSharp {
+                                fluid(maxHeight: 258, quality: 100){
+                                    ...GatsbyImageSharpFluid_withWebp
+                                    presentationWidth
+                                    presentationHeight
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            allSmallPrinterPbtUaJson (sort: {order: ASC, fields: id}) {
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        id
+                        bigtitle
+                        title
+                        category
+                        excerpt
+                        image {
+                            childImageSharp {
+                                fluid(maxHeight: 258, quality: 100){
+                                    ...GatsbyImageSharpFluid_withWebp
+                                    presentationWidth
+                                    presentationHeight
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
+        
     `)
     
     const caseStudies = smallPrinterData.allSmallPrinterJson.edges;
     const caseStudiesUa = smallPrinterData.allSmallPrinterUaJson.edges;
+    const smallPrinterPbts = smallPrinterData.allSmallPrinterPbtJson.edges;
+    const smallPrinterPbtsUa = smallPrinterData.allSmallPrinterPbtUaJson.edges;
 
     const {sectionStyle, headingStyle, caseStudyStyles} = props;
    
@@ -93,7 +142,35 @@ const CaseStudiesArea = (props) => {
                     </Col>
                 ))}
             </Row>
+
+            <Row>
+                <Col>
+                    <Heading {...headingStyle}>Нанесение паяльной пасты через трафарет</Heading>
+                    <h6 style={{textAlign: "justify"}}>Оборудование предназначено для ручного нанесения паяльной пасты через металлический трафарет на контактные площадки печатных плат – принтеры для нанесения паяльной пасты. Приименяется в условиях мелкосерийного производства монтажа печатных плат для технологии поверхностного монтажа SMT. Принтеры для нанесения паяльной пасты повышают производительности технологических процессов нанесения материалов на печатные платы для технологии поверхностного монтажа SMT.</h6>
+                </Col>
+            </Row>
+            <br></br>
+            <Row>
+                {smallPrinterPbts.map(smallPrinterPbt => (
+                    
+                    <Col lg={4} md={6} mb="30px" key={smallPrinterPbt.node.id}>
+                        <CaseStudyBox
+                            {...caseStudyStyles}
+                            imageSrc={smallPrinterPbt.node.image.childImageSharp}
+                            title={smallPrinterPbt.node.bigtitle}
+                            category={smallPrinterPbt.node.category}
+                            desc={smallPrinterPbt.node.excerpt}
+                            path={`/${props.path}/${smallPrinterPbt.node.fields.slug}`}
+                            btnText="Подробно"
+                            
+                        />
+                        
+                    </Col>
+                ))}
+            </Row>
         </Section>
+
+        
     )
 } else if (props.language === "ua") {
     return (
@@ -117,6 +194,31 @@ const CaseStudiesArea = (props) => {
                             path={`/${props.path}/${caseStudiesUa.node.fields.slug}`}
                             btnText="Докладно"
                         />
+                    </Col>
+                ))}
+            </Row>
+            <Row>
+                <Col>
+                    <Heading {...headingStyle}>Нанесение паяльной пасты через трафарет</Heading>
+                    <h6 style={{textAlign: "justify"}}>Оборудование предназначено для ручного нанесения паяльной пасты через металлический трафарет на контактные площадки печатных плат – принтеры для нанесения паяльной пасты. Приименяется в условиях мелкосерийного производства монтажа печатных плат для технологии поверхностного монтажа SMT. Принтеры для нанесения паяльной пасты повышают производительности технологических процессов нанесения материалов на печатные платы для технологии поверхностного монтажа SMT.</h6>
+                </Col>
+            </Row>
+            <br></br>
+            <Row>
+                {smallPrinterPbtsUa.map(smallPrinterPbtUa => (
+                    
+                    <Col lg={4} md={6} mb="30px" key={smallPrinterPbtUa.node.id}>
+                        <CaseStudyBox
+                            {...caseStudyStyles}
+                            imageSrc={smallPrinterPbtUa.node.image.childImageSharp}
+                            title={smallPrinterPbtUa.node.bigtitle}
+                            category={smallPrinterPbtUa.node.category}
+                            desc={smallPrinterPbtUa.node.excerpt}
+                            path={`/${props.path}/${smallPrinterPbtUa.node.fields.slug}`}
+                            btnText="Докладно"
+                            
+                        />
+                        
                     </Col>
                 ))}
             </Row>

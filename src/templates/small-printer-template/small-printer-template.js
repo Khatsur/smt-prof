@@ -80,12 +80,12 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
         setVideoOpen(false)
     }
     const lang = "ru";
-    const GREY = "#9E9E9E";
+    
     return (
         <Layout location={location}>
             
             <Header path={`${pageData.ru}/${pageData.title}`}/>
-            <SEO title={pageData.title.toUpperCase()} pathname={`${pageData.ru}/${pageData.title}`} description={`${pageData.title.toUpperCase()} ${pageData.excerpt}`} keywords="машины для нанесения паяльной пасты, принтеры паяльной пасты, паяльная паста, оборудование для поверхностного монтажа плат, принтеры паяльной пасты, G-Titan, dek, sd240, sd300, sd360-u, pbt works, UNIPRINT, UNIPRINT P " lang={lang}/>
+            <SEO title={pageData.title.toUpperCase()} pathname={`${pageData.ru}/${pageData.title}`} description={`${pageData.title.toUpperCase()} ${pageData.excerpt}`} keywords={pageData.keywords} lang={lang}/>
             <main className="site-wrapper-reveal">
                 {(pageData.title || pageData.tagline) && (
                     <BannerArea fluid={bannerImg}>
@@ -237,6 +237,7 @@ export const query = graphql`
             ru
             ua
             excerpt
+            keywords
             short_desc
             tagline
             techover
