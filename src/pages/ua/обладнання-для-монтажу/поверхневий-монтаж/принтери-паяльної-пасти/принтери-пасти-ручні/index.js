@@ -5,14 +5,15 @@ import Header from '../../../../../../containers/layout/header/header-three-ua'
 import Footer from '../../../../../../containers/layout/footer/footer-one'
 import SmallPrintPageHeader from '../../../../../../components/pageheader/small-printer'
 import SmallPrint from '../../../../../../containers/machines/smt/printer/small-printer'
-import CTAArea from '../../../../../../containers/global/cta-area/section-one'
+import ContactArea from '../../../../../../containers/global/contact-area/contact-three-ua'
+import MachinesSmt from '../../../../../../containers/machines/smt-ua'
 
 const title = "Принтери пасти ручні";
 const language = "ua";
 const path = "ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні";
 const CaseStudiesPage = ({ pageContext, location }) => (
   <Layout location={location}>
-    <SEO title={title} description="Оборудование для нанесения паяльной пасты через трафарет на контактные площадки печатных плат. Применятся в технологии поверхностного монтажа - SMT" pathname={path} keywords="машины для нанесения паяльной пасты, принтеры паяльной пасты, паяльная паста, оборудование для поверхностного монтажа плат, принтеры паяльной пасты, G-Titan, dek" lang={language}/>
+    <SEO title={title} description="Принтери пасти ручні для нанесення паяльної пасти через металевий трафарет на контактні площадки друкованих плат. Застосовується для монтажу компонентів SMT" pathname={path} keywords="Принтери пасти ручні, машини для нанесення паяльної пасти, принтери паяльної пасти, паяльна паста, обладнання для поверхневого монтажу плат, принтери паяльної пасти, G-Titan, dek" lang={language}/>
     <Header path={path}/>
    
     <SmallPrintPageHeader 
@@ -23,7 +24,8 @@ const CaseStudiesPage = ({ pageContext, location }) => (
     />
     <main className="site-wrapper-reveal">
         <SmallPrint path={path} language={language}/>
-        <CTAArea/>
+        <ContactArea />
+        <MachinesSmt />
     </main>
     <Footer/>
   </Layout>

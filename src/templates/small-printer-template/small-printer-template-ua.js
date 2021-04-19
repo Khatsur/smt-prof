@@ -6,7 +6,7 @@ import Img from 'gatsby-image'
 import SEO from "../../components/seo"
 import Layout from '../../containers/layout/layout'
 import Header from '../../containers/layout/header/header-three-ua'
-import Footer from '../../containers/layout/footer/footer-one'
+import Footer from '../../containers/layout/footer/footer-one-ua'
 import { Container, Box, Row, Col } from '../../components/ui/wrapper'
 import Heading from '../../components/ui/heading'
 import Text from '../../components/ui/text'
@@ -124,7 +124,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         <Container>
                             <Row>
                                 <Col lg={3}>
-                                    <Heading>Вопросы</Heading>
+                                    <Heading>Питання:</Heading>
                                 </Col>
                                 <Col lg={9}>
                                     <Text {...resultText}>{results}</Text>

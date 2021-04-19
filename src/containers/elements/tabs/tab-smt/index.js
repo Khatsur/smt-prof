@@ -31,7 +31,7 @@ const TabsSection = (props) => {
                                 </TabPane>
                                 <TabPane eventKey="our-services-tab">
                                     <Heading as="h4" mb="20px">Особенности оборудования</Heading>
-                                    <p></p>
+                                    <p style={{fontWeight: "bold"}}>{props.techfeat_title}</p>
                                     <p>
                                      {props.techfeat.map((des) => 
                                      <li key={des.id} >{des.feat}</li>
@@ -92,7 +92,7 @@ const TabsSection = (props) => {
                             </TabPane>
                             <TabPane eventKey="our-services-tab">
                                 <Heading as="h4" mb="20px">Особливості обладнання</Heading>
-                                <p></p>
+                                <p style={{fontWeight: "bold"}}>{props.techfeat_title}</p>
                                     <p>
                                      {props.techfeat.map((des) => 
                                      <li key={des.id} >{des.feat}</li>

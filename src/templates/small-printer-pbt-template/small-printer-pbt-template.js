@@ -130,7 +130,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         </Container>
                     </OverviewArea>
                 )}
-                <Tab techover={pageData.techover} techspec={pageData.techspec} techfeat={pageData.techfeat} techoption={pageData.techoption}  lang={lang}/>
+                <Tab techover={pageData.techover} techspec={pageData.techspec} techfeat={pageData.techfeat} techoption={pageData.techoption} techfeat_title={pageData.techfeat_title}  lang={lang}/>
                 
                 {results && (
                     <ResultArea>
@@ -241,6 +241,7 @@ export const query = graphql`
             short_desc
             tagline
             techover
+            techfeat_title
             techfeat {
                 id
                 feat
