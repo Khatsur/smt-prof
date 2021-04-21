@@ -4,7 +4,7 @@ import Layout from '../../../../../containers/layout/layout'
 import Header from '../../../../../containers/layout/header/header-three'
 import Footer from '../../../../../containers/layout/footer/footer-one'
 import SemiPrintPageHeader from '../../../../../components/pageheader/semi-printer'
-import SemiPrint from '../../../../../containers/machines/smt/printer/small-printer'
+import SemiPrint from '../../../../../containers/machines/smt/printer/semi-printer'
 import ContactArea from '../../../../../containers/global/contact-area/contact-three-ru'
 import MachinesSmt from '../../../../../containers/machines/smt'
 

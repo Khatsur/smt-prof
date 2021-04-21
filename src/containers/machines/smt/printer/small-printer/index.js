@@ -56,7 +56,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allSmallPrinterPbtJson (sort: {order: ASC, fields: id}) {
+            allSmallPrinterPbtJson (limit: 3, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
