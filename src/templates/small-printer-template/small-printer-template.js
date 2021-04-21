@@ -15,7 +15,6 @@ import Icon from '../../components/ui/icon'
 import Image from '../../components/image'
 import VideoButton from '../../components/ui/video-button'
 import ModalVideo from '../../components/ui/modal-video'
-import { MapInteractionCSS } from 'react-map-interaction'
 import Social, { SocialLink } from '../../components/ui/social'
 import TestimonialSection from '../../containers/global/testimonial-area/section-one'
 import CTA from '../../containers/global/cta-area/section-one'
@@ -47,8 +46,7 @@ import {
     Navigtion
 } from './case-study-template.style'
 import Tab from '../../containers/elements/tabs/tab-smt'
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+
 
 
 const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ...restProps }) => {
