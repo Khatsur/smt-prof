@@ -87,6 +87,21 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'SemiPrinterJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'SemiPrinterUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    
 }
 
 
@@ -100,6 +115,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const smallPrinterPageUa = path.resolve("./src/templates/small-printer-template/small-printer-template-ua.js")
     const smallPrinterPbtPage = path.resolve("./src/templates/small-printer-pbt-template/small-printer-pbt-template.js")
     const smallPrinterPbtPageUa = path.resolve("./src/templates/small-printer-pbt-template/small-printer-pbt-template-ua.js")
+    const semiPrinterPage = path.resolve("./src/templates/semi-printer-template/semi-printer-template.js")
+    const semiPrinterPageUa = path.resolve("./src/templates/semi-printer-template/semi-printer-template-ua.js")
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
     const blogList = path.resolve("./src/templates/blog-list/blog-list.js");
@@ -344,6 +361,93 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }  
+            allSemiPrinterJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allSemiPrinterUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+
             allMarkdownRemark {
                 edges {
                     node {
@@ -496,6 +600,37 @@ exports.createPages = async ({ graphql, actions }) => {
              }
          })
      });
+
+     // Create Single Semi Printer Page
+
+     const semiPrinter = result.data.allSemiPrinterJson.edges;
+     semiPrinter.forEach(({ node, next, previous }) => {
+        createPage({
+            path: `оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/полуавтоматический-трафаретный-принтер/${node.fields.slug}`,
+            component: semiPrinterPage,
+            context: {
+                slug: node.fields.slug,
+                next,
+                previous
+            }
+        })
+    });
+
+    // Create Single Semi Printer Page Ua
+
+    const semiPrinterUa = result.data.allSemiPrinterUaJson.edges;
+     semiPrinterUa.forEach(({ node, next, previous }) => {
+        createPage({
+            path: `ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/напівавтоматичний-трафаретний-принтер/${node.fields.slug}`,
+            component: semiPrinterPageUa,
+            context: {
+                slug: node.fields.slug,
+                next,
+                previous
+            }
+        })
+    });
+
 
     // Create Single Blog Page
 

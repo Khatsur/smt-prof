@@ -56,7 +56,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allSmallPrinterPbtJson (limit: 3, sort: {order: ASC, fields: id}) {
+            allSmallPrinterPbtJson (sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -79,7 +79,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allSmallPrinterPbtUaJson (sort: {order: ASC, fields: id}) {
+            allSmallPrinterPbtUaJson ( sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{

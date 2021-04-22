@@ -108,6 +108,8 @@ exports.components = {
   "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
   "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
   "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
+  "component---src-templates-semi-printer-template-semi-printer-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/semi-printer-template/semi-printer-template.js"))),
+  "component---src-templates-semi-printer-template-semi-printer-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/semi-printer-template/semi-printer-template-ua.js"))),
   "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
   "component---src-templates-small-printer-pbt-template-small-printer-pbt-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/small-printer-pbt-template/small-printer-pbt-template.js"))),
   "component---src-templates-small-printer-pbt-template-small-printer-pbt-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/small-printer-pbt-template/small-printer-pbt-template-ua.js"))),
