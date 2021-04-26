@@ -10,27 +10,19 @@ import { globalHistory } from "@reach/router/lib/history"
 import { parsePath } from "gatsby-link"
 
 // Convert to a map for faster lookup in maybeRedirect()
-
-const redirectMap = new Map()
-const redirectIgnoreCaseMap = new Map()
-
-redirects.forEach(redirect => {
-  if (redirect.ignoreCase) {
-    redirectIgnoreCaseMap.set(redirect.fromPath, redirect)
-  } else {
-    redirectMap.set(redirect.fromPath, redirect)
-  }
-})
+const redirectMap = redirects.reduce((map, redirect) => {
+  map[redirect.fromPath] = redirect
+  return map
+}, {})
 
 function maybeRedirect(pathname) {
-  let redirect = redirectMap.get(pathname)
-  if (!redirect) {
-    redirect = redirectIgnoreCaseMap.get(pathname.toLowerCase())
-  }
+  const redirect = redirectMap[pathname]
 
   if (redirect != null) {
     if (process.env.NODE_ENV !== `production`) {
-      if (!loader.isPageNotFound(pathname)) {
+      const pageResources = loader.loadPageSync(pathname)
+
+      if (pageResources != null) {
         console.error(
           `The route "${pathname}" matches both a page and a redirect; this is probably not intentional.`
         )
@@ -53,29 +45,12 @@ const onPreRouteUpdate = (location, prevLocation) => {
 const onRouteUpdate = (location, prevLocation) => {
   if (!maybeRedirect(location.pathname)) {
     apiRunner(`onRouteUpdate`, { location, prevLocation })
-    if (
-      process.env.GATSBY_EXPERIMENTAL_QUERY_ON_DEMAND &&
-      process.env.GATSBY_QUERY_ON_DEMAND_LOADING_INDICATOR === `true`
-    ) {
-      emitter.emit(`onRouteUpdate`, { location, prevLocation })
-    }
   }
 }
 
 const navigate = (to, options = {}) => {
-  // Support forward/backward navigation with numbers
-  // navigate(-2) (jumps back 2 history steps)
-  // navigate(2)  (jumps forward 2 history steps)
-  if (typeof to === `number`) {
-    globalHistory.navigate(to)
-    return
-  }
-
   let { pathname } = parsePath(to)
-  let redirect = redirectMap.get(pathname)
-  if (!redirect) {
-    redirect = redirectIgnoreCaseMap.get(pathname.toLowerCase())
-  }
+  const redirect = redirectMap[pathname]
 
   // If we're redirecting, just replace the passed in pathname
   // to the one we want to redirect to.
@@ -132,6 +107,7 @@ const navigate = (to, options = {}) => {
           })
         }
 
+        console.log(`Site has changed on server. Reloading browser`)
         window.location = pathname
       }
     }
@@ -147,10 +123,7 @@ function shouldUpdateScroll(prevRouterProps, { location }) {
     // `pathname` for backwards compatibility
     pathname,
     routerProps: { location },
-    getSavedScrollPosition: args => [
-      0,
-      this._stateStorage.read(args, args.key),
-    ],
+    getSavedScrollPosition: args => this._stateStorage.read(args),
   })
   if (results.length > 0) {
     // Use the latest registered shouldUpdateScroll result, this allows users to override plugin's configuration
@@ -198,16 +171,16 @@ class RouteAnnouncer extends React.Component {
       if (document.title) {
         pageName = document.title
       }
-      const pageHeadings = document.querySelectorAll(`#gatsby-focus-wrapper h1`)
+      const pageHeadings = document
+        .getElementById(`gatsby-focus-wrapper`)
+        .getElementsByTagName(`h1`)
       if (pageHeadings && pageHeadings.length) {
         pageName = pageHeadings[0].textContent
       }
       const newAnnouncement = `Navigated to ${pageName}`
-      if (this.announcementRef.current) {
-        const oldAnnouncement = this.announcementRef.current.innerText
-        if (oldAnnouncement !== newAnnouncement) {
-          this.announcementRef.current.innerText = newAnnouncement
-        }
+      const oldAnnouncement = this.announcementRef.current.innerText
+      if (oldAnnouncement !== newAnnouncement) {
+        this.announcementRef.current.innerText = newAnnouncement
       }
     })
   }
@@ -215,18 +188,6 @@ class RouteAnnouncer extends React.Component {
   render() {
     return <div {...RouteAnnouncerProps} ref={this.announcementRef}></div>
   }
-}
-
-const compareLocationProps = (prevLocation, nextLocation) => {
-  if (prevLocation.href !== nextLocation.href) {
-    return true
-  }
-
-  if (prevLocation?.state?.key !== nextLocation?.state?.key) {
-    return true
-  }
-
-  return false
 }
 
 // Fire on(Pre)RouteUpdate APIs
@@ -240,18 +201,19 @@ class RouteUpdates extends React.Component {
     onRouteUpdate(this.props.location, null)
   }
 
-  shouldComponentUpdate(prevProps) {
-    if (compareLocationProps(prevProps.location, this.props.location)) {
+  componentDidUpdate(prevProps, prevState, shouldFireRouteUpdate) {
+    if (shouldFireRouteUpdate) {
+      onRouteUpdate(this.props.location, prevProps.location)
+    }
+  }
+
+  getSnapshotBeforeUpdate(prevProps) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
       onPreRouteUpdate(this.props.location, prevProps.location)
       return true
     }
-    return false
-  }
 
-  componentDidUpdate(prevProps) {
-    if (compareLocationProps(prevProps.location, this.props.location)) {
-      onRouteUpdate(this.props.location, prevProps.location)
-    }
+    return false
   }
 
   render() {

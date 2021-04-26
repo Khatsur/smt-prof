@@ -91,9 +91,9 @@
         }
     ],
     "tagline": "Нанесение паяльной пасты",
-    "image": "../../../images/bg/machines/small-print/uniprint-m.jpg",
+    "image": "../../../images/bg/machines/small-print/go23.jpg",
     "is_featured": true,
-    "banner_image": "../../../images/bg/machines/small-print/small-print.jpg",
+    "banner_image": "../../../images/bg/machines/small-print/semi-printer.jpg",
 
     "results": "Очень коротко о самом главном :) Быстрые ответы на очень часто задаваемие вопросы.",
     "faq": [
@@ -119,7 +119,7 @@
         }
     ],
     "video": {
-        "preview_image": "../../../images/bg/machines/small-print/uniprint-m.jpg",
+        "preview_image": "../../../images/bg/machines/small-print/go23.jpg",
         "video_link": "https://www.youtube.com/watch?v=OLuT-TqrWnA"
     }
 }

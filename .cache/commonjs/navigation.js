@@ -32,27 +32,19 @@ var _history = require("@reach/router/lib/history");
 var _gatsbyLink = require("gatsby-link");
 
 // Convert to a map for faster lookup in maybeRedirect()
-const redirectMap = new Map();
-const redirectIgnoreCaseMap = new Map();
-
-_redirects.default.forEach(redirect => {
-  if (redirect.ignoreCase) {
-    redirectIgnoreCaseMap.set(redirect.fromPath, redirect);
-  } else {
-    redirectMap.set(redirect.fromPath, redirect);
-  }
-});
+const redirectMap = _redirects.default.reduce((map, redirect) => {
+  map[redirect.fromPath] = redirect;
+  return map;
+}, {});
 
 function maybeRedirect(pathname) {
-  let redirect = redirectMap.get(pathname);
-
-  if (!redirect) {
-    redirect = redirectIgnoreCaseMap.get(pathname.toLowerCase());
-  }
+  const redirect = redirectMap[pathname];
 
   if (redirect != null) {
     if (process.env.NODE_ENV !== `production`) {
-      if (!_loader.default.isPageNotFound(pathname)) {
+      const pageResources = _loader.default.loadPageSync(pathname);
+
+      if (pageResources != null) {
         console.error(`The route "${pathname}" matches both a page and a redirect; this is probably not intentional.`);
       }
     }
@@ -80,36 +72,15 @@ const onRouteUpdate = (location, prevLocation) => {
       location,
       prevLocation
     });
-
-    if (process.env.GATSBY_EXPERIMENTAL_QUERY_ON_DEMAND && process.env.GATSBY_QUERY_ON_DEMAND_LOADING_INDICATOR === `true`) {
-      _emitter.default.emit(`onRouteUpdate`, {
-        location,
-        prevLocation
-      });
-    }
   }
 };
 
 const navigate = (to, options = {}) => {
-  // Support forward/backward navigation with numbers
-  // navigate(-2) (jumps back 2 history steps)
-  // navigate(2)  (jumps forward 2 history steps)
-  if (typeof to === `number`) {
-    _history.globalHistory.navigate(to);
-
-    return;
-  }
-
   let {
     pathname
   } = (0, _gatsbyLink.parsePath)(to);
-  let redirect = redirectMap.get(pathname);
-
-  if (!redirect) {
-    redirect = redirectIgnoreCaseMap.get(pathname.toLowerCase());
-  } // If we're redirecting, just replace the passed in pathname
+  const redirect = redirectMap[pathname]; // If we're redirecting, just replace the passed in pathname
   // to the one we want to redirect to.
-
 
   if (redirect) {
     to = redirect.toPath;
@@ -160,6 +131,7 @@ const navigate = (to, options = {}) => {
           });
         }
 
+        console.log(`Site has changed on server. Reloading browser`);
         window.location = pathname;
       }
     }
@@ -183,7 +155,7 @@ function shouldUpdateScroll(prevRouterProps, {
     routerProps: {
       location
     },
-    getSavedScrollPosition: args => [0, this._stateStorage.read(args, args.key)]
+    getSavedScrollPosition: args => this._stateStorage.read(args)
   });
 
   if (results.length > 0) {
@@ -233,7 +205,7 @@ function init() {
 class RouteAnnouncer extends _react.default.Component {
   constructor(props) {
     super(props);
-    this.announcementRef = /*#__PURE__*/_react.default.createRef();
+    this.announcementRef = _react.default.createRef();
   }
 
   componentDidUpdate(prevProps, nextProps) {
@@ -244,45 +216,28 @@ class RouteAnnouncer extends _react.default.Component {
         pageName = document.title;
       }
 
-      const pageHeadings = document.querySelectorAll(`#gatsby-focus-wrapper h1`);
+      const pageHeadings = document.getElementById(`gatsby-focus-wrapper`).getElementsByTagName(`h1`);
 
       if (pageHeadings && pageHeadings.length) {
         pageName = pageHeadings[0].textContent;
       }
 
       const newAnnouncement = `Navigated to ${pageName}`;
+      const oldAnnouncement = this.announcementRef.current.innerText;
 
-      if (this.announcementRef.current) {
-        const oldAnnouncement = this.announcementRef.current.innerText;
-
-        if (oldAnnouncement !== newAnnouncement) {
-          this.announcementRef.current.innerText = newAnnouncement;
-        }
+      if (oldAnnouncement !== newAnnouncement) {
+        this.announcementRef.current.innerText = newAnnouncement;
       }
     });
   }
 
   render() {
-    return /*#__PURE__*/_react.default.createElement("div", (0, _extends2.default)({}, _routeAnnouncerProps.RouteAnnouncerProps, {
+    return _react.default.createElement("div", (0, _extends2.default)({}, _routeAnnouncerProps.RouteAnnouncerProps, {
       ref: this.announcementRef
     }));
   }
 
-}
-
-const compareLocationProps = (prevLocation, nextLocation) => {
-  var _prevLocation$state, _nextLocation$state;
-
-  if (prevLocation.href !== nextLocation.href) {
-    return true;
-  }
-
-  if ((prevLocation === null || prevLocation === void 0 ? void 0 : (_prevLocation$state = prevLocation.state) === null || _prevLocation$state === void 0 ? void 0 : _prevLocation$state.key) !== (nextLocation === null || nextLocation === void 0 ? void 0 : (_nextLocation$state = nextLocation.state) === null || _nextLocation$state === void 0 ? void 0 : _nextLocation$state.key)) {
-    return true;
-  }
-
-  return false;
-}; // Fire on(Pre)RouteUpdate APIs
+} // Fire on(Pre)RouteUpdate APIs
 
 
 class RouteUpdates extends _react.default.Component {
@@ -295,8 +250,14 @@ class RouteUpdates extends _react.default.Component {
     onRouteUpdate(this.props.location, null);
   }
 
-  shouldComponentUpdate(prevProps) {
-    if (compareLocationProps(prevProps.location, this.props.location)) {
+  componentDidUpdate(prevProps, prevState, shouldFireRouteUpdate) {
+    if (shouldFireRouteUpdate) {
+      onRouteUpdate(this.props.location, prevProps.location);
+    }
+  }
+
+  getSnapshotBeforeUpdate(prevProps) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
       onPreRouteUpdate(this.props.location, prevProps.location);
       return true;
     }
@@ -304,14 +265,8 @@ class RouteUpdates extends _react.default.Component {
     return false;
   }
 
-  componentDidUpdate(prevProps) {
-    if (compareLocationProps(prevProps.location, this.props.location)) {
-      onRouteUpdate(this.props.location, prevProps.location);
-    }
-  }
-
   render() {
-    return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, this.props.children, /*#__PURE__*/_react.default.createElement(RouteAnnouncer, {
+    return _react.default.createElement(_react.default.Fragment, null, this.props.children, _react.default.createElement(RouteAnnouncer, {
       location: location
     }));
   }
