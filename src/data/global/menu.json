@@ -77,8 +77,8 @@
                 "title": "Принтеры пасты",
                 "submenu": [
                     {
-                        "text": "Автоматы",
-                        "link": "/elements/accordion"
+                        "text": "Автоматы JUKI",
+                        "link": "/оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/автоматический-принтер-пасты"
                     },
                     {
                         "text": "Полуавтоматы",
@@ -87,22 +87,6 @@
                     {
                         "text": "Ручные",
                         "link": "/оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/принтеры-пасты-ручные"
-                    },
-                    {
-                        "text": "Box Large Image",
-                        "link": "/elements/box-large-image"
-                    },
-                    {
-                        "text": "Buttons",
-                        "link": "/elements/button"
-                    },
-                    {
-                        "text": "Call to action",
-                        "link": "/elements/call-to-action"
-                    },
-                    {
-                        "text": "Client Logo",
-                        "link": "/elements/client-logo"
                     }
                 ]
             },

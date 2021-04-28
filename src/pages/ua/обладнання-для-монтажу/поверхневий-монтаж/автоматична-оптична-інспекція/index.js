@@ -13,7 +13,7 @@ import MachinesSmt from '../../../../../containers/machines/smt-ua'
 
 
 
-const language = "ua";
+const language = "uk";
 const path = "ua/обладнання-для-монтажу/поверхневий-монтаж/автоматична-оптична-інспекція";
 const IndexPage = ({location}) => (
   <Layout location={location}>

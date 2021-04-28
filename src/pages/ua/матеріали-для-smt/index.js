@@ -10,7 +10,7 @@ import ContactArea from '../../../containers/global/contact-area/contact-three-u
 import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
 import CaseStudyArea from '../../../containers/machines/bud-stenc-clean-ua'
 
-const language = "ua";
+const language = "uk";
 const path = "ua/матеріали-для-smt"; 
 const IndexServices = ({ location, pageFromCMS }) => (
   <Layout location={location}>

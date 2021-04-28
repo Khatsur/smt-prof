@@ -40,7 +40,7 @@ const PageHeader = ({sectionStyle, titleStyle, descStyle, lang, titletext}) => {
                 </Container>
             </PageHeaderWrap>
         )
-    } else if (lang === "ua") {
+    } else if (lang === "uk") {
         return (
             <PageHeaderWrap fluid={imageData}>
                 <Container>

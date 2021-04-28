@@ -66,7 +66,7 @@ const TabsSection = (props) => {
             </Container>
         </SectionWrap>
     )
-} else if (props.lang == "ua") 
+} else if (props.lang == "uk") 
 {return (
     <SectionWrap>
         <Container>

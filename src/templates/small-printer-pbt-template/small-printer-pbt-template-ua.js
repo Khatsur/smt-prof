@@ -75,7 +75,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
     const modalVideoClose = () => {
         setVideoOpen(false)
     }
-    const lang = "ua";
+    const lang = "uk";
     return (
         <Layout location={location}>
             <Header path={`${pageData.ua}/${pageData.title}`}/>

@@ -102,7 +102,7 @@ const CaseStudiesArea = (props) => {
 
         
     )
-} else if (props.language === "ua") {
+} else if (props.language === "uk") {
     return (
         <Section {...sectionStyle}>
             <Row>

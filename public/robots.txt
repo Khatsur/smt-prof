@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: http://themesmummy.com/mitech/sitemap.xml
-Host: themesmummy.com

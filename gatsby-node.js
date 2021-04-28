@@ -101,6 +101,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'AutoPrinterJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'AutoPrinterUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
     
 }
 
@@ -117,6 +131,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const smallPrinterPbtPageUa = path.resolve("./src/templates/small-printer-pbt-template/small-printer-pbt-template-ua.js")
     const semiPrinterPage = path.resolve("./src/templates/semi-printer-template/semi-printer-template.js")
     const semiPrinterPageUa = path.resolve("./src/templates/semi-printer-template/semi-printer-template-ua.js")
+    const autoPrinterPage = path.resolve("./src/templates/auto-printer-template/auto-printer-template.js")
+    const autoPrinterPageUa = path.resolve("./src/templates/auto-printer-template/auto-printer-template-ua.js")
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
     const blogList = path.resolve("./src/templates/blog-list/blog-list.js");
@@ -447,6 +463,92 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             } 
+            allAutoPrinterJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allAutoPrinterUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }
 
             allMarkdownRemark {
                 edges {
@@ -623,6 +725,36 @@ exports.createPages = async ({ graphql, actions }) => {
         createPage({
             path: `ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/напівавтоматичний-трафаретний-принтер/${node.fields.slug}`,
             component: semiPrinterPageUa,
+            context: {
+                slug: node.fields.slug,
+                next,
+                previous
+            }
+        })
+    });
+
+     // Create Single Auto Printer Page
+
+     const autoPrinter = result.data.allAutoPrinterJson.edges;
+     autoPrinter.forEach(({ node, next, previous }) => {
+        createPage({
+            path: `оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/автоматический-принтер-пасты/${node.fields.slug}`,
+            component: autoPrinterPage,
+            context: {
+                slug: node.fields.slug,
+                next,
+                previous
+            }
+        })
+    });
+
+    // Create Single Auto Printer Page Ua
+
+    const autoPrinterUa = result.data.allAutoPrinterUaJson.edges;
+     autoPrinterUa.forEach(({ node, next, previous }) => {
+        createPage({
+            path: `ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/автоматичний-принтер-пасти/${node.fields.slug}`,
+            component: autoPrinterPageUa,
             context: {
                 slug: node.fields.slug,
                 next,

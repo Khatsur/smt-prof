@@ -9,7 +9,7 @@ import ServicesArea from '../../../containers/lines/solutions-ua'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
 
-const language = "ua";
+const language = "uk";
 const path = "ua/технічне-обслуговування"; 
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>

@@ -10,7 +10,7 @@ import WhatsnewArea from '../../../../containers/machines/whats-new-area-ua'
 
  
 
-const language = "ua";
+const language = "uk";
 const path = "ua/обладнання-для-монтажу/поверхневий-монтаж";
 const IndexPage = ({location}) => (
   <Layout location={location}>

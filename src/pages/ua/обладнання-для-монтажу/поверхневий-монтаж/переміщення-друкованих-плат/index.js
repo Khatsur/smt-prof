@@ -12,7 +12,7 @@ import MachinesSmt from '../../../../../containers/machines/smt-ua'
 
 
 
-const language = "ua";
+const language = "uk";
 const path = "ua/обладнання-для-монтажу/поверхневий-монтаж/переміщення-друкованих-плат";
 const IndexPage = ({location}) => (
   <Layout location={location}>

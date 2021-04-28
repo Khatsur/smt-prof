@@ -77,8 +77,8 @@
                 "title": "ПРИНТЕРИ ПАСТИ",
                 "submenu": [
                     {
-                        "text": "Автоматы",
-                        "link": "/elements/accordion"
+                        "text": "Автоматы JUKI",
+                        "link": "/ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/автоматичний-принтер-пасти"
                     },
                     {
                         "text": "Напівавтомати",
@@ -87,22 +87,6 @@
                     {
                         "text": "Ручні",
                         "link": "/ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні"
-                    },
-                    {
-                        "text": "Box Large Image",
-                        "link": "/elements/box-large-image"
-                    },
-                    {
-                        "text": "Buttons",
-                        "link": "/elements/button"
-                    },
-                    {
-                        "text": "Call to action",
-                        "link": "/elements/call-to-action"
-                    },
-                    {
-                        "text": "Client Logo",
-                        "link": "/elements/client-logo"
                     }
                 ]
             },

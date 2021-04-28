@@ -8,7 +8,7 @@ import MachinesWire from '../../../../containers/machines/wire-ua'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../../containers/machines/whats-new-area-ua'
 
-const language = "ua";
+const language = "uk";
 const path = "ua/обладнання-для-монтажу/обробка-проводу";
 const IndexPage = ({location}) => (
   <Layout location={location}>

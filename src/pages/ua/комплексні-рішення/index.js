@@ -11,7 +11,7 @@ import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
 import CaseStudyArea from '../../../containers/machines/smt-big-ua'
 import SmallSmt from '../../../containers/lines/small-smt-ua'
 
-const language = "ua";
+const language = "uk";
 const path = "ua/комплексні-рішення"; 
 const Materials = ({ location, pageFromCMS }) => (
   <Layout location={location}>

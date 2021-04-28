@@ -9,7 +9,7 @@ import ContactArea from '../../../../../../containers/global/contact-area/contac
 import MachinesSmt from '../../../../../../containers/machines/smt-ua'
 
 const title = "Принтери пасти ручні";
-const language = "ua";
+const language = "uk";
 const path = "ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні";
 const CaseStudiesPage = ({ pageContext, location }) => (
   <Layout location={location}>

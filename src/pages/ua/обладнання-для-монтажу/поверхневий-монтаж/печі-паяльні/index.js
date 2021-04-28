@@ -12,7 +12,7 @@ import MachinesSmt from '../../../../../containers/machines/smt-ua'
 
 
 
-const language = "ua";
+const language = "uk";
 const path = "ua/обладнання-для-монтажу/поверхневий-монтаж/печі-паяльні";
 const IndexPage = ({location}) => (
   <Layout location={location}>
