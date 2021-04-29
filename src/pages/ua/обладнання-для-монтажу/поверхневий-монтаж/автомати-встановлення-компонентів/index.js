@@ -18,7 +18,7 @@ const IndexPage = ({location}) => (
     <Header path={path}/>
     <main className="site-wrapper-reveal">
       <PlacerPageHeaderUa lang={language}/>
-      <Placer lang="ua" />
+      <Placer lang={language}/>
       <ContactArea />
       <MachinesSmt/>
       <WhatsnewArea />
