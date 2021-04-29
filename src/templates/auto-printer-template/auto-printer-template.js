@@ -46,6 +46,7 @@ import {
     Navigtion
 } from './case-study-template.style'
 import Tab from '../../containers/elements/tabs/tab-smt'
+import ButtonSection from '../../containers/elements/button/button-smt'
 
 
 
@@ -78,6 +79,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
         setVideoOpen(false)
     }
     const lang = "ru";
+    //const path = "https://drive.google.com/file/d/1a_7TMCgdLr-v59YFuMCQYJV7nl6OVJjz/view?usp=sharing"
     
     return (
         <Layout location={location}>
@@ -129,6 +131,8 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                     </OverviewArea>
                 )}
                 <Tab techover={pageData.techover} techspec={pageData.techspec} techfeat={pageData.techfeat} techoption={pageData.techoption} techfeat_title={pageData.techfeat_title}  lang={lang}/>
+
+               <ButtonSection path={pageData.brochure} lang={lang}/>
                 
                 {results && (
                     <ResultArea>
@@ -270,7 +274,7 @@ export const query = graphql`
                     }
                 }
             }
-        
+            brochure
             results
             faq {
                 id

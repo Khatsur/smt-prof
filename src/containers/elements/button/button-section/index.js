@@ -16,7 +16,7 @@ const ButtonSection = ({headingStyle, buttonDefault, ...props}) => {
                             <Heading {...headingStyle}>Button</Heading>
                             <ButtonGroupWrap>
                                 <ButtonWrap>
-                                    <Button {...buttonDefault} size="xsmall">Extra Small</Button>
+                                    <Button {...buttonDefault} size="xsmall" >Extra Small</Button>
                                     <Button {...buttonDefault} size="small">Small Size</Button>
                                     <Button {...buttonDefault} size="medium">Standard Size</Button>
                                     <Button {...buttonDefault} size="large">Large Size</Button>

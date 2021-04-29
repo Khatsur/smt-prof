@@ -2,8 +2,8 @@ import React from "react"
 import SEO from "../../../../../../components/seo"
 import Layout from '../../../../../../containers/layout/layout'
 import Header from '../../../../../../containers/layout/header/header-three-ua'
-import Footer from '../../../../../../containers/layout/footer/footer-one'
-import SemiPrintPageHeader from '../../../../../../components/pageheader/semi-printer'
+import Footer from '../../../../../../containers/layout/footer/footer-one-ua'
+import SemiPrintPageHeader from '../../../../../../components/pageheader/auto-printer'
 import SemiPrint from '../../../../../../containers/machines/smt/printer/auto-printer'
 import ContactArea from '../../../../../../containers/global/contact-area/contact-three-ua'
 import MachinesSmt from '../../../../../../containers/machines/smt-ua'

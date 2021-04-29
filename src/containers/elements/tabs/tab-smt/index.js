@@ -4,6 +4,9 @@ import Heading from '../../../../components/ui/heading'
 import Tabs, { TabHeader, NavItem, TabContent, TabPane } from '../../../../components/ui/tabs/layout-one'
 import { SectionWrap } from './style'
 
+const text = {
+    size: 'fontSize: 17'
+};
 const TabsSection = (props) => {
     if (props.lang == "ru") 
     {return (
@@ -26,13 +29,13 @@ const TabsSection = (props) => {
                             <TabContent pt="50px">
                                 <TabPane eventKey="our-mission-tab">
                                     <Heading as="h4" mb="20px">Краткое описание</Heading>
-                                    <p>{props.techover}</p>
+                                    <p style={{fontSize: 17}}>{props.techover}</p>
                                     
                                 </TabPane>
                                 <TabPane eventKey="our-services-tab">
                                     <Heading as="h4" mb="20px">Особенности оборудования</Heading>
-                                    <p style={{fontWeight: "bold"}}>{props.techfeat_title}</p>
-                                    <p>
+                                    <p style={{fontWeight: "bold", fontSize: 17}}>{props.techfeat_title}</p>
+                                    <p style={{fontSize: 17}}>
                                      {props.techfeat.map((des) => 
                                      <li key={des.id} >{des.feat}</li>
                                      )}
@@ -42,7 +45,7 @@ const TabsSection = (props) => {
                                 <TabPane eventKey="partners-tab">
                                     <Heading as="h4" mb="20px">Технические характеристики</Heading>
                                     <p></p>
-                                    <p>
+                                    <p style={{fontSize: 17}}>
                                      {props.techspec.map((des) => 
                                      <li key={des.id} >{des.spec}</li>
                                      )}
@@ -52,7 +55,7 @@ const TabsSection = (props) => {
                                 <TabPane eventKey="our-awards-tab">
                                     <Heading as="h4" mb="20px">Дополнительное оборудование</Heading>
                                     <p></p>
-                                    <p>
+                                    <p style={{fontSize: 17}}>
                                      {props.techoption.map((des) => 
                                      <li key={des.id} >{des.option}</li>
                                      )}
@@ -87,13 +90,13 @@ const TabsSection = (props) => {
                         <TabContent pt="50px">
                             <TabPane eventKey="our-mission-tab">
                                 <Heading as="h4" mb="20px">Короткий опис</Heading>
-                                <p>{props.techover}</p>
+                                <p style={{fontSize: 17}}>{props.techover}</p>
                                 
                             </TabPane>
                             <TabPane eventKey="our-services-tab">
                                 <Heading as="h4" mb="20px">Особливості обладнання</Heading>
-                                <p style={{fontWeight: "bold"}}>{props.techfeat_title}</p>
-                                    <p>
+                                <p style={{fontWeight: "bold", fontSize: 17}}>{props.techfeat_title}</p>
+                                    <p style={{fontSize: 17}}>
                                      {props.techfeat.map((des) => 
                                      <li key={des.id} >{des.feat}</li>
                                      )}
@@ -103,7 +106,7 @@ const TabsSection = (props) => {
                             <TabPane eventKey="partners-tab">
                                 <Heading as="h4" mb="20px">Технічні характеристики</Heading>
                                 <p></p>
-                                    <p>
+                                    <p style={{fontSize: 17}}>
                                      {props.techspec.map((des) => 
                                      <li key={des.id} >{des.spec}</li>
                                      )}
@@ -113,7 +116,7 @@ const TabsSection = (props) => {
                             <TabPane eventKey="our-awards-tab">
                                 <Heading as="h4" mb="20px">Додаткове обладнання</Heading>
                                 <p></p>
-                                    <p>
+                                    <p style={{fontSize: 17}}>
                                      {props.techoption.map((des) => 
                                      <li key={des.id} >{des.option}</li>
                                      )}

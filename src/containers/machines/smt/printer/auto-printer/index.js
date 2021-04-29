@@ -6,6 +6,7 @@ import Heading from '../../../../../components/ui/heading'
 import CaseStudyBox from '../../../../../components/box-large-image/layout-two'
 import ChangLang from '../../../../../containers/elements/tabs/changlang.js'
 import {PagePath} from '../../../../../components/pagepath'
+import ButtonSection from '../../../../../containers/elements/button/button-smt'
 
 const CaseStudiesArea = (props) => {
     const autoPrinterData = useStaticQuery(graphql `
@@ -21,6 +22,7 @@ const CaseStudiesArea = (props) => {
                         title
                         category
                         excerpt
+                        brochure
                         image {
                             childImageSharp {
                                 fluid(maxHeight: 258, quality: 100){
@@ -44,6 +46,7 @@ const CaseStudiesArea = (props) => {
                         title
                         category
                         excerpt
+                        brochure
                         image {
                             childImageSharp {
                                 fluid(maxHeight: 258, quality: 100){
@@ -64,6 +67,7 @@ const CaseStudiesArea = (props) => {
     
     const caseStudies = autoPrinterData.allAutoPrinterJson.edges;
     const caseStudiesUa = autoPrinterData.allAutoPrinterUaJson.edges;
+    const brochure = "https://drive.google.com/file/d/1a_7TMCgdLr-v59YFuMCQYJV7nl6OVJjz/view?usp=sharing"
 
     const {sectionStyle, headingStyle, caseStudyStyles} = props;
    
@@ -96,7 +100,9 @@ const CaseStudiesArea = (props) => {
                     </Col>
                 ))}
             </Row>
-
+            <Row>
+            <ButtonSection path={brochure} lang={props.language}/>
+            </Row>
             
         </Section>
 
@@ -107,7 +113,7 @@ const CaseStudiesArea = (props) => {
         <Section {...sectionStyle}>
             <Row>
                 <Col>
-                    <Heading {...headingStyle}>Напівавтоматичне обладнання для нанесення паяльної пасти</Heading>
+                    <Heading {...headingStyle}>Автоматичні принтери для нанесення паяльної пасти</Heading>
                     <h6 style={{textAlign: "justify"}}>Обладнання призначене для нанесення паяльної пасти через металевий трафарет на контактні площадки друкованих плат в автоматичному чи напівавтоматичному режимі. Устаткування для нанесення паяльної пасти середнього рівня - Напівавтоматичний трафаретний принтер - це проміжна ланка, яка допомагає зв'язати дрібну серію і якість процесів автоматичного обладнання при розумних інвестиціях. Принтер - автомат контролює всі технологічні параметри нанесення паяльної пасти на друковані плати. Суміщення трафарету і друкованої плати за допомогою СТЗ. Обладнання для нанесення паяльної пасти підвищує продуктивності і якість технологічних процесів нанесення матеріалів на друковані плати для технології поверхневого монтажу SMT. Напівавтоматична машина для нанесення паяльної пасти може застосовуватися в дрібносерійному виробництво і середньо серійному виробництві монтажу друкованих плат, як окреме обладнання.</h6>
                 </Col>
             </Row>
@@ -126,6 +132,9 @@ const CaseStudiesArea = (props) => {
                         />
                     </Col>
                 ))}
+            </Row>
+            <Row>
+            <ButtonSection path={brochure} lang={props.language}/>
             </Row>
             
         </Section>

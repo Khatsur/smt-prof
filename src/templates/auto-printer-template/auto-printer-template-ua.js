@@ -45,6 +45,7 @@ import {
     Navigtion
 } from './case-study-template.style'
 import Tab from '../../containers/elements/tabs/tab-smt'
+import ButtonSection from '../../containers/elements/button/button-smt'
 
 const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ...restProps }) => {
     const pageData = data.autoPrinterUaJson;
@@ -61,7 +62,6 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
         resultStyles: { resultText } } = restProps;
 
     const [videoOpen, setVideoOpen] = useState(false);
-    const path = "ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/принтери-пасти-ручні";
 
     if (pageData.video) {
         var { video_link } = pageData.video;
@@ -76,6 +76,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
         setVideoOpen(false)
     }
     const lang = "uk";
+    //const path = "https://drive.google.com/file/d/1a_7TMCgdLr-v59YFuMCQYJV7nl6OVJjz/view?usp=sharing"
     return (
         <Layout location={location}>
             <Header path={`${pageData.ua}/${pageData.title}`}/>
@@ -117,7 +118,9 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                         </Container>
                     </OverviewArea>
                 )}
-                <Tab techover={pageData.techover} techspec={pageData.techspec} techfeat={pageData.techfeat} techoption={pageData.techoption}  lang={lang}/>
+                <Tab techover={pageData.techover} techspec={pageData.techspec} techfeat={pageData.techfeat} techoption={pageData.techoption} techfeat_title={pageData.techfeat_title}  lang={lang}/>
+
+                <ButtonSection path={pageData.brochure} lang={lang}/>
                 
                 {results && (
                     <ResultArea>
@@ -227,6 +230,7 @@ query($slug: String!){
         keywords
         short_desc
         tagline
+        techfeat_title
         techover
         techfeat {
             id
@@ -258,7 +262,7 @@ query($slug: String!){
                 }
             }
         }
-    
+        brochure
         results
         faq {
             id
