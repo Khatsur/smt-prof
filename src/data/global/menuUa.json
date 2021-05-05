@@ -91,14 +91,14 @@
                 ]
             },
             {
-                "title": "Element Group 02",
+                "title": "Автомати встановлення",
                 "submenu": [
                     {
-                        "text": "Counters",
+                        "text": "Автомати SMT JUKI",
                         "link": "/elements/counters"
                     },
                     {
-                        "text": "Dividers",
+                        "text": "Автомати THT JUKI",
                         "link": "/elements/dividers"
                     },
                     {
@@ -106,7 +106,7 @@
                         "link": "/elements/flexible-image-slider"
                     },
                     {
-                        "text": "Google Map",
+                        "text": "Маніпулятори",
                         "link": "/elements/google-map"
                     },
                     {

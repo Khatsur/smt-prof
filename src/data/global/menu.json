@@ -91,14 +91,14 @@
                 ]
             },
             {
-                "title": "Element Group 02",
+                "title": "Установщики компонентов",
                 "submenu": [
                     {
-                        "text": "Counters",
+                        "text": "Установщики SMT JUKI",
                         "link": "/elements/counters"
                     },
                     {
-                        "text": "Dividers",
+                        "text": "Установщики THT JUKI",
                         "link": "/elements/dividers"
                     },
                     {
@@ -106,8 +106,8 @@
                         "link": "/elements/flexible-image-slider"
                     },
                     {
-                        "text": "Google Map",
-                        "link": "/elements/google-map"
+                        "text": "Манипуляторы",
+                        "link": "/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов/манипулятор-установки-компонентов-smd"
                     },
                     {
                         "text": "Gradation",

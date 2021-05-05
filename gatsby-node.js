@@ -115,6 +115,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'ManipulatorJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'ManipulatorUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
     
 }
 
@@ -133,6 +147,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const semiPrinterPageUa = path.resolve("./src/templates/semi-printer-template/semi-printer-template-ua.js")
     const autoPrinterPage = path.resolve("./src/templates/auto-printer-template/auto-printer-template.js")
     const autoPrinterPageUa = path.resolve("./src/templates/auto-printer-template/auto-printer-template-ua.js")
+    const manipulatorPage = path.resolve("./src/templates/manipulator-template/manipulator-template.js")
+    const manipulatorPageUa = path.resolve("./src/templates/manipulator-template/manipulator-template-ua.js")
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
     const blogList = path.resolve("./src/templates/blog-list/blog-list.js");
@@ -549,6 +565,92 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
+            allManipulatorJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allManipulatorUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }
 
             allMarkdownRemark {
                 edges {
@@ -763,6 +865,36 @@ exports.createPages = async ({ graphql, actions }) => {
         })
     });
 
+     // Create Single Manipulator Page
+
+     const Manipulator = result.data.allManipulatorJson.edges;
+     Manipulator.forEach(({ node, next, previous }) => {
+        createPage({
+            path: `оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов/манипулятор-установки-компонентов-smd/${node.fields.slug}`,
+            component: manipulatorPage,
+            context: {
+                slug: node.fields.slug,
+                next,
+                previous
+            }
+        })
+    });
+
+    // Create Single Manipulator Page Ua
+
+    const ManipulatorUa = result.data.allManipulatorUaJson.edges;
+    ManipulatorUa.forEach(({ node, next, previous }) => {
+        createPage({
+            path: `ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/маніпулятор-встановлення-компонентів-smd/${node.fields.slug}`,
+            component: manipulatorPageUa,
+            context: {
+                slug: node.fields.slug,
+                next,
+                previous
+            }
+        })
+    });
+
 
     // Create Single Blog Page
 
@@ -779,6 +911,7 @@ exports.createPages = async ({ graphql, actions }) => {
             }
         })
     });
+
 
     // Create Blog List Page
     // Pagination
