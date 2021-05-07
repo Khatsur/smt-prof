@@ -3,7 +3,7 @@ import SEO from "../../../../../../components/seo"
 import Layout from '../../../../../../containers/layout/layout'
 import Header from '../../../../../../containers/layout/header/header-three-ua'
 import Footer from '../../../../../../containers/layout/footer/footer-one'
-import ManipulatorPageHeader from '../../../../../../components/pageheader/semi-printer'
+import ManipulatorPageHeader from '../../../../../../components/pageheader/manipulator'
 import Manipulator from '../../../../../../containers/machines/smt/placer/manipulator'
 import ContactArea from '../../../../../../containers/global/contact-area/contact-three-ua'
 import MachinesSmt from '../../../../../../containers/machines/smt-ua'

@@ -23,7 +23,7 @@ const CaseStudiesArea = (props) => {
                         brochure
                         image {
                             childImageSharp {
-                                fluid(maxHeight: 258, quality: 100){
+                                fluid(maxHeight: 230, quality: 100){
                                     ...GatsbyImageSharpFluid_withWebp
                                     presentationWidth
                                     presentationHeight
