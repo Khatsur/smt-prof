@@ -129,6 +129,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'ToptablePlacerJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'ToptablePlacerUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
     
 }
 
@@ -149,6 +163,9 @@ exports.createPages = async ({ graphql, actions }) => {
     const autoPrinterPageUa = path.resolve("./src/templates/auto-printer-template/auto-printer-template-ua.js")
     const manipulatorPage = path.resolve("./src/templates/manipulator-template/manipulator-template.js")
     const manipulatorPageUa = path.resolve("./src/templates/manipulator-template/manipulator-template-ua.js")
+    const toptablePlacerPage = path.resolve("./src/templates/toptable-placer-template/toptable-placer-template.js")
+    const toptablePlacerPageUa = path.resolve("./src/templates/toptable-placer-template/toptable-placer-template-ua.js")
+
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
     const blogList = path.resolve("./src/templates/blog-list/blog-list.js");
@@ -651,6 +668,92 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
+            allToptablePlacerJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allToptablePlacerUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }
 
             allMarkdownRemark {
                 edges {
@@ -894,6 +997,36 @@ exports.createPages = async ({ graphql, actions }) => {
             }
         })
     });
+
+    // Create Single Toptable Page
+
+    const toptablePlacer = result.data.allToptablePlacerJson.edges;
+    toptablePlacer.forEach(({ node, next, previous }) => {
+       createPage({
+           path: `оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов/расстановщик-smd/${node.fields.slug}`,
+           component: toptablePlacerPage,
+           context: {
+               slug: node.fields.slug,
+               next,
+               previous
+           }
+       })
+   });
+
+   // Create Single Toptable Page Ua
+
+   const toptablePlacerUa = result.data.allToptablePlacerUaJson.edges;
+   toptablePlacerUa.forEach(({ node, next, previous }) => {
+       createPage({
+           path: `ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/розстановник-smd/${node.fields.slug}`,
+           component: toptablePlacerPageUa,
+           context: {
+               slug: node.fields.slug,
+               next,
+               previous
+           }
+       })
+   });
 
 
     // Create Single Blog Page
