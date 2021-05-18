@@ -143,6 +143,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'SemiPlacerJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'SemiPlacerUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
     
 }
 
@@ -165,6 +179,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const manipulatorPageUa = path.resolve("./src/templates/manipulator-template/manipulator-template-ua.js")
     const toptablePlacerPage = path.resolve("./src/templates/toptable-placer-template/toptable-placer-template.js")
     const toptablePlacerPageUa = path.resolve("./src/templates/toptable-placer-template/toptable-placer-template-ua.js")
+    const semiPlacerPage = path.resolve("./src/templates/semi-placer-template/semi-placer-template.js")
+    const semiPlacerPageUa = path.resolve("./src/templates/semi-placer-template/semi-placer-template-ua.js")
 
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
@@ -754,6 +770,92 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
+            allSemiPlacerJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allSemiPlacerUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }
 
             allMarkdownRemark {
                 edges {
@@ -1027,6 +1129,36 @@ exports.createPages = async ({ graphql, actions }) => {
            }
        })
    });
+
+   // Create Single Semi Placer Page
+
+   const semiPlacer = result.data.allSemiPlacerJson.edges;
+   semiPlacer.forEach(({ node, next, previous }) => {
+      createPage({
+          path: `оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов/автоматические-установщики-smd/${node.fields.slug}`,
+          component: semiPlacerPage,
+          context: {
+              slug: node.fields.slug,
+              next,
+              previous
+          }
+      })
+  });
+
+  // Create Single Semi Placer Page Ua
+
+  const semiPlacerUa = result.data.allSemiPlacerUaJson.edges;
+  semiPlacerUa.forEach(({ node, next, previous }) => {
+      createPage({
+          path: `ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/автоматичні-установники-smd/${node.fields.slug}`,
+          component: semiPlacerPageUa,
+          context: {
+              slug: node.fields.slug,
+              next,
+              previous
+          }
+      })
+  });
 
 
     // Create Single Blog Page
