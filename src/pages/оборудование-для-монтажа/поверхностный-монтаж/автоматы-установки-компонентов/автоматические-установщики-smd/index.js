@@ -3,8 +3,8 @@ import SEO from "../../../../../components/seo"
 import Layout from '../../../../../containers/layout/layout'
 import Header from '../../../../../containers/layout/header/header-three'
 import Footer from '../../../../../containers/layout/footer/footer-one'
-import SemiPlacerPageHeader from '../../../../../components/pageheader/toptableplacer'
-import SemiPlacer from '../../../../../containers/machines/smt/placer/toptable'
+import SemiPlacerPageHeader from '../../../../../components/pageheader/semi-placer'
+import SemiPlacer from '../../../../../containers/machines/smt/placer/semiplacer'
 import ContactArea from '../../../../../containers/global/contact-area/contact-three-ru'
 import MachinesSmt from '../../../../../containers/machines/smt'
 

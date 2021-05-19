@@ -94,12 +94,12 @@
                 "title": "Автомати встановлення SMD",
                 "submenu": [
                     {
-                        "text": "Автомати SMT JUKI",
+                        "text": "Автомати JUKI",
                         "link": "/elements/counters"
                     },
                     {
-                        "text": "Автомати THT JUKI",
-                        "link": "/elements/dividers"
+                        "text": "Середні автомати",
+                        "link": "/ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/автоматичні-установники-smd"
                     },
                     {
                         "text": "Настільні автомати",
@@ -108,18 +108,6 @@
                     {
                         "text": "Маніпулятори",
                         "link": "/ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/маніпулятор-встановлення-компонентів-smd"
-                    },
-                    {
-                        "text": "Gradation",
-                        "link": "/elements/gradation"
-                    },
-                    {
-                        "text": "Lists",
-                        "link": "/elements/lists"
-                    },
-                    {
-                        "text": "Message box",
-                        "link": "/elements/message-box"
                     }
                 ]
             },
