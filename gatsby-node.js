@@ -157,6 +157,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'JukiPlacerJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'JukiPlacerUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
     
 }
 
@@ -181,6 +195,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const toptablePlacerPageUa = path.resolve("./src/templates/toptable-placer-template/toptable-placer-template-ua.js")
     const semiPlacerPage = path.resolve("./src/templates/semi-placer-template/semi-placer-template.js")
     const semiPlacerPageUa = path.resolve("./src/templates/semi-placer-template/semi-placer-template-ua.js")
+    const jukiPlacerPage = path.resolve("./src/templates/juki-placer-template/juki-placer-template.js")
+    const jukiPlacerPageUa = path.resolve("./src/templates/juki-placer-template/juki-placer-template-ua.js")
 
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
@@ -856,6 +872,92 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
+            allJukiPlacerJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allJukiPlacerUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }
 
             allMarkdownRemark {
                 edges {
@@ -1152,6 +1254,36 @@ exports.createPages = async ({ graphql, actions }) => {
       createPage({
           path: `ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/автоматичні-установники-smd/${node.fields.slug}`,
           component: semiPlacerPageUa,
+          context: {
+              slug: node.fields.slug,
+              next,
+              previous
+          }
+      })
+  });
+
+   // Create Single Juki Placer Page
+
+   const jukiPlacer = result.data.allJukiPlacerJson.edges;
+   jukiPlacer.forEach(({ node, next, previous }) => {
+      createPage({
+          path: `оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов/установщик-электронных-компонентов/${node.fields.slug}`,
+          component: jukiPlacerPage,
+          context: {
+              slug: node.fields.slug,
+              next,
+              previous
+          }
+      })
+  });
+
+  // Create Single Juki Placer Page Ua
+
+  const jukiPlacerUa = result.data.allJukiPlacerUaJson.edges;
+  jukiPlacerUa.forEach(({ node, next, previous }) => {
+      createPage({
+          path: `ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/установник-електронних-компонентів/${node.fields.slug}`,
+          component: jukiPlacerPageUa,
           context: {
               slug: node.fields.slug,
               next,
