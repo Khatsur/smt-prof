@@ -878,6 +878,7 @@ exports.createPages = async ({ graphql, actions }) => {
                         fields{
                             slug
                         }
+                        ru
                     }
                     next {
                         fields{
@@ -921,6 +922,7 @@ exports.createPages = async ({ graphql, actions }) => {
                         fields{
                             slug
                         }
+                        ua
                     }
                     next {
                         fields{
@@ -1267,7 +1269,7 @@ exports.createPages = async ({ graphql, actions }) => {
    const jukiPlacer = result.data.allJukiPlacerJson.edges;
    jukiPlacer.forEach(({ node, next, previous }) => {
       createPage({
-          path: `оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов/установщик-электронных-компонентов/${node.fields.slug}`,
+          path: `${node.ru}/${node.fields.slug}`,
           component: jukiPlacerPage,
           context: {
               slug: node.fields.slug,
@@ -1282,7 +1284,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const jukiPlacerUa = result.data.allJukiPlacerUaJson.edges;
   jukiPlacerUa.forEach(({ node, next, previous }) => {
       createPage({
-          path: `ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/установник-електронних-компонентів/${node.fields.slug}`,
+          path: `${node.ua}/${node.fields.slug}`,
           component: jukiPlacerPageUa,
           context: {
               slug: node.fields.slug,
