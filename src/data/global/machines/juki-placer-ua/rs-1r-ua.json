@@ -102,10 +102,10 @@
         }
     ],
     "tagline": "Встановлення компонентів SMD",
-    "image": "../../../images/bg/machines/placer/placeall-520.jpg",
+    "image": "../../../images/bg/machines/placer/rs-1.jpg",
     "brochure": "",
     "is_featured": true,
-    "banner_image": "../../../images/bg/machines/placer/semiplacer.jpg",
+    "banner_image": "../../../images/bg/machines/placer/rs-baner.jpg",
 
     "results": "Дуже коротко про найголовніше :) Швидкі відповіді на часті запитання.",
     "faq": [
@@ -131,7 +131,7 @@
         }
     ],
     "video": {
-        "preview_image": "../../../images/bg/machines/placer/placeall-520.jpg",
-        "video_link": "https://www.youtube.com/watch?v=Uuk-Buaq1Xk"
+        "preview_image": "../../../images/bg/machines/placer/rs-1.jpg",
+        "video_link": "https://www.youtube.com/watch?v=HQzPatKVnEY"
     }
 }

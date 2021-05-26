@@ -101,6 +101,9 @@ const CaseStudiesArea = (props) => {
                     </Col>
                 ))}
             </Row>
+            <Row>
+            <ButtonSection path={brochure} lang={props.language}/>
+            </Row>
         </Section>
 
         
@@ -133,7 +136,9 @@ const CaseStudiesArea = (props) => {
                     </Col>
                 ))}
             </Row>
-           
+            <Row>
+            <ButtonSection path={brochure} lang={props.language}/>
+            </Row>
         </Section>
     )
 }

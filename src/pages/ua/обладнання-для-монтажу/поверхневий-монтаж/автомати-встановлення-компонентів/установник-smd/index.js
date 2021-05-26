@@ -3,7 +3,7 @@ import SEO from "../../../../../../components/seo"
 import Layout from '../../../../../../containers/layout/layout'
 import Header from '../../../../../../containers/layout/header/header-three-ua'
 import Footer from '../../../../../../containers/layout/footer/footer-one'
-import JukiPlacerPageHeader from '../../../../../../components/pageheader/semi-placer'
+import JukiPlacerPageHeader from '../../../../../../components/pageheader/juki-jx'
 import JukiPlacerJx from '../../../../../../containers/machines/smt/placer/juki-jx'
 import ContactArea from '../../../../../../containers/global/contact-area/contact-three-ua'
 import MachinesSmt from '../../../../../../containers/machines/smt-ua'

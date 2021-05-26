@@ -102,6 +102,9 @@ const CaseStudiesArea = (props) => {
                     </Col>
                 ))}
             </Row>
+            <Row>
+            <ButtonSection path={brochure} lang={props.language}/>
+            </Row>
         </Section>
     )
 } else if (props.language === "uk") {
@@ -134,6 +137,9 @@ const CaseStudiesArea = (props) => {
                         />
                     </Col>
                 ))}
+            </Row>
+            <Row>
+            <ButtonSection path={brochure} lang={props.language}/>
             </Row>
         </Section>
     )

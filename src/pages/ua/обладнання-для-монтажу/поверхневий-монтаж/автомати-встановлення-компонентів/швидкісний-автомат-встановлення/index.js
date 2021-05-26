@@ -3,12 +3,12 @@ import SEO from "../../../../../../components/seo"
 import Layout from '../../../../../../containers/layout/layout'
 import Header from '../../../../../../containers/layout/header/header-three-ua'
 import Footer from '../../../../../../containers/layout/footer/footer-one'
-import JukiPlacerPageHeader from '../../../../../../components/pageheader/semi-placer'
+import JukiPlacerPageHeader from '../../../../../../components/pageheader/juki-rx'
 import JukiPlacerRx from '../../../../../../containers/machines/smt/placer/juki-rx'
 import ContactArea from '../../../../../../containers/global/contact-area/contact-three-ua'
 import MachinesSmt from '../../../../../../containers/machines/smt-ua'
 
-const title = "Установник електронних компонентів";
+const title = "Швидкісний автомат встановлення";
 const language = "uk";
 const path = "ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/швидкісний-автомат-встановлення";
 const CaseStudiesPage = ({ pageContext, location }) => (

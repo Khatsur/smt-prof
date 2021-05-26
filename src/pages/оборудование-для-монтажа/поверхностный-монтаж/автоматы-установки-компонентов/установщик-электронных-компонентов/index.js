@@ -3,11 +3,8 @@ import SEO from "../../../../../components/seo"
 import Layout from '../../../../../containers/layout/layout'
 import Header from '../../../../../containers/layout/header/header-three'
 import Footer from '../../../../../containers/layout/footer/footer-one'
-import JukiPlacerPageHeader from '../../../../../components/pageheader/semi-placer'
+import JukiPlacerPageHeader from '../../../../../components/pageheader/juki-rs'
 import JukiPlacerRs from '../../../../../containers/machines/smt/placer/juki-rs'
-import JukiPlacerRx from '../../../../../containers/machines/smt/placer/juki-rx'
-import JukiPlacerFx from '../../../../../containers/machines/smt/placer/juki-fx'
-import JukiPlacerJx from '../../../../../containers/machines/smt/placer/juki-jx'
 import ContactArea from '../../../../../containers/global/contact-area/contact-three-ru'
 import MachinesSmt from '../../../../../containers/machines/smt'
 
@@ -27,9 +24,6 @@ const CaseStudiesPage = ({ pageContext, location }) => (
     />
     <main className="site-wrapper-reveal">
         <JukiPlacerRs path={path} language={language}/>
-        <JukiPlacerRx path={path} language={language}/>
-        <JukiPlacerFx path={path} language={language}/>
-        <JukiPlacerJx path={path} language={language}/>
         <ContactArea />
         <MachinesSmt />
     </main>
