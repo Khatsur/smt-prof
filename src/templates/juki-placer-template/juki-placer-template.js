@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import SEO from "../../components/seo"
 import Layout from '../../containers/layout/layout'
 import Header from '../../containers/layout/header/header-three'
@@ -11,13 +8,9 @@ import Footer from '../../containers/layout/footer/footer-one'
 import { Container, Box, Row, Col } from '../../components/ui/wrapper'
 import Heading from '../../components/ui/heading'
 import Text from '../../components/ui/text'
-import Icon from '../../components/ui/icon'
 import Image from '../../components/image'
 import VideoButton from '../../components/ui/video-button'
 import ModalVideo from '../../components/ui/modal-video'
-import Social, { SocialLink } from '../../components/ui/social'
-import TestimonialSection from '../../containers/global/testimonial-area/section-one'
-import CTA from '../../containers/global/cta-area/section-one'
 import ContactArea from '../../containers/global/contact-area/contact-three-ru'
 import MachinesSmt from '../../containers/machines/smt'
 import PostNav from '../../components/post-nav/layout-one'
@@ -33,11 +26,6 @@ import {
     BannerArea,
     BannerTextWrap,
     OverviewArea,
-    ClientBox,
-    MetaBox,
-    ProblemArea,
-    ProblemBox,
-    ProblemTextBox,
     ResultArea,
     FaqArea,
     VideoBoxWrap,
@@ -47,6 +35,7 @@ import {
 } from './case-study-template.style'
 import Tab from '../../containers/elements/tabs/tab-smt'
 import ButtonSection from '../../containers/elements/button/button-smt'
+import {PagePath} from '../../components/pagepath'
 
 
 
@@ -56,7 +45,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
     if (pageData.banner_image) {
         bannerImg = pageData.banner_image.childImageSharp.fluid;
     }
-    const { overview, problem_solution, results, faq, video } = pageData;
+    const { results, faq, video } = pageData;
     const {
         taglineStyle,
         overviewStyles: { overviewHeading, clientName, metaHeading },
@@ -78,6 +67,34 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
     const modalVideoClose = () => {
         setVideoOpen(false)
     }
+
+    let titlepathprevious;
+    let uaprevious;
+    if (previous) {
+    const regexprevious = new RegExp(`/${previous.fields.slug}`);
+    
+    for (let i = 0; i < PagePath.length; i++) {
+        if (regexprevious.test(`${PagePath[i].ru}`)) {
+            uaprevious = `${PagePath[i].ru}`;
+            titlepathprevious = uaprevious.replace(regexprevious, ``);
+            i = PagePath.length;
+        } 
+    };
+}
+    
+    let titlepathnext;
+    let uanext;
+    if(next) {
+    const regexnext = new RegExp(`/${next.fields.slug}`);
+    for (let i = 0; i < PagePath.length; i++) {
+        if (regexnext.test(`${PagePath[i].ru}`)) {
+            uanext = `${PagePath[i].ru}`;
+            titlepathnext = uanext.replace(regexnext, ``);
+            i = PagePath.length;
+        } 
+    };
+}
+
     const lang = "ru";
     
     return (
@@ -198,7 +215,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                     {previous && (
                                         <PostNav
                                             rel="prev"
-                                            slug={`../${pageData.ru}/${previous.fields.slug}`}
+                                            slug={`../${titlepathprevious}/${previous.fields.slug}`}
                                             title={previous.title.toUpperCase()}
                                             image={previous.image.childImageSharp.fixed}
                                         />
@@ -206,7 +223,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                     {next && (
                                         <PostNav
                                             rel="next"
-                                            slug={`../${pageData.ru}/${next.fields.slug}`}
+                                            slug={`../${titlepathnext}/${next.fields.slug}`}
                                             title={next.title.toUpperCase()}
                                             image={next.image.childImageSharp.fixed}
                                         />

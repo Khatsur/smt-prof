@@ -46,6 +46,7 @@ import {
 } from './case-study-template.style'
 import Tab from '../../containers/elements/tabs/tab-smt'
 import ButtonSection from '../../containers/elements/button/button-smt'
+import {PagePath} from '../../components/pagepath'
 
 const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ...restProps }) => {
     const pageData = data.jukiPlacerUaJson;
@@ -75,6 +76,35 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
     const modalVideoClose = () => {
         setVideoOpen(false)
     }
+
+    let titlepathprevious;
+    let uaprevious;
+    if (previous) {
+    const regexprevious = new RegExp(`/${previous.fields.slug}`);
+    
+    for (let i = 0; i < PagePath.length; i++) {
+        if (regexprevious.test(`${PagePath[i].ua}`)) {
+            uaprevious = `${PagePath[i].ua}`;
+            titlepathprevious = uaprevious.replace(regexprevious, ``);
+            i = PagePath.length;
+        } 
+    };
+}
+    
+    let titlepathnext;
+    let uanext;
+    if(next) {
+    const regexnext = new RegExp(`/${next.fields.slug}`);
+    for (let i = 0; i < PagePath.length; i++) {
+        if (regexnext.test(`${PagePath[i].ua}`)) {
+            uanext = `${PagePath[i].ua}`;
+            titlepathnext = uanext.replace(regexnext, ``);
+            i = PagePath.length;
+        } 
+    };
+}
+
+
     const lang = "uk";
     //const path = "https://drive.google.com/file/d/1a_7TMCgdLr-v59YFuMCQYJV7nl6OVJjz/view?usp=sharing"
     return (
@@ -187,7 +217,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                     {previous && (
                                         <PostNav
                                             rel="prev"
-                                            slug={`../${pageData.ua}/${previous.fields.slug}`}
+                                            slug={`../${titlepathprevious}/${previous.fields.slug}`}
                                             title={previous.title.toUpperCase()}
                                             image={previous.image.childImageSharp.fixed}
                                         />
@@ -195,7 +225,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                                     {next && (
                                         <PostNav
                                             rel="next"
-                                            slug={`../${pageData.ua}/${next.fields.slug}`}
+                                            slug={`../${titlepathnext}/${next.fields.slug}`}
                                             title={next.title.toUpperCase()}
                                             image={next.image.childImageSharp.fixed}
                                         />
