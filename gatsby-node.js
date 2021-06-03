@@ -171,6 +171,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'ReflowJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'ReflowUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
     
 }
 
@@ -197,6 +211,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const semiPlacerPageUa = path.resolve("./src/templates/semi-placer-template/semi-placer-template-ua.js")
     const jukiPlacerPage = path.resolve("./src/templates/juki-placer-template/juki-placer-template.js")
     const jukiPlacerPageUa = path.resolve("./src/templates/juki-placer-template/juki-placer-template-ua.js")
+    const reflowPage = path.resolve("./src/templates/reflow-template/reflow-template.js")
+    const reflowPageUa = path.resolve("./src/templates/reflow-template/reflow-template-ua.js")
 
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
@@ -960,6 +976,94 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
+            allReflowJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        ru
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allReflowUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        ua
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }
 
             allMarkdownRemark {
                 edges {
@@ -1293,6 +1397,36 @@ exports.createPages = async ({ graphql, actions }) => {
           }
       })
   });
+
+  // Create Single Reflow Page
+
+  const reflow = result.data.allReflowJson.edges;
+  reflow.forEach(({ node, next, previous }) => {
+     createPage({
+         path: `${node.ru}/${node.fields.slug}`,
+         component: reflowPage,
+         context: {
+             slug: node.fields.slug,
+             next,
+             previous
+         }
+     })
+ });
+
+ // Create Single Reflow Page Ua
+
+ const reflowUa = result.data.allReflowUaJson.edges;
+ reflowUa.forEach(({ node, next, previous }) => {
+     createPage({
+         path: `${node.ua}/${node.fields.slug}`,
+         component: reflowPageUa,
+         context: {
+             slug: node.fields.slug,
+             next,
+             previous
+         }
+     })
+ });
 
 
     // Create Single Blog Page
