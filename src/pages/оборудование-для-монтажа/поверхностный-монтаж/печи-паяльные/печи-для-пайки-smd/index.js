@@ -3,7 +3,7 @@ import SEO from "../../../../../components/seo"
 import Layout from '../../../../../containers/layout/layout'
 import Header from '../../../../../containers/layout/header/header-three'
 import Footer from '../../../../../containers/layout/footer/footer-one'
-import SpideRewlowPageHeader from '../../../../../components/pageheader/semi-placer'
+import SpideRewlowPageHeader from '../../../../../components/pageheader/spide-reflow'
 import SpideRewlow from '../../../../../containers/machines/smt/reflow/spide'
 import ContactArea from '../../../../../containers/global/contact-area/contact-three-ru'
 import MachinesSmt from '../../../../../containers/machines/smt'

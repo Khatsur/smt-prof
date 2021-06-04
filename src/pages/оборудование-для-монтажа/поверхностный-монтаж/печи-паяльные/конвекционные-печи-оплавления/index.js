@@ -3,7 +3,7 @@ import SEO from "../../../../../components/seo"
 import Layout from '../../../../../containers/layout/layout'
 import Header from '../../../../../containers/layout/header/header-three'
 import Footer from '../../../../../containers/layout/footer/footer-one'
-import KayoRewlowPageHeader from '../../../../../components/pageheader/semi-placer'
+import KayoRewlowPageHeader from '../../../../../components/pageheader/kayo-reflow'
 import KayoRewlow from '../../../../../containers/machines/smt/reflow/kayo'
 import ContactArea from '../../../../../containers/global/contact-area/contact-three-ru'
 import MachinesSmt from '../../../../../containers/machines/smt'

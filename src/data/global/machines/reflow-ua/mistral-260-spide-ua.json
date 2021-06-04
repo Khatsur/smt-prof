@@ -110,10 +110,10 @@
         }
     ],
     "tagline": "Установка электронных компонентов",
-    "image": "../../../images/bg/machines/placer/rs-1.jpg",
+    "image": "../../../images/bg/machines/reflow/mistral-260.jpg",
     "brochure": "https://drive.google.com/file/d/1qVhLowYJa_6JTWNmPCyO9GxQgSrgybpe/view?usp=sharing",
     "is_featured": true,
-    "banner_image": "../../../images/bg/machines/placer/rs-baner.jpg",
+    "banner_image": "../../../images/bg/machines/reflow/spide-reflow-baner.jpg",
 
     "results": "Дуже коротко про найголовніше :) Швидкі відповіді на часті запитання.",
     "faq": [
@@ -139,7 +139,7 @@
         }
     ],
     "video": {
-        "preview_image": "../../../images/bg/machines/placer/rs-1.jpg",
+        "preview_image": "../../../images/bg/machines/reflow/mistral-260.jpg",
         "video_link": "https://www.youtube.com/watch?v=HQzPatKVnEY"
     }
 }
