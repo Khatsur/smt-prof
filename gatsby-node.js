@@ -185,6 +185,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'SelectiveJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'SelectiveUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
     
 }
 
@@ -213,6 +227,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const jukiPlacerPageUa = path.resolve("./src/templates/juki-placer-template/juki-placer-template-ua.js")
     const reflowPage = path.resolve("./src/templates/reflow-template/reflow-template.js")
     const reflowPageUa = path.resolve("./src/templates/reflow-template/reflow-template-ua.js")
+    const selectivePage = path.resolve("./src/templates/selective-template/selective-template.js")
+    const selectivePageUa = path.resolve("./src/templates/selective-template/selective-template-ua.js")
 
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
@@ -1064,6 +1080,94 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
+            allSelectiveJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        ru
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allSelectiveUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        ua
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }
 
             allMarkdownRemark {
                 edges {
@@ -1427,6 +1531,37 @@ exports.createPages = async ({ graphql, actions }) => {
          }
      })
  });
+
+ // Create Single Selective Page
+
+ const selective = result.data.allSelectiveJson.edges;
+ selective.forEach(({ node, next, previous }) => {
+    createPage({
+        path: `${node.ru}/${node.fields.slug}`,
+        component: selectivePage,
+        context: {
+            slug: node.fields.slug,
+            next,
+            previous
+        }
+    })
+});
+
+// Create Single Selective Page Ua
+
+const selectiveUa = result.data.allSelectiveUaJson.edges;
+selectiveUa.forEach(({ node, next, previous }) => {
+    createPage({
+        path: `${node.ua}/${node.fields.slug}`,
+        component: selectivePageUa,
+        context: {
+            slug: node.fields.slug,
+            next,
+            previous
+        }
+    })
+});
+
 
 
     // Create Single Blog Page

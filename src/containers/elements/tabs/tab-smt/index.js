@@ -29,6 +29,7 @@ const TabsSection = (props) => {
                             <TabContent pt="50px">
                                 <TabPane eventKey="our-mission-tab">
                                     <Heading as="h4" mb="20px">Краткое описание</Heading>
+                                    <p style={{fontWeight: "bold", fontSize: 17}}>{props.techover_title}</p>
                                     <p style={{fontSize: 17}}>{props.techover}</p>
                                     
                                 </TabPane>
@@ -90,6 +91,7 @@ const TabsSection = (props) => {
                         <TabContent pt="50px">
                             <TabPane eventKey="our-mission-tab">
                                 <Heading as="h4" mb="20px">Короткий опис</Heading>
+                                <p style={{fontWeight: "bold", fontSize: 17}}>{props.techover_title}</p>
                                 <p style={{fontSize: 17}}>{props.techover}</p>
                                 
                             </TabPane>
