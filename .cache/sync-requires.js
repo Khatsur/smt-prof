@@ -42,6 +42,7 @@ exports.components = {
   "component---src-pages-материалы-для-smt-паяльная-паста-и-припой-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/паяльная-паста-и-припой/index.js"))),
   "component---src-pages-материалы-для-smt-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/index.js"))),
   "component---src-pages-оборудование-для-монтажа-влагозащита-электроники-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/влагозащита-электроники/index.js"))),
+  "component---src-pages-оборудование-для-монтажа-монтаж-в-отверстия-селективная-пайка-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/монтаж-в-отверстия/селективная-пайка/index.js"))),
   "component---src-pages-оборудование-для-монтажа-монтаж-в-отверстия-система-селективной-пайки-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/монтаж-в-отверстия/система-селективной-пайки/index.js"))),
   "component---src-pages-оборудование-для-монтажа-монтаж-в-отверстия-установки-селективной-пайки-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/монтаж-в-отверстия/установки-селективной-пайки/index.js"))),
   "component---src-pages-оборудование-для-монтажа-монтаж-в-отверстия-установщик-компонентов-в-отверстия-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/монтаж-в-отверстия/установщик-компонентов-в-отверстия/index.js"))),
@@ -159,7 +160,6 @@ exports.components = {
   "component---src-pages-ua-обладнання-для-монтажу-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/index.js"))),
   "component---src-pages-ua-технічне-обслуговування-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/технічне-обслуговування/index.js"))),
   "component---src-pages-ua-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/index.js"))),
-  "component---src-pages-why-choose-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/why-choose-us.js"))),
-  "component---src-pages-оборудование-для-монтажа-монтаж-в-отверстия-селективная-пайка-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/монтаж-в-отверстия/селективная-пайка/index.js")))
+  "component---src-pages-why-choose-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/why-choose-us.js")))
 }
 

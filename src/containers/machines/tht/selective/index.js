@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container, Row, Col } from '../../../../components/ui/wrapper'
 import Timeline from '../../../../components/ui/timeline-ru'
-import ImageOne from '../../../../data/images/bg/machines/smt/printer/juki-printer.png'
-import ImageTwo from '../../../../data/images/bg/machines/smt/printer/pbt-printer.png'
-import ImageThree from '../../../../data/images/bg/machines/smt/printer/manual-printer.png'
+import ImageOne from '../../../../data/images/bg/machines/tht/inline-selective.jpg'
+import ImageTwo from '../../../../data/images/bg/machines/tht/offline-selective.jpg'
+import ImageThree from '../../../../data/images/bg/machines/tht/entry-selective.jpg'
 import { SectionWrap } from './style'
 
 
