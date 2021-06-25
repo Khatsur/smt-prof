@@ -3,8 +3,8 @@ import SEO from "../../../../components/seo"
 import Layout from '../../../../containers/layout/layout'
 import Header from '../../../../containers/layout/header/header-three'
 import Footer from '../../../../containers/layout/footer/footer-one'
-import OffSelectivePageHeader from '../../../../components/pageheader/juki-jm'
-import OffSelective from '../../../../containers/machines/tht/selective/inline'
+import InSelectivePageHeader from '../../../../components/pageheader/in-selective'
+import InSelective from '../../../../containers/machines/tht/selective/inline'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ru'
 import MachinesTht from '../../../../containers/machines/tht'
 
@@ -17,14 +17,14 @@ const CaseStudiesPage = ({ pageContext, location }) => (
   <Layout location={location}>
     <SEO title={title} description="Система селективной пайки для монтажа электронных компонентов в отверстия печатных плат. Применяется условиях серийного производства монтажа печатных THT" pathname={path} keywords="селективная пайка, система селективной пайки, установки селективной пайки, оборудование для селективной пайки, селективная пайка оборудование, монтаж в отверстия, inertec, cube 460, cube inline" lang={language}/>
     <Header path={path}/>
-    <OffSelectivePageHeader 
+    <InSelectivePageHeader 
         pageContext={pageContext} 
         location={location}
         title={title}
         
     />
     <main className="site-wrapper-reveal">
-        <OffSelective path={path} language={language}/>
+        <InSelective path={path} language={language}/>
         <ContactArea />
         <MachinesTht />
     </main>

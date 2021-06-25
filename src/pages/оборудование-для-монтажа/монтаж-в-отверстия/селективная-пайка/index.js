@@ -3,11 +3,11 @@ import SEO from "../../../../components/seo"
 import Layout from '../../../../containers/layout/layout'
 import Header from '../../../../containers/layout/header/header-three'
 import Footer from '../../../../containers/layout/footer/footer-one'
-import SelectivePageHeader from '../../../../components/page-header/printer'
+import SelectivePageHeader from '../../../../components/page-header/selective'
 import Selective from '../../../../containers/machines/tht/selective'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../../containers/machines/whats-new-area'
-import MachinesSmt from '../../../../containers/machines/smt'
+import MachinesTht from '../../../../containers/machines/tht'
 
 
 const language = "ru";
@@ -20,7 +20,7 @@ const IndexPage = ({location}) => (
       <SelectivePageHeader lang={language}/>
       <Selective lang={language} />
       <ContactArea />
-      <MachinesSmt/>
+      <MachinesTht />
       <WhatsnewArea />
     </main>
     <Footer/>

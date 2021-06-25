@@ -24,7 +24,7 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             imageSrc: image2,
             title: 'Машины селективной пайки',
             desc: 'Оборудование для селективной пайки электронных компонентов монтируемых в отверстия печатных плат.',
-            path: '/machines/smt'
+            path: '/оборудование-для-монтажа/монтаж-в-отверстия/селективная-пайка'
         },
         {
             id: 3,

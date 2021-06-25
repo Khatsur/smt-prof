@@ -3,7 +3,7 @@ import SEO from "../../../../components/seo"
 import Layout from '../../../../containers/layout/layout'
 import Header from '../../../../containers/layout/header/header-three'
 import Footer from '../../../../containers/layout/footer/footer-one'
-import OffSelectivePageHeader from '../../../../components/pageheader/juki-jm'
+import OffSelectivePageHeader from '../../../../components/pageheader/off-selective'
 import OffSelective from '../../../../containers/machines/tht/selective/offline'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ru'
 import MachinesTht from '../../../../containers/machines/tht'
