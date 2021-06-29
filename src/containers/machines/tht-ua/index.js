@@ -31,7 +31,7 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             imageSrc: image3,
             title: 'Машини для паяння хвилею припою',
             desc: 'Обладнання для паяння електронних компонентів монтованих в отвори друкованих плат хвилею розплавленого припою.',
-            path: '/machines/smt'
+            path: '/ua/обладнання-для-монтажу/монтаж-в-отвори/пайка-хвилею-припою'
         }
     ]
 

@@ -7,7 +7,7 @@ import SelectivePageHeaderUa from '../../../../../components/page-header/selecti
 import Selective from '../../../../../containers/machines/tht/selective'
 import ContactArea from '../../../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../../../containers/machines/whats-new-area-ua'
-import MachinesSmt from '../../../../../containers/machines/smt-ua'
+import MachinesTht from '../../../../../containers/machines/tht-ua'
 
 
 
@@ -21,7 +21,7 @@ const IndexPage = ({location}) => (
       <SelectivePageHeaderUa lang={language}/>
       <Selective lang={language} />
       <ContactArea />
-      <MachinesSmt/>
+      <MachinesTht/>
       <WhatsnewArea />
     </main>
     <Footer/>
