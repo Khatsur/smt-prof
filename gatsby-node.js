@@ -199,6 +199,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'InspectionJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'InspectionUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
     
 }
 
@@ -229,6 +243,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const reflowPageUa = path.resolve("./src/templates/reflow-template/reflow-template-ua.js")
     const selectivePage = path.resolve("./src/templates/selective-template/selective-template.js")
     const selectivePageUa = path.resolve("./src/templates/selective-template/selective-template-ua.js")
+    const inspectionPage = path.resolve("./src/templates/inspection-template/inspection-template.js")
+    const inspectionPageUa = path.resolve("./src/templates/inspection-template/inspection-template-ua.js")
 
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
@@ -1168,6 +1184,94 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
+            allInspectionJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        ru
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allInspectionUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        ua
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }
 
             allMarkdownRemark {
                 edges {
@@ -1560,6 +1664,36 @@ selectiveUa.forEach(({ node, next, previous }) => {
             previous
         }
     })
+});
+
+// Create Single Inspection Page
+
+const inspection = result.data.allInspectionJson.edges;
+inspection.forEach(({ node, next, previous }) => {
+   createPage({
+       path: `${node.ru}/${node.fields.slug}`,
+       component: inspectionPage,
+       context: {
+           slug: node.fields.slug,
+           next,
+           previous
+       }
+   })
+});
+
+// Create Single Inspection Page Ua
+
+const inspectionUa = result.data.allInspectionUaJson.edges;
+inspectionUa.forEach(({ node, next, previous }) => {
+   createPage({
+       path: `${node.ua}/${node.fields.slug}`,
+       component: inspectionPageUa,
+       context: {
+           slug: node.fields.slug,
+           next,
+           previous
+       }
+   })
 });
 
 
