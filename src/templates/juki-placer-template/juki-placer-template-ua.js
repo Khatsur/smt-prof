@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import SEO from "../../components/seo"
 import Layout from '../../containers/layout/layout'
 import Header from '../../containers/layout/header/header-three-ua'
@@ -10,13 +8,9 @@ import Footer from '../../containers/layout/footer/footer-one-ua'
 import { Container, Box, Row, Col } from '../../components/ui/wrapper'
 import Heading from '../../components/ui/heading'
 import Text from '../../components/ui/text'
-import Icon from '../../components/ui/icon'
 import Image from '../../components/image'
 import VideoButton from '../../components/ui/video-button'
 import ModalVideo from '../../components/ui/modal-video'
-import Social, { SocialLink } from '../../components/ui/social'
-import TestimonialSection from '../../containers/global/testimonial-area/section-one'
-import CTA from '../../containers/global/cta-area/section-one'
 import ContactArea from '../../containers/global/contact-area/contact-three-ua'
 import MachinesSmt from '../../containers/machines/smt-ua'
 import PostNav from '../../components/post-nav/layout-one'

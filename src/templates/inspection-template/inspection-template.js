@@ -12,7 +12,7 @@ import Image from '../../components/image'
 import VideoButton from '../../components/ui/video-button'
 import ModalVideo from '../../components/ui/modal-video'
 import ContactArea from '../../containers/global/contact-area/contact-three-ru'
-import MachinesTht from '../../containers/machines/tht'
+import MachinesSmt from '../../containers/machines/smt'
 import PostNav from '../../components/post-nav/layout-one'
 import {
     Accordion,
@@ -234,7 +234,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                     </Container>
                 </NavigationArea>
                 <ContactArea />
-                <MachinesTht />
+                <MachinesSmt />
             </main>
             <ModalVideo
                 channel='youtube'
