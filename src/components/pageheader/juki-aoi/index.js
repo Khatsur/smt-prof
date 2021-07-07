@@ -24,7 +24,7 @@ const PageHeader = ({pageContext, location, title}) => {
     const labelArr = label.split('-');
     const imageData = useStaticQuery(graphql `
         query AoiJukiCrumbImgQuery {
-            file(relativePath: {eq: "images/bg/machines/placer/rx-baner.jpg"}) {
+            file(relativePath: {eq: "images/bg/machines/smt/aoi/machine-aoi.jpg"}) {
                 childImageSharp {
                     fluid(maxWidth: 1520, maxHeight: 400, quality: 100) {
                         ...GatsbyImageSharpFluid
