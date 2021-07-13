@@ -4,8 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Section, {Row, Col} from '../../../../../components/ui/wrapper'
 import Heading from '../../../../../components/ui/heading'
 import CaseStudyBox from '../../../../../components/box-large-image/layout-two'
-import ChangLang from '../../../../../containers/elements/tabs/changlang.js'
-import {PagePath} from '../../../../../components/pagepath'
+
 
 const CaseStudiesArea = (props) => {
     const smallPrinterData = useStaticQuery(graphql `

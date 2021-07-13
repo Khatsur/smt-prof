@@ -213,6 +213,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+    if (node.internal.type === 'ConveyerJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'ConveyerUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
     
 }
 
@@ -245,6 +259,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const selectivePageUa = path.resolve("./src/templates/selective-template/selective-template-ua.js")
     const inspectionPage = path.resolve("./src/templates/inspection-template/inspection-template.js")
     const inspectionPageUa = path.resolve("./src/templates/inspection-template/inspection-template-ua.js")
+    const conveyerPage = path.resolve("./src/templates/conveyer-template/conveyer-template.js")
+    const conveyerPageUa = path.resolve("./src/templates/conveyer-template/conveyer-template-ua.js")
 
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
@@ -1272,6 +1288,94 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
+            allConveyerJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        ru
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allConveyerUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        ua
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }
 
             allMarkdownRemark {
                 edges {
@@ -1688,6 +1792,36 @@ inspectionUa.forEach(({ node, next, previous }) => {
    createPage({
        path: `${node.ua}/${node.fields.slug}`,
        component: inspectionPageUa,
+       context: {
+           slug: node.fields.slug,
+           next,
+           previous
+       }
+   })
+});
+
+// Create Single Conveyer Page
+
+const conveyer = result.data.allConveyerJson.edges;
+conveyer.forEach(({ node, next, previous }) => {
+   createPage({
+       path: `${node.ru}/${node.fields.slug}`,
+       component: conveyerPage,
+       context: {
+           slug: node.fields.slug,
+           next,
+           previous
+       }
+   })
+});
+
+// Create Single Conveyer Page Ua
+
+const conveyerUa = result.data.allConveyerUaJson.edges;
+conveyerUa.forEach(({ node, next, previous }) => {
+   createPage({
+       path: `${node.ua}/${node.fields.slug}`,
+       component: conveyerPageUa,
        context: {
            slug: node.fields.slug,
            next,

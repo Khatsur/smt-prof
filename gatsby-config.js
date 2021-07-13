@@ -1,13 +1,13 @@
 // All Of Your Site Conifuration
 
 module.exports = {
-	pathPrefix: `/mitech`,
+	pathPrefix: `/smt-prof`,
 	siteMetadata: {
 		title: "Все для SMT",
 		titleTemplate: `SMT PROF`,
 		description: `Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.`,
-		author: `@HasThemes`,
-		twitterUsername: `@HasThemes`,
+		author: `SMT PROF`,
+		twitterUsername: `@SmtProfUkr`,
 		image: 'landing.png',
 		siteUrl: 'https://smt-prof.com.ua',
 		keywords: 'smt-prof',
@@ -119,8 +119,8 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				"name": "Mitech",
-				"short_name": "mitech",
+				"name": "SMT PROF",
+				"short_name": "SMT PROF",
 				"theme_color": "#086ad8",
 				"background_color": "#ffffff",
 				"display": "standalone",
