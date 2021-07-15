@@ -33,7 +33,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allConveyerUaJson (filter: {id: {regex: "/loader/"}}) {
+            allConveyerUaJson (filter: {id: {regex: "/loader/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{

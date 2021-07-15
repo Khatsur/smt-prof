@@ -9,7 +9,7 @@ import ButtonSection from '../../../../../containers/elements/button/button-smt'
 const CaseStudiesArea = (props) => {
     const autoPrinterData = useStaticQuery(graphql `
         query {
-            allConveyerJson (filter: {id: {regex: "/conveyer/"}}) {
+            allConveyerJson (filter: {id: {regex: "/conveyer/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -33,7 +33,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allConveyerUaJson (filter: {id: {regex: "/conveyer/"}}) {
+            allConveyerUaJson (filter: {id: {regex: "/conveyer/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{

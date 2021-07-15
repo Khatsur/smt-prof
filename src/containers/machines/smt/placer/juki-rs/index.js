@@ -9,7 +9,7 @@ import ButtonSection from '../../../../../containers/elements/button/button-smt'
 const CaseStudiesArea = (props) => {
     const autoPrinterData = useStaticQuery(graphql `
         query {
-            allJukiPlacerJson (filter: {title: {regex: "/rs/"}}) {
+            allJukiPlacerJson (filter: {title: {regex: "/rs/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
