@@ -45,7 +45,7 @@ const Hero = ({headingSecondary, headingPrimary, buttonStyle}) => {
                 }
                 image4 {
                     childImageSharp {
-                        fluid(maxWidth: 435, maxHeight: 360, quality: 100) {
+                        fluid(maxHeight: 150, quality: 100) {
                             ...GatsbyImageSharpFluid_tracedSVG
                         }
                     }
