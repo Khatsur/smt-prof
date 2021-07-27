@@ -12,7 +12,7 @@ import Image from '../../components/image'
 import VideoButton from '../../components/ui/video-button'
 import ModalVideo from '../../components/ui/modal-video'
 import ContactArea from '../../containers/global/contact-area/contact-three-ru'
-import MachinesSmt from '../../containers/machines/smt'
+import Machines from '../../containers/machines/machine'
 import PostNav from '../../components/post-nav/layout-one'
 import {
     Accordion,
@@ -95,7 +95,17 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
     };
 }
 
-    const lang = "ru";
+const lang = "ru";
+
+let machine;
+const machines = ["smt", "tht", "cleaning", "coating", "wire"];
+for (let i = 0; i < machines.length; i++) {
+    const regmachine = new RegExp(`${machines[i]}`);
+    if (regmachine.test(`${pageData.id}`)) {
+        machine = machines[i];
+        i = machines.length;
+    } 
+}
     
     return (
         <Layout location={location}>
@@ -234,7 +244,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                     </Container>
                 </NavigationArea>
                 <ContactArea />
-                <MachinesSmt />
+                <Machines machine={machine} />
             </main>
             <ModalVideo
                 channel='youtube'
@@ -250,6 +260,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
 export const query = graphql`
     query($slug: String!){
         conveyerJson(fields: {slug: {eq: $slug}}){
+            id
             title
             bigtitle
             ru

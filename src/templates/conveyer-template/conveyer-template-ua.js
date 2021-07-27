@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import SEO from "../../components/seo"
 import Layout from '../../containers/layout/layout'
 import Header from '../../containers/layout/header/header-three-ua'
@@ -10,12 +8,11 @@ import Footer from '../../containers/layout/footer/footer-one-ua'
 import { Container, Box, Row, Col } from '../../components/ui/wrapper'
 import Heading from '../../components/ui/heading'
 import Text from '../../components/ui/text'
-import Icon from '../../components/ui/icon'
 import Image from '../../components/image'
 import VideoButton from '../../components/ui/video-button'
 import ModalVideo from '../../components/ui/modal-video'
 import ContactArea from '../../containers/global/contact-area/contact-three-ua'
-import MachinesSmt from '../../containers/machines/smt-ua'
+import Machines from '../../containers/machines/machine-ua'
 import PostNav from '../../components/post-nav/layout-one'
 import {
     Accordion,
@@ -29,11 +26,6 @@ import {
     BannerArea,
     BannerTextWrap,
     OverviewArea,
-    ClientBox,
-    MetaBox,
-    ProblemArea,
-    ProblemBox,
-    ProblemTextBox,
     ResultArea,
     FaqArea,
     VideoBoxWrap,
@@ -51,7 +43,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
     if (pageData.banner_image) {
         bannerImg = pageData.banner_image.childImageSharp.fluid;
     }
-    const { overview, problem_solution, results, faq, video } = pageData;
+    const { results, faq, video } = pageData;
     const {
         taglineStyle,
         overviewStyles: { overviewHeading, clientName, metaHeading },
@@ -102,8 +94,19 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
 }
 
 
-    const lang = "uk";
-    //const path = "https://drive.google.com/file/d/1a_7TMCgdLr-v59YFuMCQYJV7nl6OVJjz/view?usp=sharing"
+const lang = "uk";
+
+let machine;
+const machines = ["smt", "tht", "cleaning", "coating", "wire"];
+for (let i = 0; i < machines.length; i++) {
+    const regmachine = new RegExp(`${machines[i]}`);
+    if (regmachine.test(`${pageData.id}`)) {
+        machine = machines[i];
+        i = machines.length;
+    } 
+}
+   
+
     return (
         <Layout location={location}>
             <Header path={`${pageData.ua}/${pageData.title}`}/>
@@ -233,7 +236,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
                     </Container>
                 </NavigationArea>
                 <ContactArea />
-                <MachinesSmt />
+                <Machines machine={machine} />
             </main>
             <ModalVideo
                 channel='youtube'
@@ -249,6 +252,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
 export const query = graphql`
 query($slug: String!){
     conveyerUaJson(fields: {slug: {eq: $slug}}){
+        id
         title
         bigtitle
         ru
