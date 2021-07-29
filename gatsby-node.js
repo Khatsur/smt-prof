@@ -213,14 +213,14 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
-    if (node.internal.type === 'ConveyerJson') {
+    if (node.internal.type === 'MachineJson') {
         createNodeField({
             node,
             name: "slug",
             value: slugify(node.title)
         })
     }
-    if (node.internal.type === 'ConveyerUaJson') {
+    if (node.internal.type === 'MachineUaJson') {
         createNodeField({
             node,
             name: "slug",
@@ -259,8 +259,8 @@ exports.createPages = async ({ graphql, actions }) => {
     const selectivePageUa = path.resolve("./src/templates/selective-template/selective-template-ua.js")
     const inspectionPage = path.resolve("./src/templates/inspection-template/inspection-template.js")
     const inspectionPageUa = path.resolve("./src/templates/inspection-template/inspection-template-ua.js")
-    const conveyerPage = path.resolve("./src/templates/conveyer-template/conveyer-template.js")
-    const conveyerPageUa = path.resolve("./src/templates/conveyer-template/conveyer-template-ua.js")
+    const machinePage = path.resolve("./src/templates/machine-template/machine-template.js")
+    const machinePageUa = path.resolve("./src/templates/machine-template/machine-template-ua.js")
 
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
@@ -1288,7 +1288,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             }
-            allConveyerJson{
+            allMachineJson{
                 edges {
                     node {
                         fields{
@@ -1332,7 +1332,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     }
                 }
             } 
-            allConveyerUaJson{
+            allMachineUaJson{
                 edges {
                     node {
                         fields{
@@ -1802,26 +1802,19 @@ inspectionUa.forEach(({ node, next, previous }) => {
 
 // Create Single Conveyer Page
 
-const conveyer = result.data.allConveyerJson.edges;
-conveyer.forEach(({ node, next, previous }) => {
-   createPage({
-       path: `${node.ru}/${node.fields.slug}`,
-       component: conveyerPage,
-       context: {
-           slug: node.fields.slug,
-           next,
-           previous
-       }
-   })
-});
+
 
 // Create Single Conveyer Page Ua
 
-const conveyerUa = result.data.allConveyerUaJson.edges;
-conveyerUa.forEach(({ node, next, previous }) => {
+
+
+// Create Single Machine Page
+
+const machine = result.data.allMachineJson.edges;
+machine.forEach(({ node, next, previous }) => {
    createPage({
-       path: `${node.ua}/${node.fields.slug}`,
-       component: conveyerPageUa,
+       path: `${node.ru}/${node.fields.slug}`,
+       component: machinePage,
        context: {
            slug: node.fields.slug,
            next,
@@ -1830,6 +1823,20 @@ conveyerUa.forEach(({ node, next, previous }) => {
    })
 });
 
+// Create Single Machine Page Ua
+
+const machineUa = result.data.allMachineUaJson.edges;
+machineUa.forEach(({ node, next, previous }) => {
+   createPage({
+       path: `${node.ua}/${node.fields.slug}`,
+       component: machinePageUa,
+       context: {
+           slug: node.fields.slug,
+           next,
+           previous
+       }
+   })
+});
 
 
     // Create Single Blog Page
