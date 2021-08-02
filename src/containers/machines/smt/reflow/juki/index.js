@@ -7,9 +7,9 @@ import CaseStudyBox from '../../../../../components/box-large-image/layout-two'
 import ButtonSection from '../../../../../containers/elements/button/button-smt'
 
 const CaseStudiesArea = (props) => {
-    const jukiReflowData = useStaticQuery(graphql `
+    const autoPrinterData = useStaticQuery(graphql `
         query {
-            allReflowJson (filter: {id: {regex: "/juki/"}}) {
+            allMachineJson (filter: {id: {regex: "/reflow-juki/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -33,7 +33,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allReflowUaJson (filter: {id: {regex: "/juki/"}}) {
+            allMachineUaJson (filter: {id: {regex: "/reflow-juki/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -63,8 +63,8 @@ const CaseStudiesArea = (props) => {
         
     `)
     
-    const caseStudies = jukiReflowData.allReflowJson.edges;
-    const caseStudiesUa = jukiReflowData.allReflowUaJson.edges;
+    const caseStudies = autoPrinterData.allMachineJson.edges;
+    const caseStudiesUa = autoPrinterData.allMachineUaJson.edges;
     const brochure = "https://drive.google.com/file/d/1fyiZShg1Djwc7uOD1tD1KxCyLjN0paTg/view?usp=sharing";
 
     const {sectionStyle, headingStyle, caseStudyStyles} = props;

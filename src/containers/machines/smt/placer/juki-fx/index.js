@@ -9,7 +9,7 @@ import ButtonSection from '../../../../../containers/elements/button/button-smt'
 const CaseStudiesArea = (props) => {
     const autoPrinterData = useStaticQuery(graphql `
         query {
-            allJukiPlacerJson (filter: {title: {regex: "/fx/"}}) {
+            allMachineJson (filter: {title: {regex: "/fx/"}}) {
                 edges {
                     node {
                         fields{
@@ -33,7 +33,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allJukiPlacerUaJson (filter: {title: {regex: "/fx/"}}) {
+            allMachineUaJson (filter: {title: {regex: "/fx/"}}) {
                 edges {
                     node {
                         fields{
@@ -63,8 +63,8 @@ const CaseStudiesArea = (props) => {
         
     `)
     
-    const caseStudies = autoPrinterData.allJukiPlacerJson.edges;
-    const caseStudiesUa = autoPrinterData.allJukiPlacerUaJson.edges;
+    const caseStudies = autoPrinterData.allMachineJson.edges;
+    const caseStudiesUa = autoPrinterData.allMachineUaJson.edges;
     const brochure = "";
 
     const {sectionStyle, headingStyle, caseStudyStyles} = props;

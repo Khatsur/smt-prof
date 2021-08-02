@@ -7,9 +7,9 @@ import CaseStudyBox from '../../../../../components/box-large-image/layout-two'
 import ButtonSection from '../../../../../containers/elements/button/button-smt'
 
 const CaseStudiesArea = (props) => {
-    const kayoReflowData = useStaticQuery(graphql `
+    const autoPrinterData = useStaticQuery(graphql `
         query {
-            allReflowJson (filter: {id: {regex: "/kayo/"}}) {
+            allMachineJson (filter: {id: {regex: "/kayo/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -33,7 +33,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allReflowUaJson (filter: {id: {regex: "/kayo/"}}) {
+            allMachineUaJson (filter: {id: {regex: "/kayo/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -63,8 +63,8 @@ const CaseStudiesArea = (props) => {
         
     `)
     
-    const caseStudies = kayoReflowData.allReflowJson.edges;
-    const caseStudiesUa = kayoReflowData.allReflowUaJson.edges;
+    const caseStudies = autoPrinterData.allMachineJson.edges;
+    const caseStudiesUa = autoPrinterData.allMachineUaJson.edges;
     const brochure = "https://drive.google.com/file/d/1fyiZShg1Djwc7uOD1tD1KxCyLjN0paTg/view?usp=sharing";
 
     const {sectionStyle, headingStyle, caseStudyStyles} = props;
