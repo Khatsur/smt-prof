@@ -4,12 +4,14 @@ import { useStaticQuery, graphql } from "gatsby"
 import Section, {Row, Col} from '../../../../../components/ui/wrapper'
 import Heading from '../../../../../components/ui/heading'
 import CaseStudyBox from '../../../../../components/box-large-image/layout-two'
+import PbtPrinter from '../pbt-printer'
+import PbtPrinterUa from '../pbt-printer-ua'
 
 
 const CaseStudiesArea = (props) => {
     const smallPrinterData = useStaticQuery(graphql `
         query {
-            allSmallPrinterJson (sort: {order: ASC, fields: id}) {
+            allMachineJson (filter: {id: {regex: "/printer-spide/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -32,53 +34,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allSmallPrinterUaJson (sort: {order: ASC, fields: id}) {
-                edges {
-                    node {
-                        fields{
-                            slug
-                        }
-                        id
-                        bigtitle
-                        title
-                        category
-                        excerpt
-                        image {
-                            childImageSharp {
-                                fluid(maxHeight: 258, quality: 100){
-                                    ...GatsbyImageSharpFluid_withWebp
-                                    presentationWidth
-                                    presentationHeight
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            allSmallPrinterPbtJson (sort: {order: ASC, fields: id}) {
-                edges {
-                    node {
-                        fields{
-                            slug
-                        }
-                        id
-                        bigtitle
-                        title
-                        category
-                        excerpt
-                        image {
-                            childImageSharp {
-                                fluid(maxHeight: 258, quality: 100){
-                                    ...GatsbyImageSharpFluid_withWebp
-                                    presentationWidth
-                                    presentationHeight
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            allSmallPrinterPbtUaJson ( sort: {order: ASC, fields: id}) {
+            allMachineUaJson (filter: {id: {regex: "/printer-spide/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -102,13 +58,15 @@ const CaseStudiesArea = (props) => {
                 }
             }
         }
-        
-    `)
+    `
+    )
+
     
-    const caseStudies = smallPrinterData.allSmallPrinterJson.edges;
-    const caseStudiesUa = smallPrinterData.allSmallPrinterUaJson.edges;
-    const smallPrinterPbts = smallPrinterData.allSmallPrinterPbtJson.edges;
-    const smallPrinterPbtsUa = smallPrinterData.allSmallPrinterPbtUaJson.edges;
+    
+    const smallPrinter = smallPrinterData.allMachineJson.edges;
+    const smallPrinterUa = smallPrinterData.allMachineUaJson.edges;
+    //const pbtPrinter = pbtPrinterData.allMachineJson.edges;
+    //const pbtPrinterUa = pbtPrinterData.allMachineUaJson.edges;
 
     const {sectionStyle, headingStyle, caseStudyStyles} = props;
    
@@ -124,16 +82,16 @@ const CaseStudiesArea = (props) => {
             </Row>
             <br></br>
             <Row>
-                {caseStudies.map(caseStudy => (
+                {smallPrinter.map(smallPrinter => (
                     
-                    <Col lg={4} md={6} mb="30px" key={caseStudy.node.id}>
+                    <Col lg={4} md={6} mb="30px" key={smallPrinter.node.id}>
                         <CaseStudyBox
                             {...caseStudyStyles}
-                            imageSrc={caseStudy.node.image.childImageSharp}
-                            title={caseStudy.node.bigtitle}
-                            category={caseStudy.node.category}
-                            desc={caseStudy.node.excerpt}
-                            path={`/${props.path}/${caseStudy.node.fields.slug}`}
+                            imageSrc={smallPrinter.node.image.childImageSharp}
+                            title={smallPrinter.node.bigtitle}
+                            category={smallPrinter.node.category}
+                            desc={smallPrinter.node.excerpt}
+                            path={`/${props.path}/${smallPrinter.node.fields.slug}`}
                             btnText="Подробно"
                             
                         />
@@ -142,31 +100,7 @@ const CaseStudiesArea = (props) => {
                 ))}
             </Row>
 
-            <Row>
-                <Col>
-                    <Heading {...headingStyle}>Принтеры для нанесения паяльной с доп. оборудованием</Heading>
-                    <h6 style={{textAlign: "justify"}}>Оборудование для ручного нанесения паяльной пасты от европейского производителя оборудования PBT Works. Принтери имеют ручной привод, но могут оснащаться большой номенклатурой дополнительного оборудования, разного типа натяжными рамками (механические и пневматические), металлическими ракелями разной ширины, лифтом для автоматическое разделения платы и трафарета и другими опциями под требования Заказчика.</h6>
-                </Col>
-            </Row>
-            <br></br>
-            <Row>
-                {smallPrinterPbts.map(smallPrinterPbt => (
-                    
-                    <Col lg={4} md={6} mb="30px" key={smallPrinterPbt.node.id}>
-                        <CaseStudyBox
-                            {...caseStudyStyles}
-                            imageSrc={smallPrinterPbt.node.image.childImageSharp}
-                            title={smallPrinterPbt.node.bigtitle}
-                            category={smallPrinterPbt.node.category}
-                            desc={smallPrinterPbt.node.excerpt}
-                            path={`/${props.path}/${smallPrinterPbt.node.fields.slug}`}
-                            btnText="Подробно"
-                            
-                        />
-                        
-                    </Col>
-                ))}
-            </Row>
+            <PbtPrinter />
         </Section>
 
         
@@ -182,45 +116,21 @@ const CaseStudiesArea = (props) => {
             </Row>
             <br></br>
             <Row>
-                {caseStudiesUa.map(caseStudiesUa => (
-                    <Col lg={4} md={6} mb="30px" key={caseStudiesUa.node.id}>
+                {smallPrinterUa.map(smallPrinterUa => (
+                    <Col lg={4} md={6} mb="30px" key={smallPrinterUa.node.id}>
                         <CaseStudyBox
                             {...caseStudyStyles}
-                            imageSrc={caseStudiesUa.node.image.childImageSharp}
-                            title={caseStudiesUa.node.bigtitle}
-                            category={caseStudiesUa.node.category}
-                            desc={caseStudiesUa.node.excerpt}
-                            path={`/${props.path}/${caseStudiesUa.node.fields.slug}`}
+                            imageSrc={smallPrinterUa.node.image.childImageSharp}
+                            title={smallPrinterUa.node.bigtitle}
+                            category={smallPrinterUa.node.category}
+                            desc={smallPrinterUa.node.excerpt}
+                            path={`/${props.path}/${smallPrinterUa.node.fields.slug}`}
                             btnText="Докладно"
                         />
                     </Col>
                 ))}
             </Row>
-            <Row>
-                <Col>
-                    <Heading {...headingStyle}>Принтери для нанесення паяльної пасти з додатковим обладнанням</Heading>
-                    <h6 style={{textAlign: "justify"}}>Обладнання для ручного нанесення паяльної пасти від європейського виробника устаткування PBT Works. Принтери мають ручний привід, але можуть оснащуватися великою номенклатурою додаткового обладнання: різного типу натяжними рамками (механічні та пневматичні), металевими ракелями різної ширини, ліфтом для автоматичного розділення плати і трафарету та іншими опціями під вимоги Замовника.</h6>
-                </Col>
-            </Row>
-            <br></br>
-            <Row>
-                {smallPrinterPbtsUa.map(smallPrinterPbtUa => (
-                    
-                    <Col lg={4} md={6} mb="30px" key={smallPrinterPbtUa.node.id}>
-                        <CaseStudyBox
-                            {...caseStudyStyles}
-                            imageSrc={smallPrinterPbtUa.node.image.childImageSharp}
-                            title={smallPrinterPbtUa.node.bigtitle}
-                            category={smallPrinterPbtUa.node.category}
-                            desc={smallPrinterPbtUa.node.excerpt}
-                            path={`/${props.path}/${smallPrinterPbtUa.node.fields.slug}`}
-                            btnText="Докладно"
-                            
-                        />
-                        
-                    </Col>
-                ))}
-            </Row>
+            <PbtPrinterUa />
         </Section>
     )
 }

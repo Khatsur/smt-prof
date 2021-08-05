@@ -4,13 +4,11 @@ import { useStaticQuery, graphql } from "gatsby"
 import Section, {Row, Col} from '../../../../../components/ui/wrapper'
 import Heading from '../../../../../components/ui/heading'
 import CaseStudyBox from '../../../../../components/box-large-image/layout-two'
-import ChangLang from '../../../../../containers/elements/tabs/changlang.js'
-import {PagePath} from '../../../../../components/pagepath'
 
 const CaseStudiesArea = (props) => {
-    const semiPrinterData = useStaticQuery(graphql `
+    const autoPrinterData = useStaticQuery(graphql `
         query {
-            allSemiPrinterJson (sort: {order: ASC, fields: id}) {
+            allMachineJson (filter: {id: {regex: "/printer-semi/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -33,7 +31,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allSemiPrinterUaJson (sort: {order: ASC, fields: id}) {
+            allMachineUaJson (filter: {id: {regex: "/printer-semi/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -62,8 +60,8 @@ const CaseStudiesArea = (props) => {
         
     `)
     
-    const caseStudies = semiPrinterData.allSemiPrinterJson.edges;
-    const caseStudiesUa = semiPrinterData.allSemiPrinterUaJson.edges;
+    const caseStudies = autoPrinterData.allMachineJson.edges;
+    const caseStudiesUa = autoPrinterData.allMachineUaJson.edges;
 
     const {sectionStyle, headingStyle, caseStudyStyles} = props;
    

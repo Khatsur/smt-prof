@@ -4,14 +4,12 @@ import { useStaticQuery, graphql } from "gatsby"
 import Section, {Row, Col} from '../../../../../components/ui/wrapper'
 import Heading from '../../../../../components/ui/heading'
 import CaseStudyBox from '../../../../../components/box-large-image/layout-two'
-import ChangLang from '../../../../../containers/elements/tabs/changlang.js'
-import {PagePath} from '../../../../../components/pagepath'
 import ButtonSection from '../../../../../containers/elements/button/button-smt'
 
 const CaseStudiesArea = (props) => {
     const autoPrinterData = useStaticQuery(graphql `
         query {
-            allAutoPrinterJson (sort: {order: ASC, fields: id}) {
+            allMachineJson (filter: {id: {regex: "/printer-auto/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -35,7 +33,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allAutoPrinterUaJson (sort: {order: ASC, fields: id}) {
+            allMachineUaJson (filter: {id: {regex: "/printer-auto/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -65,8 +63,8 @@ const CaseStudiesArea = (props) => {
         
     `)
     
-    const caseStudies = autoPrinterData.allAutoPrinterJson.edges;
-    const caseStudiesUa = autoPrinterData.allAutoPrinterUaJson.edges;
+    const caseStudies = autoPrinterData.allMachineJson.edges;
+    const caseStudiesUa = autoPrinterData.allMachineUaJson.edges;
     const brochure = "https://drive.google.com/file/d/1a_7TMCgdLr-v59YFuMCQYJV7nl6OVJjz/view?usp=sharing"
 
     const {sectionStyle, headingStyle, caseStudyStyles} = props;

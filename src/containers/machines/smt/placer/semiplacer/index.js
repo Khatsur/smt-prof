@@ -9,7 +9,7 @@ import ButtonSection from '../../../../../containers/elements/button/button-smt'
 const CaseStudiesArea = (props) => {
     const autoPrinterData = useStaticQuery(graphql `
         query {
-            allSemiPlacerJson (sort: {order: ASC, fields: id}) {
+            allMachineJson (filter: {id: {regex: "/placeall/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -33,7 +33,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allSemiPlacerUaJson (sort: {order: ASC, fields: id}) {
+            allMachineUaJson (filter: {id: {regex: "/placeall/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -63,8 +63,8 @@ const CaseStudiesArea = (props) => {
         
     `)
     
-    const caseStudies = autoPrinterData.allSemiPlacerJson.edges;
-    const caseStudiesUa = autoPrinterData.allSemiPlacerUaJson.edges;
+    const caseStudies = autoPrinterData.allMachineJson.edges;
+    const caseStudiesUa = autoPrinterData.allMachineUaJson.edges;
     const brochure = "";
 
     const {sectionStyle, headingStyle, caseStudyStyles} = props;
