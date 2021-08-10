@@ -1,7 +1,7 @@
 // All Of Your Site Conifuration
 
 module.exports = {
-	pathPrefix: `/smt-prof`,
+	pathPrefix: `/`,
 	siteMetadata: {
 		title: "Все для SMT",
 		titleTemplate: `SMT PROF`,
