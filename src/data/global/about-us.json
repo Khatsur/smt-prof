@@ -70,10 +70,18 @@
         "bg_image": "../images/bg/machines/tht/entrywave-baner.jpg"
     },
     {
+        "id": "about-cut-data",
+        "title": "Разделение групповых заготовок",
+        "uatitle": "Розділення групових панелей",
+        "desc": "Автоматизация процессов разделения групповых заготовок печатных плат. Лазерная и фрезерная обработка плат. Бюджетное настольное оборудование",
+        "uadesc": "Автоматизація процесів розділення групових панелей друкованих плат. Лазерна та фрезерна обробка плат. Бюджетне настільне обладнання",
+        "bg_image": "../images/bg/machines/cutting/laser-baner.jpg"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
-            "title": "We run all kinds of IT services that vow your <span>success</span>",
-            "subtitle": "our company"
+        "title": "We run all kinds of IT services that vow your <span>success</span>",
+        "subtitle": "our company"
         },
         "heading": "<mark>38</mark> YEARS’ EXPERIENCE IN IT",
         "text": "More About Our Success Stories",
