@@ -5,9 +5,9 @@ import SectionTitle from '../../../components/ui/section-title'
 import BoxLargeImage from '../../../components/box-large-image/layout-one-ua'
 import { SectionWrap } from './section.style'
 
-import image1 from '../../../data/images/bg/machines/coating/selective-coating.png'
-import image2 from '../../../data/images/bg/machines/coating/dip-coating.png'
-import image3 from '../../../data/images/bg/machines/coating/spray-coating.png'
+import image1 from '../../../data/images/bg/machines/cutting/blade-cutting.jpg'
+import image2 from '../../../data/images/bg/machines/cutting/router-cutting.jpg'
+import image3 from '../../../data/images/bg/machines/cutting/laser-cutting.jpg'
 
 
 const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
@@ -17,21 +17,21 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             imageSrc: image1,
             title: 'Настільні установки для розділення групових панелей',
             desc: 'Настільне обладнання для поділу попередньо скрайбованих групових панелей друкованих плат. Для роботи поза лінією',
-            path: '/ua/обладнання-для-монтажу/захист-електроніки/селективний-вологозахист'
+            path: '/ua/обладнання-для-монтажу/розділення-групових-панелей/пристрої-розділення-друкованих-плат'
         },
         {
             id: 2,
             imageSrc: image2,
-            title: 'Фрезерне обладнання для поділу друкованих плат',
+            title: 'Фрезерне обладнання для розділення плат',
             desc: 'Автоматичне і напів-автоматичне обладнання для розділення групових заготовок друкованих плат. Машини для роботи в лінії і окремо.',
-            path: '/ua/обладнання-для-монтажу/захист-електроніки/вологозахист-зануренням'
+            path: '/ua/обладнання-для-монтажу/розділення-групових-панелей/обладнання-розділення-друкованих-плат'
         },
         {
             id: 3,
             imageSrc: image3,
             title: 'Системи розділення групових заготовок лазером',
             desc: 'Автоматичне обладнання для розділення друкованих плат складної форми, гнучких друкованих плат та інших складних завдань.',
-            path: '/ua/обладнання-для-монтажу/захист-електроніки/нанесення-захисних-покриттів'
+            path: '/ua/обладнання-для-монтажу/розділення-групових-панелей/розділення-групових-заготовок-лазером'
         }
     ]
 
