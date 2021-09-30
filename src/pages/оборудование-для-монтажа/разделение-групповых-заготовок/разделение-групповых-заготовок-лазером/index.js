@@ -6,7 +6,7 @@ import Footer from '../../../../containers/layout/footer/footer-one'
 import LaserPageHeader from '../../../../components/pageheader/cutting-laser'
 import Laser from '../../../../containers/machines/cutting/laser'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ru'
-import MachinesCoating from '../../../../containers/machines/coating'
+import MachinesCutting from '../../../../containers/machines/cutting'
 
 
 
@@ -26,7 +26,7 @@ const CaseStudiesPage = ({ pageContext, location }) => (
     <main className="site-wrapper-reveal">
         <Laser path={path} language={language}/>
         <ContactArea />
-        <MachinesCoating />
+        <MachinesCutting />
     </main>
     <Footer/>
   </Layout>
