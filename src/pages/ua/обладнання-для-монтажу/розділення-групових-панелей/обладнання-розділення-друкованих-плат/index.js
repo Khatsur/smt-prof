@@ -6,7 +6,7 @@ import Footer from '../../../../../containers/layout/footer/footer-one'
 import CuttingRouterPageHeader from '../../../../../components/pageheader/cutting-router'
 import CuttingRouter from '../../../../../containers/machines/cutting/router'
 import ContactArea from '../../../../../containers/global/contact-area/contact-three-ua'
-import MachinesCoating from '../../../../../containers/machines/coating-ua'
+import MachinesCutting from '../../../../../containers/machines/cutting-ua'
 
 
 const title = "Обладнання розділення друкованих плат";
@@ -26,7 +26,7 @@ const CaseStudiesPage = ({ pageContext, location }) => (
     <main className="site-wrapper-reveal">
         <CuttingRouter path={path} language={language}/>
         <ContactArea />
-        <MachinesCoating />
+        <MachinesCutting />
     </main>
     <Footer/>
   </Layout>
