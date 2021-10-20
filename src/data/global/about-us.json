@@ -78,6 +78,14 @@
         "bg_image": "../images/bg/machines/cutting/laser-baner.jpg"
     },
     {
+        "id": "about-storage-data",
+        "title": "Автоматизированные системы хранения",
+        "uatitle": "Автоматизовані системи зберігання",
+        "desc": "Автоматизированные склады для хранения электронных компонентов и другой комплектации. Сухое хранение электронных компонентов. Хранение паяльной пасты.",
+        "uadesc": "Автоматизовані склади для зберігання електронних компонентів та іншої комплектації. Сухе зберігання електронних компонентів. Зберігання паяльної пасти.",
+        "bg_image": "../images/bg/machines/storage/storage-baner.jpg"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
         "title": "We run all kinds of IT services that vow your <span>success</span>",

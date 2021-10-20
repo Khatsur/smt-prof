@@ -1,0 +1,103 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Container, Row, Col } from '../../../components/ui/wrapper'
+import SectionTitle from '../../../components/ui/section-title'
+import BoxLargeImage from '../../../components/box-large-image/layout-one-ua'
+import { SectionWrap } from './section.style'
+
+import image1 from '../../../data/images/bg/machines/storage/stock-storage.jpg'
+import image2 from '../../../data/images/bg/machines/storage/components-storage.jpg'
+import image3 from '../../../data/images/bg/machines/storage/paste-storage.jpg'
+
+
+const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
+    const boxContents = [
+        {
+            id: 1,
+            imageSrc: image1,
+            title: 'Автоматизовані склади компонентів',
+            desc: 'Автоматизовані системи для управління комплектацією електронних компонентів і іншими частинами',
+            path: '/ua/обладнання-для-монтажу/автоматизовані-системи-зберігання/автоматизовані-склади-компонентів'
+        },
+        {
+            id: 2,
+            imageSrc: image2,
+            title: 'Шафи сухого зберігання',
+            desc: 'Обладнання для сухого зберігання і сушіння електронних компонентів і друкованих плат',
+            path: '/ua/обладнання-для-монтажу/автоматизовані-системи-зберігання/шафи-сухого-зберігання'
+        },
+        {
+            id: 3,
+            imageSrc: image3,
+            title: 'Зберігання паяльної пасти',
+            desc: 'Обладнання для зберігання паяльної пасти з підтримкою необхідної температури і вологості',
+            path: '/ua/обладнання-для-монтажу/автоматизовані-системи-зберігання/зберігання-паяльної-пасти'
+        }
+    ]
+
+    return (
+        <SectionWrap>
+            <Container>
+                <Row>
+                    <Col xl={12}>
+                        <SectionTitle
+                            {...sectionTitleStyle}
+                            subtitle = "Автоматизовані системи зберігання компонентів і матеріалів"
+                            title = "Автоматизація управлінням комплектацією<br><span>Збільшення ефективності виробництва</ span>"
+                        />
+                    </Col>
+                </Row>
+                <Row className="gutter-xl-70">
+                    {
+                        boxContents.map(boxContent => {
+                            return (
+                                <Col lg={4} md={6} className="box-item" key={`box-image-${boxContent.id}`}>
+                                    <BoxLargeImage 
+                                        title={boxContent.title}
+                                        desc={boxContent.desc}
+                                        imageSrc={boxContent.imageSrc}
+                                        path={boxContent.path}
+                                    />
+                                </Col>
+                            )
+                        })
+                    }
+                </Row>
+            </Container>
+        </SectionWrap>
+    )
+}
+
+
+BoxSection.propTypes = {
+    sectionTitleStyle: PropTypes.object,
+    linkStyle: PropTypes.object,
+    sectionBottomStyle: PropTypes.object
+}
+
+BoxSection.defaultProps = {
+    sectionTitleStyle: {
+        mb: '30px',
+        responsive: {
+            medium: {
+                mb: '17px'
+            }
+        }
+    },
+    linkStyle: {
+        fontSize: '18px',
+        fontWeight: 500,
+        lineheight: 1.40,
+        color: 'primary',
+        layout: 'underline',
+        hover: {
+            layout: 2
+        }
+    },
+    sectionBottomStyle: {
+        mt: '40px',
+        align: 'center'
+    }
+}
+
+export default BoxSection;

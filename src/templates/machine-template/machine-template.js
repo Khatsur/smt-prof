@@ -98,7 +98,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
 const lang = "ru";
 
 let machine;
-const machines = ["smt", "tht", "cleaning", "coating", "wire", "cutting"];
+const machines = ["smt", "tht", "cleaning", "coating", "wire", "cutting", "storage"];
 for (let i = 0; i < machines.length; i++) {
     const regmachine = new RegExp(`${machines[i]}`);
     if (regmachine.test(`${pageData.id}`)) {
@@ -111,7 +111,7 @@ for (let i = 0; i < machines.length; i++) {
         <Layout location={location}>
             
             <Header path={`${pageData.ru}/${pageData.title}`}/>
-            <SEO title={pageData.title.toUpperCase()} pathname={`${pageData.ru}/${pageData.title}`} description={`${pageData.title.toUpperCase()} ${pageData.excerpt}`} keywords={pageData.keywords} lang={lang}/>
+            <SEO title={pageData.title.toUpperCase()} pathname={`${pageData.ru}/${pageData.title}`} description={`${pageData.title.toUpperCase()} ${pageData.excerpt}`} keywords={pageData.keywords} lang={lang} image={`${pageData.seoimage.relativePath}`} />
             <main className="site-wrapper-reveal">
                 {(pageData.title || pageData.tagline) && (
                     <BannerArea fluid={bannerImg}>
@@ -303,6 +303,9 @@ export const query = graphql`
                 }
             }
             brochure
+            seoimage {
+                relativePath
+              }
             results
             faq {
                 id

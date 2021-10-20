@@ -7,7 +7,7 @@ import CuttingPageHeader from '../../../components/page-header/cutting'
 import Cutting from '../../../containers/machines/cutting/cut'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../containers/machines/whats-new-area'
-import MachinesSmt from '../../../containers/machines/smt'
+import MachinesCuting from '../../../containers/machines/cutting'
 
 
 
@@ -23,7 +23,7 @@ const IndexPage = ({location}) => (
       
       <Cutting lang={language}/>
       <ContactArea />
-      <MachinesSmt/>
+      <MachinesCuting/>
       <WhatsnewArea />
     </main>
     <Footer/>
