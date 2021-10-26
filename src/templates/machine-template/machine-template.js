@@ -111,7 +111,7 @@ for (let i = 0; i < machines.length; i++) {
         <Layout location={location}>
             
             <Header path={`${pageData.ru}/${pageData.title}`}/>
-            <SEO title={pageData.title.toUpperCase()} pathname={`${pageData.ru}/${pageData.title}`} description={`${pageData.title.toUpperCase()} ${pageData.excerpt}`} keywords={pageData.keywords} lang={lang} image={`${pageData.seoimage.relativePath}`} />
+            <SEO title={pageData.title.toUpperCase()} pathname={`${pageData.ru}/${pageData.title}`} description={`${pageData.title.toUpperCase()} ${pageData.excerpt}`} keywords={pageData.keywords} lang={lang} image={`${pageData.image.publicURL}`} />
             <main className="site-wrapper-reveal">
                 {(pageData.title || pageData.tagline) && (
                     <BannerArea fluid={bannerImg}>
@@ -301,6 +301,8 @@ export const query = graphql`
                         presentationHeight
                     }
                 }
+                relativePath
+                publicURL
             }
             brochure
             seoimage {

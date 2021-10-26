@@ -110,7 +110,7 @@ for (let i = 0; i < machines.length; i++) {
     return (
         <Layout location={location}>
             <Header path={`${pageData.ua}/${pageData.title}`}/>
-            <SEO title={pageData.title.toUpperCase()} pathname={`${pageData.ua}/${pageData.title}`} description={`${pageData.title.toUpperCase()} ${pageData.excerpt}`} keywords={pageData.keywords} lang={lang} />
+            <SEO title={pageData.title.toUpperCase()} pathname={`${pageData.ua}/${pageData.title}`} description={`${pageData.title.toUpperCase()} ${pageData.excerpt}`} keywords={pageData.keywords} lang={lang} image={`${pageData.image.publicURL}`} />
             <main className="site-wrapper-reveal">
                 {(pageData.title || pageData.tagline) && (
                     <BannerArea fluid={bannerImg}>
@@ -293,6 +293,8 @@ query($slug: String!){
                     presentationHeight
                 }
             }
+            relativePath
+            publicURL
         }
         brochure
         results
