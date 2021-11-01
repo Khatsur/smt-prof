@@ -86,6 +86,14 @@
         "bg_image": "../images/bg/machines/storage/storage-baner.jpg"
     },
     {
+        "id": "about-filtration-data",
+        "title": "Автономные дымоулавливающие системы",
+        "uatitle": "Автономні димоуловлювальні системи",
+        "desc": "Автономные локальные вытяжные системы для оснащения производственного участка ручной пайки и лазерной обработки материалов",
+        "uadesc": "Автономні локальні витяжні системи для оснащення виробничої дільниці ручного паяння та лазерної обробки матеріалів",
+        "bg_image": "../images/bg/machines/filtration/filtration-baner.jpg"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
         "title": "We run all kinds of IT services that vow your <span>success</span>",

@@ -97,7 +97,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
 const lang = "uk";
 
 let machine;
-const machines = ["smt", "tht", "cleaning", "coating", "wire", "cutting", "storage"];
+const machines = ["smt", "tht", "cleaning", "coating", "wire", "cutting", "storage", "filtration"];
 for (let i = 0; i < machines.length; i++) {
     const regmachine = new RegExp(`${machines[i]}`);
     if (regmachine.test(`${pageData.id}`)) {

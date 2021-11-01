@@ -9,7 +9,7 @@ import ButtonSection from '../../../../../containers/elements/button/button-smt'
 const CaseStudiesArea = (props) => {
     const autoPrinterData = useStaticQuery(graphql `
         query {
-            allMachineJson (filter: {id: {regex: "/spide/"}}, sort: {order: ASC, fields: id}) {
+            allMachineJson (filter: {id: {regex: "/reflow-spide/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -33,7 +33,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allMachineUaJson (filter: {id: {regex: "/spide/"}}, sort: {order: ASC, fields: id}) {
+            allMachineUaJson (filter: {id: {regex: "/reflow-spide/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
