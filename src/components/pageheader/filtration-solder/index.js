@@ -24,7 +24,7 @@ const PageHeader = ({pageContext, location, title}) => {
     const labelArr = label.split('-');
     const imageData = useStaticQuery(graphql `
         query  FiltrationLaserCrumbImgQuery {
-            file(relativePath: {eq: "images/bg/machines/storage/dry-baner.jpg"}) {
+            file(relativePath: {eq: "images/bg/machines/filtration/filtration-small-baner.jpg"}) {
                 childImageSharp {
                     fluid(maxWidth: 1520, maxHeight: 400, quality: 100) {
                         ...GatsbyImageSharpFluid
