@@ -34,11 +34,11 @@
         },
         {
             "id": "tech-6",
-            "spec": "Підготовка до - Industry 4.0"
+            "feat": "Підготовка до - Industry 4.0"
         },
         {
             "id": "tech-7",
-            "spec": "Передача даних через мережу Wi-Fi, Ethernet"
+            "feat": "Передача даних через мережу Wi-Fi, Ethernet"
         },
         {
             "id": "tech-8",

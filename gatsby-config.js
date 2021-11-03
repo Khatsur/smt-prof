@@ -25,7 +25,7 @@ module.exports = {
 			phone: '050.440.9925',
 			address: "ул. Дегтяревская",
 			email: 'smt-prof@smt-prof.com.ua',
-			website: "https://hasthemes.com/",
+			website: "https://www.smt-prof.com.ua",
 			rating: "4.9",
 			customers: "700",
 			clients: "3200",
@@ -187,8 +187,8 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-robots-txt',
 			options: {
-				host: 'http://themesmummy.com/mitech',
-				sitemap: 'http://themesmummy.com/mitech/sitemap.xml',
+				host: 'https://www.smt-prof.com.ua',
+				sitemap: 'https://www.smt-prof.com.ua/sitemap.xml',
 				policy: [{ userAgent: '*', allow: '/' }]
 			}
 		},
