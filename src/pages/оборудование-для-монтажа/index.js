@@ -4,11 +4,11 @@ import Layout from '../../containers/layout/layout'
 import Header from '../../containers/layout/header/header-three'
 import Footer from '../../containers/layout/footer/footer-one'
 import HeroArea from '../../containers/machines/hero-area'
-import FeaturesArea from '../../containers/machines/features-area'
-import ServicesArea from '../../containers/machines/juki'
+import Machines from '../../containers/machines/features-area'
+import JukiMachines from '../../containers/machines/juki'
 import ContactArea from '../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../containers/machines/whats-new-area'
-import CaseStudyArea from '../../containers/machines/smt-big'
+import JukiLine from '../../containers/machines/smt-big'
 
 
 
@@ -20,9 +20,9 @@ const IndexServices = ({ location }) => (
     <Header transparent path={path} />
     <main className="site-wrapper-reveal">
       <HeroArea />
-      <FeaturesArea />
-      <ServicesArea />
-      <CaseStudyArea/>
+      <Machines />
+      <JukiMachines />
+      <JukiLine />
       <ContactArea />
       <WhatsnewArea />
     </main>

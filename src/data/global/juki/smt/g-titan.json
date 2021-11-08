@@ -7,13 +7,10 @@
     "excerpt": "Инспекция нанесения пасты и чистоты апертур трафарета в базовой комплектации.",
     "uaexcerpt": "Інспекція нанесення пасти і чистоти апертур трафарету в базовій комплектації.",
     "enexcerpt": "Solder paste inspection and stencil apertures inspection in standard configuration.",
-    "tagline": "A Freeserve case study on expanding market",
-    "logo": "../../images/icons/case-study-04-logo-83x108.png",
     "image": "../../../images/box-image/G-Titan-Juki.png",
-    "slide_image": "../../images/box-image/case-study-slide-image-01.png",
     "is_featured": true,
-    "banner_image": "../../images/banner/banner-04.jpg",
-    "path" : "machines",
+    "path" : "оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/автоматический-принтер-пасты/g-titan",
+    "uapath" : "/ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/автоматичний-принтер-пасти/g-titan",
     "video": {
         "preview_image": "../../images/about-us/video-01-image-01-570x350.jpg",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"

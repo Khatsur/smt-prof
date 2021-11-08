@@ -35,31 +35,32 @@ const CaseStudySection = ({
             }
           }
         } 
-        allSmtJson(filter: {is_featured: {eq: true}}, limit: 4, sort: {order: ASC, fields: id}) {
+        allMachineJson (filter: {id: {regex: "/mb814|g-titan|rs-1r|rs-800|mb815/"}}, sort: {order: ASC, fields: id}, limit: 5) {
             edges {
-              node {
-               
-                id
-                title
-                category
-                excerpt
-                path
-                image {
-                  childImageSharp {
-                    fluid(maxHeight: 198, quality: 100){
-                        ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                        presentationWidth
-                        presentationHeight
+                node {
+                    ru
+                    id
+                    bigtitle
+                    title
+                    category
+                    excerpt
+                    brochure
+                    image {
+                        childImageSharp {
+                            fluid(maxHeight: 230, quality: 100){
+                                ...GatsbyImageSharpFluid_withWebp
+                                presentationWidth
+                                presentationHeight
+                            }
+                        }
                     }
-                  }
                 }
-              }
             }
         }
       } 
     `);
     const caseStudySecData = caseStudyData.indexAppointmentJson;
-    const caseStudies = caseStudyData.allSmtJson.edges;
+    const caseStudies = caseStudyData.allMachineJson.edges;
     const imageData = caseStudySecData.bgImage.childImageSharp.fluid;
 
     return (
@@ -82,10 +83,10 @@ const CaseStudySection = ({
                                     <CaseStudyBox
                                         {...caseStudyStyles}
                                         imageSrc={caseStudy.node.image.childImageSharp}
-                                        title={caseStudy.node.title}
+                                        title={caseStudy.node.bigtitle}
                                         category={caseStudy.node.category}
                                         desc={caseStudy.node.excerpt}
-                                        path={`/${caseStudy.node.path}`}
+                                        path={`/${caseStudy.node.ru}/${caseStudy.node.title}`}
                                         btnText="Подробно"
                                     />
                                 </div>

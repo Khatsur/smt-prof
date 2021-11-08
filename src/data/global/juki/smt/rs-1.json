@@ -3,7 +3,7 @@
     "title": "Установщик SMD",
     "uatitle": "Машина для встановлення SMD",
     "entitle": "SMD mounter",
-    "category": "RS-1",
+    "category": "RS-1R",
     "excerpt": "Скорость установки до: 42 000 CPH. Компоненты до: 74мм / 50×150мм. Печатные платы до: 1200 мм.",
     "uaexcerpt": "Швидкість встановлення до: 42 000 CPH. Компоненти до: 74мм / 50 × 150 мм. Друковані плати до 1200 мм.",
     "enexcerpt": "Placement Rate: 42 000 CPH. Component Size: till 74mm / 50×150mm. Board Size: 1200x370mm",
@@ -13,7 +13,8 @@
     "slide_image": "../../images/box-image/case-study-slide-image-01.png",
     "is_featured": true,
     "banner_image": "../../images/banner/banner-04.jpg",
-    "path" : "machines",
+    "path" : "оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов/установщик-электронных-компонентов/rs-1r-juki",
+    "uapath" : "/ua/обладнання-для-монтажу/поверхневий-монтаж/автомати-встановлення-компонентів/установник-електронних-компонентів/rs-1r-juki/",
     "video": {
         "preview_image": "../../images/about-us/video-01-image-01-570x350.jpg",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"

@@ -3,6 +3,7 @@ import {useStaticQuery, graphql} from 'gatsby'
 import {Container, Row, Col} from '../../../components/ui/wrapper'
 import SectionTitle from '../../../components/ui/section-title'
 import ServiceBox from '../../../components/box-icon/layout-one'
+import {PagePath} from '../../../components/pagepath'
 import {SectionWrap} from './services-area.style'
 
 const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
@@ -15,8 +16,8 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
             allJukiJson(sort: {order: ASC, fields: id}, limit: 8) {
                 edges {
                     node {
-                        
                         id
+                        path
                         title
                         excerpt
                         icon {
@@ -31,6 +32,10 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
     `);
     const {title, subtitle} = servicesData.indexResolutionsJson;
     const services = servicesData.allJukiJson.edges;
+    let prodpath = "";
+    for (let i = 0; i < PagePath.length; i++) {
+        
+    }
     return (
         <SectionWrap>
             <Container>
@@ -52,7 +57,8 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
                              icon={service.node.icon}
                              title={service.node.title}
                              desc={service.node.excerpt}
-                             path={'/'}
+                             path={`/${service.node.path}`}
+
                          />
                      </Col>
                     ))}

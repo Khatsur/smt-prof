@@ -15,8 +15,8 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
             allJukiJson(sort: {order: ASC, fields: id}, limit: 8) {
                 edges {
                     node {
-                        
                         id
+                        uapath
                         uatitle
                         uaexcerpt
                         icon {
@@ -52,7 +52,7 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
                              icon={service.node.icon}
                              title={service.node.uatitle}
                              desc={service.node.uaexcerpt}
-                             path={'/'}
+                             path={`/${service.node.uapath}`}
                          />
                      </Col>
                     ))}

@@ -43,7 +43,7 @@ const CaseStudySection = ({
                 uatitle
                 category
                 uaexcerpt
-                path
+                uapath
                 image {
                   childImageSharp {
                     fluid(maxHeight: 198, quality: 100){
@@ -85,7 +85,7 @@ const CaseStudySection = ({
                                         title={caseStudy.node.uatitle}
                                         category={caseStudy.node.category}
                                         desc={caseStudy.node.uaexcerpt}
-                                        path={`/ua/${caseStudy.node.path}`}
+                                        path={`${caseStudy.node.uapath}`}
                                         btnText="Докладно"
                                     />
                                 </div>

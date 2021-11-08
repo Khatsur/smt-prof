@@ -13,7 +13,8 @@
     "slide_image": "../../images/box-image/case-study-slide-image-01.png",
     "is_featured": true,
     "banner_image": "../../images/banner/banner-04.jpg",
-    "path" : "machines",
+    "path" : "оборудование-для-монтажа/поверхностный-монтаж/печи-паяльные/конвекционная-пайка/rs-1000",
+    "uapath" : "/ua/обладнання-для-монтажу/поверхневий-монтаж/печі-паяльні/конвекційна-пайка/rs-1000",
     "video": {
         "preview_image": "../../images/about-us/video-01-image-01-570x350.jpg",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
