@@ -94,6 +94,14 @@
         "bg_image": "../images/bg/machines/filtration/filtration-baner.jpg"
     },
     {
+        "id": "about-dispensing-data",
+        "title": "Дозаторы паяльной пасты и клея",
+        "uatitle": "Дозатори паяльної пасти та клею",
+        "desc": "Оборудование для поверхностного монтажа для нанесения паяльной пасты и клея для фиксации компонентов",
+        "uadesc": "Обладнання для поверхневого монтажу для нанесення паяльної пасти та клею для фіксації компонентів.",
+        "bg_image": "../images/bg/machines/dispensing/dispensing-baner.jpg"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
         "title": "We run all kinds of IT services that vow your <span>success</span>",
