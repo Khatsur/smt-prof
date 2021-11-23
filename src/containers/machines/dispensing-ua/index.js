@@ -43,7 +43,7 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
                         <SectionTitle
                             {...sectionTitleStyle}
                             subtitle = "Нанесення матеріалів"
-                            title = "Автоматичне дозування <span>Автоматизація процесів</span>"
+                            title = "Автоматичне дозування <br><span>Автоматизація процесів</span>"
                         />
                     </Col>
                 </Row>
