@@ -13,6 +13,7 @@
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"
     },
-    "path": "/",
+    "path": "/комплексные-решения/линия-выводного-монтажа",
+    "uapath": "/комплексні-рішення/лінія-монтажу-в-отвори",
     "is_featured": true
 }

@@ -7,7 +7,8 @@
     "excerpt": "Комплексные решения для серийного производства монтажа печатных плат. Полностью автоматизированные производственные линии для поверхностного монтажа. Автоматическая инспекция на разных стадиях производства.",
     "uaexcerpt": "Комплексні рішення для серійного виробництва монтажу друкованих плат. Повністю автоматизовані виробничі лінії для поверхневого монтажу, монтажу в отвори друкованих плат та змішаного монтажу.",
     "enexcerpt": "Complete solutions for serial production of PCB assembly. Fully automated production lines for surface mounting and through hole assembly. Automatic inspection at different stages of production.",
-    "path": "ua/machines",
+    "path": "/оборудование-для-монтажа/поверхностный-монтаж",
+    "uapath": "/обладнання-для-монтажу/поверхневий-монтаж",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",

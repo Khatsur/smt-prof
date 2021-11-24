@@ -5,18 +5,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-caches-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/.cache/caches/gatsby-plugin-offline/app-shell.js"))),
-  "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
-  "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
-  "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
-  "component---src-templates-machine-template-machine-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template.js"))),
-  "component---src-templates-machine-template-machine-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template-ua.js"))),
-  "component---src-templates-blog-template-blog-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-template/blog-template.js"))),
-  "component---src-templates-tag-template-tag-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/tag-template/tag-template.js"))),
-  "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
-  "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
-  "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
-  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
+  "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/404.js"))),
   "component---src-pages-about-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/about-us.js"))),
   "component---src-pages-blog-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/blog.js"))),
@@ -70,6 +59,7 @@ exports.components = {
   "component---src-pages-service-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/service.js"))),
   "component---src-pages-ua-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/index.js"))),
   "component---src-pages-ua-комплексні-рішення-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/комплексні-рішення/index.js"))),
+  "component---src-pages-ua-комплексні-рішення-лінія-монтажу-в-отвори-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/комплексні-рішення/лінія-монтажу-в-отвори/index.js"))),
   "component---src-pages-ua-матеріали-для-smt-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/матеріали-для-smt/index.js"))),
   "component---src-pages-ua-матеріали-для-smt-захисні-покриття-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/матеріали-для-smt/захисні-покриття/index.js"))),
   "component---src-pages-ua-матеріали-для-smt-матеріали-для-паяння-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/матеріали-для-smt/матеріали-для-паяння/index.js"))),
@@ -142,6 +132,7 @@ exports.components = {
   "component---src-pages-ua-технічне-обслуговування-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/технічне-обслуговування/index.js"))),
   "component---src-pages-why-choose-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/why-choose-us.js"))),
   "component---src-pages-комплексные-решения-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/комплексные-решения/index.js"))),
+  "component---src-pages-комплексные-решения-линия-выводного-монтажа-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/комплексные-решения/линия-выводного-монтажа/index.js"))),
   "component---src-pages-материалы-для-smt-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/index.js"))),
   "component---src-pages-материалы-для-smt-жидкости-для-мойки-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/жидкости-для-мойки/index.js"))),
   "component---src-pages-материалы-для-smt-защитные-покрытия-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/защитные-покрытия/index.js"))),
@@ -211,6 +202,17 @@ exports.components = {
   "component---src-pages-оборудование-для-монтажа-разделение-групповых-заготовок-оборудование-разделения-печатных-плат-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/разделение-групповых-заготовок/оборудование-разделения-печатных-плат/index.js"))),
   "component---src-pages-оборудование-для-монтажа-разделение-групповых-заготовок-разделение-групповых-заготовок-лазером-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/разделение-групповых-заготовок/разделение-групповых-заготовок-лазером/index.js"))),
   "component---src-pages-оборудование-для-монтажа-разделение-групповых-заготовок-устройства-разделения-печатных-плат-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/разделение-групповых-заготовок/устройства-разделения-печатных-плат/index.js"))),
-  "component---src-pages-техническое-обслуживание-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/index.js")))
+  "component---src-pages-техническое-обслуживание-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/index.js"))),
+  "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
+  "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
+  "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
+  "component---src-templates-machine-template-machine-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template.js"))),
+  "component---src-templates-machine-template-machine-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template-ua.js"))),
+  "component---src-templates-blog-template-blog-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-template/blog-template.js"))),
+  "component---src-templates-tag-template-tag-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/tag-template/tag-template.js"))),
+  "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
+  "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
+  "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
+  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js")))
 }
 

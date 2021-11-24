@@ -342,136 +342,59 @@
         "link": "/ua/комплексні-рішення",
         "megamenu": [
             {
-                "title": "Element Group 01",
+                "title": "Поверхневий монтаж",
+                "linktitle": "/ua/комплексні-рішення/лінія-поверхневого-монтажу",
                 "submenu": [
                     {
-                        "text": "Accordion",
-                        "link": "/elements/accordion"
+                        "text": "Прототипування",
+                        "link": "/ua/комплексні-рішення/лінія-поверхневого-монтажу/лінія-smt"
                     },
                     {
-                        "text": "Box Icon",
-                        "link": "/elements/box-icon"
+                        "text": "Дрібносерійне виробництво",
+                        "link": "/ua/комплексні-рішення/лінія-поверхневого-монтажу/лінія-smd-монтажу"
                     },
                     {
-                        "text": "Box Image",
-                        "link": "/elements/box-image"
-                    },
-                    {
-                        "text": "Box Large Image",
-                        "link": "/elements/box-large-image"
-                    },
-                    {
-                        "text": "Buttons",
-                        "link": "/elements/button"
-                    },
-                    {
-                        "text": "Call to action",
-                        "link": "/elements/call-to-action"
-                    },
-                    {
-                        "text": "Client Logo",
-                        "link": "/elements/client-logo"
+                        "text": "Серійне виробництво",
+                        "link": "/ua/комплексні-рішення/лінія-поверхневого-монтажу/smt-лінія-монтажу-плат"
                     }
                 ]
             },
             {
-                "title": "Element Group 02",
+                "title": "Монтаж вивідний",
+                "linktitle": "/ua/комплексні-рішення/лінія-монтажу-в-отвори",
                 "submenu": [
                     {
-                        "text": "Counters",
-                        "link": "/elements/counters"
+                        "text": "Ручний монтаж",
+                        "link": "/ua/комплексні-рішення/лінія-монтажу-в-отвори/ручний-монтаж-компонентів"
                     },
                     {
-                        "text": "Dividers",
-                        "link": "/elements/dividers"
-                    },
-                    {
-                        "text": "Flexible image slider",
-                        "link": "/elements/flexible-image-slider"
-                    },
-                    {
-                        "text": "Google Map",
-                        "link": "/elements/google-map"
-                    },
-                    {
-                        "text": "Gradation",
-                        "link": "/elements/gradation"
-                    },
-                    {
-                        "text": "Lists",
-                        "link": "/elements/lists"
-                    },
-                    {
-                        "text": "Message box",
-                        "link": "/elements/message-box"
+                        "text": "Автоматичний монтаж",
+                        "link": "/ua/комплексні-рішення/лінія-монтажу-в-отвори/автоматичний-монтаж-компонентів"
                     }
                 ]
             },
             {
-                "title": "Element Group 03",
+                "title": "Покриття плат",
+                "linktitle": "/ua/комплексні-рішення/лінія-покриття-друкованих-плат",
                 "submenu": [
                     
                     {
-                        "text": "Popup Video",
-                        "link": "/elements/popup-video"
+                        "text": "Селективне нанесення",
+                        "link": "/ua/комплексні-рішення/лінія-покриття-друкованих-плат/селективне-нанесення"
                     },
                     {
-                        "text": "Pricing Box",
-                        "link": "/elements/pricing-box"
-                    },
-                    {
-                        "text": "Progress Bar",
-                        "link": "/elements/progress-bar"
-                    },
-                    {
-                        "text": "Progress Circle",
-                        "link": "/elements/progress-circle"
-                    },
-                    {
-                        "text": "Social Networks",
-                        "link": "/elements/social-networks"
-                    },
-                    {
-                        "text": "Tabs",
-                        "link": "/elements/tabs"
-                    },
-                    {
-                        "text": "Team member",
-                        "link": "/elements/team-member"
+                        "text": "Нанесення зануренням",
+                        "link": "/ua/комплексні-рішення/лінія-покриття-друкованих-плат/нанесення-зануренням"
                     }
                 ]
             }, 
             {
-                "title": "Element Group 04",
+                "title": "Оптична інспекція",
+                "linktitle": "/ua/комплексні-рішення/лінія-оптичної-інспекції",
                 "submenu": [
                     {
-                        "text": "Testimonials",
-                        "link": "/elements/testimonials"
-                    },
-                    {
-                        "text": "Timeline",
-                        "link": "/elements/timeline"
-                    },
-                    {
-                        "text": "Typed Text",
-                        "link": "/elements/typed-text"
-                    }
-                ]
-            }, 
-            {
-                "title": "Element Group 05",
-                "submenu": [
-                    {
-                        "text": "Testimonials",
-                        "link": "/elements/testimonials"
-                    },
-                    {
-                        "text": "Timeline",
-                        "link": "/elements/timeline"
-                    },
-                    {
-                        "text": "Typed Text",
-                        "link": "/elements/typed-text"
+                        "text": "Off-line рішення",
+                        "link": "/ua/комплексні-рішення/лінія-покриття-друкованих-плат/селективне-нанесення"
                     }
                 ]
             }

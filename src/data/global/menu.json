@@ -345,24 +345,6 @@
                         "link": ""
                     }
                 ]
-            }, 
-            {
-                "title": "Element Group 06",
-                "linktitle": "/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов",
-                "submenu": [
-                    {
-                        "text": "Testimonials",
-                        "link": "/elements/testimonials"
-                    },
-                    {
-                        "text": "Timeline",
-                        "link": "/elements/timeline"
-                    },
-                    {
-                        "text": "Typed Text",
-                        "link": "/elements/typed-text"
-                    }
-                ]
             }
         ]
     },
@@ -371,123 +353,59 @@
         "link": "/комплексные-решения",
         "megamenu": [
             {
-                "title": "Element Group 01",
-                "linktitle": "/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов",
+                "title": "Поверхностный монтаж",
+                "linktitle": "/комплексные-решения/линия-поверхностного-монтажа",
                 "submenu": [
                     {
-                        "text": "Accordion",
-                        "link": "/elements/accordion"
+                        "text": "Прототипирование",
+                        "link": "/комплексные-решения/линия-поверхностного-монтажа/линия-smt"
                     },
                     {
-                        "text": "Box Icon",
-                        "link": "/elements/box-icon"
+                        "text": "Мелкосерийное производство",
+                        "link": "/комплексные-решения/линия-поверхностного-монтажа/линия-smd-монтажа"
                     },
                     {
-                        "text": "Box Image",
-                        "link": "/elements/box-image"
-                    },
-                    {
-                        "text": "Box Large Image",
-                        "link": "/elements/box-large-image"
-                    },
-                    {
-                        "text": "Buttons",
-                        "link": "/elements/button"
-                    },
-                    {
-                        "text": "Call to action",
-                        "link": "/elements/call-to-action"
-                    },
-                    {
-                        "text": "Client Logo",
-                        "link": "/elements/client-logo"
+                        "text": "Серийное производство",
+                        "link": "/комплексные-решения/линия-поверхностного-монтажа/smt-линия-монтажа-плат"
                     }
                 ]
             },
             {
-                "title": "Element Group 02",
-                "linktitle": "/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов",
+                "title": "Выводной монтаж",
+                "linktitle": "/комплексные-решения/линия-выводного-монтажа",
                 "submenu": [
                     {
-                        "text": "Counters",
-                        "link": "/elements/counters"
+                        "text": "Ручной монтаж",
+                        "link": "/комплексные-решения/линия-выводного-монтажа/ручной-монтаж-компонентов"
                     },
                     {
-                        "text": "Dividers",
-                        "link": "/elements/dividers"
-                    },
-                    {
-                        "text": "Flexible image slider",
-                        "link": "/elements/flexible-image-slider"
-                    },
-                    {
-                        "text": "Google Map",
-                        "link": "/elements/google-map"
-                    },
-                    {
-                        "text": "Gradation",
-                        "link": "/elements/gradation"
-                    },
-                    {
-                        "text": "Lists",
-                        "link": "/elements/lists"
-                    },
-                    {
-                        "text": "Message box",
-                        "link": "/elements/message-box"
+                        "text": "Автоматический монтаж",
+                        "link": "/комплексные-решения/линия-выводного-монтажа/автоматический-монтаж-компонентов"
                     }
                 ]
             },
             {
-                "title": "Element Group 03",
-                "linktitle": "/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов",
+                "title": "Покрытие плат",
+                "linktitle": "/комплексные-решения/линия-покрытия-печатных-плат",
                 "submenu": [
                     
                     {
-                        "text": "Popup Video",
-                        "link": "/elements/popup-video"
+                        "text": "Селективное нанесение",
+                        "link": "/комплексные-решения/линия-покрытия-печатных-плат/селективное-нанесение"
                     },
                     {
-                        "text": "Pricing Box",
-                        "link": "/elements/pricing-box"
-                    },
-                    {
-                        "text": "Progress Bar",
-                        "link": "/elements/progress-bar"
-                    },
-                    {
-                        "text": "Progress Circle",
-                        "link": "/elements/progress-circle"
-                    },
-                    {
-                        "text": "Social Networks",
-                        "link": "/elements/social-networks"
-                    },
-                    {
-                        "text": "Tabs",
-                        "link": "/elements/tabs"
-                    },
-                    {
-                        "text": "Team member",
-                        "link": "/elements/team-member"
+                        "text": "Нанесение погружением",
+                        "link": "/комплексные-решения/линия-покрытия-печатных-плат/нанесение-погружением"
                     }
                 ]
             }, 
             {
-                "title": "Element Group 04",
-                "linktitle": "/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов",
+                "title": "Оптическая инспекция",
+                "linktitle": "/комплексные-решения/линия-оптической-инспекции",
                 "submenu": [
                     {
-                        "text": "Testimonials",
-                        "link": "/elements/testimonials"
-                    },
-                    {
-                        "text": "Timeline",
-                        "link": "/elements/timeline"
-                    },
-                    {
-                        "text": "Typed Text",
-                        "link": "/elements/typed-text"
+                        "text": "Off-line решение",
+                        "link": "/комплексные-решения/линия-оптической-инспекции/отдельная-линия"
                     }
                 ]
             }

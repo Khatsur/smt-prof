@@ -19,6 +19,7 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
                         id
                         uatitle
                         uaexcerpt
+                        uapath
                         icon {
                             svg {
                                 publicURL
@@ -52,7 +53,7 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
                              icon={service.node.icon}
                              title={service.node.uatitle}
                              desc={service.node.uaexcerpt}
-                             path={'/'}
+                             path={`/ua/${service.node.uapath}`}
                          />
                      </Col>
                     ))}

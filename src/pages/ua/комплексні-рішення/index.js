@@ -5,7 +5,7 @@ import Header from '../../../containers/layout/header/header-three-ua'
 import Footer from '../../../containers/layout/footer/footer-one-ua'
 import HeroArea from '../../../containers/lines/hero-area-ua'
 import FeaturesArea from '../../../containers/lines/lines-ua'
-import ServicesArea from '../../../containers/lines/solutions-ua'
+import LineSolutions from '../../../containers/lines/solutions-ua'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
 import CaseStudyArea from '../../../containers/machines/smt-big-ua'
@@ -21,7 +21,7 @@ const Materials = ({ location, pageFromCMS }) => (
     <main className="site-wrapper-reveal">
       <HeroArea />
       <FeaturesArea />
-      <ServicesArea />
+      <LineSolutions />
       <CaseStudyArea/>
       <ContactArea />
       <SmallSmt />
