@@ -8,7 +8,7 @@ import {PageHeaderWrap} from './page-header.style'
 const PageHeader = ({sectionStyle, titleStyle, descStyle, lang, titletext}) => {
     const PageHeaderData = useStaticQuery(graphql `
         query LineThtPageHeaderQuery {
-            aboutUsJson(id: {eq: "about-dispensing-data"}) {
+            aboutUsJson(id: {eq: "about-tht-line"}) {
                 title
                 desc
                 uatitle

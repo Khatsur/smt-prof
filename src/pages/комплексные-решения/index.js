@@ -8,7 +8,7 @@ import FeaturesArea from '../../containers/lines/lines-ru'
 import ServicesArea from '../../containers/lines/solutions'
 import ContactArea from '../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../containers/machines/whats-new-area'
-import CaseStudyArea from '../../containers/machines/smt-big'
+import SmtLineBig1 from '../../containers/machines/smt-big'
 import SmallSmt from '../../containers/lines/small-smt'
 
 const language = "ru";
@@ -22,7 +22,7 @@ const Materials = ({ location, pageFromCMS }) => (
       <HeroArea />
       <FeaturesArea />
       <ServicesArea />
-      <CaseStudyArea/>
+      <SmtLineBig1 />
       <ContactArea />
       <SmallSmt />
       <WhatsnewArea />
