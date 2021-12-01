@@ -8,7 +8,7 @@ import ContactArea from '../../../../containers/global/contact-area/contact-thre
 import MachinesCoating from '../../../../containers/machines/coating'
 import CoatingLineSelecUv from '../../../../containers/lines/coating-uv'
 import CoatingLineSelecIr from '../../../../containers/lines/coating-ir'
-import img from '../../../../data/images/bg/machines/coating/dip-baner.jpg'
+import img from '../../../../data/images/bg/machines/coating/selective-baner.jpg'
 
 
 const title = "Селективное нанесение";

@@ -28,6 +28,8 @@ const CaseStudySection = ({
           uasubtitle
           excerpt
           uaexcerpt
+          pcb_widthru
+          pcb_widthua
           bgImage {
             childImageSharp {
               fluid(quality: 100) {
@@ -36,7 +38,7 @@ const CaseStudySection = ({
             }
           }
         } 
-        allMachineJson (filter: {id: {regex: "/mb814|g-titan|rs-1r|rs-800|mb815/"}}, sort: {order: ASC, fields: id}, limit: 5) {
+        allMachineJson (filter: {id: {regex: "/workstation|cube-inline/"}}, sort: {order: ASC, fields: id}, limit: 5) {
             edges {
                 node {
                     ru
@@ -58,7 +60,7 @@ const CaseStudySection = ({
                 }
             }
         }
-        allMachineUaJson (filter: {id: {regex: "/mb814|g-titan|rs-1r|rs-800|mb815/"}}, sort: {order: ASC, fields: id}, limit: 5) {
+        allMachineUaJson (filter: {id: {regex: "/workstation|workstation|cube-inline/"}}, sort: {order: ASC, fields: id}, limit: 5) {
             edges {
                 node {
                     ru
@@ -102,6 +104,7 @@ const CaseStudySection = ({
                 </Row>
                 <Row>
                     <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
+                    <h6 style={{textAlign: "justify"}}>{caseStudySecData.pcb_widthru}</h6>
                 </Row>
                 <Row>
                     <Col lg={12}>

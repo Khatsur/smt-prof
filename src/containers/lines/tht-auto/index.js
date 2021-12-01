@@ -36,7 +36,7 @@ const CaseStudySection = ({
             }
           }
         } 
-        allMachineJson (filter: {id: {regex: "/mb814|g-titan|rs-1r|rs-800|mb815/"}}, sort: {order: ASC, fields: id}, limit: 5) {
+        allMachineJson (filter: {id: {regex: "/jm-100|workstation|cube-inline/"}}, sort: {order: ASC, fields: id}, limit: 5) {
             edges {
                 node {
                     ru
@@ -58,7 +58,7 @@ const CaseStudySection = ({
                 }
             }
         }
-        allMachineUaJson (filter: {id: {regex: "/mb814|g-titan|rs-1r|rs-800|mb815/"}}, sort: {order: ASC, fields: id}, limit: 5) {
+        allMachineUaJson (filter: {id: {regex: "/jm-100|workstation|cube-inline/"}}, sort: {order: ASC, fields: id}, limit: 5) {
             edges {
                 node {
                     ru

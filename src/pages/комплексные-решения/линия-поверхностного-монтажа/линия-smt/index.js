@@ -18,7 +18,7 @@ const language = "ru";
 const path = "комплексные-решения/линия-поверхностного-монтажа/линия-smt";
 const CaseStudiesPage = ({ pageContext, location }) => (
   <Layout location={location}>
-    <SEO title={title} description="SMT линия монтажа плат для установки электронных компонентов на поверхность печатных плат. Полная автоматизация процессов поверхностного монтажа компонентов" pathname={path} keywords="линия smt, линия smd монтажа, линия smd монтажа, SMT линия монтажа плат,поверхностный монтаж, Установка электронных компонентов, установщики smd, smt, оборудование для smt, оборудование для smd монтажа, автоматы установки компонентов, установщик, smt, juki, asm, siplace, yamaha" image={img} lang={language}/>
+    <SEO title={title} description="Линия SMT монтажа для прототипирования. Все оборудование имеет отдельно стоящее исполнение. Нанесение пасты и установка компонентов на одном оборудовании." pathname={path} keywords="линия smt, линия smd монтажа, линия smd монтажа, SMT линия монтажа плат,поверхностный монтаж, Установка электронных компонентов, установщики smd, smt, оборудование для smt, оборудование для smd монтажа, автоматы установки компонентов, установщик, smt, juki, asm, siplace, yamaha" image={img} lang={language}/>
     <Header path={path}/>
     <SmtLineProPageHeader 
         pageContext={pageContext} 
