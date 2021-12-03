@@ -5,6 +5,17 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
+  "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
+  "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
+  "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
+  "component---src-templates-machine-template-machine-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template.js"))),
+  "component---src-templates-machine-template-machine-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template-ua.js"))),
+  "component---src-templates-blog-template-blog-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-template/blog-template.js"))),
+  "component---src-templates-tag-template-tag-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/tag-template/tag-template.js"))),
+  "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
+  "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
+  "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
+  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
   "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/404.js"))),
   "component---src-pages-about-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/about-us.js"))),
@@ -87,7 +98,9 @@ exports.components = {
   "component---src-pages-ua-обладнання-для-монтажу-дозатори-паяльної-пасти-ручні-дозатори-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/дозатори-паяльної-пасти/ручні-дозатори/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-захист-електроніки-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/захист-електроніки/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-захист-електроніки-вологозахист-зануренням-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/захист-електроніки/вологозахист-зануренням/index.js"))),
+  "component---src-pages-ua-обладнання-для-монтажу-захист-електроніки-конвеєри-захисних-покриттів-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/захист-електроніки/конвеєри-захисних-покриттів/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-захист-електроніки-нанесення-захисних-покриттів-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/захист-електроніки/нанесення-захисних-покриттів/index.js"))),
+  "component---src-pages-ua-обладнання-для-монтажу-захист-електроніки-обладнання-для-полімеризації-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/захист-електроніки/обладнання-для-полімеризації/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-захист-електроніки-селективний-вологозахист-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/захист-електроніки/селективний-вологозахист/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-монтаж-в-отвори-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/монтаж-в-отвори/index.js"))),
   "component---src-pages-ua-обладнання-для-монтажу-монтаж-в-отвори-обладнання-для-селективної-пайки-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/обладнання-для-монтажу/монтаж-в-отвори/обладнання-для-селективної-пайки/index.js"))),
@@ -168,7 +181,9 @@ exports.components = {
   "component---src-pages-оборудование-для-монтажа-автоматизированные-системы-хранения-шкафы-сухого-хранения-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/автоматизированные-системы-хранения/шкафы-сухого-хранения/index.js"))),
   "component---src-pages-оборудование-для-монтажа-влагозащита-электроники-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/влагозащита-электроники/index.js"))),
   "component---src-pages-оборудование-для-монтажа-влагозащита-электроники-влагозащита-погружением-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/влагозащита-электроники/влагозащита-погружением/index.js"))),
+  "component---src-pages-оборудование-для-монтажа-влагозащита-электроники-конвейеры-защитных-покрытий-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/влагозащита-электроники/конвейеры-защитных-покрытий/index.js"))),
   "component---src-pages-оборудование-для-монтажа-влагозащита-электроники-нанесение-защитных-покрытий-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/влагозащита-электроники/нанесение-защитных-покрытий/index.js"))),
+  "component---src-pages-оборудование-для-монтажа-влагозащита-электроники-оборудование-для-отверждения-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/влагозащита-электроники/оборудование-для-отверждения/index.js"))),
   "component---src-pages-оборудование-для-монтажа-влагозащита-электроники-селективная-влагозащита-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/влагозащита-электроники/селективная-влагозащита/index.js"))),
   "component---src-pages-оборудование-для-монтажа-дозаторы-паяльной-пасты-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/дозаторы-паяльной-пасты/index.js"))),
   "component---src-pages-оборудование-для-монтажа-дозаторы-паяльной-пасты-автомат-дозирования-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/дозаторы-паяльной-пасты/автомат-дозирования/index.js"))),
@@ -226,17 +241,6 @@ exports.components = {
   "component---src-pages-оборудование-для-монтажа-разделение-групповых-заготовок-оборудование-разделения-печатных-плат-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/разделение-групповых-заготовок/оборудование-разделения-печатных-плат/index.js"))),
   "component---src-pages-оборудование-для-монтажа-разделение-групповых-заготовок-разделение-групповых-заготовок-лазером-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/разделение-групповых-заготовок/разделение-групповых-заготовок-лазером/index.js"))),
   "component---src-pages-оборудование-для-монтажа-разделение-групповых-заготовок-устройства-разделения-печатных-плат-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/разделение-групповых-заготовок/устройства-разделения-печатных-плат/index.js"))),
-  "component---src-pages-техническое-обслуживание-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/index.js"))),
-  "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
-  "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
-  "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
-  "component---src-templates-machine-template-machine-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template.js"))),
-  "component---src-templates-machine-template-machine-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template-ua.js"))),
-  "component---src-templates-blog-template-blog-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-template/blog-template.js"))),
-  "component---src-templates-tag-template-tag-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/tag-template/tag-template.js"))),
-  "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
-  "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
-  "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
-  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js")))
+  "component---src-pages-техническое-обслуживание-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/index.js")))
 }
 

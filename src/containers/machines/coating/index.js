@@ -8,6 +8,8 @@ import { SectionWrap } from './section.style'
 import image1 from '../../../data/images/bg/machines/coating/selective-coating.png'
 import image2 from '../../../data/images/bg/machines/coating/dip-coating.png'
 import image3 from '../../../data/images/bg/machines/coating/spray-coating.png'
+import image4 from '../../../data/images/bg/machines/coating/curing.jpg'
+import image5 from '../../../data/images/bg/machines/coating/curing-con.jpg'
 
 
 const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
@@ -32,6 +34,20 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             title: 'Ручное нанесения покрытий',
             desc: 'Бюджетные решения для нанесения влагозащитных покрытий на электронные блоки. Системы для ручного нанесения распылением.',
             path: '/оборудование-для-монтажа/влагозащита-электроники/нанесение-защитных-покрытий'
+        },
+        {
+            id: 4,
+            imageSrc: image4,
+            title: 'Отверждения покрытий',
+            desc: 'Оборудование для отверждения защитных покрытий в УФ и ИК печах конвейерного типа. Машины для работы в составе линии',
+            path: '/оборудование-для-монтажа/влагозащита-электроники/оборудование-для-отверждения'
+        },
+        {
+            id: 5,
+            imageSrc: image5,
+            title: 'Конвейры для линии',
+            desc: 'Оборудование для перемещения плат в линии для нанесения защитных покрытий. Конвейеры имеют специальное исполнение.',
+            path: '/оборудование-для-монтажа/влагозащита-электроники/конвейеры-защитных-покрытий'
         }
     ]
 

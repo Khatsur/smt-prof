@@ -60,7 +60,7 @@ const CaseStudySection = ({
                 }
             }
         }
-        allMachineUaJson (filter: {id: {regex: "/workstation|workstation|cube-inline/"}}, sort: {order: ASC, fields: id}, limit: 5) {
+        allMachineUaJson (filter: {id: {regex: "/workstation|cube-inline/"}}, sort: {order: ASC, fields: id}, limit: 5) {
             edges {
                 node {
                     ru

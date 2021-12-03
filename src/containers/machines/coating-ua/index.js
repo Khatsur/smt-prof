@@ -8,6 +8,8 @@ import { SectionWrap } from './section.style'
 import image1 from '../../../data/images/bg/machines/coating/selective-coating.png'
 import image2 from '../../../data/images/bg/machines/coating/dip-coating.png'
 import image3 from '../../../data/images/bg/machines/coating/spray-coating.png'
+import image4 from '../../../data/images/bg/machines/coating/curing.jpg'
+import image5 from '../../../data/images/bg/machines/coating/curing-con.jpg'
 
 
 const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
@@ -32,6 +34,20 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             title: 'Ручне нанесення покриття',
             desc: 'Бюджетні рішення для нанесення вологозахисних покриттів на електронні блоки. Системи для ручного нанесення розпиленням.',
             path: '/ua/обладнання-для-монтажу/захист-електроніки/нанесення-захисних-покриттів'
+        },
+        {
+            id: 4,
+            imageSrc: image4,
+            title: 'Полімеризація покриттів',
+            desc: 'Устаткування для затвердіння захисних покриттів в УФ та ІЧ печах конвеєрного типу. Машини для роботи у складі лінії',
+            path: '/ua/обладнання-для-монтажу/захист-електроніки/обладнання-для-полімеризації'
+        },
+        {
+            id: 5,
+            imageSrc: image5,
+            title: 'Конвеєри для лінії',
+            desc: 'Обладнання для переміщення плат у лінії для нанесення захисного покриття. Конвеєри мають спеціальне виконання для роботи зі шкідливими речовинами.',
+            path: '/ua/обладнання-для-монтажу/захист-електроніки/конвеєри-захисних-покриттів'
         }
     ]
 
