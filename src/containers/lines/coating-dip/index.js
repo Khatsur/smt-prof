@@ -61,7 +61,7 @@ const CaseStudySection = ({
         allMachineUaJson (filter: {id: {regex: "/mb814|g-titan|rs-1r|rs-800|mb815/"}}, sort: {order: ASC, fields: id}, limit: 5) {
             edges {
                 node {
-                    ru
+                    ua
                     id
                     bigtitle
                     title
@@ -154,7 +154,7 @@ const CaseStudySection = ({
                                         category={caseStudyUa.node.category}
                                         desc={caseStudyUa.node.excerpt}
                                         path={`/${caseStudyUa.node.ua}/${caseStudyUa.node.title}`}
-                                        btnText="Подробно"
+                                        btnText="Докладно"
                                     />
                                 </div>
                             ))}

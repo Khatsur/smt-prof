@@ -28,8 +28,14 @@ const CaseStudySection = ({
           uasubtitle
           excerpt
           uaexcerpt
-          pcb_widthru
-          pcb_widthua
+          speedru
+          speedua
+          componentru
+          componentua
+          pcb_dimru
+          pcb_dimua
+          line_lengthru
+          line_lengthua
           bgImage {
             childImageSharp {
               fluid(quality: 100) {
@@ -63,7 +69,7 @@ const CaseStudySection = ({
         allMachineUaJson (filter: {id: {regex: "/workstation|cube-inline/"}}, sort: {order: ASC, fields: id}, limit: 5) {
             edges {
                 node {
-                    ru
+                    ua
                     id
                     bigtitle
                     title
@@ -102,9 +108,18 @@ const CaseStudySection = ({
                         />
                     </Col>
                 </Row>
-                <Row>
-                    <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
-                    <h6 style={{textAlign: "justify"}}>{caseStudySecData.pcb_widthru}</h6>
+                <Row style={{marginLeft: "10px", marginRight: "10px", "fontSize": "16px"}}>
+                  <Col lg={12}>
+                      <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
+                    
+                      <ul style={{listStyleType: "none", marginLeft: "17px"}}>
+                        <li style={{color: "#086AD8", fontWeight: "bold", textTransform: "uppercase"}}>Спецификация линии:</li>
+                        <li>{caseStudySecData.speedru}</li>
+                        <li>{caseStudySecData.componentru}</li>
+                        <li>{caseStudySecData.pcb_dimru}</li>
+                        <li>{caseStudySecData.line_lengthru}</li>
+                    </ul>
+                  </Col>
                 </Row>
                 <Row>
                     <Col lg={12}>
@@ -142,8 +157,18 @@ const CaseStudySection = ({
                         />
                     </Col>
                 </Row>
-                <Row>
-                   <h6 style={{textAlign: "justify"}}>{caseStudySecData.uaexcerpt}</h6>
+                <Row style={{marginLeft: "10px", marginRight: "10px", "fontSize": "16px"}}>
+                  <Col lg={12}>
+                      <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
+                    
+                      <ul style={{listStyleType: "none", marginLeft: "17px"}}>
+                        <li style={{color: "#086AD8", fontWeight: "bold", textTransform: "uppercase"}}>Специфікація лінії:</li>
+                        <li>{caseStudySecData.speedua}</li>
+                        <li>{caseStudySecData.componentua}</li>
+                        <li>{caseStudySecData.pcb_dimua}</li>
+                        <li>{caseStudySecData.line_lengthua}</li>
+                    </ul>
+                  </Col>
                 </Row>
                 <Row>
                     <Col lg={12}>
@@ -157,7 +182,7 @@ const CaseStudySection = ({
                                         category={caseStudyUa.node.category}
                                         desc={caseStudyUa.node.excerpt}
                                         path={`/${caseStudyUa.node.ua}/${caseStudyUa.node.title}`}
-                                        btnText="Подробно"
+                                        btnText="Докладно"
                                     />
                                 </div>
                             ))}

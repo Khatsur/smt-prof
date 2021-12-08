@@ -21,13 +21,21 @@ const CaseStudySection = ({
     const caseStudyData = useStaticQuery(graphql`
     query LineInspectionIslandQuery {
         indexLinesJson(id: {eq: "inspection-island"}) {
-          id
-          title
-          subtitle
-          uatitle
-          uasubtitle
-          excerpt
-          uaexcerpt
+            id
+            title
+            subtitle
+            uatitle
+            uasubtitle
+            excerpt
+            uaexcerpt
+            speedru
+            speedua
+            componentru
+            componentua
+            pcb_dimru
+            pcb_dimua
+            line_lengthru
+            line_lengthua
           bgImage {
             childImageSharp {
               fluid(quality: 100) {
@@ -36,11 +44,12 @@ const CaseStudySection = ({
             }
           }
         } 
-        allMachineJson (filter: {id: {regex: "/mb814|g-titan|rs-1r|rs-800|mb815/"}}, sort: {order: ASC, fields: id}, limit: 5) {
+        allMachineJson (filter: {id: {regex: "/mb801|aoi-rv-2-3dh|conveyer-mb|mb802/"}}, sort: {fields: line, order: ASC}, limit: 5) {
             edges {
                 node {
                     ru
                     id
+                    line
                     bigtitle
                     title
                     category
@@ -58,10 +67,10 @@ const CaseStudySection = ({
                 }
             }
         }
-        allMachineUaJson (filter: {id: {regex: "/mb814|g-titan|rs-1r|rs-800|mb815/"}}, sort: {order: ASC, fields: id}, limit: 5) {
+        allMachineUaJson (filter: {id: {regex: "/mb801|aoi-rv-2-3dh|conveyer-mb|mb802/"}}, sort: {fields: line, order: ASC}, limit: 5) {
             edges {
                 node {
-                    ru
+                    ua
                     id
                     bigtitle
                     title
@@ -100,8 +109,18 @@ const CaseStudySection = ({
                         />
                     </Col>
                 </Row>
-                <Row>
-                    <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
+                <Row style={{marginLeft: "10px", marginRight: "10px", "fontSize": "16px"}}>
+                  <Col lg={12}>
+                      <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
+                    
+                      <ul style={{listStyleType: "none", marginLeft: "17px"}}>
+                        <li style={{color: "#086AD8", fontWeight: "bold", textTransform: "uppercase"}}>Спецификация линии:</li>
+                        <li>{caseStudySecData.speedru}</li>
+                        <li>{caseStudySecData.componentru}</li>
+                        <li>{caseStudySecData.pcb_dimru}</li>
+                        <li>{caseStudySecData.line_lengthru}</li>
+                    </ul>
+                  </Col>
                 </Row>
                 <Row>
                     <Col lg={12}>
@@ -115,7 +134,7 @@ const CaseStudySection = ({
                                         category={caseStudy.node.category}
                                         desc={caseStudy.node.excerpt}
                                         path={`/${caseStudy.node.ru}/${caseStudy.node.title}`}
-                                        btnText="Подробно"
+                                        btnText="Докладно"
                                     />
                                 </div>
                             ))}
@@ -139,8 +158,18 @@ const CaseStudySection = ({
                         />
                     </Col>
                 </Row>
-                <Row>
-                   <h6 style={{textAlign: "justify"}}>{caseStudySecData.uaexcerpt}</h6>
+                <Row style={{marginLeft: "10px", marginRight: "10px", "fontSize": "16px"}}>
+                  <Col lg={12}>
+                      <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
+                    
+                      <ul style={{listStyleType: "none", marginLeft: "17px"}}>
+                        <li style={{color: "#086AD8", fontWeight: "bold", textTransform: "uppercase"}}>Специфікація лінії:</li>
+                        <li>{caseStudySecData.speedua}</li>
+                        <li>{caseStudySecData.componentua}</li>
+                        <li>{caseStudySecData.pcb_dimua}</li>
+                        <li>{caseStudySecData.line_lengthua}</li>
+                    </ul>
+                  </Col>
                 </Row>
                 <Row>
                     <Col lg={12}>

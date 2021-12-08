@@ -7,7 +7,7 @@ export const BoxLargeImgInner = styled.div `
     background: #fff;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 0 40px rgba(51,51,51,0.1);
+    box-shadow: 0 0 20px rgba(51,51,51,0.1);
     position: relative;
     height: 100%;
 `;

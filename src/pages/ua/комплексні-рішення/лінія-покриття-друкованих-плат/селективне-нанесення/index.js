@@ -8,10 +8,11 @@ import ContactArea from '../../../../../containers/global/contact-area/contact-t
 import MachinesCoating from '../../../../../containers/machines/coating-ua'
 import CoatingLineSelecUv from '../../../../../containers/lines/coating-uv'
 import CoatingLineSelecIr from '../../../../../containers/lines/coating-ir'
+import CoatingLineSelecTwo from '../../../../../containers/lines/coating-twoside'
 import img from '../../../../../data/images/bg/machines/coating/selective-baner.jpg'
 
 
-const title = "Селективне зануренням";
+const title = "Селективне нанесення";
 const language = "uk";
 const path = "ua/комплексні-рішення/лінія-покриття-друкованих-плат/селективне-нанесення";
 const CaseStudiesPage = ({ pageContext, location }) => (
@@ -28,6 +29,7 @@ const CaseStudiesPage = ({ pageContext, location }) => (
     <main className="site-wrapper-reveal">
         <CoatingLineSelecUv language={language} />
         <CoatingLineSelecIr language={language} />
+        <CoatingLineSelecTwo language={language} />
         <ContactArea />
         <MachinesCoating />
     </main>
