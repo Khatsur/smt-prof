@@ -160,7 +160,7 @@ const CaseStudySection = ({
                 </Row>
                 <Row style={{marginLeft: "10px", marginRight: "10px", "fontSize": "16px"}}>
                   <Col lg={12}>
-                      <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
+                      <h6 style={{textAlign: "justify"}}>{caseStudySecData.uaexcerpt}</h6>
                     
                       <ul style={{listStyleType: "none", marginLeft: "17px"}}>
                         <li style={{color: "#086AD8", fontWeight: "bold", textTransform: "uppercase"}}>Специфікація лінії:</li>
