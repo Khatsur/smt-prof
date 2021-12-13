@@ -44,7 +44,7 @@ const CaseStudySection = ({
             }
           }
         } 
-        allMachineJson (filter: {id: {regex: "/th-206m|spide-ha06/"}}, sort: {fields: line, order: ASC}, limit: 5) {
+        allMachineJson (filter: {id: {regex: "/placeall-520|mistral-360/"}}, sort: {fields: line, order: ASC}, limit: 5) {
             edges {
                 node {
                     ru
@@ -66,7 +66,7 @@ const CaseStudySection = ({
                 }
             }
         }
-        allMachineUaJson (filter: {id: {regex: "/th-206m|spide-ha06/"}}, sort: {fields: line, order: ASC}, limit: 5) {
+        allMachineUaJson (filter: {id: {regex: "/placeall-520|mistral-360/"}}, sort: {fields: line, order: ASC}, limit: 5) {
             edges {
                 node {
                     ua
@@ -111,7 +111,6 @@ const CaseStudySection = ({
                 <Row style={{marginLeft: "10px", marginRight: "10px", "fontSize": "16px"}}>
                   <Col lg={12}>
                       <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
-                    
                       <ul style={{listStyleType: "none", marginLeft: "17px"}}>
                         <li style={{color: "#086AD8", fontWeight: "bold", textTransform: "uppercase"}}>Спецификация линии:</li>
                         <li>{caseStudySecData.speedru}</li>
@@ -160,7 +159,7 @@ const CaseStudySection = ({
                 <Row style={{marginLeft: "10px", marginRight: "10px", "fontSize": "16px"}}>
                   <Col lg={12}>
                       <h6 style={{textAlign: "justify"}}>{caseStudySecData.uaexcerpt}</h6>
-                    
+
                       <ul style={{listStyleType: "none", marginLeft: "17px"}}>
                         <li style={{color: "#086AD8", fontWeight: "bold", textTransform: "uppercase"}}>Специфікація лінії:</li>
                         <li>{caseStudySecData.speedua}</li>
@@ -228,7 +227,7 @@ CaseStudySection.defaultProps = {
     },
     slider: {
         slidesPerView: 3,
-        loop: true,
+        loop: false,
         pagination: {
             el: '.swiper-pagination',
             clickable: true

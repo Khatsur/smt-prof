@@ -19,15 +19,25 @@ const CaseStudySection = ({
     slider,
     sliderStyle, language }) => {
     const caseStudyData = useStaticQuery(graphql`
-    query LineSmtSmall2Query {
+    query LineSmtSmal21Query {
         indexLinesJson(id: {eq: "smt-small-2"}) {
-          id
-          title
-          subtitle
-          uatitle
-          uasubtitle
-          excerpt
-          uaexcerpt
+            id
+            title
+            subtitle
+            uatitle
+            uasubtitle
+            excerpt
+            uaexcerpt
+            speedru
+            speedua
+            componentru
+            componentua
+            pcb_dimru
+            pcb_dimua
+            feeder
+            feederua
+            line_lengthru
+            line_lengthua
           bgImage {
             childImageSharp {
               fluid(quality: 100) {
@@ -36,7 +46,7 @@ const CaseStudySection = ({
             }
           }
         } 
-        allMachineJson (filter: {id: {regex: "/mb814|g-titan|rs-1r|rs-800|mb815/"}}, sort: {order: ASC, fields: id}, limit: 5) {
+        allMachineJson (filter: {id: {regex: "/spide-sd360u|toptable-a4|spide-mistral-260/"}}, sort: {fields: line, order: ASC}, limit: 5) {
             edges {
                 node {
                     ru
@@ -58,10 +68,10 @@ const CaseStudySection = ({
                 }
             }
         }
-        allMachineUaJson (filter: {id: {regex: "/mb814|g-titan|rs-1r|rs-800|mb815/"}}, sort: {order: ASC, fields: id}, limit: 5) {
+        allMachineUaJson (filter: {id: {regex: "/spide-sd360u|toptable-a4|spide-mistral-260/"}}, sort: {fields: line, order: ASC}, limit: 5) {
             edges {
                 node {
-                    ru
+                    ua
                     id
                     bigtitle
                     title
@@ -100,8 +110,18 @@ const CaseStudySection = ({
                         />
                     </Col>
                 </Row>
-                <Row>
-                    <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
+                <Row style={{marginLeft: "10px", marginRight: "10px", "fontSize": "16px"}}>
+                  <Col lg={12}>
+                      <h6 style={{textAlign: "justify"}}>{caseStudySecData.excerpt}</h6>
+                      <ul style={{listStyleType: "none", marginLeft: "17px"}}>
+                        <li style={{color: "#086AD8", fontWeight: "bold", textTransform: "uppercase"}}>Спецификация линии:</li>
+                        <li>{caseStudySecData.speedru}</li>
+                        <li>{caseStudySecData.componentru}</li>
+                        <li>{caseStudySecData.pcb_dimru}</li>
+                        <li>{caseStudySecData.feeder}</li>
+                        <li>{caseStudySecData.line_lengthru}</li>
+                    </ul>
+                  </Col>
                 </Row>
                 <Row>
                     <Col lg={12}>
@@ -139,8 +159,19 @@ const CaseStudySection = ({
                         />
                     </Col>
                 </Row>
-                <Row>
-                   <h6 style={{textAlign: "justify"}}>{caseStudySecData.uaexcerpt}</h6>
+                <Row style={{marginLeft: "10px", marginRight: "10px", "fontSize": "16px"}}>
+                  <Col lg={12}>
+                      <h6 style={{textAlign: "justify"}}>{caseStudySecData.uaexcerpt}</h6>
+
+                      <ul style={{listStyleType: "none", marginLeft: "17px"}}>
+                        <li style={{color: "#086AD8", fontWeight: "bold", textTransform: "uppercase"}}>Специфікація лінії:</li>
+                        <li>{caseStudySecData.speedua}</li>
+                        <li>{caseStudySecData.componentua}</li>
+                        <li>{caseStudySecData.pcb_dimua}</li>
+                        <li>{caseStudySecData.feederua}</li>
+                        <li>{caseStudySecData.line_lengthua}</li>
+                    </ul>
+                  </Col>
                 </Row>
                 <Row>
                     <Col lg={12}>
@@ -154,7 +185,7 @@ const CaseStudySection = ({
                                         category={caseStudyUa.node.category}
                                         desc={caseStudyUa.node.excerpt}
                                         path={`/${caseStudyUa.node.ua}/${caseStudyUa.node.title}`}
-                                        btnText="Подробно"
+                                        btnText="Докладно"
                                     />
                                 </div>
                             ))}
@@ -200,7 +231,7 @@ CaseStudySection.defaultProps = {
     },
     slider: {
         slidesPerView: 3,
-        loop: true,
+        loop: false,
         pagination: {
             el: '.swiper-pagination',
             clickable: true
