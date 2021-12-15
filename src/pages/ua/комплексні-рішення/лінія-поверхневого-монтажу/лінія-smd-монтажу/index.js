@@ -9,6 +9,7 @@ import MachinesSmtUa from '../../../../../containers/machines/smt-ua'
 import SmtLineSmall1 from '../../../../../containers/lines/smt-small-1'
 import SmtLineSmall2 from '../../../../../containers/lines/smt-small-2'
 import SmtLineSmall3 from '../../../../../containers/lines/smt-small-3'
+import SmtLineSmall4 from '../../../../../containers/lines/smt-small-4'
 import img from '../../../../../data/images/bg/lines/smt-line-small-baner.jpg'
 
 
@@ -30,6 +31,7 @@ const CaseStudiesPage = ({ pageContext, location }) => (
         <SmtLineSmall1 language={language} />
         <SmtLineSmall2 language={language} />
         <SmtLineSmall3 language={language} />
+        <SmtLineSmall4 language={language} />
         <ContactArea />
         <MachinesSmtUa />
     </main>

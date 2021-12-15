@@ -46,7 +46,7 @@ const CaseStudySection = ({
             }
           }
         } 
-        allMachineJson (filter: {id: {regex: "/semi-go23|toptable-a4|conveyer-lc|rf-430/"}}, sort: {fields: line, order: ASC}, limit: 5) {
+        allMachineJson (filter: {id: {regex: "/semi-go23|kayo-a6l|kayo-ic|rf-430/"}}, sort: {fields: line, order: ASC}, limit: 5) {
             edges {
                 node {
                     ru
@@ -68,7 +68,7 @@ const CaseStudySection = ({
                 }
             }
         }
-        allMachineUaJson (filter: {id: {regex: "/semi-go23|toptable-a4|conveyer-lc|rf-430/"}}, sort: {fields: line, order: ASC}, limit: 5) {
+        allMachineUaJson (filter: {id: {regex: "/semi-go23|kayo-a6l|kayo-ic|rf-430/"}}, sort: {fields: line, order: ASC}, limit: 5) {
             edges {
                 node {
                     ua

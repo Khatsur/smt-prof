@@ -229,7 +229,7 @@ CaseStudySection.defaultProps = {
     },
     slider: {
         slidesPerView: 3,
-        loop: true,
+        loop: false,
         pagination: {
             el: '.swiper-pagination',
             clickable: true
