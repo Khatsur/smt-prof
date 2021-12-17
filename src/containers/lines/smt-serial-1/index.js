@@ -20,7 +20,7 @@ const CaseStudySection = ({
     sliderStyle, language }) => {
     const caseStudyData = useStaticQuery(graphql`
     query LineSmtSerial1Query {
-        indexLinesJson(id: {eq: "smt-prototyping-3"}) {
+        indexLinesJson(id: {eq: "smt-serial-1"}) {
             id
             title
             subtitle
@@ -34,6 +34,8 @@ const CaseStudySection = ({
             componentua
             pcb_dimru
             pcb_dimua
+            feeder
+            feederua
             line_lengthru
             line_lengthua
           bgImage {
@@ -44,7 +46,7 @@ const CaseStudySection = ({
             }
           }
         } 
-        allMachineJson (filter: {id: {regex: "/placeall-520|mistral-360/"}}, sort: {fields: line, order: ASC}, limit: 5) {
+        allMachineJson (filter: {id: {regex: "/loader-mb814|g-titan|juki-rs-1r|conveyer-lc|juki-rs-800|loader-mb815/"}}, sort: {fields: line, order: ASC}, limit: 7) {
             edges {
                 node {
                     ru
@@ -66,7 +68,7 @@ const CaseStudySection = ({
                 }
             }
         }
-        allMachineUaJson (filter: {id: {regex: "/placeall-520|mistral-360/"}}, sort: {fields: line, order: ASC}, limit: 5) {
+        allMachineUaJson (filter: {id: {regex: "/loader-mb814|g-titan|juki-rs-1r|conveyer-lc|juki-rs-800|loader-mb815/"}}, sort: {fields: line, order: ASC}, limit: 7) {
             edges {
                 node {
                     ua
@@ -116,6 +118,7 @@ const CaseStudySection = ({
                         <li>{caseStudySecData.speedru}</li>
                         <li>{caseStudySecData.componentru}</li>
                         <li>{caseStudySecData.pcb_dimru}</li>
+                        <li>{caseStudySecData.feeder}</li>
                         <li>{caseStudySecData.line_lengthru}</li>
                     </ul>
                   </Col>
@@ -165,6 +168,7 @@ const CaseStudySection = ({
                         <li>{caseStudySecData.speedua}</li>
                         <li>{caseStudySecData.componentua}</li>
                         <li>{caseStudySecData.pcb_dimua}</li>
+                        <li>{caseStudySecData.feederua}</li>
                         <li>{caseStudySecData.line_lengthua}</li>
                     </ul>
                   </Col>
