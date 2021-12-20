@@ -46,7 +46,7 @@ const CaseStudySection = ({
             }
           }
         } 
-        allMachineJson (filter: {id: {regex: "/loader-mb801|g-titan|spi-rv-2-3dh|juki-rx-8|juki-rx-8-1|juki-rs-1r|conveyer-lc|juki-rs-800|aoi-rv-2-3d1|loader-mb802/"}}, sort: {fields: line, order: ASC}, limit: 13) {
+        allMachineJson (filter: {id: {regex: "/loader-mb801|g-titan|spi-rv-2-3dh|juki-rx-8|juki-rx-8-1|juki-rs-1r|conveyer-mb|juki-rs-1000|aoi-rv-2-3d1|loader-mb802/"}}, sort: {fields: line, order: ASC}, limit: 13) {
             edges {
                 node {
                     ru
@@ -68,7 +68,7 @@ const CaseStudySection = ({
                 }
             }
         }
-        allMachineUaJson (filter: {id: {regex: "/loader-mb801|g-titan|juki-rs-1r|placer-juki-rs-11|conveyer-lc|juki-rs-800|aoi-rv-2-3d1|loader-mb802/"}}, sort: {fields: line, order: ASC}, limit: 10) {
+        allMachineUaJson (filter: {id: {regex: "/loader-mb801|g-titan|spi-rv-2-3dh|juki-rx-8|juki-rx-8-1|juki-rs-1r|conveyer-mb|juki-rs-1000|aoi-rv-2-3d1|loader-mb802/"}}, sort: {fields: line, order: ASC}, limit: 13) {
             edges {
                 node {
                     ua

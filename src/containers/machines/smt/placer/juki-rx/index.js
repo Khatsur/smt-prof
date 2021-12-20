@@ -9,7 +9,7 @@ import ButtonSection from '../../../../../containers/elements/button/button-smt'
 const CaseStudiesArea = (props) => {
     const autoPrinterData = useStaticQuery(graphql `
         query {
-            allMachineJson (filter: {title: {regex: "/rx/"}}, sort: {order: ASC, fields: id}) {
+            allMachineJson (filter: {id: {regex: "/placer-juki-rx-8|juki-rx-7r|juki-rx-6/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -33,7 +33,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allMachineUaJson (filter: {title: {regex: "/rx/"}}, sort: {order: ASC, fields: id}) {
+            allMachineUaJson (filter: {id: {regex: "/placer-juki-rx-8|juki-rx-7r|juki-rx-6/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
