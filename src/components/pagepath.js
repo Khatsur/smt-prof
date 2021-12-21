@@ -1637,6 +1637,34 @@ export const PagePath = [
         "en": "en/lines",
         "lang": ""
     },
+    {
+        "id": "lines-software",
+        "ru": "комплексные-решения/программное-обеспечение",
+        "ua": "ua/комплексні-рішення/програмне-забезпечення",
+        "en": "en/lines",
+        "lang": ""
+    },
+    {
+        "id": "lines-software-janets",
+        "ru": "комплексные-решения/программное-обеспечение/janets",
+        "ua": "ua/комплексні-рішення/програмне-забезпечення/janets",
+        "en": "en/lines",
+        "lang": ""
+    },
+    {
+        "id": "lines-software-trace-monitor",
+        "ru": "комплексные-решения/программное-обеспечение/trace-monitor",
+        "ua": "ua/комплексні-рішення/програмне-забезпечення/trace-monitor",
+        "en": "en/lines",
+        "lang": ""
+    },
+    {
+        "id": "lines-software-ifs-nx",
+        "ru": "комплексные-решения/программное-обеспечение/ifs-nx",
+        "ua": "ua/комплексні-рішення/програмне-забезпечення/ifs-nx",
+        "en": "en/lines",
+        "lang": ""
+    },
 
     {
         "id": "materials",
