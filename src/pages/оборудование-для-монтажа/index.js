@@ -8,7 +8,7 @@ import Machines from '../../containers/machines/features-area'
 import JukiMachines from '../../containers/machines/juki'
 import ContactArea from '../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../containers/machines/whats-new-area'
-import JukiLine from '../../containers/machines/smt-big'
+import JukiLine from '../../containers/lines/smt-serial-1'
 
 
 
@@ -22,7 +22,7 @@ const IndexServices = ({ location }) => (
       <HeroArea />
       <Machines />
       <JukiMachines />
-      <JukiLine />
+      <JukiLine language={language}/>
       <ContactArea />
       <WhatsnewArea />
     </main>

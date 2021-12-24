@@ -7,6 +7,8 @@ import SmtLine40PageHeader from '../../../../../components/pageheader/line-smt-4
 import ContactArea from '../../../../../containers/global/contact-area/contact-three-ua'
 import MachinesSmtUa from '../../../../../containers/machines/smt-ua'
 import SmtLineSerial3 from '../../../../../containers/lines/smt-serial-3'
+import StorageLine from '../../../../../containers/lines/storage-line'
+import SoftwareLine from '../../../../../containers/lines/software-line'
 import img from '../../../../../data/images/bg/lines/smt-industry-40.jpg'
 
 
@@ -26,6 +28,8 @@ const CaseStudiesPage = ({ pageContext, location }) => (
     />
     <main className="site-wrapper-reveal">
         <SmtLineSerial3 language={language} />
+        <StorageLine language={language} />
+        <SoftwareLine language={language} />
         <ContactArea />
         <MachinesSmtUa />
     </main>

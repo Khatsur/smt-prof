@@ -22,7 +22,7 @@
         "text": "Поставка, пуско-наладка, поддержка.",
         "uatext": "Постачання, налагодження, тех.підтримка.",
         "entext": "Installation, training, support.",
-        "bg_image": "./images/bg/machines/machine-smt.png",
+        "bg_image": "./images/bg/machines/machine-smt.jpg",
         "bg_image2": "./images/bg/machines/machine-tht.png",
         "bg_image3": "./images/bg/machines/machine-cleaning.png",
         "bg_image4": "./images/bg/machines/machine-coating.png",
@@ -119,7 +119,13 @@
         "bg_image3": "./images/bg/lines/smt-series.png",
         "bg_image4": "./images/bg/lines/smt-series.png",
         "bg_image5": "./images/bg/machine-aoi.png",
-        "link": "/machines/smt",
+        "linkpr": "комплексные-решения/линия-поверхностного-монтажа/линия-smt",
+        "ualinkpr": "/ua/комплексні-рішення/лінія-поверхневого-монтажу/лінія-smt",
+        "linksm": "/комплексные-решения/линия-поверхностного-монтажа/линия-smd-монтажа",
+        "ualinksm": "/ua/комплексні-рішення/лінія-поверхневого-монтажу/лінія-smd-монтажу",
+        "linksr": "/комплексные-решения/линия-поверхностного-монтажа/smt-линия-монтажа-плат",
+        "ualinksr": "/ua/комплексні-рішення/лінія-поверхневого-монтажу/smt-лінія-монтажу-плат",
+        "link": "/",
         "video_link": "https://www.youtube.com/watch?v=9No-FiEInLA"
     },
     {

@@ -15,6 +15,7 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
                         
                         uatitle
                         uaexcerpt
+                        uapath
                         icon {
                             img_two {
                                 childImageSharp {
@@ -49,7 +50,7 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
                                 hoverImg={feature.node.icon.img_hover.childImageSharp}
                                 title={feature.node.uatitle}
                                 desc={feature.node.uaexcerpt}
-                                path="/"
+                                path={feature.node.uapath}
                             />
                         </Col>
                     ))}

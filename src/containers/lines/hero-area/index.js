@@ -22,7 +22,9 @@ const HeroArea = (props) => {
                 text_solder
                 text_coating
                 text_clean
-                link
+                linkpr
+                linksm
+                linksr
                 video_link
                 bg_image {
                     childImageSharp {
@@ -72,7 +74,7 @@ const HeroArea = (props) => {
             }
         }      
     `);
-    const {title, title_tht, title_coating, subtitle, text_solder, text_clean, text_coating, bg_image, bg_image2, bg_image4, link, video_link} = heroData.indexResolutionsJson;
+    const {title, title_tht, title_coating, subtitle, text_solder, text_clean, text_coating, bg_image, bg_image2, bg_image4, linkpr, linksm, linksr, video_link} = heroData.indexResolutionsJson;
     const {subtitleStyle, titleStyle, textStyle, btnStyle, consult_btn, work_btn} = props;
     let video_arr, video_id, video_channel;
     if(video_link){
@@ -100,7 +102,7 @@ const HeroArea = (props) => {
                                 {title && <Heading {...titleStyle}>{title}</Heading>}
                                 {text_solder && <Text {...textStyle}>{text_solder}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Подробно...</Button>}
+                                    {linkpr && <Button {...btnStyle} {...consult_btn} to={linkpr}>Подробно...</Button>}
                                     
                                 </HeroBtnGroup>
                             </HeroContent>
@@ -133,7 +135,7 @@ const HeroArea = (props) => {
                                 {title && <Heading {...titleStyle}>{title_tht}</Heading>}
                                 {text_clean && <Text {...textStyle}>{text_clean}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Подробно...</Button>}
+                                    {linksm && <Button {...btnStyle} {...consult_btn} to={linksm}>Подробно...</Button>}
                                     
                                 </HeroBtnGroup>
                             </HeroContent>
@@ -166,7 +168,7 @@ const HeroArea = (props) => {
                                 {title && <Heading {...titleStyle}>{title_coating}</Heading>}
                                 {text_coating && <Text {...textStyle}>{text_coating}</Text>}
                                 <HeroBtnGroup>
-                                    {link && <Button {...btnStyle} {...consult_btn}>Подробно...</Button>}
+                                    {linksr && <Button {...btnStyle} {...consult_btn} to={linksr}>Подробно...</Button>}
                                     
                                 </HeroBtnGroup>
                             </HeroContent>

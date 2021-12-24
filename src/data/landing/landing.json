@@ -258,84 +258,84 @@
         "image": "../images/features/start3.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальная гибкость для контрактных производителей. </span> <br/>  Почувствуйте свободу!",
         "desc": "Поставка оборудования для среднесерийного многономенклатурного производства  монтажа печатных плат разной сложности. Новейшие технологии и стабильность. Надежность в работе и быстрая переналадка. Серия гибкого оборудования с максимальными возможностями.",
-        "path": "/case-studies"
+        "path": "/комплексные-решения/линия-поверхностного-монтажа/smt-линия-монтажа-плат"
     },
     {
         "id": "caseStudy-ua",
         "image": "../images/features/start3.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальна гнучкість для контрактних виробників. </span> <br/>  Відчуйте свободу!",
         "desc": "Постачання обладнання для серійного багато-номенклатурного виробництва монтажу друкованих плат різної складності. Новітні технології і стабільність. Надійність в роботі і швидке налаштування. Серія гнучкого обладнання з максимальними можливостями. ",
-        "path": "/case-studies"
+        "path": "/ua/комплексні-рішення/лінія-поверхневого-монтажу/smt-лінія-монтажу-плат"
     },
     {
         "id": "caseStudy-en",
         "image": "../images/features/start3.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Maximum flexibility for contract manufacturers. </span> <br/>  Feel the freedom!",
         "desc": "Supply of machines for the medium multi-products production of assembly of printed circuit boards of various complexity. Latest technology and stability. Operational reliability and quick changeover. A series of flexible machines with maximum capabilities.",
-        "path": "/case-studies"
+        "path": "/en/lines"
     },
     {
         "id": "headerLayout",
         "image": "../images/features/small.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'>    Максимальный результат при минимальных инвестициях.</span> <br/> Почувствуйте легкость!",
         "desc": "Поставка оборудование для поверхностного монтажа мелкосерийного производства SMT и производства прототипов. Компактный дизайн и высокое качество процессов монтажа электронных компонентов. Бюджетная серия оборудования на все случаи.",
-        "path": "/index-appointment"
+        "path": "/комплексные-решения/линия-поверхностного-монтажа/линия-smd-монтажа"
     },
     {
         "id": "headerLayout-ua",
         "image": "../images/features/small.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'>    Максимальний результат при мінімальних інвестиціях.</span> <br/> Відчуйте легкість!",
         "desc": "Постачання обладнання для поверхневого монтажу дрібносерійного виробництва SMT і виробництва прототипів. Компактний дизайн і висока якість процесів монтажу електронних компонентів. Бюджетна серія обладнання на всі випадки.",
-        "path": "/index-appointment"
+        "path": "/ua/комплексні-рішення/лінія-поверхневого-монтажу/лінія-smd-монтажу"
     },
     {
         "id": "headerLayout-en",
         "image": "../images/features/small.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'>    Maximum result with minimum investment.</span> <br/> Feel the lightness!",
         "desc": "Supply of machines small-scale production of SMT and prototype production. Compact design and high quality electronic assembly processes. A budgetary series of equipment for all occasions.",
-        "path": "/index-appointment"
+        "path": "/en/lines"
     },
     {
         "id": "headerLayoutSpeed",
         "image": "../images/features/speed.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальная скорость и максимальная эффективность.</span> <br/> Почувствуйте скорость!",
         "desc": "Поставка оборудования для крупносерийного производства монтажа плат. Максимальная производительность и отдача линии SMT. Надежный двигатель производства, который может долго работать на максимальных оборотах.",
-        "path": "/index-appointment"
+        "path": "/комплексные-решения/линия-поверхностного-монтажа/smt-линия-монтажа-плат"
     },
     {
         "id": "headerLayoutSpeed-ua",
         "image": "../images/features/speed.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальна швидкість і максимальна ефективність.  .</span> <br/> Відчуйте швидкість!",
         "desc": "Постачання обладнання для багатосерійного виробництва монтажу плат. Максимальна продуктивність і віддача лінії SMT. Надійний двигун виробництва, який може довго працювати на максимальних обертах.",
-        "path": "/index-appointment"
+        "path": "/ua/комплексні-рішення/лінія-поверхневого-монтажу/smt-лінія-монтажу-плат"
     },
     {
         "id": "headerLayoutSpeed-en",
         "image": "../images/features/speed.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Maximum speed and maximum efficiency.</span> <br/> Feel the speed!",
         "desc": "Supply of machines for large-scale production of circuit boards assembly. Maximum productivity and efficiency of the SMT line. Reliable production engine that can run at maximum speed for a long time.",
-        "path": "/index-appointment"
+        "path": "/en/lines"
     },
     {
         "id": "caseStudyAdvan",
         "image": "../images/features/advanc.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальные возможности и максимальные перспективы. </span> <br/>  Достигайте вершин!",
         "desc": "Поставка инновационного оборудования класса Hi-End для серийного и крупносерийного многономенклатурного производства монтажа печатных плат повышенной сложности. Для образцовых отраслевых производств сборки печатных плат. Инновационное решение с большим запасом на развитие технологий сборки плат в будущем.",
-        "path": "/case-studies"
+        "path": "/комплексные-решения/линия-поверхностного-монтажа/линия-smt-industry-40"
     },
     {
         "id": "caseStudyAdvan-ua",
         "image": "../images/features/advanc.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Максимальні можливості та максимальні перспективи. </span> <br/>  Досягайте вершин!",
         "desc": "Постачання інноваційного обладнання класу High-End для серійного і багато-серійного виробництва монтажу друкованих плат підвищеної складності. Для зразкових галузевих виробництв складання електронних плат. Інноваційні рішення із запасом потужності на розвиток технологій складання плат в майбутньому.",
-        "path": "/case-studies"
+        "path": "/ua/комплексні-рішення/лінія-поверхневого-монтажу/лінія-smt-industry-40"
     },
     {
         "id": "caseStudyAdvan-en",
         "image": "../images/features/advanc.png",
         "title": "<span style='color: black'>SMT PROF</span><br/><span style='font-size: 35px'> Maximum opportunities and maximum prospects. </span> <br/>  Be on top!",
         "desc": "Supply of innovative equipment of the High-End class for serial and large-scale multi-product production of PCB assembly of increased complexity.  An innovative solutions with a large margin for the development of board assembly technologies in the future.",
-        "path": "/case-studies"
+        "path": "/en/lines"
     },
     {
         "id": "blogLayout",

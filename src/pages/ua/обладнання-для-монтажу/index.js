@@ -8,7 +8,7 @@ import FeaturesArea from '../../../containers/machines/machines-ua'
 import ServicesArea from '../../../containers/machines/juki-ua'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
-import CaseStudyArea from '../../../containers/machines/smt-big-ua'
+import JukiLine from '../../../containers/lines/smt-serial-1'
 
 const language = "uk";
 const path = "ua/обладнання-для-монтажу"; 
@@ -20,7 +20,7 @@ const IndexServices = ({ location, pageFromCMS }) => (
       <HeroArea />
       <FeaturesArea />
       <ServicesArea />
-      <CaseStudyArea/>
+      <JukiLine language={language} />
       <ContactArea />
       <WhatsnewArea />
     </main>

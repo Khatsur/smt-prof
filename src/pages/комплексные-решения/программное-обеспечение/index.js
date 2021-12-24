@@ -7,7 +7,7 @@ import SoftwarePageHeader from '../../../components/page-header/software'
 import Software from '../../../containers/lines/software'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../../containers/machines/whats-new-area'
-import LineSolutions from '../../../containers/lines/solutions'
+import SoftSolutions from '../../../containers/lines/software/soft-menu'
 
 
 
@@ -22,7 +22,7 @@ const IndexPage = ({location}) => (
       
       <Software lang={language}/>
       <ContactArea />
-      <LineSolutions />
+      <SoftSolutions />
       <WhatsnewArea />
     </main>
     <Footer/>
