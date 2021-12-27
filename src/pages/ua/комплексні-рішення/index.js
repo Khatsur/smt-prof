@@ -8,8 +8,8 @@ import FeaturesArea from '../../../containers/lines/lines-ua'
 import LineSolutions from '../../../containers/lines/solutions-ua'
 import ContactArea from '../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../containers/machines/whats-new-area-ua'
-import CaseStudyArea from '../../../containers/machines/smt-big-ua'
-import SmallSmt from '../../../containers/lines/small-smt-ua'
+import CaseStudyArea from '../../../containers/lines/smt-serial-1'
+import SmallSmt from '../../../containers/lines/smt-small-1'
 
 const language = "uk";
 const path = "ua/комплексні-рішення"; 
@@ -22,9 +22,9 @@ const Materials = ({ location, pageFromCMS }) => (
       <HeroArea />
       <FeaturesArea />
       <LineSolutions />
-      <CaseStudyArea/>
+      <CaseStudyArea language={language} />
       <ContactArea />
-      <SmallSmt />
+      <SmallSmt language={language} />
       <WhatsnewArea />
     </main>
     <Footer />

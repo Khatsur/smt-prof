@@ -8,8 +8,8 @@ import FeaturesArea from '../../containers/lines/lines-ru'
 import ServicesArea from '../../containers/lines/solutions'
 import ContactArea from '../../containers/global/contact-area/contact-three-ru'
 import WhatsnewArea from '../../containers/machines/whats-new-area'
-import SmtLineBig1 from '../../containers/machines/smt-big'
-import SmallSmt from '../../containers/lines/small-smt'
+import SmtLineBig1 from '../../containers/lines/smt-serial-1'
+import SmallSmt from '../../containers/lines/smt-small-1'
 
 const language = "ru";
  const path = "комплексные-решения";
@@ -22,9 +22,9 @@ const Materials = ({ location, pageFromCMS }) => (
       <HeroArea />
       <FeaturesArea />
       <ServicesArea />
-      <SmtLineBig1 />
+      <SmtLineBig1 language={language} />
       <ContactArea />
-      <SmallSmt />
+      <SmallSmt language={language} />
       <WhatsnewArea />
     </main>
     <Footer />

@@ -10,7 +10,7 @@ import image2 from '../../../data/images/bg/machines/coating/dip-coating.png'
 import image3 from '../../../data/images/bg/machines/coating/spray-coating.png'
 import image4 from '../../../data/images/bg/machines/coating/curing.jpg'
 import image5 from '../../../data/images/bg/machines/coating/curing-con.jpg'
-
+import image6 from '../../../data/images/bg/machines/coating/coating-aoi.jpg'
 
 const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
     const boxContents = [
@@ -48,6 +48,13 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             title: 'Конвеєри для лінії',
             desc: 'Обладнання для переміщення плат у лінії для нанесення захисного покриття. Конвеєри мають спеціальне виконання для роботи зі шкідливими речовинами.',
             path: '/ua/обладнання-для-монтажу/захист-електроніки/конвеєри-захисних-покриттів'
+        },
+        {
+            id: 6,
+            imageSrc: image6,
+            title: 'Оптична інспекція',
+            desc: 'Обладнання для автоматичної оптичної інспекції нанесення захисних покриттів на плати',
+            path: '/ua/обладнання-для-монтажу/захист-електроніки/конвеєри-захисних-покриттів/інспекція-нанесення-захисних-покриттів'
         }
     ]
 

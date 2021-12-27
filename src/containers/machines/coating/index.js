@@ -10,6 +10,7 @@ import image2 from '../../../data/images/bg/machines/coating/dip-coating.png'
 import image3 from '../../../data/images/bg/machines/coating/spray-coating.png'
 import image4 from '../../../data/images/bg/machines/coating/curing.jpg'
 import image5 from '../../../data/images/bg/machines/coating/curing-con.jpg'
+import image6 from '../../../data/images/bg/machines/coating/coating-aoi.jpg'
 
 
 const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
@@ -45,9 +46,16 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
         {
             id: 5,
             imageSrc: image5,
-            title: 'Конвейры для линии',
+            title: 'Конвейры для линии нанесения',
             desc: 'Оборудование для перемещения плат в линии для нанесения защитных покрытий. Конвейеры имеют специальное исполнение.',
             path: '/оборудование-для-монтажа/влагозащита-электроники/конвейеры-защитных-покрытий'
+        },
+        {
+            id: 6,
+            imageSrc: image6,
+            title: 'Оптическая инспекция',
+            desc: 'Оборудование для автоматической оптической инспекции нанесения защитных покрытий на платы',
+            path: '/оборудование-для-монтажа/влагозащита-электроники/инспекция-нанесения-защитных-покрытий'
         }
     ]
 
