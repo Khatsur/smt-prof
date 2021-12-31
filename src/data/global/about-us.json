@@ -134,6 +134,14 @@
         "bg_image": "../images/bg/lines/smt-industry-40.jpg"
     },
     {
+        "id": "about-pcb-clean",
+        "title": "Жидкости для отмывки печатных плат",
+        "uatitle": "Рідини для відмивання друкованих плат",
+        "desc": "Жидкости для очистки собранных электронных узлов от остатков после проведения монтажных операций. Ультразвуковая и струйная отмывка. Автоматическая машинная мойка плат.",
+        "uadesc": "Рідини для чищення зібраних електронних вузлів від залишків після проведення монтажних операцій. Ультразвукове та струменеве відмивання. Автоматичне машинне миття плат.",
+        "bg_image": "../images/bg/materials/cleaning/pcb/pcb-cleaning-baner.jpg"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
         "title": "We run all kinds of IT services that vow your <span>success</span>",

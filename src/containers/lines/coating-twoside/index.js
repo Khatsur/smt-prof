@@ -44,7 +44,7 @@ const CaseStudySection = ({
             }
           }
         } 
-        allMachineJson (filter: {id: {regex: "/selective-delta-6|bi2000|selective-delta-8|queue|spectra/"}}, sort: {fields: line, order: ASC}, limit: 5) {
+        allMachineJson (filter: {id: {regex: "/selective-delta-6|bi2000|selective-delta-8|spectra|aoi-20-20/"}}, sort: {fields: line, order: ASC}, limit: 5) {
             edges {
                 node {
                     ru
@@ -66,7 +66,7 @@ const CaseStudySection = ({
                 }
             }
         }
-        allMachineUaJson (filter: {id: {regex: "/selective-delta-6|bi2000|selective-delta-8|queue|spectra/"}}, sort: {fields: line, order: ASC}, limit: 6) {
+        allMachineUaJson (filter: {id: {regex: "/selective-delta-6|bi2000|selective-delta-8|spectra|aoi-20-20/"}}, sort: {fields: line, order: ASC}, limit: 5) {
             edges {
                 node {
                     ru

@@ -75,6 +75,21 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             value: slugify(node.title)
         })
     }
+
+    if (node.internal.type === 'MaterialJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
+    if (node.internal.type === 'MaterialUaJson') {
+        createNodeField({
+            node,
+            name: "slug",
+            value: slugify(node.title)
+        })
+    }
     
 }
 
@@ -85,9 +100,11 @@ exports.createPages = async ({ graphql, actions }) => {
     const servicePage = path.resolve("./src/templates/service-template/service-template.js")
     const solutionPage = path.resolve("./src/templates/it-solution-template/it-solution-template.js")
     const caseStudyPage = path.resolve("./src/templates/case-study-template/case-study-template.js")
-    
     const machinePage = path.resolve("./src/templates/machine-template/machine-template.js")
     const machinePageUa = path.resolve("./src/templates/machine-template/machine-template-ua.js")
+
+    const materialPage = path.resolve("./src/templates/material-template/material-template.js")
+    const materialPageUa = path.resolve("./src/templates/material-template/material-template-ua.js")
 
     
     const singleBlogPage = path.resolve("./src/templates/blog-template/blog-template.js")
@@ -251,6 +268,95 @@ exports.createPages = async ({ graphql, actions }) => {
                 }
             }
 
+            allMaterialJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        ru
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            } 
+            allMaterialUaJson{
+                edges {
+                    node {
+                        fields{
+                            slug
+                        }
+                        ua
+                    }
+                    next {
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                    previous{
+                        fields{
+                            slug
+                        }
+                        id
+                        title
+                        bigtitle
+                        image {
+                          childImageSharp {
+                            fixed(height: 80, quality: 100) {
+                              src
+                              width
+                              height
+                            }
+                          }
+                        }
+                    }
+                }
+            }
+
             allMarkdownRemark {
                 edges {
                     node {
@@ -344,71 +450,6 @@ exports.createPages = async ({ graphql, actions }) => {
         })
     });
 
-    // Create Single Small Printer Page
-
-     // Create Single Small Printer Ua Page
-
-
-     // Create Single Small Printer PBT Page
-
-     // Create Single Small Printer PBT Ua Page
-
-
-     // Create Single Semi Printer Page
-
-    // Create Single Semi Printer Page Ua
-
-
-     // Create Single Auto Printer Page
-
-    // Create Single Auto Printer Page Ua
-
-
-     // Create Single Manipulator Page
-
-    // Create Single Manipulator Page Ua
-
-   
-
-    // Create Single Toptable Page
-
-   // Create Single Toptable Page Ua
-
-   
-
-   // Create Single Semi Placer Page
-
-  // Create Single Semi Placer Page Ua
-
-
-// Create Single Juki Placer Page
-
-// Create Single Juki Placer Page Ua
-
-  
-
-// Create Single Reflow Page
-
- // Create Single Reflow Page Ua
-
- 
-
- // Create Single Selective Page
-
-// Create Single Selective Page Ua
-
-
-
-// Create Single Inspection Page
-
-// Create Single Inspection Page Ua
-
-
-// Create Single Conveyer Page
-
-// Create Single Conveyer Page Ua
-
-
 
 // Create Single Machine Page
 
@@ -432,6 +473,36 @@ machineUa.forEach(({ node, next, previous }) => {
    createPage({
        path: `${node.ua}/${node.fields.slug}`,
        component: machinePageUa,
+       context: {
+           slug: node.fields.slug,
+           next,
+           previous
+       }
+   })
+});
+
+// Create Single Material Page
+
+const material = result.data.allMaterialJson.edges;
+material.forEach(({ node, next, previous }) => {
+   createPage({
+       path: `${node.ru}/${node.fields.slug}`,
+       component: materialPage,
+       context: {
+           slug: node.fields.slug,
+           next,
+           previous
+       }
+   })
+});
+
+// Create Single Material Page Ua
+
+const materialUa = result.data.allMaterialUaJson.edges;
+materialUa.forEach(({ node, next, previous }) => {
+   createPage({
+       path: `${node.ua}/${node.fields.slug}`,
+       component: materialPageUa,
        context: {
            slug: node.fields.slug,
            next,
