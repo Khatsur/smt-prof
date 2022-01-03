@@ -9,7 +9,7 @@ import ButtonSection from '../../../../../containers/elements/button/button-smt'
 const CaseStudiesArea = (props) => {
     const autoPrinterData = useStaticQuery(graphql `
         query {
-            allMaterialJson (filter: {id: {regex: "/zestron-pcb-us|vigon-efm/"}}, sort: {order: ASC, fields: id}) {
+            allMaterialJson (filter: {id: {regex: "/zestron-pcb-us/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -33,7 +33,7 @@ const CaseStudiesArea = (props) => {
                     }
                 }
             }
-            allMaterialUaJson (filter: {id: {regex: "/zestron-pcb-us|vigon-efm/"}}, sort: {order: ASC, fields: id}) {
+            allMaterialUaJson (filter: {id: {regex: "/zestron-pcb-us/"}}, sort: {order: ASC, fields: id}) {
                 edges {
                     node {
                         fields{
@@ -65,7 +65,7 @@ const CaseStudiesArea = (props) => {
     
     const caseStudies = autoPrinterData.allMaterialJson.edges;
     const caseStudiesUa = autoPrinterData.allMaterialUaJson.edges;
-    const brochure = "https://drive.google.com/file/d/1fyiZShg1Djwc7uOD1tD1KxCyLjN0paTg/view?usp=sharing";
+    const brochure = "";
 
     const {sectionStyle, headingStyle, caseStudyStyles} = props;
    
@@ -75,11 +75,11 @@ const CaseStudiesArea = (props) => {
         <Section {...sectionStyle}>
             <Row>
                 <Col>
-                <Heading {...headingStyle}>SMART оборудование для конвекционной пайки.</Heading>
-                    <h5 style={{textAlign: "justify", color: "#086AD8"}}>Конвейерные печи для работы в линии SMT</h5>
+                <Heading {...headingStyle}>Отмывочные жидкости для печатных плат</Heading>
+                    <h5 style={{textAlign: "justify", color: "#086AD8"}}>Жидкость для ультразвуковой отмывки плат</h5>
                     <h6 style={{textAlign: "justify"}}>
-                    Промышленные печи оплавления паяльной пасты серии RS применяются в условиях серийного и крупносерийного производств. Печи специально спроектированы для обеспечения: максимальной передачи тепла, широкого диапазона процесса пайки и постоянного отслеживания технологических параметров. Так комбинация передовых технологий пайки, простота в эксплуатации и техническом обслуживании, обеспечивает печам  лидирующее место на рынке печей для изделий с высокими требованиями в эксплуатации.</h6>
-                    <h5 style={{textAlign: "justify", color: "#086AD8"}}>SMART технологии пайки</h5>
+                    Отмывочные жидкости для ультразвуковой очистки печатных плат позволяют эффективно удалять остатки флюса и паяльной пасты с поверхности печатных плат, применяя различные виды оборудования для отмывки: ультразвуковые ванны, установки струйной отмывки в объеме, центрифуги и др. Применяются жидкости для отмывки плат для изделий с повышенными требования в эксплуатации: автомобильная электроника, промышленные системы управления, приборы жизнеобеспечения, медицинская техника, военка. Рекомендуется для изделий со следующими процессами нанесением влагозащитных покрытий для улучшения адгезии и снижение риска образования проводящих сред под защитным покрытием.</h6>
+                    <h5 style={{textAlign: "justify", color: "#086AD8"}}>SMART технологии очистки плат от ZESTRON</h5>
                 </Col>
             </Row>
             <br></br>
@@ -111,11 +111,11 @@ const CaseStudiesArea = (props) => {
         <Section {...sectionStyle}>
             <Row>
                 <Col>
-                <Heading {...headingStyle}>SMART обладнання для конвекційного паяння</Heading>
-                    <h5 style={{textAlign: "justify", color: "#086AD8"}}>Конвеєрні печі для роботи в лінії SMT</h5>
+                <Heading {...headingStyle}>Миючі рідини для друкованих плат</Heading>
+                    <h5 style={{textAlign: "justify", color: "#086AD8"}}>Рідина для ультразвукового відмивання плат</h5>
                     <h6 style={{textAlign: "justify"}}>
-                    Промислові печі оплавлення паяльної пасти серії RS застосовуються в умовах серійного і багатосерійного виробництв. Печі спеціально спроектовані для забезпечення: максимальної передачі тепла, широкого діапазону процесу пайки і постійного відстеження технологічних параметрів. Так комбінація передових технологій паяння, простота в експлуатації і технічному обслуговуванні, забезпечує печам лідируюче місце на ринку для виробів з високими вимогами в експлуатації.</h6>
-                    <h5 style={{textAlign: "justify", color: "#086AD8"}}>SMART технології паяння</h5>
+                    Миючі рідини для ультразвукового очищення друкованих плат дозволяють ефективно видаляти залишки флюсу та паяльної пасти з поверхні друкованих плат, застосовуючи різні види обладнання для миття: ультразвукові ванни, установки струминевого миття в об'ємі, центрифуги та ін. Застосовуються рідини для відмивання плат для виробів з підвищеними вимогами в експлуатації: автомобільна електроніка, промислові системи управління, прилади життєзабезпечення, медична техніка, військова продукція. Рекомендується для виробів з наступними процесами нанесенням вологозахисних покриттів для покращення адгезії та зниження ризику утворення токопровідних середовищ під захисним покриттям.</h6>
+                    <h5 style={{textAlign: "justify", color: "#086AD8"}}>SMART технології очищення плат від ZESTRON</h5>
                 </Col>
             </Row>
             <br></br>

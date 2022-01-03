@@ -12,7 +12,7 @@ import Image from '../../components/image'
 import VideoButton from '../../components/ui/video-button'
 import ModalVideo from '../../components/ui/modal-video'
 import ContactArea from '../../containers/global/contact-area/contact-three-ua'
-import Machines from '../../containers/machines/machine-ua'
+import Machines from '../../containers/materials/material-ua'
 import PostNav from '../../components/post-nav/layout-one'
 import {
     Accordion,
@@ -97,7 +97,7 @@ const CaseStudyTemplate = ({ data, pageContext: { next, previous }, location, ..
 const lang = "uk";
 
 let machine;
-const machines = ["smt", "tht", "cleaning", "coating", "wire", "cutting", "storage", "filtration", "dispensing", "software"];
+const machines = ["cleaning", "soldering", "coating"];
 for (let i = 0; i < machines.length; i++) {
     const regmachine = new RegExp(`${machines[i]}`);
     if (regmachine.test(`${pageData.id}`)) {
