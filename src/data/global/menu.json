@@ -420,123 +420,61 @@
         "link": "/материалы-для-smt",
         "megamenu": [
             {
-                "title": "Element Group 01",
-                "linktitle": "/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов",
+                "title": "Материалы для пайки",
+                "linktitle": "/материалы-для-smt/паяльная-паста-и-припой",
                 "submenu": [
                     {
-                        "text": "Accordion",
-                        "link": "/elements/accordion"
+                        "text": "Паяльные пасты",
+                        "link": "/материалы-для-smt/паяльная-паста-и-припой/паяльная-паста"
                     },
                     {
-                        "text": "Box Icon",
-                        "link": "/elements/box-icon"
+                        "text": "Припой",
+                        "link": "/материалы-для-smt/паяльная-паста-и-припой/припой-для-пайки"
                     },
                     {
-                        "text": "Box Image",
-                        "link": "/elements/box-image"
-                    },
-                    {
-                        "text": "Box Large Image",
-                        "link": "/elements/box-large-image"
-                    },
-                    {
-                        "text": "Buttons",
-                        "link": "/elements/button"
-                    },
-                    {
-                        "text": "Call to action",
-                        "link": "/elements/call-to-action"
-                    },
-                    {
-                        "text": "Client Logo",
-                        "link": "/elements/client-logo"
+                        "text": "Флюс",
+                        "link": "/материалы-для-smt/паяльная-паста-и-припой/флюс-для-пайки"
                     }
                 ]
             },
             {
-                "title": "Element Group 02",
-                "linktitle": "/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов",
+                "title": "Жидкости для отмывки",
+                "linktitle": "/материалы-для-smt/жидкости-для-мойки",
                 "submenu": [
                     {
-                        "text": "Counters",
-                        "link": "/elements/counters"
+                        "text": "Отмывка плат",
+                        "link": "/материалы-для-smt/жидкости-для-мойки/жидкости-для-отмывки-печатных-плат"
                     },
                     {
-                        "text": "Dividers",
-                        "link": "/elements/dividers"
+                        "text": "Очистка трафаретов",
+                        "link": "/материалы-для-smt/жидкости-для-мойки/жидкость-для-очистки-трафаретов"
                     },
                     {
-                        "text": "Flexible image slider",
-                        "link": "/elements/flexible-image-slider"
-                    },
-                    {
-                        "text": "Google Map",
-                        "link": "/elements/google-map"
-                    },
-                    {
-                        "text": "Gradation",
-                        "link": "/elements/gradation"
-                    },
-                    {
-                        "text": "Lists",
-                        "link": "/elements/lists"
-                    },
-                    {
-                        "text": "Message box",
-                        "link": "/elements/message-box"
+                        "text": "Очистка оборудования",
+                        "link": "/материалы-для-smt/жидкости-для-мойки/жидкость-для-очистки-оборудования"
                     }
                 ]
             },
             {
-                "title": "Element Group 03",
-                "linktitle": "/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов",
+                "title": "Защитные покрытия",
+                "linktitle": "/материалы-для-smt/защитные-покрытия",
                 "submenu": [
                     
                     {
-                        "text": "Popup Video",
-                        "link": "/elements/popup-video"
+                        "text": "Акриловые",
+                        "link": "/материалы-для-smt/защитные-покрытия/влагозащитные-акриловые-покрытия"
                     },
                     {
-                        "text": "Pricing Box",
-                        "link": "/elements/pricing-box"
+                        "text": "Уретановые",
+                        "link": "/материалы-для-smt/защитные-покрытия/влагозащитные-уретановые-покрытия"
                     },
                     {
-                        "text": "Progress Bar",
-                        "link": "/elements/progress-bar"
+                        "text": "УФ отверждения",
+                        "link": "/материалы-для-smt/защитные-покрытия/покрытия-ультрафиолетового-отверждения"
                     },
                     {
-                        "text": "Progress Circle",
-                        "link": "/elements/progress-circle"
-                    },
-                    {
-                        "text": "Social Networks",
-                        "link": "/elements/social-networks"
-                    },
-                    {
-                        "text": "Tabs",
-                        "link": "/elements/tabs"
-                    },
-                    {
-                        "text": "Team member",
-                        "link": "/elements/team-member"
-                    }
-                ]
-            }, 
-            {
-                "title": "Element Group 04",
-                "linktitle": "/оборудование-для-монтажа/поверхностный-монтаж/автоматы-установки-компонентов",
-                "submenu": [
-                    {
-                        "text": "Testimonials",
-                        "link": "/elements/testimonials"
-                    },
-                    {
-                        "text": "Timeline",
-                        "link": "/elements/timeline"
-                    },
-                    {
-                        "text": "Typed Text",
-                        "link": "/elements/typed-text"
+                        "text": "Силиконовые",
+                        "link": "/материалы-для-smt/защитные-покрытия/влагозащитные-силиконовые-покрытия"
                     }
                 ]
             }

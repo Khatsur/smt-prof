@@ -5,13 +5,13 @@ function useFormUrl(props) {
         query GET_FORM_URL {
             site {
                 siteMetadata {
-                    getform
+                    formspree
                 }
             }
         }      
     `)
-    const { site: { siteMetadata: { getform } } } = getFormUrl
-    return getform;
+    const { site: { siteMetadata: { formspree } } } = getFormUrl
+    return formspree;
 }
 
 export default useFormUrl

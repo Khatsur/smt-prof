@@ -305,9 +305,7 @@ export const query = graphql`
                 publicURL
             }
             brochure
-            seoimage {
-                relativePath
-              }
+            
             results
             faq {
                 id

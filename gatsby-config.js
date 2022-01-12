@@ -13,6 +13,7 @@ module.exports = {
 		keywords: 'smt-prof',
 		lang: 'ru',
 		getform: "https://getform.io/f/58c49e90-e767-4e18-959e-4fcd84bf8659",
+		formspree: "https://formspree.io/f/mlezdppb",
 		copyright: "SMT PROF. <a href='https://www.smt-prof.com.ua' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
 		copyrightua: "SMT PROF. <a href='https://www.smt-prof.com.ua' target='_blank' rel='noopener noreferrer'>Всі права захищені</a>",
 		social: {

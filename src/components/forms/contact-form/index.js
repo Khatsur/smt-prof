@@ -75,6 +75,38 @@ const ContactForm = () => {
                     </FormGroup>
                 </Col>
             </Row>
+            <Row gutters={{ lg: 20 }}>
+                <Col lg={6}>
+                    <FormGroup mb="20px">
+                        <Input
+                            type="text"
+                            name="company"
+                            id="company"
+                            placeholder="Company *"
+                            ref={register({ required: 'Company is required' })}
+                        />
+                        <Error>{errors.name && errors.name.message}</Error>
+                    </FormGroup>
+                </Col>
+                <Col lg={6}>
+                    <FormGroup mb="20px">
+                        <Input
+                            type="tel"
+                            name="tel"
+                            id="tel"
+                            placeholder="Telephone *"
+                            ref={register({
+                                required: 'Telephone is required',
+                                pattern: {
+                                    value: /^[+]?[0-9() -]*$/i,
+                                    message: "invalid telephone number"
+                                }
+                            })}
+                        />
+                        <Error>{errors.email && errors.email.message}</Error>
+                    </FormGroup>
+                </Col>
+            </Row>
             <Row>
                 <Col lg={12}>
                     <FormGroup mb="20px">
@@ -100,7 +132,7 @@ const ContactForm = () => {
                                 required: 'Message is required',
                                 maxLength: {
                                     value: 50,
-                                    message: "Maximum length is 50"
+                                    message: "Maximum length is 100"
                                 },
                                 minLength: {
                                     value: 10,

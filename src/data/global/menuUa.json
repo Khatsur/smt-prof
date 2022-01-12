@@ -409,119 +409,61 @@
         "link": "/ua/матеріали-для-smt",
         "megamenu": [
             {
-                "title": "Element Group 01",
+                "title": "Матеріали для паяння",
+                "linktitle": "ua/матеріали-для-smt/матеріали-для-паяння",
                 "submenu": [
                     {
-                        "text": "Accordion",
-                        "link": "/elements/accordion"
+                        "text": "Паяльна паста",
+                        "link": "/ua/матеріали-для-smt/матеріали-для-паяння/паяльна-паста"
                     },
                     {
-                        "text": "Box Icon",
-                        "link": "/elements/box-icon"
+                        "text": "Припій",
+                        "link": "/ua/матеріали-для-smt/матеріали-для-паяння/припій-для-паяння"
                     },
                     {
-                        "text": "Box Image",
-                        "link": "/elements/box-image"
-                    },
-                    {
-                        "text": "Box Large Image",
-                        "link": "/elements/box-large-image"
-                    },
-                    {
-                        "text": "Buttons",
-                        "link": "/elements/button"
-                    },
-                    {
-                        "text": "Call to action",
-                        "link": "/elements/call-to-action"
-                    },
-                    {
-                        "text": "Client Logo",
-                        "link": "/elements/client-logo"
+                        "text": "Флюс",
+                        "link": "/ua/матеріали-для-smt/матеріали-для-паяння/флюс-для-паяння"
                     }
                 ]
             },
             {
-                "title": "Element Group 02",
+                "title": "Рідини для чищення",
+                "linktitle": "/ua/матеріали-для-smt/рідини-для-чищення",
                 "submenu": [
                     {
-                        "text": "Counters",
-                        "link": "/elements/counters"
+                        "text": "Відмивання плат",
+                        "link": "/ua/матеріали-для-smt/рідини-для-чищення/рідини-для-відмивання-друкованих-плат"
                     },
                     {
-                        "text": "Dividers",
-                        "link": "/elements/dividers"
+                        "text": "Очищення трафаретів",
+                        "link": "/ua/матеріали-для-smt/рідини-для-чищення/рідина-для-очищення-трафаретів"
                     },
                     {
-                        "text": "Flexible image slider",
-                        "link": "/elements/flexible-image-slider"
-                    },
-                    {
-                        "text": "Google Map",
-                        "link": "/elements/google-map"
-                    },
-                    {
-                        "text": "Gradation",
-                        "link": "/elements/gradation"
-                    },
-                    {
-                        "text": "Lists",
-                        "link": "/elements/lists"
-                    },
-                    {
-                        "text": "Message box",
-                        "link": "/elements/message-box"
+                        "text": "Чищення обладнання",
+                        "link": "/ua/матеріали-для-smt/рідини-для-чищення/рідина-для-очищення-обладнання"
                     }
                 ]
             },
             {
-                "title": "Element Group 03",
+                "title": "Захисні покриття",
+                "linktitle": "/ua/матеріали-для-smt/захисні-покриття",
                 "submenu": [
                     
                     {
-                        "text": "Popup Video",
-                        "link": "/elements/popup-video"
+                        "text": "Акрилові",
+                        "link": "/ua/матеріали-для-smt/захисні-покриття/вологозахисні-акрилові-покриття"
                     },
                     {
-                        "text": "Pricing Box",
-                        "link": "/elements/pricing-box"
+                        "text": "Уретанові",
+                        "link": "/ua/матеріали-для-smt/захисні-покриття/вологозахисні-уретанові-покриття"
                     },
                     {
-                        "text": "Progress Bar",
-                        "link": "/elements/progress-bar"
+                        "text": "УФ затвердіння",
+                        "link": "/ua/матеріали-для-smt/захисні-покриття/покриття-ультрафіолетового-затвердіння"
                     },
                     {
-                        "text": "Progress Circle",
-                        "link": "/elements/progress-circle"
-                    },
-                    {
-                        "text": "Social Networks",
-                        "link": "/elements/social-networks"
-                    },
-                    {
-                        "text": "Tabs",
-                        "link": "/elements/tabs"
-                    },
-                    {
-                        "text": "Team member",
-                        "link": "/elements/team-member"
-                    }
-                ]
-            }, 
-            {
-                "title": "Element Group 04",
-                "submenu": [
-                    {
-                        "text": "Testimonials",
-                        "link": "/elements/testimonials"
-                    },
-                    {
-                        "text": "Timeline",
-                        "link": "/elements/timeline"
-                    },
-                    {
-                        "text": "Typed Text",
-                        "link": "/elements/typed-text"
+                        "text": "Силіконові",
+                        "link": "/ua/матеріали-для-smt/захисні-покриття/вологозахисні-силіконові-покриття"
                     }
                 ]
             }

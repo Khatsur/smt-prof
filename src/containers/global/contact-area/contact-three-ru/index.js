@@ -8,6 +8,7 @@ import Text from '../../../../components/ui/text'
 import Anchor from '../../../../components/ui/anchor'
 import Button from '../../../../components/ui/button'
 import {SectionWrap, ContactInfoBox} from './contact.style'
+//import Modal from '../../../../components/modal/modal.js'
 
 const ContactArea = ({
     headingStyle, 
@@ -53,9 +54,9 @@ const ContactArea = ({
                             <MdPhone className="icon"/>
                             <Heading {...titleStyle}>ПОЗВОНИТЕ СЕЙЧАС!</Heading>
                             {phone && (
-                                <Heading><Anchor path="/" {...phoneAnchorStyle}>{phone}</Anchor></Heading>
+                                <Heading><Anchor path="tel:+380504409925" {...phoneAnchorStyle}>{phone}</Anchor></Heading>
                             )}
-                            <Button {...btnStyle}>Сообщение</Button>
+                            <Button to="/contact-us" {...btnStyle}>Сообщение</Button>
                         </ContactInfoBox>
                     </Col>
                 </Row>

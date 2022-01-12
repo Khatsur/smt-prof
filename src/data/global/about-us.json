@@ -142,6 +142,14 @@
         "bg_image": "../images/bg/materials/cleaning/pcb/pcb-cleaning-baner.jpg"
     },
     {
+        "id": "about-maintenance-clean",
+        "title": "Жидкости для очистки оборудования",
+        "uatitle": "Рідини для очищення обладнання",
+        "desc": "Жидкости для очистки паяльного оборудования (паяльные печи, селективная и волновая пайка) и очистки технологической оснастки (паллеты для пайки и защитных покрытий)",
+        "uadesc": "Рідини для очищення паяльного обладнання (паяльні печі, селективне та хвильове паяння) та очищення технологічного оснащення (паллети для паяння та захисних покриттів)",
+        "bg_image": "../images/bg/materials/cleaning/maintenance/mein-baner.jpg"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
         "title": "We run all kinds of IT services that vow your <span>success</span>",

@@ -10,7 +10,7 @@ const CaseStudiesArea = (props) => {
   const autoPrinterData = useStaticQuery(graphql`
     query {
       allMaterialJson(
-        filter: { id: { regex: "/zestron-pcb-spray|vigon-efm/" } }
+        filter: { id: { regex: "/zestron-pcb-spray/" } }
         sort: { order: ASC, fields: id }
       ) {
         edges {
@@ -37,7 +37,7 @@ const CaseStudiesArea = (props) => {
         }
       }
       allMaterialUaJson(
-        filter: { id: { regex: "/zestron-pcb-spray|vigon-efm/" } }
+        filter: { id: { regex: "/zestron-pcb-spray/" } }
         sort: { order: ASC, fields: id }
       ) {
         edges {

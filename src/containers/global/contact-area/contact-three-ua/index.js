@@ -53,9 +53,9 @@ const ContactArea = ({
                             <MdPhone className="icon"/>
                             <Heading {...titleStyle}>НАБИРАЙТЕ ЗАРАЗ!</Heading>
                             {phone && (
-                                <Heading><Anchor path="/" {...phoneAnchorStyle}>{phone}</Anchor></Heading>
+                                <Heading><Anchor path="tel:+380504409925" {...phoneAnchorStyle}>{phone}</Anchor></Heading>
                             )}
-                            <Button {...btnStyle}>Повідомлення</Button>
+                            <Button to="/ua/contact-us" {...btnStyle}>Повідомлення</Button>
                         </ContactInfoBox>
                     </Col>
                 </Row>
