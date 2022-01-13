@@ -8,10 +8,12 @@ import MaterialCoatingUa from '../../../../containers/materials/coating-ua'
 import ContactArea from '../../../../containers/global/contact-area/contact-three-ua'
 import WhatsnewArea from '../../../../containers/machines/whats-new-area-ua'
  
+const language = "uk";
+const path = "ua/матеріали-для-smt/захисні-покриття";
 const IndexPage = ({location}) => (
   <Layout location={location}>
     <SEO title="Захисні покриття" description="Захисні покриття для нанесення на плати. Застосовуються для захисту друкованих плат від впливу навколишнього середовища, хімічних речовин і температури" pathname="ua/матеріали-для-smt/захисні-покриття" keywords="захисні покриття, лак для друкованих плат, захист електроніки, акрилові покриття, силіконовий лак, ур-63, уретанове покриття, humiseal, лакування плат" lang="uk" />
-    <Header/>
+    <Header path={path} />
     <main className="site-wrapper-reveal">
       <HeroArea/>
       <MaterialCoatingUa/>

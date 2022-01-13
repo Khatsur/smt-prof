@@ -7,7 +7,7 @@ import UsCleanPageHeader from "../../../../components/pageheader/maintenance-cle
 import MaintenanceCleanPcb from "../../../../containers/materials/cleaning/maintenance";
 import ContactArea from "../../../../containers/global/contact-area/contact-three-ru";
 import MaterialClean from "../../../../containers/materials/cleaning";
-import img from '../../../../data/images/bg/materials/cleaning/pcb/pcb-cleaning-baner.jpg'
+import img from '../../../../data/images/bg/materials/cleaning/maintenance/mein-baner.jpg'
 
 
 const title = "Жидкость для очистки оборудования";

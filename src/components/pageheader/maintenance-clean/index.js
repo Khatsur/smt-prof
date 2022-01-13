@@ -23,15 +23,15 @@ const PageHeader = ({pageContext, location, title}) => {
     const label = crumbLabelArr[crumbLabelArr.length - 1]
     const labelArr = label.split('-');
     const imageData = useStaticQuery(graphql `
-        query MaintanCleaningCrumbImgQuery {
-            file(relativePath: {eq: "images/bg/materials/cleaning/maintenance/mein-baner.jpg"}) {
-                childImageSharp {
-                    fluid(maxWidth: 1520, maxHeight: 400, quality: 100) {
-                        ...GatsbyImageSharpFluid
-                    }
+    query MaintanCleaningCrumbImgQuery {
+        file(relativePath: {eq: "images/bg/materials/cleaning/maintenance/mein-baner.jpg"}) {
+            childImageSharp {
+                fluid(maxWidth: 1520, maxHeight: 400, quality: 100) {
+                    ...GatsbyImageSharpFluid
                 }
             }
         }
+    }
       
     `);
     return (

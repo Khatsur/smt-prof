@@ -7,7 +7,7 @@ import MaintenanceCleanPageHeader from "../../../../../components/pageheader/mai
 import MaintenanceCleanPcb from "../../../../../containers/materials/cleaning/maintenance";
 import ContactArea from "../../../../../containers/global/contact-area/contact-three-ua";
 import MaterialClean from "../../../../../containers/materials/cleaning-ua";
-import img from '../../../../../data/images/bg/materials/cleaning/pcb/pcb-cleaning-baner.jpg'
+import img from '../../../../../data/images/bg/materials/cleaning/maintenance/mein-baner.jpg'
 
 
 const title = "Рідина для очищення обладнання";
