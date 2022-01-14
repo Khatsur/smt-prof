@@ -8,6 +8,8 @@ import { SectionWrap } from './section.style'
 import image1 from '../../../data/images/bg/materials/cleaning/cleaning-pcb.png'
 import image2 from '../../../data/images/bg/materials/cleaning/cleaning-stencil.png'
 import image3 from '../../../data/images/bg/materials/cleaning/cleaning-pallete.png'
+import image4 from '../../../data/images/bg/materials/cleaning/analitic/zestron-eye-mobile-300x300.jpg'
+import image5 from '../../../data/images/bg/materials/cleaning/analitic/flux-test-300x300.jpg'
 
 
 
@@ -33,6 +35,20 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             title: 'Мойка оснастки',
             desc: 'Моющие жидкости для очистки технологической оснастки для пайки (паллеты) и для нанесения защитных покрытий. Материалы для проведения ТО.',
             path: '/материалы-для-smt/жидкости-для-мойки/жидкость-для-очистки-оборудования'
+        },
+        {
+            id: 4,
+            imageSrc: image4,
+            title: 'Контроль концентрации',
+            desc: 'Методы и системы для определения концентрации моющего раствора. Автоматические системы регулирования и химические наборы для определения концентрации',
+            path: '/материалы-для-smt/жидкости-для-мойки/методы-контроля-качества-отмывки-плат'
+        },
+        {
+            id: 5,
+            imageSrc: image5,
+            title: 'Анализ чистоты',
+            desc: 'Анализ чистоты поверхности печатных плат на наличие загрязнений. Тестовые наборы, позволяющий посредством изменения окраски поверхности определить наличие остатков активаторов',
+            path: '/материалы-для-smt/жидкости-для-мойки/анализ-чистоты-поверхности-плат'
         }
     ]
 

@@ -8,8 +8,8 @@ import { SectionWrap } from './section.style'
 import image1 from '../../../data/images/bg/materials/cleaning/cleaning-pcb.png'
 import image2 from '../../../data/images/bg/materials/cleaning/cleaning-stencil.png'
 import image3 from '../../../data/images/bg/materials/cleaning/cleaning-pallete.png'
-import image4 from '../../../data/images/bg/machines/smt/smt-spi.png'
-import image5 from '../../../data/images/bg/machines/smt/smt-aoi.png'
+import image4 from '../../../data/images/bg/materials/cleaning/analitic/zestron-eye-mobile-300x300.jpg'
+import image5 from '../../../data/images/bg/materials/cleaning/analitic/flux-test-300x300.jpg'
 import image6 from '../../../data/images/bg/machines/smt/smt-conveyer.png'
 import image7 from '../../../data/images/bg/machines/cleaning/pcb-cleaning.png'
 import image8 from '../../../data/images/bg/machines/cleaning/stencil-cleaning.png'
@@ -43,6 +43,20 @@ const BoxSection = ({ sectionTitleStyle, machine, linkStyle, sectionBottomStyle 
             title: 'Миття устаткування',
             desc: 'Миючі рідини для очищення технологічної оснастки для пайки (палети) і для нанесення захисних покриттів. Матеріали для проведення ТО.',
             path: '/ua/матеріали-для-smt/рідини-для-чищення/рідина-для-очищення-обладнання'
+        },
+        {
+            id: 4,
+            imageSrc: image4,
+            title: 'Контроль концентрації',
+            desc: 'Методи та системи для визначення концентрації миючого розчину. Автоматичні системи регулювання та хімічні набори для визначення концентрації',
+            path: '/ua/матеріали-для-smt/рідини-для-чищення/методи-контролю-якості-миття-плат'
+        },
+        {
+            id: 5,
+            imageSrc: image5,
+            title: 'Аналіз чистоти плат',
+            desc: 'Аналіз чистоти поверхні друкованих плат на наявність забруднень. Тестові набори, що дозволяють за допомогою зміни кольору поверхні визначити наявність залишків активаторів',
+            path: '/ua/матеріали-для-smt/рідини-для-чищення/аналіз-чистоти-поверхні-плат'
         }
     ];
      description = "Матеріали для очищення застосовуються для трьох основний процесів у виробництві електроніки. Очищення зібраних друкованих плат від залишків паяльних матеріалів та інших забруднень в процесі виробництва. У поверхневому монтажі рідини для миття використовуються для очищення трафаретів в принтері (нижнє очищення) і в окремих машинах для миття трафаретів. Окремий розділ складають миючі рідини, які використовуються для миття технологічного оснащення (палети для паяння хвилею припою і для нанесення захисних покриттів) і частин паяльного обладнання (пастки флюсу та ін.)."; 

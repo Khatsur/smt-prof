@@ -7,7 +7,7 @@ import StencilCleanPageHeader from "../../../../../components/pageheader/stencil
 import StencilCleanPcb from "../../../../../containers/materials/cleaning/stencil";
 import ContactArea from "../../../../../containers/global/contact-area/contact-three-ua";
 import MaterialClean from "../../../../../containers/materials/cleaning-ua";
-import img from '../../../../../data/images/bg/materials/cleaning/maintenance/mein-baner.jpg'
+import img from '../../../../../data/images/bg/materials/cleaning/stencil/stencil-clean-baner.jpg'
 
 
 const title = "Рідина для очищення трафаретів";

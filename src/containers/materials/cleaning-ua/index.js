@@ -8,6 +8,8 @@ import { SectionWrap } from './section.style'
 import image1 from '../../../data/images/bg/materials/cleaning/cleaning-pcb.png'
 import image2 from '../../../data/images/bg/materials/cleaning/cleaning-stencil.png'
 import image3 from '../../../data/images/bg/materials/cleaning/cleaning-pallete.png'
+import image4 from '../../../data/images/bg/materials/cleaning/analitic/zestron-eye-mobile-300x300.jpg'
+import image5 from '../../../data/images/bg/materials/cleaning/analitic/flux-test-300x300.jpg'
 
 
 
@@ -33,6 +35,20 @@ const BoxSection = ({ sectionTitleStyle, linkStyle, sectionBottomStyle }) => {
             title: 'Миття устаткування',
             desc: 'Миючі рідини для очищення технологічної оснастки для пайки (палети) і для нанесення захисних покриттів. Матеріали для проведення ТО.',
             path: '/ua/матеріали-для-smt/рідини-для-чищення/рідина-для-очищення-обладнання'
+        },
+        {
+            id: 4,
+            imageSrc: image4,
+            title: 'Контроль концентрації',
+            desc: 'Методи та системи для визначення концентрації миючого розчину. Автоматичні системи регулювання та хімічні набори для визначення концентрації',
+            path: '/ua/матеріали-для-smt/рідини-для-чищення/методи-контролю-якості-миття-плат'
+        },
+        {
+            id: 5,
+            imageSrc: image5,
+            title: 'Аналіз чистоти плат',
+            desc: 'Аналіз чистоти поверхні друкованих плат на наявність забруднень. Тестові набори, що дозволяють за допомогою зміни кольору поверхні визначити наявність залишків активаторів',
+            path: '/ua/матеріали-для-smt/рідини-для-чищення/аналіз-чистоти-поверхні-плат'
         }
     ]
 

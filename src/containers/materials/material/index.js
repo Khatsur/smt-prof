@@ -8,8 +8,8 @@ import { SectionWrap } from './section.style'
 import image1 from '../../../data/images/bg/materials/cleaning/cleaning-pcb.png'
 import image2 from '../../../data/images/bg/materials/cleaning/cleaning-stencil.png'
 import image3 from '../../../data/images/bg/materials/cleaning/cleaning-pallete.png'
-import image4 from '../../../data/images/bg/machines/smt/smt-spi.png'
-import image5 from '../../../data/images/bg/machines/smt/smt-aoi.png'
+import image4 from '../../../data/images/bg/materials/cleaning/analitic/zestron-eye-mobile-300x300.jpg'
+import image5 from '../../../data/images/bg/materials/cleaning/analitic/flux-test-300x300.jpg'
 import image6 from '../../../data/images/bg/machines/smt/smt-conveyer.png'
 import image7 from '../../../data/images/bg/machines/cleaning/pcb-cleaning.png'
 import image8 from '../../../data/images/bg/machines/cleaning/stencil-cleaning.png'
@@ -43,6 +43,20 @@ const BoxSection = ({ sectionTitleStyle, machine, linkStyle, sectionBottomStyle 
             title: 'Мойка оснастки',
             desc: 'Моющие жидкости для очистки технологической оснастки для пайки (паллеты) и для нанесения защитных покрытий. Материалы для проведения ТО.',
             path: '/материалы-для-smt/жидкости-для-мойки/жидкость-для-очистки-оборудования'
+        },
+        {
+            id: 4,
+            imageSrc: image4,
+            title: 'Контроль концентрации',
+            desc: 'Методы и системы для определения концентрации моющего раствора. Автоматические системы регулирования и химические наборы для определения концентрации',
+            path: '/материалы-для-smt/жидкости-для-мойки/методы-контроля-качества-отмывки-плат'
+        },
+        {
+            id: 5,
+            imageSrc: image5,
+            title: 'Анализ чистоты плат',
+            desc: 'Анализ чистоты поверхности печатных плат на наличие загрязнений. Тестовые наборы, позволяющие посредством изменения окраски поверхности определить наличие остатков активаторов',
+            path: '/материалы-для-smt/жидкости-для-мойки/анализ-чистоты-поверхности-плат'
         }
     ];
      description = "Материалы для очистки применяются для трех основный процессов в производстве электроники.  Очистка собранных печатных плат от остатков паяльных материалов и других загрязнений в процессе производства. В поверхностном монтаже жидкости для мойки используются для очистки трафаретов в принтере (нижняя очистка) и в отдельных машинах. Отдельный раздел составляют моющие жидкости, которые используются для мойки технологической оснастки (паллеты для пайки и для нанесения защитных покрытий) и частей паяльного оборудования (ловушки флюса и др.)."; 

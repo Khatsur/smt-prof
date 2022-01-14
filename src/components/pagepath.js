@@ -1884,9 +1884,65 @@ export const PagePath = [
         "lang": ""
     },
     {
-        "id": "materials-cleaning-test",
+        "id": "materials-cleaning-analitic",
         "ru": "материалы-для-smt/жидкости-для-мойки/методы-контроля-качества-отмывки-плат",
         "ua": "ua/матеріали-для-smt/рідини-для-чищення/методи-контролю-якості-миття-плат",
+        "en": "en/materials",
+        "lang": ""
+    },
+    {
+        "id": "materials-cleaning-analitic-bath-analyzer-10",
+        "ru": "материалы-для-smt/жидкости-для-мойки/методы-контроля-качества-отмывки-плат/bath-analyzer-10",
+        "ua": "ua/матеріали-для-smt/рідини-для-чищення/методи-контролю-якості-миття-плат/bath-analyzer-10",
+        "en": "en/materials",
+        "lang": ""
+    },
+    {
+        "id": "materials-cleaning-analitic-bath-analyzer-20",
+        "ru": "материалы-для-smt/жидкости-для-мойки/методы-контроля-качества-отмывки-плат/bath-analyzer-20",
+        "ua": "ua/матеріали-для-smt/рідини-для-чищення/методи-контролю-якості-миття-плат/bath-analyzer-20",
+        "en": "en/materials",
+        "lang": ""
+    },
+    {
+        "id": "materials-cleaning-analitic-zestron-eye",
+        "ru": "материалы-для-smt/жидкости-для-мойки/методы-контроля-качества-отмывки-плат/zestron-eye",
+        "ua": "ua/матеріали-для-smt/рідини-для-чищення/методи-контролю-якості-миття-плат/zestron-eye",
+        "en": "en/materials",
+        "lang": ""
+    },
+    {
+        "id": "materials-cleaning-analitic-zestron-eye-mobile",
+        "ru": "материалы-для-smt/жидкости-для-мойки/методы-контроля-качества-отмывки-плат/zestron-eye-mobile",
+        "ua": "ua/матеріали-для-smt/рідини-для-чищення/методи-контролю-якості-миття-плат/zestron-eye-mobile",
+        "en": "en/materials",
+        "lang": ""
+    },
+    {
+        "id": "materials-cleaning-test",
+        "ru": "материалы-для-smt/жидкости-для-мойки/анализ-чистоты-поверхности-плат",
+        "ua": "ua/матеріали-для-smt/рідини-для-чищення/аналіз-чистоти-поверхні-плат",
+        "en": "en/materials",
+        "lang": ""
+    },
+    {
+        "id": "materials-cleaning-test-zestron-flux-test",
+        "ru": "материалы-для-smt/жидкости-для-мойки/анализ-чистоты-поверхности-плат/zestron-flux-test",
+        "ua": "ua/матеріали-для-smt/рідини-для-чищення/аналіз-чистоти-поверхні-плат/zestron-flux-test",
+        "en": "en/materials",
+        "lang": ""
+    },
+    {
+        "id": "materials-cleaning-test-zestron-resin-test",
+        "ru": "материалы-для-smt/жидкости-для-мойки/анализ-чистоты-поверхности-плат/zestron-resin-test",
+        "ua": "ua/матеріали-для-smt/рідини-для-чищення/аналіз-чистоти-поверхні-плат/zestron-resin-test",
+        "en": "en/materials",
+        "lang": ""
+    },
+    {
+        "id": "materials-cleaning-test-zestron-coating-layer-test",
+        "ru": "материалы-для-smt/жидкости-для-мойки/анализ-чистоты-поверхности-плат/zestron-coating-layer-test",
+        "ua": "ua/матеріали-для-smt/рідини-для-чищення/аналіз-чистоти-поверхні-плат/zestron-coating-layer-test",
         "en": "en/materials",
         "lang": ""
     },

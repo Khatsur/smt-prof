@@ -56,7 +56,7 @@ const ContactArea = ({
                             {phone && (
                                 <Heading><Anchor path="tel:+380504409925" {...phoneAnchorStyle}>{phone}</Anchor></Heading>
                             )}
-                            <Button to="/contact-us" {...btnStyle}>Сообщение</Button>
+                            <Button to="/contact-us-form" {...btnStyle}>Сообщение</Button>
                         </ContactInfoBox>
                     </Col>
                 </Row>
