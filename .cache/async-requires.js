@@ -8,6 +8,8 @@ exports.components = {
   "component---src-pages-blog-js": () => import("./../src/pages/blog.js" /* webpackChunkName: "component---src-pages-blog-js" */),
   "component---src-pages-careers-js": () => import("./../src/pages/careers.js" /* webpackChunkName: "component---src-pages-careers-js" */),
   "component---src-pages-case-studies-js": () => import("./../src/pages/case-studies.js" /* webpackChunkName: "component---src-pages-case-studies-js" */),
+  "component---src-pages-contact-us-form-ua-js": () => import("./../src/pages/contact-us-form-ua.js" /* webpackChunkName: "component---src-pages-contact-us-form-ua-js" */),
+  "component---src-pages-contact-us-form-js": () => import("./../src/pages/contact-us-form.js" /* webpackChunkName: "component---src-pages-contact-us-form-js" */),
   "component---src-pages-contact-us-js": () => import("./../src/pages/contact-us.js" /* webpackChunkName: "component---src-pages-contact-us-js" */),
   "component---src-pages-elements-accordion-js": () => import("./../src/pages/elements/accordion.js" /* webpackChunkName: "component---src-pages-elements-accordion-js" */),
   "component---src-pages-elements-box-icon-js": () => import("./../src/pages/elements/box-icon.js" /* webpackChunkName: "component---src-pages-elements-box-icon-js" */),
@@ -260,8 +262,6 @@ exports.components = {
   "component---src-templates-category-template-category-template-js": () => import("./../src/templates/category-template/category-template.js" /* webpackChunkName: "component---src-templates-category-template-category-template-js" */),
   "component---src-templates-author-template-author-template-js": () => import("./../src/templates/author-template/author-template.js" /* webpackChunkName: "component---src-templates-author-template-author-template-js" */),
   "component---src-templates-date-template-date-template-js": () => import("./../src/templates/date-template/date-template.js" /* webpackChunkName: "component---src-templates-date-template-date-template-js" */),
-  "component---src-templates-search-template-search-template-js": () => import("./../src/templates/search-template/search-template.js" /* webpackChunkName: "component---src-templates-search-template-search-template-js" */),
-  "component---src-pages-contact-us-form-js": () => import("./../src/pages/contact-us-form.js" /* webpackChunkName: "component---src-pages-contact-us-form-js" */),
-  "component---src-pages-contact-us-form-ua-js": () => import("./../src/pages/contact-us-form-ua.js" /* webpackChunkName: "component---src-pages-contact-us-form-ua-js" */)
+  "component---src-templates-search-template-search-template-js": () => import("./../src/templates/search-template/search-template.js" /* webpackChunkName: "component---src-templates-search-template-search-template-js" */)
 }
 

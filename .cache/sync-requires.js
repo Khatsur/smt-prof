@@ -11,6 +11,8 @@ exports.components = {
   "component---src-pages-blog-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/blog.js"))),
   "component---src-pages-careers-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/careers.js"))),
   "component---src-pages-case-studies-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/case-studies.js"))),
+  "component---src-pages-contact-us-form-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/contact-us-form-ua.js"))),
+  "component---src-pages-contact-us-form-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/contact-us-form.js"))),
   "component---src-pages-contact-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/contact-us.js"))),
   "component---src-pages-elements-accordion-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/elements/accordion.js"))),
   "component---src-pages-elements-box-icon-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/elements/box-icon.js"))),
@@ -263,8 +265,6 @@ exports.components = {
   "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
   "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
   "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
-  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
-  "component---src-pages-contact-us-form-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/contact-us-form.js"))),
-  "component---src-pages-contact-us-form-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/contact-us-form-ua.js")))
+  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js")))
 }
 
