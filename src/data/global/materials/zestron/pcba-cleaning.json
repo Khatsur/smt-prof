@@ -4,7 +4,7 @@
     "uatitle": "Миття плат",
     "entitle": "PCBA cleaning",
     "excerpt": "Жидкости для мойки печатных плат после пайки: VIGON US - отмывка в ультразвуке, VIGON A201 - отмывка в струйном оборудовании. ZESTRON  FA+ - универсальное моющее средство. ph нейтральные жидкости.",
-    "uaexcerpt": "РРідини для миття друкованих плат після паяння: VIGON US - відмивання ультразвуком, VIGON A201 - відмивання в струменевому обладнанні. ZESTRON FA + - універсальний миючий засіб. ph нейтральні рідини.",
+    "uaexcerpt": "Рідини для миття друкованих плат після паяння: VIGON US - відмивання ультразвуком, VIGON A201 - відмивання в струменевому обладнанні. ZESTRON FA + - універсальний миючий засіб. ph нейтральні рідини.",
     "enexcerpt": "Liquids for cleaning printed circuit boards after soldering: VIGON US - ultrasonic cleaning, VIGON A201 - cleaning in jet machines. ZESTRON FA + is a universal cleaner. ph neutral liquids.",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
@@ -13,6 +13,7 @@
         "img_two": "../../../images/icons/smt-icon-1.png",
         "img_hover": "../../../images/icons/smt-icon-b.png"
     },
-    "path": "/",
+    "path": "материалы-для-smt/жидкости-для-мойки/жидкости-для-отмывки-печатных-плат",
+    "uapath": "ua/матеріали-для-smt/рідини-для-чищення/рідини-для-відмивання-друкованих-плат",
     "is_featured": true
 }

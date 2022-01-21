@@ -15,7 +15,7 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
             allZestronJson(sort: {order: ASC, fields: id}, limit: 8) {
                 edges {
                     node {
-                        
+                        path
                         id
                         title
                         excerpt
@@ -52,7 +52,7 @@ const ServicesArea = ({sectionTitleStyle, servicBoxStyle}) => {
                              icon={service.node.icon}
                              title={service.node.title}
                              desc={service.node.excerpt}
-                             path={'/'}
+                             path={`/${service.node.path}`}
                          />
                      </Col>
                     ))}

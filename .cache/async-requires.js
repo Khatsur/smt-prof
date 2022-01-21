@@ -262,6 +262,7 @@ exports.components = {
   "component---src-templates-category-template-category-template-js": () => import("./../src/templates/category-template/category-template.js" /* webpackChunkName: "component---src-templates-category-template-category-template-js" */),
   "component---src-templates-author-template-author-template-js": () => import("./../src/templates/author-template/author-template.js" /* webpackChunkName: "component---src-templates-author-template-author-template-js" */),
   "component---src-templates-date-template-date-template-js": () => import("./../src/templates/date-template/date-template.js" /* webpackChunkName: "component---src-templates-date-template-date-template-js" */),
-  "component---src-templates-search-template-search-template-js": () => import("./../src/templates/search-template/search-template.js" /* webpackChunkName: "component---src-templates-search-template-search-template-js" */)
+  "component---src-templates-search-template-search-template-js": () => import("./../src/templates/search-template/search-template.js" /* webpackChunkName: "component---src-templates-search-template-search-template-js" */),
+  "component---src-pages-материалы-для-smt-паяльная-паста-и-припой-паяльная-паста-index-js": () => import("./../src/pages/материалы-для-smt/паяльная-паста-и-припой/паяльная-паста/index.js" /* webpackChunkName: "component---src-pages-материалы-для-smt-паяльная-паста-и-припой-паяльная-паста-index-js" */)
 }
 

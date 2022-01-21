@@ -265,6 +265,7 @@ exports.components = {
   "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
   "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
   "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
-  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js")))
+  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
+  "component---src-pages-материалы-для-smt-паяльная-паста-и-припой-паяльная-паста-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/паяльная-паста-и-припой/паяльная-паста/index.js")))
 }
 
