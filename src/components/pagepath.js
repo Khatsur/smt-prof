@@ -1995,5 +1995,12 @@ export const PagePath = [
         "ua": "ua/технічне-обслуговування",
         "en": "en/service",
         "lang": ""
+    },
+    {
+        "id": "contact-form-request",
+        "ru": "contact-us-form",
+        "ua": "contact-us-form-ua",
+        "en": "/",
+        "lang": ""
     }
 ];

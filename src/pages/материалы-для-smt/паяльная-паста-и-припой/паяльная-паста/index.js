@@ -3,33 +3,33 @@ import SEO from "../../../../components/seo";
 import Layout from "../../../../containers/layout/layout";
 import Header from "../../../../containers/layout/header/header-three";
 import Footer from "../../../../containers/layout/footer/footer-one";
-import PcbCleanPageHeader from "../../../../components/page-header/pcb-clean";
-import PcbClean from "../../../../containers/materials/cleaning/pcb";
+import SolderPastePageHeader from "../../../../components/page-header/solder-paste";
+import SolderPaste from "../../../../containers/materials/solder/solder-paste";
 import ContactArea from "../../../../containers/global/contact-area/contact-three-ru";
 import WhatsnewArea from "../../../../containers/machines/whats-new-area";
-import MaterialClean from "../../../../containers/materials/cleaning";
-import img from '../../../../data/images/bg/materials/cleaning/pcb/pcb-cleaning-baner.jpg'
+import MaterialSolder from "../../../../containers/materials/solder";
+import img from '../../../../data/images/bg/materials/solder/solder-paste-baner.jpg'
 
 const language = "ru";
 const path =
-  "материалы-для-smt/жидкости-для-мойки/жидкости-для-отмывки-печатных-плат";
+  "материалы-для-smt/паяльная-паста-и-припой/паяльная-паста";
 const IndexPage = ({ location }) => (
   <Layout location={location}>
     <SEO
-      title="Жидкости для отмывки печатных плат"
-      description="Жидкости для отмывки печатных плат - ZESTRON с использованием ультразвуковой кавитации на поверхности печатных плат. Жидкости для струйной отмывки сборок."
+      title="Паяльная паста"
+      description="Паяльная паста - это смесь порошка припоя, флюса и специальных добавок. Применяется для монтажа электронных компонентов на поверхность печатных плат - SMT"
       pathname={path}
-      keywords="Жидкости для отмывки печатных плат, жидкость для ультразвуковой отмывки плат, жидкость для струйной отмывки плат, жидкость для ручной отмывки плат, vigon us, vigon a201, zestron fa+"
+      keywords="Паяльная паста Indium 8.9, Паяльная паста Indium NC-SMQ92J, нанесение паяльной пасты, поверхностный монтаж, smt, беcсвинцовая пайка, lead free, PB free, smt, безсвинцовая паста, водосмываемая паяльная паста, безотмывочная паяльная паста"
       image={img}
       lang={language}
     />
     <Header path={path} />
     <main className="site-wrapper-reveal">
-      <PcbCleanPageHeader lang={language} />
+      <SolderPastePageHeader lang={language} />
 
-      <PcbClean lang={language} />
+      <SolderPaste lang={language} />
       <ContactArea />
-      <MaterialClean />
+      <MaterialSolder />
       <WhatsnewArea />
     </main>
     <Footer />

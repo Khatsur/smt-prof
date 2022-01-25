@@ -150,6 +150,14 @@
         "bg_image": "../images/bg/materials/cleaning/maintenance/mein-baner.jpg"
     },
     {
+        "id": "about-solder-paste",
+        "title": "Паяльная паста",
+        "uatitle": "Паяльна паста",
+        "desc": "Паяльная паста для применения в процессах поверхностного монтажа электронных компонентов на печатные платы – SMT. Свинцовые, безсвинцовые, водосмываемые и не требующие отмывки.",
+        "uadesc": "Паяльна паста для застосування у процесах поверхневого монтажу електронних компонентів на друковані плати – SMT. Свинцеві, безсвинцеві, водозмивні та що не потребують відмивання.",
+        "bg_image": "../images/bg/materials/solder/solder-paste-baner.jpg"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
         "title": "We run all kinds of IT services that vow your <span>success</span>",

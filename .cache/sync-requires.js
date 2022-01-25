@@ -5,6 +5,19 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
+  "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
+  "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
+  "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
+  "component---src-templates-machine-template-machine-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template.js"))),
+  "component---src-templates-machine-template-machine-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template-ua.js"))),
+  "component---src-templates-material-template-material-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/material-template/material-template.js"))),
+  "component---src-templates-material-template-material-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/material-template/material-template-ua.js"))),
+  "component---src-templates-blog-template-blog-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-template/blog-template.js"))),
+  "component---src-templates-tag-template-tag-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/tag-template/tag-template.js"))),
+  "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
+  "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
+  "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
+  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
   "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/404.js"))),
   "component---src-pages-about-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/about-us.js"))),
@@ -78,6 +91,7 @@ exports.components = {
   "component---src-pages-ua-матеріали-для-smt-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/матеріали-для-smt/index.js"))),
   "component---src-pages-ua-матеріали-для-smt-захисні-покриття-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/матеріали-для-smt/захисні-покриття/index.js"))),
   "component---src-pages-ua-матеріали-для-smt-матеріали-для-паяння-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/матеріали-для-smt/матеріали-для-паяння/index.js"))),
+  "component---src-pages-ua-матеріали-для-smt-матеріали-для-паяння-паяльна-паста-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/матеріали-для-smt/матеріали-для-паяння/паяльна-паста/index.js"))),
   "component---src-pages-ua-матеріали-для-smt-рідини-для-чищення-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/матеріали-для-smt/рідини-для-чищення/index.js"))),
   "component---src-pages-ua-матеріали-для-smt-рідини-для-чищення-аналіз-чистоти-поверхні-плат-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/матеріали-для-smt/рідини-для-чищення/аналіз-чистоти-поверхні-плат/index.js"))),
   "component---src-pages-ua-матеріали-для-smt-рідини-для-чищення-методи-контролю-якості-миття-плат-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/матеріали-для-smt/рідини-для-чищення/методи-контролю-якості-миття-плат/index.js"))),
@@ -184,6 +198,7 @@ exports.components = {
   "component---src-pages-материалы-для-smt-жидкости-для-мойки-методы-контроля-качества-отмывки-плат-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/жидкости-для-мойки/методы-контроля-качества-отмывки-плат/index.js"))),
   "component---src-pages-материалы-для-smt-защитные-покрытия-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/защитные-покрытия/index.js"))),
   "component---src-pages-материалы-для-smt-паяльная-паста-и-припой-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/паяльная-паста-и-припой/index.js"))),
+  "component---src-pages-материалы-для-smt-паяльная-паста-и-припой-паяльная-паста-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/паяльная-паста-и-припой/паяльная-паста/index.js"))),
   "component---src-pages-оборудование-для-монтажа-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/index.js"))),
   "component---src-pages-оборудование-для-монтажа-автоматизированные-системы-хранения-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/автоматизированные-системы-хранения/index.js"))),
   "component---src-pages-оборудование-для-монтажа-автоматизированные-системы-хранения-автоматизированные-склады-компонентов-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/автоматизированные-системы-хранения/автоматизированные-склады-компонентов/index.js"))),
@@ -252,20 +267,6 @@ exports.components = {
   "component---src-pages-оборудование-для-монтажа-разделение-групповых-заготовок-оборудование-разделения-печатных-плат-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/разделение-групповых-заготовок/оборудование-разделения-печатных-плат/index.js"))),
   "component---src-pages-оборудование-для-монтажа-разделение-групповых-заготовок-разделение-групповых-заготовок-лазером-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/разделение-групповых-заготовок/разделение-групповых-заготовок-лазером/index.js"))),
   "component---src-pages-оборудование-для-монтажа-разделение-групповых-заготовок-устройства-разделения-печатных-плат-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/оборудование-для-монтажа/разделение-групповых-заготовок/устройства-разделения-печатных-плат/index.js"))),
-  "component---src-pages-техническое-обслуживание-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/index.js"))),
-  "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
-  "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
-  "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
-  "component---src-templates-machine-template-machine-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template.js"))),
-  "component---src-templates-machine-template-machine-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template-ua.js"))),
-  "component---src-templates-material-template-material-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/material-template/material-template.js"))),
-  "component---src-templates-material-template-material-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/material-template/material-template-ua.js"))),
-  "component---src-templates-blog-template-blog-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-template/blog-template.js"))),
-  "component---src-templates-tag-template-tag-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/tag-template/tag-template.js"))),
-  "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
-  "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
-  "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
-  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
-  "component---src-pages-материалы-для-smt-паяльная-паста-и-припой-паяльная-паста-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/материалы-для-smt/паяльная-паста-и-припой/паяльная-паста/index.js")))
+  "component---src-pages-техническое-обслуживание-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/index.js")))
 }
 

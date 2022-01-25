@@ -146,7 +146,7 @@ const ContactForm = () => {
             </Row>
             <Row>
                 <Col lg={12}>
-                    <Button type="submit" disabled={serverState.submitting}>Send Message</Button>
+                    <Button type="submit" disabled={serverState.submitting}>Надіслати повідомлення</Button>
                     {serverState.status && (
                         <p className={`form-output ${!serverState.status.ok ? "errorMsg" : "success"}`}>
                             {serverState.status.msg}
