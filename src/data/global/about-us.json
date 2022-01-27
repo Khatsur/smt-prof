@@ -158,6 +158,14 @@
         "bg_image": "../images/bg/materials/solder/solder-paste-baner.jpg"
     },
     {
+        "id": "about-solder",
+        "title": "Припой для пайки",
+        "uatitle": "Припій для паяння",
+        "desc": "Припой для пайки электронных компонентов. Трубчатый припой для ручной и роботизированной пайки. Припой в брусках для волновой пайки. Припой в преформах для поверхностного монтажа.",
+        "uadesc": "Припій для паяння електронних компонентів. Трубчастий припій для ручного та роботизованого паяння. Припій у брусках для хвильового паяння. Припій у преформ для поверхневого монтажу.",
+        "bg_image": "../images/bg/materials/solder/solder-baner.jpg"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
         "title": "We run all kinds of IT services that vow your <span>success</span>",

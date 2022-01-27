@@ -39,7 +39,7 @@ const CaseStudySection = ({
         allBudStencCleanJson(filter: {is_featured: {eq: true}}, limit: 3, sort: {order: ASC, fields: id}) {
             edges {
               node {
-               
+                pathua
                 id
                 uatitle
                 category
@@ -87,7 +87,7 @@ const CaseStudySection = ({
                                         title={caseStudy.node.uatitle}
                                         category={caseStudy.node.category}
                                         desc={caseStudy.node.uaexcerpt}
-                                        path={'http://localhost:8000/index-machines'}
+                                        path={caseStudy.node.pathua}
                                         btnText="Докладно"
                                     />
                                 </div>
