@@ -166,6 +166,14 @@
         "bg_image": "../images/bg/materials/solder/solder-baner.jpg"
     },
     {
+        "id": "about-flux",
+        "title": "Флюс для пайки",
+        "uatitle": "Флюс для паяння",
+        "desc": "Флюс для пайки, который применяется в машинах для пайки волной припоя и машинах для селективной пайки. Флюс для ручной пайки. Флюс-гель для проведения ремонтных работ.",
+        "uadesc": "Флюс для паяння, який застосовується в машинах для паяння хвилею припою та машинах для селективного паяння. Флюс для ручного паяння. Флюс-гель для ремонтних робіт.",
+        "bg_image": "../images/bg/materials/solder/flux-wave-baner.jpg"
+    },
+    {
         "id": "about-page-intro",
         "section_title": {
         "title": "We run all kinds of IT services that vow your <span>success</span>",
