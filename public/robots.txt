@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.smt-prof.com.ua/sitemap.xml
+Host: https://www.smt-prof.com.ua
