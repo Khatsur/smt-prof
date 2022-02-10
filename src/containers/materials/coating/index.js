@@ -6,7 +6,7 @@ import BoxLargeImage from '../../../components/box-large-image/layout-one-ru'
 import { SectionWrap } from './section.style'
 
 import image1 from '../../../data/images/bg/materials/coating/acrylic-coatings.png'
-import image2 from '../../../data/images/bg/materials/coating/urethane -coatings.png'
+import image2 from '../../../data/images/bg/materials/coating/urethane-coatings.png'
 import image3 from '../../../data/images/bg/materials/coating/UV-Curable-Coatings.png'
 import image4 from '../../../data/images/bg/materials/coating/silicone-coatings.png'
 import image5 from '../../../data/images/bg/materials/coating/synthetic-rubber-coatings.png'
