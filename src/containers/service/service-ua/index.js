@@ -12,7 +12,7 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
             allServiceJson(sort: {order: ASC, fields: id}, limit: 6) {
                 edges {
                     node {
-                        
+                        uapath
                         uatitle
                         uaexcerpt
                         icon {
@@ -49,8 +49,8 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
                                 hoverImg={feature.node.icon.img_hover.childImageSharp}
                                 title={feature.node.uatitle}
                                 desc={feature.node.uaexcerpt}
-                                path="/"
-                            />
+                                path={`/${feature.node.uapath}`}
+                                />
                         </Col>
                     ))}
                     

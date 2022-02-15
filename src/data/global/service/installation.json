@@ -7,7 +7,8 @@
     "excerpt": "Пуско-наладка оборудования на производственных площадях заказчика. Отработка технологических процессов и запуск серийного производства.",
     "uaexcerpt": "Пуско-наладка обладнання на виробничих площах замовника. Відпрацювання технологічних процесів і запуск серійного виробництва.",
     "enexcerpt": "Machines installation at the customer's production facilities. Development of technological processes and launch of serial production.",
-    "path": "ua/machines",
+    "path": "техническое-обслуживание/пуско-наладка",
+    "uapath": "ua/технічне-обслуговування/пуско-наладка",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",

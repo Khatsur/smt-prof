@@ -48,7 +48,7 @@ const JobsArea = () => {
                                             </Col>
                                             <Col lg={3}>
                                                 <JobButton>
-                                                    <Button varient="outlined" bordercolor="#ddd">Get Started</Button>
+                                                    <Button to="/contact-us-form" varient="outlined" bordercolor="#ddd">Запрос</Button>
                                                 </JobButton>
                                             </Col>
                                         </Row>

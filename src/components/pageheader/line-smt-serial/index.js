@@ -24,7 +24,7 @@ const PageHeader = ({pageContext, location, title}) => {
     const labelArr = label.split('-');
     const imageData = useStaticQuery(graphql `
         query  LineSmtSerialCrumbImgQuery {
-            file(relativePath: {eq: "images/bg/lines/smt-line-baner.jpg"}) {
+            file(relativePath: {eq: "images/bg/service/juki-line.jpg"}) {
                 childImageSharp {
                     fluid(maxWidth: 1520, maxHeight: 400, quality: 100) {
                         ...GatsbyImageSharpFluid

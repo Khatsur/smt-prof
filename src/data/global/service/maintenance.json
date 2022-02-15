@@ -7,7 +7,8 @@
     "excerpt": "Техническая поддержка по эксплуатации оборудования и технологическим процессам. Удаленная консультация и выезд специалистов на завод Заказчика.",
     "uaexcerpt": "Технічна підтримка по експлуатації обладнання і технологічних процесів. Дистанційна консультація та виїзд фахівців на завод Замовника.",
     "enexcerpt": "Technical support for the operators and processes engineers. Online consultation by email, phone and visit specialists to the Customer's plant.",
-    "path": "ua/machines",
+    "path": "техническое-обслуживание/техническая-поддержка",
+    "uapath": "ua/технічне-обслуговування/технічна-підтримка",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",

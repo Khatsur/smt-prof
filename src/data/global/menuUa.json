@@ -1,36 +1,5 @@
 [
     {
-        "text": "Дім",
-        "link": "/",
-        "isSubmenu": true,
-        "submenu": [
-            {
-                "text": "Infotechno",
-                "link": "/index-infotechno"
-            },
-            {
-                "text": "Appointment",
-                "link": "/index-appointment"
-            },
-            {
-                "text": "Processing",
-                "link": "/index-processing"
-            },
-            {
-                "text": "Services",
-                "link": "/index-services"
-            },
-            {
-                "text": "Resolutions",
-                "link": "/index-resolutions"
-            },
-            {
-                "text": "Cybersecurity",
-                "link": "/index-cybersecurity"
-            }
-        ]
-    },
-    {
         "text": "Компанія",
         "link": "/about-us",
         "isSubmenu": true,
@@ -483,12 +452,16 @@
         "isSubmenu": true,
         "submenu": [
             {
-                "text": "IT Services",
-                "link": "/it-services"
+                "text": "Пуско-наладка",
+                "link": "/ua/технічне-обслуговування/пуско-наладка"
             },
             {
-                "text": "IT Solutions",
-                "link": "/it-solutions"
+                "text": "Технічна підтримка",
+                "link": "/ua/технічне-обслуговування/технічна-підтримка"
+            },
+            {
+                "text": "Технічне навчання",
+                "link": "/ua/технічне-обслуговування/технічне-навчання"
             }
         ]
     }

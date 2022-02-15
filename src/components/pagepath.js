@@ -2130,6 +2130,27 @@ export const PagePath = [
         "lang": ""
     },
     {
+        "id": "service-installation",
+        "ru": "техническое-обслуживание/пуско-наладка",
+        "ua": "ua/технічне-обслуговування/пуско-наладка",
+        "en": "en/service",
+        "lang": ""
+    },
+    {
+        "id": "service-support",
+        "ru": "техническое-обслуживание/техническая-поддержка",
+        "ua": "ua/технічне-обслуговування/технічна-підтримка",
+        "en": "en/service",
+        "lang": ""
+    },
+    {
+        "id": "service-training",
+        "ru": "техническое-обслуживание/техническое-обучение",
+        "ua": "ua/технічне-обслуговування/технічне-навчання",
+        "en": "en/service",
+        "lang": ""
+    },
+    {
         "id": "contact-form-request",
         "ru": "contact-us-form",
         "ua": "contact-us-form-ua",

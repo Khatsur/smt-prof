@@ -12,7 +12,7 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
             allServiceJson(sort: {order: ASC, fields: id}, limit: 6) {
                 edges {
                     node {
-                        
+                        path
                         title
                         excerpt
                         icon {
@@ -49,8 +49,8 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
                                 hoverImg={feature.node.icon.img_hover.childImageSharp}
                                 title={feature.node.title}
                                 desc={feature.node.excerpt}
-                                path="/"
-                            />
+                                path={`/${feature.node.path}`}
+                                />
                         </Col>
                     ))}
                     

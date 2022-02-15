@@ -7,7 +7,8 @@
     "excerpt": "Техническое обучение специалистов по эксплуатации, программированию и техническому обслуживанию производственного оборудования.",
     "uaexcerpt": "Технічне навчання фахівців з експлуатації, програмування і технічного обслуговування виробничого обладнання. У замовника або у нас.",
     "enexcerpt": "Technical training for the operation, programming and machines maintenance. Training in the Customer's plant and in the our technical office.",
-    "path": "ua/machines",
+    "path": "техническое-обслуживание/техническое-обучение",
+    "uapath": "ua/технічне-обслуговування/технічне-навчання",
     "excerpt2": "Оборудование для поверхностного монтажа.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
