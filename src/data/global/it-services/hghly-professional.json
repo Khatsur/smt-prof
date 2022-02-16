@@ -1,8 +1,15 @@
 {
     "id": "highly-professional-service",
     "title": "Highly Professional Staffs",
+    "path": "/комплексные-решения",
     "tagline": "Reach out to the world’s most reliable IT services.",
     "excerpt": "Having obtained the official & formal training in IT technology and technical fields, our staffs know best.",
+    "titleua": "ПОСТАВКА",
+    "pathua": "/ua/обладнання-для-монтажу",
+    "excerptua": "Поставка оборудования с минимальными рисками от лидирующих мировых производителей.",
+    "titleen": "ПОСТАВКА",
+    "pathen": "/en/machines",
+    "excerpten": "Поставка оборудования с минимальными рисками от лидирующих мировых производителей.",
     "image": "../../images/box-image/image-06-480x298.jpg",
     "icon": {
         "svg": "../../images/icons/linea-basic-spread-text-bookmark.svg",

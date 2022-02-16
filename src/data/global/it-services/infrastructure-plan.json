@@ -1,7 +1,14 @@
 {
     "id": "infrastructure-plan-service",
-    "title": "Infrastructure Plan",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "title": "ПОДДЕРЖКА",
+    "path": "/техническое-обслуживание",
+    "excerpt": "Техническая поддержка оборудования и технологическая поддержка процессов. Удаленно и с выездом на завод Заказчика.",
+    "titleua": "ПІДТРИМКА",
+    "pathua": "/ua/технічне-обслуговування",
+    "excerptua": "Технічна підтримка обладнання та технологічна підтримка процесів. Віддалено та з виїздом на завод Замовника.",
+    "titleen": "SUPPORT",
+    "pathen": "/en/service",
+    "excerpten": "Technical support of equipment and technological support of processes. Remotely and at the Customer's plant.",
     "icon": {
         "svg": "../../images/icons/linea-ecommerce-money.svg",
         "img": "../../images/icons/icon-06-100x108.png",

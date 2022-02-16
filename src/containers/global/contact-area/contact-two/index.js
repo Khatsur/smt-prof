@@ -32,7 +32,7 @@ const ContactArea = ({sectionStyle, imgBoxStyle, rightBoxStyle, boxIconStyle, ra
                     }
                 }
             }
-            contactImg: file(relativePath: {eq: "images/contact-image.png"}) {
+            contactImg: file(relativePath: {eq: "images/bg/about-us/about-us-587x572.png"}) {
                 childImageSharp {
                     fluid(maxHeight: 572, maxWidth: 587, quality: 100) {
                         ...GatsbyImageSharpFluid_tracedSVG
@@ -59,16 +59,16 @@ const ContactArea = ({sectionStyle, imgBoxStyle, rightBoxStyle, boxIconStyle, ra
                     <Col lg={4} ml="auto">
                         <ContactInfoBox>
                             <Box textalign="center">
-                                {rating && <Heading as="h3">{`${rating}/5.0`}</Heading>}
+                                {rating && <Heading as="h3">SMT PROF</Heading>}
                                 <Ratings {...ratingStyle} rating={+rating}/>
-                                <Text {...textStyle}>by {customers}+ customers for {clients}+ clients</Text>
+                                
                             </Box>
                             <Box>
                                 <Anchor display="block" path={`tel:${phone}`}>
                                     <BoxIcon
                                         {...boxIconStyle}
                                         icon={<MdPhone/>}
-                                        heading="Call for advice now!"
+                                        heading="Звоните"
                                         title={phone}
                                     />
                                 </Anchor>
@@ -76,7 +76,7 @@ const ContactArea = ({sectionStyle, imgBoxStyle, rightBoxStyle, boxIconStyle, ra
                                     <BoxIcon
                                         {...boxIconStyle}
                                         icon={<MdEmail/>}
-                                        heading="Say hello"
+                                        heading="Пишите"
                                         title={email}
                                     />
                                 </Anchor>

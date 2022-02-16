@@ -1,7 +1,14 @@
 {
     "id": "it-design-service",
-    "title": "IT Design",
-    "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "title": "ПОСТАВКА",
+    "path": "/оборудование-для-монтажа",
+    "excerpt": "Поставка оборудования с минимальными рисками от лидирующих мировых производителей.",
+    "titleua": "ПОСТАВКА",
+    "pathua": "/ua/обладнання-для-монтажу",
+    "excerptua": "Поставка оборудования с минимальными рисками от лидирующих мировых производителей.",
+    "titleen": "ПОСТАВКА",
+    "pathen": "/en/machines",
+    "excerpten": "Поставка оборудования с минимальными рисками от лидирующих мировых производителей.",
     "icon": {
         "svg": "../../images/icons/linea-basic-heart.svg",
         "img": "../../images/icons/icon-01-100x108.png",

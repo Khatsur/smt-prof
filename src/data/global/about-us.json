@@ -1,9 +1,21 @@
 [
     {
         "id": "about-page-header-data",
-        "title": "About Mitech",
-        "desc": "Mitech specializes in technological and IT-related services such as product engineering, warranty management, building cloud, infrastructure, network, etc.",
-        "bg_image": "../images/banner/banner-09.jpg"
+        "title": "SMT PROF",
+        "desc": "Поставка технологического оборудования и материалов для обеспечения производства электроники. Комплексные решения для сборочно-монтажных производств.",
+        "bg_image": "../images/bg/about-us/about-us.jpg"
+    },
+    {
+        "id": "about-page-header-data-ua",
+        "title": "SMT PROF",
+        "desc": "Постачання технологічного обладнання та матеріалів для забезпечення виробництва електроніки. Комплексні рішення для складально-монтажних виробництв.",
+        "bg_image": "../images/bg/about-us/about-us.jpg"
+    },
+    {
+        "id": "about-page-header-data-en",
+        "title": "SMT PROF",
+        "desc": "Our company is the exclusive distributor of the leading global manufactures of machines for PCB assembly. We provide SMAR solution for electronics manufactures in Ukraine.",
+        "bg_image": "../images/bg/about-us/about-us.jpg"
     },
     {
         "id": "about-printers-data",
@@ -176,13 +188,35 @@
     {
         "id": "about-page-intro",
         "section_title": {
-        "title": "We run all kinds of IT services that vow your <span>success</span>",
-        "subtitle": "our company"
+        "title": "SMART решения для производства – залог вашего <span>успеха</span>",
+        "subtitle": "SMT PROF"
         },
-        "heading": "<mark>38</mark> YEARS’ EXPERIENCE IN IT",
-        "text": "More About Our Success Stories",
-        "desc": "The IT services that Mitech are running can be segmented by the type of skills employed to deliver the service (design, build, run). Technically, these fall into three main categories: business process services, application services, and infrastructure services.",
-        "path": "/it-services"
+        "heading": "<mark>25</mark> ЛЕТ ОПЫТ РАБОТЫ В ОТРАСЛИ",
+        "text": "Лучшие технические эксперты",
+        "desc": "Комплексные решения и полная интеграция технологического оборудования при организации производства электроники – это залог успешного продвижения к Industry 4.0, полной автоматизации и диджитализации производства.",
+        "path": "комплексные-решения"
+    },
+    {
+        "id": "about-page-intro-ua",
+        "section_title": {
+        "title": "SMART рішення для виробництва – запорука вашого <span>успіху</span>",
+        "subtitle": "SMT PROF"
+        },
+        "heading": "<mark>25</mark> РОКІВ ДОСВІД РОБОТИ В ГАЛУЗІ",
+        "text": "Найкращі технічні експерти",
+        "desc": "Комплексні рішення та повна інтеграція технологічного обладнання при організації виробництва електроніки – це запорука успішного просування до Industry 4.0, повної автоматизації та диджиталізації виробництва.",
+        "path": "ua/комплексні-рішення"
+    },
+    {
+        "id": "about-page-intro-en",
+        "section_title": {
+        "title": "SMART solution for PCB assembly - the key to your <span>success</span>",
+        "subtitle": "SMT PROF"
+        },
+        "heading": "<mark>25</mark> YEARS EXPERIENCE IN THE INDUSTRY",
+        "text": "Best technical expertise",
+        "desc": "Комплексні рішення та повна інтеграція технологічного обладнання при організації виробництва електроніки – це запорука успішного просування до Industry 4.0, повної автоматизації та диджиталізації виробництва.",
+        "path": "en/lines"
     },
     {
         "id": "about-page-resources",

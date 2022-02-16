@@ -1,7 +1,14 @@
 {
     "id": "business-reform-service",
     "title": "Business Reform",
+    "path": "/комплексные-решения",
     "excerpt": "We provide the most responsive and functional IT design for companies and businesses worldwide.",
+    "titleua": "ПОСТАВКА",
+    "pathua": "/ua/обладнання-для-монтажу",
+    "excerptua": "Поставка оборудования с минимальными рисками от лидирующих мировых производителей.",
+    "titleen": "ПОСТАВКА",
+    "pathen": "/en/machines",
+    "excerpten": "Поставка оборудования с минимальными рисками от лидирующих мировых производителей.",
     "icon": {
         "svg": "../../images/icons/linea-basic-gear.svg",
         "img": "../../images/icons/icon-04-100x108.png",

@@ -1,7 +1,14 @@
 {
     "id": "it-management-service",
-    "title": "IT Management",
-    "excerpt": "It’s possible to simultaneously manage and transform information from one server to another.",
+    "title": "ОПТИМИЗАЦИЯ",
+    "path": "/комплексные-решения",
+    "excerpt": "Совместная оптимизация состава оборудования по техническому заданию Заказчика.",
+    "titleua": "ОПТИМІЗАЦІЯ",
+    "pathua": "/ua/обладнання-для-монтажу",
+    "excerptua": "Спільна оптимізація складу обладнання з технічного завдання Замовника.",
+    "titleen": "OPTIMIZATION",
+    "pathen": "/en/machines",
+    "excerpten": "Joint optimization of the equipment configuration according to the technical specifications of the Customer.",
     "icon": {
         "svg": "../../images/icons/linea-basic-case.svg",
         "img": "../../images/icons/icon-02-100x108.png",

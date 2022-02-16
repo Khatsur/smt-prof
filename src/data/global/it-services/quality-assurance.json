@@ -1,7 +1,14 @@
 {
     "id": "quality-assurance-service",
     "title": "Quality Assurance System",
+    "path": "/комплексные-решения",
     "excerpt": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.",
+    "titleua": "ПОСТАВКА",
+    "pathua": "/ua/обладнання-для-монтажу",
+    "excerptua": "Поставка оборудования с минимальными рисками от лидирующих мировых производителей.",
+    "titleen": "ПОСТАВКА",
+    "pathen": "/en/machines",
+    "excerpten": "Поставка оборудования с минимальными рисками от лидирующих мировых производителей.",
     "image": "../../images/box-image/image-03-480x298.jpg",
     "icon": {
         "svg": "../../images/icons/linea-basic-case.svg",

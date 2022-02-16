@@ -44,7 +44,7 @@ const BoxImage = ({imageSrc, title, desc, path, ...boxStyles}) => {
                             icon={<MdTrendingFlat/>}
                             iconposition="right"
                             icondistance="4px"
-                            varient="texted">Discover Now</Button>
+                            varient="texted">Узнать больше</Button>
                     </BoxImgBtnWrap>
                 </BoxImgContent>
             </BoxImgInner>

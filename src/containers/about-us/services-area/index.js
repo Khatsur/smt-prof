@@ -17,6 +17,7 @@ const Services = ({serviceBoxStyle, linkStyle, headingStyle}) => {
                         slug
                     }
                     id
+                    path
                     title
                     excerpt
                     icon {
@@ -44,14 +45,14 @@ const Services = ({serviceBoxStyle, linkStyle, headingStyle}) => {
                                 title={service.node.title}
                                 desc={service.node.excerpt}
                                 imageSrc={service.node.icon.img.childImageSharp}
-                                path={`/it-service/${service.node.fields.slug}`}
+                                path={`${service.node.path}`}
                             />
                         </Col>
                     ))}
                 </Row>
                 <Row>
                     <Col lg={12}>
-                        <Heading {...headingStyle}>Challenges are just opportunities in disguise. <Anchor {...linkStyle} path="/it-services">Take the challenge!</Anchor></Heading>
+                        <Heading {...headingStyle}>Полная автоматизация производства.<Anchor {...linkStyle} path="/комплексные-решения">Примите вызов!</Anchor></Heading>
                     </Col>
                 </Row>
             </Container>
