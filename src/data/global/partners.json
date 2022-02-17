@@ -1,56 +1,98 @@
 [
     {
         "id": "super-demo-partner",
-        "image": "../images/partners/mitech-client-logo-01.png",
-        "hover_image": "../images/partners/mitech-client-logo-01-hover.png",
-        "path": "/"
+        "image": "../images/partners/ajax.png",
+        "hover_image": "../images/partners/ajax.png",
+        "path": "https://ajax.systems"
     },
     {
         "id": "demo-logo-partner",
-        "image": "../images/partners/mitech-client-logo-02.png",
-        "hover_image": "../images/partners/mitech-client-logo-02-hover.png",
-        "path": "/"
+        "image": "../images/partners/fed.png",
+        "hover_image": "../images/partners/fed.png",
+        "path": "https://www.fed.com.ua"
     },
     {
         "id": "demo-brand-logo-partner",
-        "image": "../images/partners/mitech-client-logo-03.png",
-        "hover_image": "../images/partners/mitech-client-logo-03-hover.png",
-        "path": "/"
+        "image": "../images/partners/firefly.png",
+        "hover_image": "../images/partners/firefly.png",
+        "path": "https://firefly.com"
     },
     {
         "id": "demo-brand-logo-2-partner",
-        "image": "../images/partners/mitech-client-logo-04.png",
-        "hover_image": "../images/partners/mitech-client-logo-04-hover.png",
-        "path": "/"
+        "image": "../images/partners/ikt.png",
+        "hover_image": "../images/partners/ikt.png",
+        "path": "http://ikt-electronics.com.ua"
     },
     {
         "id": "brand-logo-partner",
-        "image": "../images/partners/mitech-client-logo-05.png",
-        "hover_image": "../images/partners/mitech-client-logo-05-hover.png",
-        "path": "/"
+        "image": "../images/partners/impuls.png",
+        "hover_image": "../images/partners/impuls.png",
+        "path": "https://impulse.ua/index.php/ru/"
     },
     {
         "id": "b-logo-partner",
-        "image": "../images/partners/mitech-client-logo-06.png",
-        "hover_image": "../images/partners/mitech-client-logo-06-hover.png",
-        "path": "/"
+        "image": "../images/partners/iskra.png",
+        "hover_image": "../images/partners/iskra.png",
+        "path": "https://iskra.zp.ua/index.php?lang=ua"
     },
     {
         "id": "brand-logo-2-partner",
-        "image": "../images/partners/mitech-client-logo-07.png",
-        "hover_image": "../images/partners/mitech-client-logo-07-hover.png",
-        "path": "/"
+        "image": "../images/partners/itv.png",
+        "hover_image": "../images/partners/itv.png",
+        "path": "http://itvsystems.com.ua/#readers"
     },
     {
         "id": "another-logo-partner",
-        "image": "../images/partners/mitech-client-logo-08.png",
-        "hover_image": "../images/partners/mitech-client-logo-08-hover.png",
-        "path": "/"
+        "image": "../images/partners/jabil.png",
+        "hover_image": "../images/partners/jabil.png",
+        "path": "https://www.jabil.com"
     },
     {
         "id": "slogan-logo-partner",
-        "image": "../images/partners/mitech-client-logo-09.png",
-        "hover_image": "../images/partners/mitech-client-logo-09-hover.png",
-        "path": "/"
+        "image": "../images/partners/kostal.png",
+        "hover_image": "../images/partners/kostal.png",
+        "path": "https://www.kostal-automobil-elektrik.com/en-gb/"
+    },
+    {
+        "id": "demo-brand-logo-3-partner",
+        "image": "../images/partners/nik.png",
+        "hover_image": "../images/partners/nik.png",
+        "path": "https://nik-el.com"
+    },
+    {
+        "id": "demo-brand-logo-4-partner",
+        "image": "../images/partners/radiy.png",
+        "hover_image": "../images/partners/radiy.png",
+        "path": "http://www.radiy.com/en/"
+    },
+    {
+        "id": "brand-logo-5-partner",
+        "image": "../images/partners/sfera.png",
+        "hover_image": "../images/partners/sfera.png",
+        "path": "http://sphera.org.ua"
+    },
+    {
+        "id": "b-logo-2-partner",
+        "image": "../images/partners/skb-elec.png",
+        "hover_image": "../images/partners/skb-elec.png",
+        "path": "https://www.chelmash.com.ua"
+    },
+    {
+        "id": "brand-logo-6-partner",
+        "image": "../images/partners/teletec.png",
+        "hover_image": "../images/partners/teletec.png",
+        "path": "https://www.teletec.com.ua"
+    },
+    {
+        "id": "another-logo-2-partner",
+        "image": "../images/partners/tiras.png",
+        "hover_image": "../images/partners/tiras.png",
+        "path": "https://tiras.ua"
+    },
+    {
+        "id": "slogan-logo-2-partner",
+        "image": "../images/partners/vdmais.png",
+        "hover_image": "../images/partners/vdmais.png",
+        "path": "https://vdmais.ua"
     }
 ]

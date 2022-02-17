@@ -2156,5 +2156,54 @@ export const PagePath = [
         "ua": "contact-us-form-ua",
         "en": "/",
         "lang": ""
+    },
+    {
+        "id": "company",
+        "ru": "компания",
+        "ua": "ua/компанія",
+        "en": "en/company",
+        "lang": ""
+    },
+    {
+        "id": "company-about-ua",
+        "ru": "компания/о-нас",
+        "ua": "ua/компанія/про-нас",
+        "en": "en/company/about-us",
+        "lang": ""
+    },
+    {
+        "id": "company-careers",
+        "ru": "компания/вакансии",
+        "ua": "ua/компанія/вакансії",
+        "en": "en/company/careers",
+        "lang": ""
+    },
+    {
+        "id": "company-contacts",
+        "ru": "компания/контакты",
+        "ua": "ua/компанія/контакти",
+        "en": "en/company/contacts",
+        "lang": ""
+    },
+    {
+        "id": "company-faq",
+        "ru": "компания/вопросы",
+        "ua": "ua/компанія/питання",
+        "en": "en/company/faq",
+        "lang": ""
+    },
+    {
+        "id": "company-partnership",
+        "ru": "компания/партнерство",
+        "ua": "ua/компанія/партнерство",
+        "en": "en/company/partnership",
+        "lang": ""
+    },
+    {
+        "id": "company-history",
+        "ru": "компания/история",
+        "ua": "ua/компанія/історія",
+        "en": "en/company/history",
+        "lang": ""
     }
 ];

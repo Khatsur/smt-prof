@@ -215,7 +215,7 @@
         },
         "heading": "<mark>25</mark> YEARS EXPERIENCE IN THE INDUSTRY",
         "text": "Best technical expertise",
-        "desc": "Комплексні рішення та повна інтеграція технологічного обладнання при організації виробництва електроніки – це запорука успішного просування до Industry 4.0, повної автоматизації та диджиталізації виробництва.",
+        "desc": "Complete solutions and full integration of technological equipment in the production of electronics is the key to a successful move towards Industry 4.0, full automation and digitalization of production.",
         "path": "en/lines"
     },
     {
@@ -227,37 +227,109 @@
     },
     {
         "id": "about-page-solutions",
-        "title": "We excel in delivering <br/> optimal solutions.",
+        "title": "Инжиниринговые решения <br/> для производства электроники.",
         "solutions": [
             {
                 "id": "warranty-management-it",
-                "title": "Warranty Management IT",
-                "text": "Our service offerings enhance customer experience throughout secure & highly functional end-to-end warranty management."
+                "title": "Поверхностный монтаж – SMT",
+                "text": "Организация поверхностного монтажа электронных компонентов на печатные платы с автоматической инспекцией нанесения пасты и монтажа."
             },
             {
                 "id": "product-engineering-services",
-                "title": "Product Engineering & Services",
-                "text": "Develop and propose product improvements through periodical and accurate testing, repairing & refining every version."
+                "title": "Монтаж в отверстия -  THT",
+                "text": "Организация монтажа электронных компонентов в отверстия печатных плат с применением автоматической установки компонентов и групповой пайки."
             },
             {
                 "id": "quality-control-system",
-                "title": "Quality Control System",
-                "text": "It's more than a responsibility but a guarantee from us to gain customer trust with highly reliable quality control system."
+                "title": "Очистка плат и трафаретов",
+                "text": "Организация технологических процессов очистки собранных электронных блоков после проведения монтажа компонентов. Чистки трафаретов и оснастки."
             },
             {
                 "id": "infrastructure-integration-technology",
-                "title": "Infrastructure Integration Technology",
-                "text": "At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution."
+                "title": "Нанесение защитных покрытий",
+                "text": "Организация процессов нанесения защитных покрытий на собранные электронные блоки с последующим отверждением. Инспекция качества нанесения."
             },
             {
                 "id": "highly-professional-staffs",
-                "title": "Highly Professional Staffs",
-                "text": "Having obtained the official & formal training in IT technology and technical fields, our staffs know more than what they show."
+                "title": "Разделение групповых панелей",
+                "text": "Организация производственных участков для автоматического разделения групповых заготовок печатных плат. Механические роутеры и лазерная резка."
             },
             {
                 "id": "information-security-management",
-                "title": "Information Security Management",
-                "text": "Information security has been a rising issue lately due to a series of scandals from big companies, rest assured, we're here."
+                "title": "Хранение комплектации",
+                "text": "Организация автоматического учета и складирования комплектации с последующей интеграцией оборудования с производственными линиями и системами учета."
+            }
+        ]
+    },
+    {
+        "id": "about-page-solutions-ua",
+        "title": "Інжинірингові рішення <br/> для виробництва електроніки.",
+        "solutions": [
+            {
+                "id": "warranty-management-it",
+                "title": "Поверхневий монтаж - SMT",
+                "text": "Організація поверхневого монтажу електронних компонентів на друковані плати з автоматичною інспекцією нанесення пасти та монтажу."
+            },
+            {
+                "id": "product-engineering-services",
+                "title": "Монтаж в отвори - THT",
+                "text": "Організація монтажу електронних компонентів в отвори друкованих плат із застосуванням автоматичної установки компонентів та групової пайки."
+            },
+            {
+                "id": "quality-control-system",
+                "title": "Очищення плат та трафаретів",
+                "text": "Організація технологічних процесів очищення зібраних електронних блоків після проведення монтажу компонентів. Чищення трафаретів та оснащення."
+            },
+            {
+                "id": "infrastructure-integration-technology",
+                "title": "Нанесення захисних покриттів",
+                "text": "Організація процесів нанесення захисних покриттів на зібрані електронні блоки з подальшим затвердінням. Інспекція якості нанесення."
+            },
+            {
+                "id": "highly-professional-staffs",
+                "title": "Поділ групових панелей",
+                "text": "Організація виробничих ділянок для автоматичного розділення групових заготовок друкованих плат. Механічні роутери та лазерне різання."
+            },
+            {
+                "id": "information-security-management",
+                "title": "Зберігання комплектації",
+                "text": "Організація автоматичного обліку та складування комплектації з подальшою інтеграцією обладнання з виробничими лініями та системами обліку."
+            }
+        ]
+    },
+    {
+        "id": "about-page-solutions-en",
+        "title": "Engineering solutions <br/> for the production of electronics.",
+        "solutions": [
+            {
+                "id": "warranty-management-it",
+                "title": "Surface-mount technology - SMT",
+                "text": "Organization of assembly of electronic components (SMD) on printed circuit boards with automatic inspection of paste (SPI) and soldering (AOI)."
+            },
+            {
+                "id": "product-engineering-services",
+                "title": "Through-hole technology - THT",
+                "text": "Organization of assembly of electronic components into printed circuit board holes using automatic insertion of components and group soldering."
+            },
+            {
+                "id": "quality-control-system",
+                "title": "Cleaning boards and stencils",
+                "text": "Organization of technological processes for cleaning assembled electronic boards after soldering. Cleaning stencils and tooling."
+            },
+            {
+                "id": "infrastructure-integration-technology",
+                "title": "Conformal coating",
+                "text": "Organization of the processes of protective coatings to assembled electronic boards with UV and IR curing. Automatic optical inspection."
+            },
+            {
+                "id": "highly-professional-staffs",
+                "title": "Boards separation",
+                "text": "Organization of production sites for automatic separation of printed circuit boards. Mechanical routers and laser cutting."
+            },
+            {
+                "id": "information-security-management",
+                "title": "Storage solutions",
+                "text": "Organization of intelligent and flexible storage soltution with integration of equipment with production lines and management systems."
             }
         ]
     }

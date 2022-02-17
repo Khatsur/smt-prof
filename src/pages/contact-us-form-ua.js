@@ -1,12 +1,12 @@
 import React from "react"
 import SEO from "../components/seo"
 import Layout from '../containers/layout/layout'
-import Header from '../containers/layout/header/header-three'
-import Footer from '../containers/layout/footer/footer-one'
+import Header from '../containers/layout/header/header-three-ua'
+import Footer from '../containers/layout/footer/footer-one-ua'
 import ContactFormArea from '../containers/contact-us/contact-form-area-ua'
 
 const path =
-  "contact-us-form";
+  "contact-us-form-ua";
 const ContactUsPage = ({ pageContext, location }) => (
     <Layout location={location}>
         <SEO title="Contact Us"/>

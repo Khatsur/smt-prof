@@ -43,6 +43,7 @@ const ClientsArea = (props) => {
     const { slider, sliderStyle } = props
     return (
         <SectionWrap>
+            <h3 style={{textAlign: "center", marginBottom: "80px"}}>Наши заказчики</h3>
             <Container>
                 <Row>
                     <Col lg={12}>

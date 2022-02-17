@@ -1,40 +1,32 @@
 [
     {
         "text": "Компанія",
-        "link": "/about-us",
+        "link": "/ua/компанія/про-нас",
         "isSubmenu": true,
         "submenu": [
             {
-                "text": "About Us",
-                "link": "/about-us"
+                "text": "Про нас",
+                "link": "/ua/компанія/про-нас"
             },
             {
-                "text": "Contact Us",
-                "link": "/contact-us"
+                "text": "Контакти",
+                "link": "/ua/компанія/контакти"
             },
             {
-                "text": "Leadership",
-                "link": "/leadership"
+                "text": "Партнерство",
+                "link": "/ua/компанія/партнерство"
             },
             {
-                "text": "Why Choose Us",
-                "link": "/why-choose-us"
+                "text": "Iсторія",
+                "link": "/ua/компанія/історія"
             },
             {
-                "text": "Our History",
-                "link": "/our-history"
+                "text": "Питання",
+                "link": "/ua/компанія/питання"
             },
             {
-                "text": "FAQs",
-                "link": "/faq"
-            },
-            {
-                "text": "Careers",
-                "link": "/careers"
-            },
-            {
-                "text": "Pricing Plans",
-                "link": "/pricing-plan"
+                "text": "Вакансії",
+                "link": "/ua/компанія/вакансії"
             }
         ]
     },
