@@ -2,19 +2,6 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
-  "component---src-templates-service-template-service-template-js": () => import("./../src/templates/service-template/service-template.js" /* webpackChunkName: "component---src-templates-service-template-service-template-js" */),
-  "component---src-templates-it-solution-template-it-solution-template-js": () => import("./../src/templates/it-solution-template/it-solution-template.js" /* webpackChunkName: "component---src-templates-it-solution-template-it-solution-template-js" */),
-  "component---src-templates-case-study-template-case-study-template-js": () => import("./../src/templates/case-study-template/case-study-template.js" /* webpackChunkName: "component---src-templates-case-study-template-case-study-template-js" */),
-  "component---src-templates-machine-template-machine-template-js": () => import("./../src/templates/machine-template/machine-template.js" /* webpackChunkName: "component---src-templates-machine-template-machine-template-js" */),
-  "component---src-templates-machine-template-machine-template-ua-js": () => import("./../src/templates/machine-template/machine-template-ua.js" /* webpackChunkName: "component---src-templates-machine-template-machine-template-ua-js" */),
-  "component---src-templates-material-template-material-template-js": () => import("./../src/templates/material-template/material-template.js" /* webpackChunkName: "component---src-templates-material-template-material-template-js" */),
-  "component---src-templates-material-template-material-template-ua-js": () => import("./../src/templates/material-template/material-template-ua.js" /* webpackChunkName: "component---src-templates-material-template-material-template-ua-js" */),
-  "component---src-templates-blog-template-blog-template-js": () => import("./../src/templates/blog-template/blog-template.js" /* webpackChunkName: "component---src-templates-blog-template-blog-template-js" */),
-  "component---src-templates-tag-template-tag-template-js": () => import("./../src/templates/tag-template/tag-template.js" /* webpackChunkName: "component---src-templates-tag-template-tag-template-js" */),
-  "component---src-templates-category-template-category-template-js": () => import("./../src/templates/category-template/category-template.js" /* webpackChunkName: "component---src-templates-category-template-category-template-js" */),
-  "component---src-templates-author-template-author-template-js": () => import("./../src/templates/author-template/author-template.js" /* webpackChunkName: "component---src-templates-author-template-author-template-js" */),
-  "component---src-templates-date-template-date-template-js": () => import("./../src/templates/date-template/date-template.js" /* webpackChunkName: "component---src-templates-date-template-date-template-js" */),
-  "component---src-templates-search-template-search-template-js": () => import("./../src/templates/search-template/search-template.js" /* webpackChunkName: "component---src-templates-search-template-search-template-js" */),
   "component---cache-dev-404-page-js": () => import("./dev-404-page.js" /* webpackChunkName: "component---cache-dev-404-page-js" */),
   "component---src-pages-404-js": () => import("./../src/pages/404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-about-us-js": () => import("./../src/pages/about-us.js" /* webpackChunkName: "component---src-pages-about-us-js" */),
@@ -188,6 +175,7 @@ exports.components = {
   "component---src-pages-ua-технічне-обслуговування-технічна-підтримка-index-js": () => import("./../src/pages/ua/технічне-обслуговування/технічна-підтримка/index.js" /* webpackChunkName: "component---src-pages-ua-технічне-обслуговування-технічна-підтримка-index-js" */),
   "component---src-pages-ua-технічне-обслуговування-технічне-навчання-index-js": () => import("./../src/pages/ua/технічне-обслуговування/технічне-навчання/index.js" /* webpackChunkName: "component---src-pages-ua-технічне-обслуговування-технічне-навчання-index-js" */),
   "component---src-pages-why-choose-us-js": () => import("./../src/pages/why-choose-us.js" /* webpackChunkName: "component---src-pages-why-choose-us-js" */),
+  "component---src-pages-компания-контакты-index-js": () => import("./../src/pages/компания/контакты/index.js" /* webpackChunkName: "component---src-pages-компания-контакты-index-js" */),
   "component---src-pages-компания-о-нас-index-js": () => import("./../src/pages/компания/о-нас/index.js" /* webpackChunkName: "component---src-pages-компания-о-нас-index-js" */),
   "component---src-pages-комплексные-решения-index-js": () => import("./../src/pages/комплексные-решения/index.js" /* webpackChunkName: "component---src-pages-комплексные-решения-index-js" */),
   "component---src-pages-комплексные-решения-линия-выводного-монтажа-index-js": () => import("./../src/pages/комплексные-решения/линия-выводного-монтажа/index.js" /* webpackChunkName: "component---src-pages-комплексные-решения-линия-выводного-монтажа-index-js" */),
@@ -303,6 +291,21 @@ exports.components = {
   "component---src-pages-техническое-обслуживание-index-js": () => import("./../src/pages/техническое-обслуживание/index.js" /* webpackChunkName: "component---src-pages-техническое-обслуживание-index-js" */),
   "component---src-pages-техническое-обслуживание-пуско-наладка-index-js": () => import("./../src/pages/техническое-обслуживание/пуско-наладка/index.js" /* webpackChunkName: "component---src-pages-техническое-обслуживание-пуско-наладка-index-js" */),
   "component---src-pages-техническое-обслуживание-техническая-поддержка-index-js": () => import("./../src/pages/техническое-обслуживание/техническая-поддержка/index.js" /* webpackChunkName: "component---src-pages-техническое-обслуживание-техническая-поддержка-index-js" */),
-  "component---src-pages-техническое-обслуживание-техническое-обучение-index-js": () => import("./../src/pages/техническое-обслуживание/техническое-обучение/index.js" /* webpackChunkName: "component---src-pages-техническое-обслуживание-техническое-обучение-index-js" */)
+  "component---src-pages-техническое-обслуживание-техническое-обучение-index-js": () => import("./../src/pages/техническое-обслуживание/техническое-обучение/index.js" /* webpackChunkName: "component---src-pages-техническое-обслуживание-техническое-обучение-index-js" */),
+  "component---src-pages-ua-компанія-контакти-index-js": () => import("./../src/pages/ua/компанія/контакти/index.js" /* webpackChunkName: "component---src-pages-ua-компанія-контакти-index-js" */),
+  "component---src-pages-en-company-contacts-index-js": () => import("./../src/pages/en/company/contacts/index.js" /* webpackChunkName: "component---src-pages-en-company-contacts-index-js" */),
+  "component---src-templates-service-template-service-template-js": () => import("./../src/templates/service-template/service-template.js" /* webpackChunkName: "component---src-templates-service-template-service-template-js" */),
+  "component---src-templates-it-solution-template-it-solution-template-js": () => import("./../src/templates/it-solution-template/it-solution-template.js" /* webpackChunkName: "component---src-templates-it-solution-template-it-solution-template-js" */),
+  "component---src-templates-case-study-template-case-study-template-js": () => import("./../src/templates/case-study-template/case-study-template.js" /* webpackChunkName: "component---src-templates-case-study-template-case-study-template-js" */),
+  "component---src-templates-machine-template-machine-template-js": () => import("./../src/templates/machine-template/machine-template.js" /* webpackChunkName: "component---src-templates-machine-template-machine-template-js" */),
+  "component---src-templates-machine-template-machine-template-ua-js": () => import("./../src/templates/machine-template/machine-template-ua.js" /* webpackChunkName: "component---src-templates-machine-template-machine-template-ua-js" */),
+  "component---src-templates-material-template-material-template-js": () => import("./../src/templates/material-template/material-template.js" /* webpackChunkName: "component---src-templates-material-template-material-template-js" */),
+  "component---src-templates-material-template-material-template-ua-js": () => import("./../src/templates/material-template/material-template-ua.js" /* webpackChunkName: "component---src-templates-material-template-material-template-ua-js" */),
+  "component---src-templates-blog-template-blog-template-js": () => import("./../src/templates/blog-template/blog-template.js" /* webpackChunkName: "component---src-templates-blog-template-blog-template-js" */),
+  "component---src-templates-tag-template-tag-template-js": () => import("./../src/templates/tag-template/tag-template.js" /* webpackChunkName: "component---src-templates-tag-template-tag-template-js" */),
+  "component---src-templates-category-template-category-template-js": () => import("./../src/templates/category-template/category-template.js" /* webpackChunkName: "component---src-templates-category-template-category-template-js" */),
+  "component---src-templates-author-template-author-template-js": () => import("./../src/templates/author-template/author-template.js" /* webpackChunkName: "component---src-templates-author-template-author-template-js" */),
+  "component---src-templates-date-template-date-template-js": () => import("./../src/templates/date-template/date-template.js" /* webpackChunkName: "component---src-templates-date-template-date-template-js" */),
+  "component---src-templates-search-template-search-template-js": () => import("./../src/templates/search-template/search-template.js" /* webpackChunkName: "component---src-templates-search-template-search-template-js" */)
 }
 

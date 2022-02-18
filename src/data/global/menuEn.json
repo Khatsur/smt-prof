@@ -1,32 +1,62 @@
 [
+   
     {
         "text": "Company",
         "link": "/en/company/about-us",
-        "isSubmenu": true,
-        "submenu": [
+        "megamenu": [
             {
-                "text": "About Us",
-                "link": "/en/company/about-us"
+                
+                "submenu": [
+                    {
+                        "text": "About Us",
+                        "link": "/en/company/about-us"
+                    }
+                ]
             },
             {
-                "text": "Contact Us",
-                "link": "/en/company/contacts"
+                
+                "submenu": [
+                    {
+                        "text": "Contact Us",
+                        "link": "/en/company/contacts"
+                    }
+                ]
             },
             {
-                "text": "Partnership",
-                "link": "/en/company/partnership"
+                
+                "submenu": [
+                    {
+                        "text": "Partnership",
+                        "link": "/en/company/partnership"
+                    }
+                ]
             },
             {
-                "text": "Our History",
-                "link": "/en/company/history"
+                
+                "submenu": [
+                    {
+                        "text": "Our History",
+                        "link": "/en/company/history"
+                    }
+                ]
             },
             {
-                "text": "FAQs",
-                "link": "/en/company/faq"
+                
+                "submenu": [
+                    {
+                        "text": "FAQs",
+                        "link": "/en/company/faq"
+                    }
+                ]
             },
             {
-                "text": "Careers",
-                "link": "/en/company/careers"
+                "title": "",
+                "submenu": [
+                    {
+                        "text": "Careers",
+                        "link": "/en/company/careers"
+                    }
+                ]
             }
         ]
     },
@@ -54,16 +84,12 @@
     },
     {
         "text": "Materials",
-        "link": "/en/materials",
-        "megamenu": [
+        "link": "/en/lines",
+        "isSubmenu": true,
+        "submenu": [
             {
-                "title": "Element Group 01",
-                "submenu": [
-                    {
-                        "text": "Accordion",
-                        "link": "/elements/accordion"
-                    }
-                ]
+                "text": "Materials",
+                "link": "/en/materials"
             }
         ]
     },
