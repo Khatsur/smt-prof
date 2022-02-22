@@ -19,9 +19,9 @@ const AboutPage = ({ location }) => (
   <Layout location={location}>
     <SEO
       title={title}
-      description="О нас и о нашей компании. Мы обеспечиваем современными технологиями и инновационным оборудование предприятия производящие электронные изделия в Украине." 
+      description="About us and our company. We provide modern technologies and innovative machines and materials to enterprises producing electronic products in Ukraine." 
       pathname={path}
-      keywords="О нас, Техническое обучение, Пуско-наладка оборудования, технология поверхностного монтажа, smt, juki, pva, pbt works, cab, inertec ,оборудование smt"
+      keywords="About us, Technical training, Equipment commissioning, SMT technology, smt, juki, pva, pbt works, cab, inertec ,smt equipment"
       image={img}
       lang={language}
     />

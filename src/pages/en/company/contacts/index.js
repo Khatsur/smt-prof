@@ -19,7 +19,7 @@ const AboutPage = ({ pageContext, location }) => (
       title={title}
       description="Контакты нашей компании. Мы обеспечиваем современными технологиями и инновационным оборудование предприятия производящие электронные изделия в Украине." 
       pathname={path}
-      keywords="Контакты, О нас, Техническое обучение, Пуско-наладка оборудования, технология поверхностного монтажа, smt, juki, pva, pbt works, cab, inertec ,оборудование smt"
+      keywords="Contacts, About us, Technical training, Equipment commissioning, SMT technology, smt, juki, pva, pbt works, cab, inertec ,smt equipment"
       image={img}
       lang={language}
     />
