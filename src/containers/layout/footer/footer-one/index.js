@@ -70,11 +70,11 @@ const Footer = ({ copyrightStyle, ...props }) => {
                             <FooterWidget responsive={{ medium: { mb: '31px' } }}>
                                 <Heading as="h6" mt="-3px" mb="20px">JUKI</Heading>
                                 <FooterWidgetList>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Установщики SMT</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Принтеры</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Паяльные печи</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Инспекция</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Склады</Anchor></li>
+                                    <li><Anchor path="/оборудование-для-монтажа/поверхностный-монтаж/автомат-поверхностного-монтажа" color="textColor" hoverstyle="2">Установщики SMT</Anchor></li>
+                                    <li><Anchor path="/оборудование-для-монтажа/поверхностный-монтаж/принтеры-паяльной-пасты/автоматический-принтер-пасты" color="textColor" hoverstyle="2">Принтеры</Anchor></li>
+                                    <li><Anchor path="/оборудование-для-монтажа/поверхностный-монтаж/печи-паяльные/конвекционная-пайка" color="textColor" hoverstyle="2">Паяльные печи</Anchor></li>
+                                    <li><Anchor path="/оборудование-для-монтажа/поверхностный-монтаж/автоматическая-оптическая-инспекция/системы-автоматической-оптической-инспекции" color="textColor" hoverstyle="2">Инспекция</Anchor></li>
+                                    <li><Anchor path="/оборудование-для-монтажа/автоматизированные-системы-хранения" color="textColor" hoverstyle="2">Склады</Anchor></li>
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
