@@ -2,7 +2,7 @@ import React from "react"
 import SEO from "../../../../../../components/seo"
 import Layout from '../../../../../../containers/layout/layout'
 import Header from '../../../../../../containers/layout/header/header-three-ua'
-import Footer from '../../../../../../containers/layout/footer/footer-one'
+import Footer from '../../../../../../containers/layout/footer/footer-one-ua'
 import JukiRewlowUaPageHeader from '../../../../../../components/pageheader/juki-reflow'
 import JukiRewlowUa from '../../../../../../containers/machines/smt/reflow/juki'
 import ContactArea from '../../../../../../containers/global/contact-area/contact-three-ua'

@@ -5,6 +5,19 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
+  "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
+  "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
+  "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
+  "component---src-templates-machine-template-machine-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template.js"))),
+  "component---src-templates-machine-template-machine-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template-ua.js"))),
+  "component---src-templates-material-template-material-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/material-template/material-template.js"))),
+  "component---src-templates-material-template-material-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/material-template/material-template-ua.js"))),
+  "component---src-templates-blog-template-blog-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-template/blog-template.js"))),
+  "component---src-templates-tag-template-tag-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/tag-template/tag-template.js"))),
+  "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
+  "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
+  "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
+  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js"))),
   "component---cache-dev-404-page-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/404.js"))),
   "component---src-pages-about-us-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/about-us.js"))),
@@ -61,6 +74,7 @@ exports.components = {
   "component---src-pages-our-history-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/our-history.js"))),
   "component---src-pages-page-2-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/page-2.js"))),
   "component---src-pages-pricing-plan-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/pricing-plan.js"))),
+  "component---src-pages-ru-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ru/index.js"))),
   "component---src-pages-service-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/service.js"))),
   "component---src-pages-ua-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/index.js"))),
   "component---src-pages-ua-компанія-контакти-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/ua/компанія/контакти/index.js"))),
@@ -300,19 +314,6 @@ exports.components = {
   "component---src-pages-техническое-обслуживание-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/index.js"))),
   "component---src-pages-техническое-обслуживание-пуско-наладка-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/пуско-наладка/index.js"))),
   "component---src-pages-техническое-обслуживание-техническая-поддержка-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/техническая-поддержка/index.js"))),
-  "component---src-pages-техническое-обслуживание-техническое-обучение-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/техническое-обучение/index.js"))),
-  "component---src-templates-service-template-service-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/service-template/service-template.js"))),
-  "component---src-templates-it-solution-template-it-solution-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/it-solution-template/it-solution-template.js"))),
-  "component---src-templates-case-study-template-case-study-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/case-study-template/case-study-template.js"))),
-  "component---src-templates-machine-template-machine-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template.js"))),
-  "component---src-templates-machine-template-machine-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/machine-template/machine-template-ua.js"))),
-  "component---src-templates-material-template-material-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/material-template/material-template.js"))),
-  "component---src-templates-material-template-material-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/material-template/material-template-ua.js"))),
-  "component---src-templates-blog-template-blog-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-template/blog-template.js"))),
-  "component---src-templates-tag-template-tag-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/tag-template/tag-template.js"))),
-  "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
-  "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),
-  "component---src-templates-date-template-date-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/date-template/date-template.js"))),
-  "component---src-templates-search-template-search-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/search-template/search-template.js")))
+  "component---src-pages-техническое-обслуживание-техническое-обучение-index-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/pages/техническое-обслуживание/техническое-обучение/index.js")))
 }
 

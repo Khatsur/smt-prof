@@ -5,7 +5,7 @@ module.exports = {
 	siteMetadata: {
 		title: "Все для SMT",
 		titleTemplate: `SMT PROF`,
-		description: `Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.`,
+		description: `Поставка инновационного оборудования класса Hi-End для серийного и крупносерийного многономенклатурного производства монтажа печатных. Инновационное решение с большим запасом на развитие технологий сборки плат в будущем.`,
 		author: `SMT PROF`,
 		twitterUsername: `@SmtProfUkr`,
 		image: 'landing.png',
@@ -33,24 +33,24 @@ module.exports = {
 			addressInfos: [
 				{
 					"id": "san-francisco",
-					"state": "San Francisco",
-					"address": "58 Howard Street #2 San Francisco, CA 941",
-					"email": "contact.sanfrancisco@mitech.com",
-					"phone": "(+68)1221 09876"
+					"state": "Ukraine",
+					"address": "ул. Дегтяревская",
+					"email": "smt-prof@smt-prof.com.ua",
+					"phone": "050.440.9925"
 				},
 				{
 					"id": "new-york",
-					"state": "New York",
-					"address": "58 Howard Street #14 New York",
-					"email": "contact.newyork@mitech.com",
-					"phone": "(+68)1221 09878"
+					"state": "Ukraine",
+					"address": "ул. Дегтяревская",
+					"email": "smt-prof@smt-prof.com.ua",
+					"phone": "050.440.9925"
 				},
 				{
-					"id": "russia",
-					"state": "Russia",
-					"address": "The Courtyard Building 11 Curtain Road, Russia",
-					"email": "contact.russia@mitech.com",
-					"phone": "(+68)1221 09877"
+					"id": "ukraine",
+					"state": "Ukraine",
+					"address": "ул. Дегтяревская",
+					"email": "smt-prof@smt-prof.com.ua",
+					"phone": "050.440.9925"
 				}
 			]
 		}

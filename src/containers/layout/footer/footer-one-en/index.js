@@ -68,36 +68,35 @@ const Footer = ({ copyrightStyle, ...props }) => {
                         </Col>
                         <Col lg={2} md={4} sm={6}>
                             <FooterWidget responsive={{ medium: { mb: '31px' } }}>
-                                <Heading as="h6" mt="-3px" mb="20px">IT Services</Heading>
+                                <Heading as="h6" mt="-3px" mb="20px">JUKI</Heading>
                                 <FooterWidgetList>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Managed IT</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">IT Support</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">IT Consultancy</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Cloud Computing</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Cyber Security</Anchor></li>
+                                    <li><Anchor path="/en/machines" color="textColor" hoverstyle="2">Pick and place</Anchor></li>
+                                    <li><Anchor path="/Pick and place" color="textColor" hoverstyle="2">Printing</Anchor></li>
+                                    <li><Anchor path="/Pick and place" color="textColor" hoverstyle="2">Reflow</Anchor></li>
+                                    <li><Anchor path="/Pick and place" color="textColor" hoverstyle="2">AOI</Anchor></li>
+                                    <li><Anchor path="/Pick and place" color="textColor" hoverstyle="2">Storage</Anchor></li>
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
                         <Col lg={2} md={4} sm={6}>
                             <FooterWidget responsive={{ medium: { mb: '27px' } }}>
-                                <Heading as="h6" mt="-3px" mb="20px">Quick links</Heading>
+                                <Heading as="h6" mt="-3px" mb="20px">Production</Heading>
                                 <FooterWidgetList>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Pick up locations</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Terms of Payment</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Privacy Policy</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Where to Find Us</Anchor></li>
+                                    <li><Anchor path="/en/lines" color="textColor" hoverstyle="2">Prototyping</Anchor></li>
+                                    <li><Anchor path="/en/lines" color="textColor" hoverstyle="2">Small</Anchor></li>
+                                    <li><Anchor path="/en/lines" color="textColor" hoverstyle="2">Serial</Anchor></li>
+                                    <li><Anchor path="/en/lines" color="textColor" hoverstyle="2">Industry 4.0</Anchor></li>
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
                         <Col lg={2} md={4} sm={6}>
                             <FooterWidget>
-                                <Heading as="h6" mt="-3px" mb="20px">Support</Heading>
+                                <Heading as="h6" mt="-3px" mb="20px">Service</Heading>
                                 <FooterWidgetList>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Forum Support</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Help &amp; FAQ</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Contact Us</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Pricing and plans</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Cookies Policy</Anchor></li>
+                                    <li><Anchor path="/en/service" color="textColor" hoverstyle="2">Installation</Anchor></li>
+                                    <li><Anchor path="/en/service" color="textColor" hoverstyle="2">Training</Anchor></li>
+                                    <li><Anchor path="/en/service" color="textColor" hoverstyle="2">Support</Anchor></li>
+                                    
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>

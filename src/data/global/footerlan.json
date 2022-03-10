@@ -4,12 +4,12 @@
         "footer": {
             "title": "Все для SMT",
             "titleTemplate": "SMT PROF",
-            "description": "Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.",
-            "author": "@HasThemes",
+            "description": "Постачання інноваційного обладнання класу High-End для серійного і багато-серійного виробництва монтажу друкованих плат. Інноваційні рішення із запасом потужності на розвиток технологій складання плат в майбутньому.",
+            "author": "SMT PROF",
             "twitterUsername": "@HasThemes",
             "image": "landing.png",
             "siteUrl": "www.smt-prof.com.ua",
-            "copyright": "SMT PROF. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+            "copyright": "SMT PROF. <a href='https://www.smt-prof.com.ua/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
             "social": {
                 "facebook": "https://www.facebook.com",
                 "twitter": "https://www.twitter.com",
@@ -27,24 +27,24 @@
                 "addressInfos": [
                     {
                         "id": "san-francisco",
-                        "state": "San Francisco",
-                        "address": "58 Howard Street #2 San Francisco, CA 941",
-                        "email": "contact.sanfrancisco@mitech.com",
-                        "phone": "(+68)1221 09876"
+                        "state": "Ukraine",
+                        "address": "ул. Дегтяревская",
+                        "email": "smt-prof@smt-prof.com.ua",
+                        "phone": "050.440.9925"
                     },
                     {
                         "id": "new-york",
-                        "state": "New York",
-                        "address": "58 Howard Street #14 New York",
-                        "email": "contact.newyork@mitech.com",
-                        "phone": "(+68)1221 09878"
+                        "state": "Ukraine",
+                        "address": "ул. Дегтяревская",
+                        "email": "smt-prof@smt-prof.com.ua",
+                        "phone": "050.440.9925"
                     },
                     {
-                        "id": "russia",
-                        "state": "Russia",
-                        "address": "The Courtyard Building 11 Curtain Road, Russia",
-                        "email": "contact.russia@mitech.com",
-                        "phone": "(+68)1221 09877"
+                        "id": "ukraine",
+                        "state": "Ukraine",
+                        "address": "ул. Дегтяревская",
+                        "email": "smt-prof@smt-prof.com.ua",
+                        "phone": "050.440.9925"
                     }
                 ]
             }
@@ -55,13 +55,13 @@
         "footer": {
             "title": "Все для SMT",
             "titleTemplate": "SMT PROF",
-            "description": "Mitech is a Powerful & flexible Technology And Digital Software Gatsby Template. 06 Stunning Homepages are included in this template. You can use any template or mix content from different home pages for your website.",
-            "author": "@HasThemes",
-            "twitterUsername": "@HasThemes",
+            "description": "Supply of innovative equipment of the High-End class for serial and large-scale multi-product production of PCB assembly of increased complexity. An innovative solutions with a large margin for the development of board assembly technologies in the future.",
+            "author": "SMT PROF",
+            "twitterUsername": "@SmtProfUkr",
             "image": "landing.png",
             "siteUrl": "www.smt-prof.com.ua",
-            "copyright": "SMT PROF. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
-            "copyrightua": "SMT PROF. <a href='https://hasthemes.com/' target='_blank' rel='noopener noreferrer'>Всі права захищені</a>",
+            "copyright": "SMT PROF. <a href='https://www.smt-prof.com.ua/' target='_blank' rel='noopener noreferrer'>All Rights Reserved.</a>",
+            "copyrightua": "SMT PROF. <a https://www.smt-prof.com.ua/' target='_blank' rel='noopener noreferrer'>Всі права захищені</a>",
             "social": {
                 "facebook": "https://www.facebook.com",
                 "twitter": "https://www.twitter.com",
@@ -79,24 +79,24 @@
                 "addressInfos": [
                     {
                         "id": "san-francisco",
-                        "state": "San Francisco",
-                        "address": "58 Howard Street #2 San Francisco, CA 941",
-                        "email": "contact.sanfrancisco@mitech.com",
-                        "phone": "(+68)1221 09876"
+                        "state": "Ukraine",
+                        "address": "ул. Дегтяревская",
+                        "email": "smt-prof@smt-prof.com.ua",
+                        "phone": "050.440.9925"
                     },
                     {
                         "id": "new-york",
-                        "state": "New York",
-                        "address": "58 Howard Street #14 New York",
-                        "email": "contact.newyork@mitech.com",
-                        "phone": "(+68)1221 09878"
+                        "state": "Ukraine",
+                        "address": "ул. Дегтяревская",
+                        "email": "smt-prof@smt-prof.com.ua",
+                        "phone": "050.440.9925"
                     },
                     {
-                        "id": "russia",
-                        "state": "Russia",
-                        "address": "The Courtyard Building 11 Curtain Road, Russia",
-                        "email": "contact.russia@mitech.com",
-                        "phone": "(+68)1221 09877"
+                        "id": "ukraine",
+                        "state": "Ukraine",
+                        "address": "ул. Дегтяревская",
+                        "email": "smt-prof@smt-prof.com.ua",
+                        "phone": "050.440.9925"
                     }
                 ]
             }

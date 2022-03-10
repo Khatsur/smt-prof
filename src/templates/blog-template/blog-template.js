@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import { FaCalendarAlt, FaCommentDots, FaQuoteRight } from "react-icons/fa";
 import { TiSocialFacebook, TiSocialTwitter, TiSocialLinkedin, TiSocialInstagram } from "react-icons/ti";
 import Layout from '../../containers/layout/layout'
-import Header from '../../containers/layout/header/header-one'
+import Header from '../../containers/layout/header/header-three'
 import Footer from '../../containers/layout/footer/footer-one'
 import Section, { Box, Row, Col } from '../../components/ui/wrapper'
 import SEO from "../../components/seo"
@@ -71,7 +71,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
             <PageHeader
                 pageContext={pageContext}
                 location={location}
-                title="Blog"
+                title="News"
             />
             <main className="site-wrapper-reveal">
                 <Section {...sectionStyle}>
@@ -173,15 +173,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                             </SingleBlogWrap>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col lg={8} ml="auto" mr="auto">
-                            <Comment
-                                url={slug}
-                                id={id}
-                                title={post.title}
-                            />
-                        </Col>
-                    </Row>
+                    
                 </Section>
             </main>
             <Footer />

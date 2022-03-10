@@ -20,7 +20,7 @@ export const Language = props => {
             en = `../../../../../../${PagePath[i].en}`;
             i = PagePath.length;
         } else {
-            ru = "/";
+            ru = "/ru";
             en = "../../../../../../en";
         }
     };

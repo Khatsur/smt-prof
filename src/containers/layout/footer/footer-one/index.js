@@ -80,24 +80,23 @@ const Footer = ({ copyrightStyle, ...props }) => {
                         </Col>
                         <Col lg={2} md={4} sm={6}>
                             <FooterWidget responsive={{ medium: { mb: '27px' } }}>
-                                <Heading as="h6" mt="-3px" mb="20px">Quick links</Heading>
+                                <Heading as="h6" mt="-3px" mb="20px">Производство</Heading>
                                 <FooterWidgetList>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Pick up locations</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Terms of Payment</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Privacy Policy</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Where to Find Us</Anchor></li>
+                                    <li><Anchor path="/комплексные-решения/линия-поверхностного-монтажа/линия-smt" color="textColor" hoverstyle="2">Прототипирование</Anchor></li>
+                                    <li><Anchor path="/комплексные-решения/линия-поверхностного-монтажа/линия-smd-монтажа" color="textColor" hoverstyle="2">Мелкосерийное</Anchor></li>
+                                    <li><Anchor path="/комплексные-решения/линия-поверхностного-монтажа/smt-линия-монтажа-плат" color="textColor" hoverstyle="2">Серийное</Anchor></li>
+                                    <li><Anchor path="/комплексные-решения/линия-поверхностного-монтажа/линия-smt-industry-40" color="textColor" hoverstyle="2">Industry 4.0</Anchor></li>
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
                         <Col lg={2} md={4} sm={6}>
                             <FooterWidget>
-                                <Heading as="h6" mt="-3px" mb="20px">Support</Heading>
+                                <Heading as="h6" mt="-3px" mb="20px">Поддержка</Heading>
                                 <FooterWidgetList>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Forum Support</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Help &amp; FAQ</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Contact Us</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Pricing and plans</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Cookies Policy</Anchor></li>
+                                    <li><Anchor path="/техническое-обслуживание/пуско-наладка" color="textColor" hoverstyle="2">Запуск оборудования</Anchor></li>
+                                    <li><Anchor path="/техническое-обслуживание/техническое-обучение" color="textColor" hoverstyle="2">Обучение специалистов</Anchor></li>
+                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Удаленная поддержка</Anchor></li>
+                                    
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>

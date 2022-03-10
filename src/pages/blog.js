@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import SEO from "../components/seo"
 import Layout from '../containers/layout/layout'
-import Header from '../containers/layout/header/header-one'
+import Header from '../containers/layout/header/header-three'
 import Footer from '../containers/layout/footer/footer-one'
 import PageHeader from '../components/pageheader'
 import Section, { Row, Col } from '../components/ui/wrapper'
@@ -15,12 +15,12 @@ const BlogListLargeImage = ({ pageContext, location, ...restProps }) => {
     const { sectionStyle, headingStyle } = restProps;
     return (
         <Layout location={location}>
-            <SEO title="Blogs" />
+            <SEO title="News" />
             <Header />
             <PageHeader
                 pageContext={pageContext}
                 location={location}
-                title="Blog Update"
+                title="News Update"
             />
             <main className="site-wrapper-reveal">
                 <Section {...sectionStyle}>

@@ -68,36 +68,35 @@ const Footer = ({ copyrightStyle, ...props }) => {
                         </Col>
                         <Col lg={2} md={4} sm={6}>
                             <FooterWidget responsive={{ medium: { mb: '31px' } }}>
-                                <Heading as="h6" mt="-3px" mb="20px">IT Services</Heading>
+                                <Heading as="h6" mt="-3px" mb="20px">JUKI</Heading>
                                 <FooterWidgetList>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Managed IT</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">IT Support</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">IT Consultancy</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Cloud Computing</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Cyber Security</Anchor></li>
+                                    <li><Anchor path="/ua/обладнання-для-монтажу/поверхневий-монтаж/автомат-поверхневого-монтажу" color="textColor" hoverstyle="2">Установники SMT</Anchor></li>
+                                    <li><Anchor path="/ua/обладнання-для-монтажу/поверхневий-монтаж/принтери-паяльної-пасти/автоматичний-принтер-пасти" color="textColor" hoverstyle="2">Принтери</Anchor></li>
+                                    <li><Anchor path="/ua/обладнання-для-монтажу/поверхневий-монтаж/печі-паяльні/конвекційна-пайка" color="textColor" hoverstyle="2">Паяльні печі</Anchor></li>
+                                    <li><Anchor path="/ua/обладнання-для-монтажу/поверхневий-монтаж/автоматична-оптична-інспекція/системи-автоматичної-оптичної-інспекції" color="textColor" hoverstyle="2">Інспекція</Anchor></li>
+                                    <li><Anchor path="/ua/обладнання-для-монтажу/автоматизовані-системи-зберігання/автоматизовані-склади-компонентів" color="textColor" hoverstyle="2">Склади</Anchor></li>
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
                         <Col lg={2} md={4} sm={6}>
                             <FooterWidget responsive={{ medium: { mb: '27px' } }}>
-                                <Heading as="h6" mt="-3px" mb="20px">Quick links</Heading>
+                                <Heading as="h6" mt="-3px" mb="20px">Виробництво</Heading>
                                 <FooterWidgetList>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Pick up locations</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Terms of Payment</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Privacy Policy</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Where to Find Us</Anchor></li>
+                                    <li><Anchor path="/ua/комплексні-рішення/лінія-поверхневого-монтажу/лінія-smt" color="textColor" hoverstyle="2">Прототипування</Anchor></li>
+                                    <li><Anchor path="/ua/комплексні-рішення/лінія-поверхневого-монтажу/лінія-smd-монтажу" color="textColor" hoverstyle="2">Дрібносерійне</Anchor></li>
+                                    <li><Anchor path="/ua/комплексні-рішення/лінія-поверхневого-монтажу/smt-лінія-монтажу-плат" color="textColor" hoverstyle="2">Серійне</Anchor></li>
+                                    <li><Anchor path="/ua/комплексні-рішення/лінія-поверхневого-монтажу/лінія-smt-industry-40" color="textColor" hoverstyle="2">Industry 4.0</Anchor></li>
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>
                         <Col lg={2} md={4} sm={6}>
                             <FooterWidget>
-                                <Heading as="h6" mt="-3px" mb="20px">Support</Heading>
+                                <Heading as="h6" mt="-3px" mb="20px">Підтримка</Heading>
                                 <FooterWidgetList>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Forum Support</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Help &amp; FAQ</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Contact Us</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Pricing and plans</Anchor></li>
-                                    <li><Anchor path="/" color="textColor" hoverstyle="2">Cookies Policy</Anchor></li>
+                                    <li><Anchor path="/ua/технічне-обслуговування/пуско-наладка" color="textColor" hoverstyle="2">Запуск обладнання</Anchor></li>
+                                    <li><Anchor path="/ua/технічне-обслуговування/технічне-навчання" color="textColor" hoverstyle="2">Навчання спеціалістів</Anchor></li>
+                                    <li><Anchor path="/ua/технічне-обслуговування/технічна-підтримка" color="textColor" hoverstyle="2">Віддалена підтримка</Anchor></li>
+
                                 </FooterWidgetList>
                             </FooterWidget>
                         </Col>

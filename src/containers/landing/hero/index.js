@@ -50,17 +50,11 @@ const Hero = ({headingSecondary, headingPrimary, buttonStyle}) => {
                         }
                     }
                 }
-                image5 {
-                    childImageSharp {
-                        fluid(maxWidth: 356, maxHeight: 68, quality: 100) {
-                            ...GatsbyImageSharpFluid_tracedSVG
-                        }
-                    }
-                }
+                
             }
         }    
     `);
-    const {title, subtitle, bgImage, image1, image2, image3, image4, image5} = heroData.landingJson;
+    const {title, subtitle, bgImage, image1, image2, image3, image4} = heroData.landingJson;
     return(
         <HeroWrapper fluid={bgImage.childImageSharp.fluid}>
             <Container fluid className="xp-150">
@@ -81,7 +75,7 @@ const Hero = ({headingSecondary, headingPrimary, buttonStyle}) => {
                 <Img fluid={image2.childImageSharp.fluid} className="img-fluid pr-img-01 animation_images two wow fadeInDown" alt="Preview Hero"/>
                 <Img fluid={image3.childImageSharp.fluid} className="img-fluid pr-img-02 animation_images two wow fadeInDown" alt="Preview Hero"/>
                 <Img fluid={image4.childImageSharp.fluid} className="img-fluid pr-img-03 animation_images two wow fadeInDown" alt="Preview Hero"/>
-                <Img fluid={image5.childImageSharp.fluid} className="img-fluid pr-img-04 animation_images two wow fadeInDown" alt="Preview Hero"/>
+               
             </Container>
         </HeroWrapper>
        
