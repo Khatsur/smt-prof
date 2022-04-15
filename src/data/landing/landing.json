@@ -426,25 +426,25 @@
                 "image": "../images/icons/logos/fritsch_logo.png"
             },
             {
-                "id": 5,
+                "id": 6,
                 "title": "Разделение плат",
                 "desc": "Оборудование для разделения групповых заготовок (паллет) печатных плат. Ручные и автоматизированные устройства. Магазины для плат.",
                 "image": "../images/icons/logos/cab_logo.png"
             },
             {
-                "id": 5,
+                "id": 7,
                 "title": "Мойка плат и трафаретов",
                 "desc": "Жидкости для отмывки электронных сборок, трафаретов и технологической оснастки. Средства контроля загрязнений и процесса мойки.",
                 "image": "../images/icons/logos/zestron_logo.png"
             },
             {
-                "id": 5,
+                "id": 8,
                 "title": "Паяльная паста и припой",
                 "desc": "Паяльная паста для нанесения через трафарет. Припой с флюсом для ручного пайки. Припой в брусках для машин пайки волной припоя.",
                 "image": "../images/icons/logos/indium_logo.png"
             },
             {
-                "id": 6,
+                "id": 9,
                 "title": "Защитные покрытия",
                 "desc": "Защитные покрытия для электронных сборок: аккриловые, силиконовые, уретановые, резиновые. Лаки с УФ отвердением. Средства для снятия лака.",
                 "image": "../images/icons/logos/humiseal_logo.png"
@@ -485,25 +485,25 @@
                 "image": "../images/icons/logos/fritsch_logo.png"
             },
             {
-                "id": 5,
+                "id": 6,
                 "title": "Розділення плат",
                 "desc": "Устаткування для розділення групових заготовок друкованих плат. Ручні пристрої і автоматизовані машини. Магазини для плат.",
                 "image": "../images/icons/logos/cab_logo.png"
             },
             {
-                "id": 5,
+                "id": 7,
                 "title": "Матеріали для очищення",
                 "desc": "Рідини для відмивання електронних плат, трафаретів і технологічної оснастки. Засоби контролю забруднень і процесу миття.",
                 "image": "../images/icons/logos/zestron_logo.png"
             },
             {
-                "id": 5,
+                "id": 8,
                 "title": "Паяльна паста і припій",
                 "desc": "Паяльна паста для нанесення через трафарет. Припій з флюсом для ручного паяння. Припій в брусках для машин пайки хвилею припою.",
                 "image": "../images/icons/logos/indium_logo.png"
             },
             {
-                "id": 6,
+                "id": 9,
                 "title": "Захисні покриття",
                 "desc": "Захисні покриття для електронних плат: акрилові, силіконові, уретанові, гумові. Лаки з УФ затвердінням. Засоби для зняття лаку.",
                 "image": "../images/icons/logos/humiseal_logo.png"
@@ -538,31 +538,31 @@
                 "image": "../images/icons/logos/pbt_logo.png"
             },
             {
-                "id": 5,
+                "id": 6,
                 "title": "Small SMT",
                 "desc": "Machines for small production and prototyping. Manual manipulators and semi-automatic manipulators for SMD mounting. Fine-pitch components placers.",
                 "image": "../images/icons/logos/fritsch_logo.png"
             },
             {
-                "id": 5,
+                "id": 7,
                 "title": "PCB separation ",
                 "desc": "Stress-free separation of pre-scored PCBs. Manual and automated devices. Long boards (LED) FR4 and Al separators. Precision PCB magazines.",
                 "image": "../images/icons/logos/cab_logo.png"
             },
             {
-                "id": 5,
+                "id": 8,
                 "title": "Cleaning liquids",
                 "desc": "Liquids for cleaning electronics assemblies, stencils and maintenance. Cleaners for power electronics. Process optimization products.",
                 "image": "../images/icons/logos/zestron_logo.png"
             },
             {
-                "id": 5,
+                "id": 9,
                 "title": "Solder paste and solder",
                 "desc": "SnPb and Pb-free soldering materials. Solder paste, solder wire, solder bars. Ultra-low voiding solder paste with the best stencil print transfer efficiency.  ",
                 "image": "../images/icons/logos/indium_logo.png"
             },
             {
-                "id": 6,
+                "id": 10,
                 "title": "Conformal coating",
                 "desc": "Conformal coatings for electronic assemblies: acrylic, silicone, urethane, rubber. UV curable conformal coatings. Thinners and stripers.",
                 "image": "../images/icons/logos/humiseal_logo.png"

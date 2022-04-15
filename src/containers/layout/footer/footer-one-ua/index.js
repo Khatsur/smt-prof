@@ -61,8 +61,16 @@ const Footer = ({ copyrightStyle, ...props }) => {
                                 <TextWidget>
                                     {address && <Text mb="10px">{address}</Text>}
                                     {email && <Text mb="10px"><Anchor path={`mailto:${email}`} color="textColor" hoverstyle="2">{email}</Anchor></Text>}
-                                    {phone && <Text mb="10px"><Anchor path={`tel:${phone}`} fontWeight="800" color="#333" hoverstyle="2">{}</Anchor></Text>}
-                                    {website && <Text mb="10px"><Anchor path={website} hoverstyle="2">{}</Anchor></Text>}
+                                    {phone && <Text mb="10px">
+                                        
+                                        <Anchor path={`tel:${phone}`} fontWeight="800" color="#333" hoverstyle="2">{phone}</Anchor>
+                                        
+                                        </Text>}
+                                    {website && <Text mb="10px">
+                                        
+                                        <Anchor path={website} hoverstyle="2">{website}</Anchor>
+                                        
+                                        </Text>}
                                 </TextWidget>
                             </FooterWidget>
                         </Col>
