@@ -42,7 +42,7 @@ import image34 from '../../../data/images/bg/lines/tracemonitor-300x300.jpg'
 import image35 from '../../../data/images/bg/lines/ifs-nx-300x300.jpg'
 import image36 from '../../../data/images/bg/machines/coating/coating-aoi.jpg'
 
-const BoxSection = ({ sectionTitleStyle, machine, linkStyle, sectionBottomStyle }) => {
+const BoxSection = ({ sectionTitleStyle, machine }) => {
     let boxContents = [];
     let description = "";
     let subtitle = "";

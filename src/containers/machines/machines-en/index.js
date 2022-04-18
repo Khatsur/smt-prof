@@ -2,17 +2,15 @@ import React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 import {Container, Row, Col} from '../../../components/ui/wrapper'
 import FeatureBox from '../../../components/box-image/layout-five-en'
-import Heading from '../../../components/ui/heading'
-import Anchor from '../../../components/ui/anchor'
 import {SectionWrap} from './machines-en.style'
 
-const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
+const FeaturesArea = ({featureBoxStyle}) => {
     const featureData = useStaticQuery(graphql `
         query MachinesEn {
             allMachinesJson(sort: {order: ASC, fields: id}, limit: 6) {
                 edges {
                     node {
-                        
+                        id
                         entitle
                         enexcerpt
                         icon {
@@ -54,11 +52,6 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
                         </Col>
                     ))}
                     
-                </Row>
-                <Row>
-                    <Col lg={12}>
-                        <Heading {...headingStyle}></Heading>
-                    </Col>
                 </Row>
             </Container>
         </SectionWrap>

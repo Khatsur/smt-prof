@@ -2,16 +2,15 @@ import React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 import {Container, Row, Col} from '../../../components/ui/wrapper'
 import FeatureBox from '../../../components/box-image/layout-five'
-import Heading from '../../../components/ui/heading'
 import {SectionWrap} from './features-area.style'
 
-const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
+const FeaturesArea = ({featureBoxStyle}) => {
     const featureData = useStaticQuery(graphql `
         query ResolutionsFeaturesQuery {
             allMachinesJson(sort: {order: ASC, fields: id}, limit: 8) {
                 edges {
                     node {
-                        
+                        id
                         title
                         excerpt
                         path
@@ -55,11 +54,7 @@ const FeaturesArea = ({headingStyle, linkStyle, featureBoxStyle}) => {
                     ))}
                     
                 </Row>
-                <Row>
-                    <Col lg={12}>
-                        <Heading {...headingStyle}></Heading>
-                    </Col>
-                </Row>
+               
             </Container>
         </SectionWrap>
     )

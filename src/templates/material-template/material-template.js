@@ -5,7 +5,7 @@ import SEO from "../../components/seo"
 import Layout from '../../containers/layout/layout'
 import Header from '../../containers/layout/header/header-three'
 import Footer from '../../containers/layout/footer/footer-one'
-import { Container, Box, Row, Col } from '../../components/ui/wrapper'
+import { Container, Row, Col } from '../../components/ui/wrapper'
 import Heading from '../../components/ui/heading'
 import Text from '../../components/ui/text'
 import Image from '../../components/image'
