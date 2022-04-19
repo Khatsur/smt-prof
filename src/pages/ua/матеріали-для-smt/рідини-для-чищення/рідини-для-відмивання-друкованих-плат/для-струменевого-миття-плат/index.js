@@ -12,7 +12,7 @@ import img from "../../../../../../data/images/bg/materials/cleaning/pcb/spray-c
 const title = "Рідина для струменевого миття плат";
 const language = "uk";
 const path =
-  "ua/матеріали-для-smt/рідини-для-чищення/рідини-для-відмивання-друкованих-плат/рідина-для-струменевого-миття-плат";
+  "ua/матеріали-для-smt/рідини-для-чищення/рідини-для-відмивання-друкованих-плат/для-струменевого-миття-плат";
 const CaseStudiesPage = ({ pageContext, location }) => (
   <Layout location={location}>
     <SEO

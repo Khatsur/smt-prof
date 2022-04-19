@@ -12,7 +12,7 @@ import img from "../../../../../../data/images/bg/materials/cleaning/pcb/pcb-cle
 const title = "Рідина для ультразвукового миття плат";
 const language = "uk";
 const path =
-  "ua/матеріали-для-smt/рідини-для-чищення/рідини-для-відмивання-друкованих-плат/рідина-для-ультразвукового-миття-плат";
+  "ua/матеріали-для-smt/рідини-для-чищення/рідини-для-відмивання-друкованих-плат/для-ультразвукового-миття";
 const CaseStudiesPage = ({ pageContext, location }) => (
   <Layout location={location}>
     <SEO
