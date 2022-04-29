@@ -2,28 +2,64 @@
     {
         "id": "history-page-intro",
         "title": "Мы не просто создаем проекты. <span></span> <br/> Мы их успешно реализуем.",
-        "desc": "You know that you found your dream when you have a desire to achieve a goal, have the gut to pursue it, have the courage to overcome any obstacles on your path and feel blessed when finally realizing it. Dream on, keep up and make it pay off."
+        "desc": "История развития это не только история успеха. Жизнь состоит из маленький шагов, которые создают свой уникальный путь становления и роста. Решая сложные и комплексные задачи, мы растем и развиваемся вместе с нашими Заказчиками."
     },
     {
         "id": "our-history",
         "histories": [
             {
-                "year": "1988",
-                "image": "../images/box-image/timeline-image-01.jpg",
-                "title": "The Foundation of Mitech",
-                "desc": "The beginning of Mitech Co. was laid by three men: Jackie Moodle, Alan Morray and Burrow Kills. Back in 1988, three passionate young pupils, whose major is Information Technology, had discussed with each other about starting a company to deliver technological & digital services in an old rented apartment."
+                "year": "2014",
+                "image": "../images/history/2014.jpg",
+                "title": "Запуск проекта SMT PROF",
+                "desc": "Совместно с компанией Когито стартовал проект SMT PROF. Мы получили официальную дистрибьюцию от мирового производителя промышленных моющих жидкостей - ZESTRON. Наша компания не только продавала материалы, но и обеспечивала технологическую поддержку процессов мойки электронных плат."
             },
             {
-                "year": "1993",
-                "image": "../images/box-image/timeline-image-02.jpg",
-                "title": "Mitech’s Golden Age",
-                "desc": "Mitech had been operating for 5 years when it reached the golden age in the company’s history. They received two prestigious awards for Dedicated Services & Community Contribution (in 1990), plus three successive award nominations for Best IT Company of the year (respectively in 1991, 1992 & 1993)."
+                "year": "2015",
+                "image": "../images/history/2015.jpg",
+                "title": "Первые поставки оборудования",
+                "desc": "Первые продажи и запуск автоматического оборудования начального уровня для монтажа электронных компонентов на печатные платы. Начало комплексных проектов от подготовки состава оборудования по техническому заданию Заказчика до выпуска готового изделия.  "
             },
             {
-                "year": "1993",
-                "image": "../images/box-image/timeline-image-03.jpg",
-                "title": "Mitech’s Turning Point",
-                "desc": "The company has a turning point in 1995 when one of its founders left the board of the management and established a new company in Healthcare & Assurance – HealSoul. Later on, Mitech and HealSoul have successfully cooperated in several projects to integrate technology into taking care of people’s health. ."
+                "year": "2016",
+                "image": "../images/history/2016.jpg",
+                "title": "Техническое обучение специалистов",
+                "desc": "Начало проведения регулярных технических семинаров по тематикам: технология поверхностного монтажа, технология процессов отмывки электроники и др. В семинарах принимаю участие представители мировых производителей оборудования и материалов для производства электронники."
+            },
+            {
+                "year": "2017",
+                "image": "../images/history/2017.jpg",
+                "title": "Первые большие проекты",
+                "desc": "Совместно с европейскими партнерами ( компания JSD Polska) впервые в Украине была запущенна производственная линия поверхностного монтажа электронных компонентов на базе установщиков Siplace SX2 и линия монтажа электронных компонентов в отверсти на базе машины для пайки волной припоя Vitronics Soltec."
+            },
+            {
+                "year": "2018",
+                "image": "../images/history/2018.jpg",
+                "title": "Продолжение больших проектов",
+                "desc": "Продуктивное продолжение сотрудничества с европейскими партнерами (компания JSD Polska). В этом году был успешно реализован проект по оснащению производства украинской EMS компании оборудованием для поверхностного монтажа: E by DEK, E by Siplace, Vitronics Soltec, 3D AOI Omron."
+            },
+            {
+                "year": "2019",
+                "image": "../images/history/2019.jpg",
+                "title": "Создание сервисной службы",
+                "desc": "Компания ИКТ инвестировала в проект SMT PROF. Мы стали частью группы компаний ИКТ. Совместно создали команду опытных специалистов по технической поддержке наших заказчиков. Украинские заводы теперь могут получать техническую поддержку в минимальные сроки с выездом инженеров."
+            },
+            {
+                "year": "2020",
+                "image": "../images/history/2020.jpg",
+                "title": "Партнерство с  JUKI",
+                "desc": "SMT PROF стал официальным дистрибьютором комплексных решений для производства электроники от японского производителя оборудования JUKI, который является одним из мировых лидеров по производству автоматического оборудования для монтажа компонентов и инспекции."
+            },
+            {
+                "year": "2021",
+                "image": "../images/history/2021.jpg",
+                "title": "Организация ДЕМО-ЗАЛА",
+                "desc": "В этом году был создан ДЕМО-ЗАЛ для украинских заказчиков. В зале представлено оборудование от JUKI для поверхностного монтажа электронных компонентов:  принтер паяльной пасты – G-Titan, установщик электронных компонентов - RS-1, паяльная печь с пайкой в азотной среде – RS1000N"
+            },
+            {
+                "year": "2022",
+                "image": "../images/history/2022.jpg",
+                "title": "Продолжение следует",
+                "desc": "Не смотря на войну, мы все таки работаем. Завершаем прошлогодние проекты по поставке линии для нанесения защитный покрытий на печатные платы от американского производителя  - PVA. Запускаем новый проект по поставке 3-х линиий для монтажа в отверстия плат на базе селективки от Inertec."
             }
         ]
     }
