@@ -5,6 +5,16 @@
         "desc": "История развития это не только история успеха. Жизнь состоит из маленький шагов, которые создают свой уникальный путь становления и роста. Решая сложные и комплексные задачи, мы растем и развиваемся вместе с нашими Заказчиками."
     },
     {
+        "id": "history-page-intro-ua",
+        "title": "Ми не просто створюємо проекти. <span></span> <br/> Ми їх успішно реалізуємо.",
+        "desc": "Історія розвитку це не тільки історія успіху. Життя складається з маленьких кроків, які створюють свій унікальний шлях становлення та зростання. Вирішуючи складні та комплексні завдання, ми ростемо та розвиваємося разом з нашими Замовниками."
+    },
+    {
+        "id": "history-page-intro-en",
+        "title": "We don't just create projects. <span></span> <br/> We successfully implement it.",
+        "desc": "The development story is not only a success story. Life is made up of small steps that create their own unique pathway and growing. Solving complex tasks, we grow and develop together with our Customers."
+    },
+    {
         "id": "our-history",
         "histories": [
             {
@@ -62,5 +72,125 @@
                 "desc": "Не смотря на войну, мы все таки работаем. Завершаем прошлогодние проекты по поставке линии для нанесения защитный покрытий на печатные платы от американского производителя  - PVA. Запускаем новый проект по поставке 3-х линиий для монтажа в отверстия плат на базе селективки от Inertec."
             }
         ]
+    },
+    {
+        "id": "our-history-ua",
+        "histories": [
+            {
+                "year": "2014",
+                "image": "../images/history/2014.jpg",
+                "title": "Запуск проекту SMT PROF",
+                "desc": "Спільно з компанією Когіто стартував проект SMT PROF. Ми отримали офіційну дистриб'юцію від світового виробника промислових миючих рідин - ZESTRON. Наша компанія не лише продавала матеріали, а й забезпечувала технологічну підтримку процесів миття електронних плат."
+            },
+            {
+                "year": "2015",
+                "image": "../images/history/2015.jpg",
+                "title": "Перше постачання обладнання",
+                "desc": "Перший продаж та запуск автоматичного обладнання початкового рівня для монтажу електронних компонентів на друковані плати. Початок комплексних проектів від підготовки складу обладнання за технічним завданням Замовника до випуску готового виробу."
+            },
+            {
+                "year": "2016",
+                "image": "../images/history/2016.jpg",
+                "title": "Технічне навчання спеціалістів",
+                "desc": "Початок проведення регулярних технічних семінарів за тематиками: технологія поверхневого монтажу, технологія процесів відмивання електроніки та ін. У семінарах беруть участь представники світових виробників обладнання та матеріалів для виробництва електронників."
+            },
+            {
+                "year": "2017",
+                "image": "../images/history/2017.jpg",
+                "title": "Перші великі проекти",
+                "desc": "Спільно з європейськими партнерами (компанія JSD Polska) вперше в Україні було запущено виробничу лінію поверхневого монтажу електронних компонентів на базі установників Siplace SX2 та лінію монтажу електронних компонентів в отворі на базі машини для паяння хвилею припою Vitronics Soltec."
+            },
+            {
+                "year": "2018",
+                "image": "../images/history/2018.jpg",
+                "title": "Продовження великих проектів",
+                "desc": "Продуктивне продовження співпраці з європейськими партнерами (компанія JSD Polska). Цього року було успішно реалізовано проект з оснащення виробництва української EMS компанії обладнанням для поверхневого монтажу: Eby DEK, Eby Siplace, Vitronics Soltec, 3D AOI Omron. "
+            },
+            {
+                "year": "2019",
+                "image": "../images/history/2019.jpg",
+                "title": "Створення сервісної служби",
+                "desc": "Компанія ІКТ інвестувала у проект SMT PROF. Ми стали частиною групи компаній ІКТ. Спільно створили команду досвідчених фахівців з технічної підтримки наших замовників. Українські заводи тепер можуть отримувати технічну підтримку у мінімальні терміни з виїздом інженерів."
+            },
+            {
+                "year": "2020",
+                "image": "../images/history/2020.jpg",
+                "title": "Партнерство з JUKI",
+                "desc": "SMT PROF став офіційним дистриб'ютором комплексних рішень для виробництва електроніки від японського виробника обладнання JUKI, який є одним із світових лідерів з виробництва автоматичного обладнання для монтажу компонентів та інспекції."
+            },
+            {
+                "year": "2021",
+                "image": "../images/history/2021.jpg",
+                "title": "Організація ДЕМО-ЗАЛУ",
+                "desc": "Цього року було створено ДЕМО-ЗАЛ для українських замовників. У залі представлено обладнання від JUKI для поверхневого монтажу електронних компонентів: принтер паяльної пасти – G-Titan, установник електронних компонентів - RS-1, паяльна піч з пайкою в азотному середовищі – RS1000N"
+            },
+            {
+                "year": "2022",
+                "image": "../images/history/2022.jpg",
+                "title": "Продовження слідує",
+                "desc": "Не дивлячись на війну, ми все ж таки працюємо. Завершуємо минулорічні проекти з постачання лінії для нанесення захисних покриттів на друковані плати від американського виробника - PVA. Запускаємо новий проект з постачання 3-х ліній для монтажу в отвори плат на базі селективки від Inertec."
+            }
+        ]
+    },
+    {
+        "id": "our-history-en",
+        "histories": [
+            {
+                "year": "2014",
+                "image": "../images/history/2014.jpg",
+                "title": "Launch of the SMT PROF project",
+                "desc": "Together with Kogito, the SMT PROF project was launched. We received official distribution from the global manufacturer of industrial PCB cleaning liquids - ZESTRON. Our company not only sold materials, but also provided technological support for cleaning of PCBA."
+            },
+            {
+                "year": "2015",
+                "image": "../images/history/2015.jpg",
+                "title": "First machines Installation",
+                "desc": "First sales and installation of entry-level automatic equipment for mounting electronic components on printed circuit boards. Commencement of complex projects from the preparation of the equipment according to the Customer's specifications to the release of the finished product."
+            },
+            {
+                "year": "2016",
+                "image": "../images/history/2016.jpg",
+                "title": "Technical training",
+                "desc": "Beginning of regular technical seminars on topics: surface mount technology, technology of electronics cleaning processes, etc. Representatives of world manufacturers of equipment and materials for the production of electronics take part in the seminars."
+            },
+            {
+                "year": "2017",
+                "image": "../images/history/2017.jpg",
+                "title": "First big projects",
+                "desc": "Together with European partners (JSD Polska), for the first time in Ukraine, a production line for surface mounting of electronic components based on Siplace SX2 p&p and a line of TH mounting electronic components based on a Vitronics Soltec wave soldering machine was installed."
+            },
+            {
+                "year": "2018",
+                "image": "../images/history/2018.jpg",
+                "title": "Again big projects",
+                "desc": "Productive continuation of cooperation with European partners (JSD Polska). This year, a project was successfully implemented for the production of a Ukrainian EMS company with surface mounting machines: E by DEK, E by Siplace, Vitronics Soltec, 3D AOI Omron. "
+            },
+            {
+                "year": "2019",
+                "image": "../images/history/2019.jpg",
+                "title": "Creating a Service team",
+                "desc": "IKT company invested in the SMT PROF project. We became part of the IKT group of companies. Together we created a team of experienced technical support specialists for our customers. Ukrainian factories can now receive technical support in the shortest possible time."
+            },
+            {
+                "year": "2020",
+                "image": "../images/history/2020.jpg",
+                "title": "Partnership with JUKI",
+                "desc": "SMT PROF has become the official distributor of complete electronics manufacturing solutions from the Japanese manufacturer JUKI, which is one of the world's leading manufacturers of automatic equipment for component assembly and inspection."
+            },
+            {
+                "year": "2021",
+                "image": "../images/history/2021.jpg",
+                "title": "Our DEMO-ROOM",
+                "desc": "This year a DEMO-HALL was created for Ukrainian customers. The show-room presents equipment from JUKI for surface mounting of electronic components: solder paste printer - G-Titan, electronic components mounter - RS-1, soldering oven with soldering in nitrogen environment – RS1000N"
+            },
+            {
+                "year": "2022",
+                "image": "../images/history/2022.jpg",
+                "title": "To be continued",
+                "desc": "Despite the war, we are still working. We are finishing last year's projects for the conformal coating line on from an American manufacturer - PVA. We are launching a new project with 3 lines for THT  PCBs based on selective soldering machines from Inertec."
+            }
+        ]
     }
+
+
 ]
