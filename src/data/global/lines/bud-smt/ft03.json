@@ -3,15 +3,15 @@
     "title": "Паяльная печь",
     "uatitle": "Паяльна піч",
     "entitle": "Reflow oven",
-    "category": "FT03",
+    "category": "HA06",
     "excerpt": "Бюджетная паяльная печь для производства прототипов для монтажа небольших плат. Печь совместима с технологией монтажа компонентов на бесвинцовых паяльных пастах. Возможность подключения термопары и вытяжной вентиляции. Используется для плавления паяльной пасты и полимеризации клея.",
     "uaexcerpt": "Бюджетна паяльна піч для виробництва прототипів для монтажу невеликих плат. Піч сумісна з технологією монтажу компонентів на безсвинцевих паяльних пастах. Можливість підключення термопари і витяжної вентиляції. Використовується для плавлення паяльної пасти і полімеризації клею.",
     "enexcerpt": "A low-cost soldering oven for prototyping small circuit boards. The reflow oven is compatible with the technology of mounting components on lead-free solder pastes. The ability to connect a thermocouple and exhaust ventilation.",
     "tagline": "A Freeserve case study on expanding market",
     "logo": "../../images/icons/case-study-04-logo-83x108.png",
-    "image": "../../../images/bg/machines/cif/reflow/ft03.png",
+    "image": "../../../images/bg/machines/reflow/ha06.jpg",
     "slide_image": "../../images/box-image/case-study-slide-image-01.png",
     "is_featured": true,
     "banner_image": "../../images/banner/banner-04.jpg",
-    "path": "machines"
+    "path": "ua/обладнання-для-монтажу/поверхневий-монтаж/печі-паяльні/печі-для-пайки-smd/ha06"
 }
