@@ -65,7 +65,9 @@ const Hero = ({headingSecondary, headingPrimary, buttonStyle}) => {
                         <HeroWrapperText>
                             {subtitle && <Heading {...headingSecondary}>{subtitle}</Heading>}
                             {title && <Heading {...headingPrimary}>{title}</Heading>}
-                            <Button {...buttonStyle}>Browse demos</Button>
+                            <Button {...buttonStyle} to={'https://www.youtube.com/watch?v=HRDLsJPvt6A'} rel="noopener noreferrer" target="_blank"
+
+>Browse demos</Button>
                         </HeroWrapperText>
                     </Col>
                     <Col lg={6}>

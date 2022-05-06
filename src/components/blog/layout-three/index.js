@@ -53,7 +53,7 @@ const Blog = ({title, format, slug, date, dateSlug, author, featured_image, exce
                 {title && <BlogTitle><Anchor to={`/${slug}`}>{title}</Anchor></BlogTitle>}
                 {excerpt && <BlogExcerpt>{excerpt}</BlogExcerpt>}
                 <ReadMoreBtn>
-                    <Button {...btnStyle} to={`/${slug}`} icon={<MdTrendingFlat/>}>Read More</Button>
+                    <Button {...btnStyle} to={`/${slug}`} icon={<MdTrendingFlat/>}>Читать</Button>
                 </ReadMoreBtn>
             </BlogInfo>
         </BlogWrapper>

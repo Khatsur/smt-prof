@@ -38,6 +38,7 @@ const SEO = ({ title, description, image, pathname, keywords, lang }) => (
             <meta property="og:type" content="website" />
             <meta property="og:image:width" content="400" />
             <meta property="og:image:height" content="300" />
+            
             {seo.url && <meta property="og:url" content={seo.url} />}
             {seo.title && <meta property="og:title" content={seo.title} />}
             {seo.description && (

@@ -2,7 +2,7 @@ import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Container, Row, Col } from '../../../components/ui/wrapper'
 import SectionTitle from '../../../components/ui/section-title'
-import FeaturedBlog from '../../../components/blog/layout-three'
+import FeaturedBlog from '../../../components/blog/layout-three-en'
 import RecentBlog from '../../../components/blog/layout-four'
 import { BlogWrap, BlogList, BlogListItem } from './blog-area.style'
 

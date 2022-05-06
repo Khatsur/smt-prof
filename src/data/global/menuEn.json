@@ -41,15 +41,6 @@
                 ]
             },
             {
-                
-                "submenu": [
-                    {
-                        "text": "FAQs",
-                        "link": "/en/company/faq"
-                    }
-                ]
-            },
-            {
                 "title": "",
                 "submenu": [
                     {

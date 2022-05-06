@@ -71,7 +71,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
             <PageHeader
                 pageContext={pageContext}
                 location={location}
-                title="News"
+                title="Новини / News"
             />
             <main className="site-wrapper-reveal">
                 <Section {...sectionStyle}>
@@ -109,28 +109,17 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                     </CategoryBox>
                                     <Heading {...titleStyle}>{post.title}</Heading>
                                     <HeaderMetaWrap>
-                                        {author && (
-                                            <AuthorMeta
-                                                {...headerMetaStyle}
-                                                slug={authorId}
-                                                name={author.name}
-                                                imageSrc={author.image.childImageSharp}
-                                            />
-                                        )}
+                                        
                                         {post.date && (
                                             <BlogMeta
                                                 {...headerMetaStyle}
-                                                path={`/date/${dateSlug}`}
+                                                
                                                 text={post.date}
                                                 icon={<FaCalendarAlt />}
                                             />
                                         )}
-                                        <BlogMeta
-                                            {...headerMetaStyle}
-                                            path={`/`}
-                                            text={`4 Comments`}
-                                            icon={<FaCommentDots />}
-                                        />
+                                        
+                                        
                                     </HeaderMetaWrap>
                                 </BlogInfo>
                                 <div className="post-content" dangerouslySetInnerHTML={{ __html: html }} />
@@ -138,7 +127,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                                     <FooterMetaWrap>
                                         <Row alignitems="center">
                                             <Col sm={6}>
-                                                <Tags tags={tags} />
+                                                SMT PROF
                                             </Col>
                                             <Col sm={6}>
                                                 <SocialShare

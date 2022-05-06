@@ -22,6 +22,9 @@ var plugins = [{
     },{
       plugin: require('/Users/Mykola/IT/smt-prof/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["roboto:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i","open sans:300,400,600,700,800,300i,400i,600i,700i,800i"],"display":"swap"},
+    },{
+      plugin: require('/Users/Mykola/IT/smt-prof/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
