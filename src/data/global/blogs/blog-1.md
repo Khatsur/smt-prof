@@ -1,15 +1,15 @@
 ---
-title: "News 1"
-date: "2020-01-20 05:01:00"
+title: "Впровадження Industry 4.0 на виробництві"
+date: "2021-11-20"
 author: "SMT PROF"
 categories: 
-    - news
+    - новини
 tags: 
     - business
 format: "quote"
-quote_text: "MACHINES AND MATERIALS FOR ELECTRONICS ASSEMBLY"
-quote_author: "SMT PROF"
+quote_text: "Четверта промислова революція — поняття, що означає розвиток і злиття автоматизованого виробництва, обміну даних і виробничих технологій в єдину саморегульовану систему, з якнайменшим або взагалі відсутнім втручанням людини у виробничий процес."
+quote_author: "Вікіпедія"
 is_featured: false
 ---
 
-Supply of machines for the medium multi-products production of assembly of printed circuit boards of various complexity. Latest technology and stability. Operational reliability and quick changeover. A series of flexible machines with maximum capabilities.
+Застосування сучасних передових програмних рішень дозволяє підняти якість продукції на високий рівень. Це не тільки якість продукту в класичному розумінні, але і можливість запобігти помилкам до запуску виробу. Програмні продукти аналізують постійно зростаючу кількість різних виробничих даних і передають у системи замовників продукції або інші програмні рішення, що дозволяє проводити відповідний аналіз і приймати рішення. Сучасні програмні рішення – це ключовий елемент на шляху до Industry 4.0.

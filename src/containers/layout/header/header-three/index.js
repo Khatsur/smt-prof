@@ -152,11 +152,11 @@ const Header = ({ path, ...styles }) => {
                                                 </Clickable>
                                             </HeaderElement>
 
-                                            <HeaderElement {...searchElStyle}>
+                                            {/* <HeaderElement {...searchElStyle}>
                                                 <Clickable className="search-btn" onClick={flyoutHandler}>
                                                     <MdSearch  />
                                                 </Clickable>
-                                            </HeaderElement>
+                                            </HeaderElement> */}
                                             <HeaderElement
                                                 {...burgerBtnElStyle}
                                                 visibility={{ default: 'false', lg: 'true' }}

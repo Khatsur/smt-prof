@@ -316,6 +316,7 @@ exports.components = {
   "component---src-templates-material-template-material-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/material-template/material-template.js"))),
   "component---src-templates-material-template-material-template-ua-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/material-template/material-template-ua.js"))),
   "component---src-templates-blog-template-blog-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-template/blog-template.js"))),
+  "component---src-templates-blog-list-blog-list-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/blog-list/blog-list.js"))),
   "component---src-templates-tag-template-tag-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/tag-template/tag-template.js"))),
   "component---src-templates-category-template-category-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/category-template/category-template.js"))),
   "component---src-templates-author-template-author-template-js": hot(preferDefault(require("/Users/Mykola/IT/smt-prof/src/templates/author-template/author-template.js"))),

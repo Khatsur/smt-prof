@@ -1,15 +1,16 @@
 ---
-title: "News 2"
-date: "2020-01-25 04:20:00"
+title: "JUKI запустив новий швидкісний установник компонентів RX-8"
+date: "2021-11-25"
 author: "SMT PROF"
-featured_image: "../../images/blog/blog-08-1170x570.jpg"
+featured_image: "../../images/blog/news-rx8.jpg"
 categories: 
-    - news
+    - новини
 tags: 
   - business
 format: "image"
 is_featured: false
 ---
 
-Supply of machines for the medium multi-products production of assembly of printed circuit boards of various complexity. Latest technology and stability. Operational reliability and quick changeover. A series of flexible machines with maximum capabilities.
+Японський виробник обладнання для електроніки JUKI запустив на ринок нову швидкісну машину RX-8. Установник має дві незалежні роторні головки та швидкістю установки до 100 000 CPH. Покращена установча головка P20 на 20 шпинделів забезпечує підвищену точність і більш тривалий термін служби. Компактна конструкція машини з шириною в один метр забезпечує максимальну продуктивність на мінімальному просторі.
+
 

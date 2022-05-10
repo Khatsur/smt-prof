@@ -1,17 +1,17 @@
 ---
-title: "News 5"
-date: "2020-01-25 05:01:00"
+title: "Аякс інвестував у лінійну машину для селективного паяння від  INERTEC"
+date: "2021-09-22"
 author: "SMT PROF"
-featured_image: "../../images/blog/blog-05-1170x570.jpg"
+featured_image: "../../images/blog/news-ajax.jpg"
 categories: 
-    - news
+    - новини
 tags: 
     - business
 format: "image"
 is_featured: false
 ---
 
-Supply of machines for the medium multi-products production of assembly of printed circuit boards of various complexity. Latest technology and stability. Operational reliability and quick changeover. A series of flexible machines with maximum capabilities.
+Компанія Inertec виготовляє обладнання для селективного паяння електронних компонентів класу Hi-End. Машини використовуються для виробництва автомобільної електроніки та інших областях. Основні замовники обладнання відомі світові компанії: BOSCH, CONTINENTAL, JABIL, HELLA.
 
 
 

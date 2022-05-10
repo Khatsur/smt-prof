@@ -63,7 +63,7 @@ const Hero = ({headingSecondary, headingPrimary, buttonStyle}) => {
                         <HeroWrapperText>
                             {subtitle && <Heading {...headingSecondary}>{subtitle}</Heading>}
                             {title && <Heading {...headingPrimary}>{title}</Heading>}
-                            <Button {...buttonStyle}  to={'https://www.youtube.com/watch?v=HRDLsJPvt6A'} rel="noopener noreferrer" target="_blank">ДЕМО-ВИДЕО</Button>
+                            <Button {...buttonStyle}  to={'/комплексные-решения'} rel="noopener noreferrer" target="_blank">Подробно</Button>
                         </HeroWrapperText>
                     </Col>
                     <Col lg={6}>

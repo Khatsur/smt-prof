@@ -6,8 +6,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 import Heading from '../../../components/ui/heading'
 import Button from '../../../components/ui/button'
 import {HeroWrapper, HeroWrapperText, PreviewInnerImg} from './hero.style'
-import { Language } from '../../../components/language-ua/index'
-import CarouselSlider from '../../elements/flexible-image-slider/carousel-slider'
+
 
 
 const Hero = ({headingSecondary, headingPrimary, buttonStyle}) => {
@@ -65,9 +64,9 @@ const Hero = ({headingSecondary, headingPrimary, buttonStyle}) => {
                         <HeroWrapperText>
                             {subtitle && <Heading {...headingSecondary}>{subtitle}</Heading>}
                             {title && <Heading {...headingPrimary}>{title}</Heading>}
-                            <Button {...buttonStyle} to={'https://www.youtube.com/watch?v=HRDLsJPvt6A'} rel="noopener noreferrer" target="_blank"
+                            <Button {...buttonStyle} to={'/en/lines'} rel="noopener noreferrer" target="_blank"
 
->Browse demos</Button>
+>Get Details</Button>
                         </HeroWrapperText>
                     </Col>
                     <Col lg={6}>

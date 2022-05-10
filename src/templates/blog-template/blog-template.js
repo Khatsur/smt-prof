@@ -105,7 +105,7 @@ const BlogTemplate = ({ data, pageContext, location, ...restProps }) => {
                             <SingleBlogWrap>
                                 <BlogInfo>
                                     <CategoryBox>
-                                        <Categories categories={categories} />
+                                        
                                     </CategoryBox>
                                     <Heading {...titleStyle}>{post.title}</Heading>
                                     <HeaderMetaWrap>

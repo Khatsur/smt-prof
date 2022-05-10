@@ -1,17 +1,21 @@
 ---
-title: "News 3"
-date: "2020-01-25 05:01:00"
+title: "ІКТ запустив лінію  SMT від JUKI"
+date: "2021-05-12"
 author: "SMT PROF"
-featured_image: "../../images/blog/blog-07-1170x570.jpg"
-video_link: "https://www.youtube.com/watch?v=iV1XGJm-UtU"
+featured_image: "../../images/blog/news-ikt.jpg"
+video_link: "https://www.youtube.com/watch?v=HRDLsJPvt6A"
 categories: 
-    - news
+    - новини
 tags: 
     - business
 format: "video"
 is_featured: false
 ---
 
-Supply of machines for the medium multi-products production of assembly of printed circuit boards of various complexity. Latest technology and stability. Operational reliability and quick changeover. A series of flexible machines with maximum capabilities.
+ДЕМО лінія SMT від JUKI встановлена у Чернігові на виробничому майданчику підприємства ІКТ Електронікс. Лінія забезпечує повний цикл поверхневого монтажу компонентів.
 
+G-Titan – Принтер паяльної пасти з SPI, інспекцією трафарету та моніторингом валика пасти
+RS-1 – Установник електронних компонентів із вимірюванням електричних параметрів, компенсацією на зміщення пасти та платами 1200мм.
+RS1000 – Паяльна піч з підготовкою до паяння серед N2
+Конвеєри – Для роботи з платами до 1200мм
 

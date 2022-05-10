@@ -31,7 +31,7 @@ const Blog = ({format, title, slug, date, dateSlug, author, featured_image, ...r
                     <BlogThumbMeta>
                         <AuthorMeta
                             {...authorMetaStyle}
-                            slug={author.fields.authorId}
+                            slug={`../`}
                             name={author.name}
                             imageSrc={author.image.childImageSharp}
                         />
@@ -42,7 +42,7 @@ const Blog = ({format, title, slug, date, dateSlug, author, featured_image, ...r
                 {date && (
                     <BlogHeaderMeta>
                         <BlogMeta
-                            path={`/date/${dateSlug}`}
+                            path={`/`}
                             text={date}
                             icon={<FaCalendarAlt/>}
                         />

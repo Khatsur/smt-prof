@@ -313,6 +313,7 @@ exports.components = {
   "component---src-templates-material-template-material-template-js": () => import("./../src/templates/material-template/material-template.js" /* webpackChunkName: "component---src-templates-material-template-material-template-js" */),
   "component---src-templates-material-template-material-template-ua-js": () => import("./../src/templates/material-template/material-template-ua.js" /* webpackChunkName: "component---src-templates-material-template-material-template-ua-js" */),
   "component---src-templates-blog-template-blog-template-js": () => import("./../src/templates/blog-template/blog-template.js" /* webpackChunkName: "component---src-templates-blog-template-blog-template-js" */),
+  "component---src-templates-blog-list-blog-list-js": () => import("./../src/templates/blog-list/blog-list.js" /* webpackChunkName: "component---src-templates-blog-list-blog-list-js" */),
   "component---src-templates-tag-template-tag-template-js": () => import("./../src/templates/tag-template/tag-template.js" /* webpackChunkName: "component---src-templates-tag-template-tag-template-js" */),
   "component---src-templates-category-template-category-template-js": () => import("./../src/templates/category-template/category-template.js" /* webpackChunkName: "component---src-templates-category-template-category-template-js" */),
   "component---src-templates-author-template-author-template-js": () => import("./../src/templates/author-template/author-template.js" /* webpackChunkName: "component---src-templates-author-template-author-template-js" */),

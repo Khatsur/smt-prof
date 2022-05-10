@@ -20,7 +20,7 @@ const SearchForm = () => {
     return (
         <SearchFromWrap>
             <form onSubmit={handlSubmit}>
-                <input onChange={handleInput} type="text" name="header-search" id="header-search" placeholder="Search" />
+                <input onChange={handleInput} type="text" name="header-search" id="header-search" placeholder="Пошук" />
             </form>
         </SearchFromWrap>
     )

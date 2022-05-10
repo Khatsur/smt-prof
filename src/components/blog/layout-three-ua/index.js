@@ -34,7 +34,7 @@ const Blog = ({title, format, slug, date, dateSlug, author, featured_image, exce
                     {author && (
                         <AuthorMeta
                             {...metaStyle}
-                            slug={author.fields.authorId}
+                            slug={`../`}
                             name={author.name}
                             imageSrc={author.image.childImageSharp}
                         />
@@ -42,7 +42,7 @@ const Blog = ({title, format, slug, date, dateSlug, author, featured_image, exce
                     {date && (
                         <BlogMeta
                             {...metaStyle}
-                            path={`/date/${dateSlug}`}
+                            path={`/`}
                             text={date}
                             icon={<FaCalendarAlt/>}  
                         />

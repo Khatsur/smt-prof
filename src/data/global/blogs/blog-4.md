@@ -1,17 +1,17 @@
 ---
-title: "News 4"
-date: "2020-01-25 05:01:00"
+title: "Лінія SMT встановлена в Чернівцях в СКБ Електронмаш базі машини JUKI RS-1"
+date: "2021-07-12"
 author: "SMT PROF"
-featured_image: "../../images/blog/blog-07-1170x570.jpg"
+featured_image: "../../images/blog/news-skb.jpg"
 categories: 
-    - news
+    - новини
 tags: 
     - business
 format: "image"
 is_featured: false
 ---
 
-Supply of machines for the medium multi-products production of assembly of printed circuit boards of various complexity. Latest technology and stability. Operational reliability and quick changeover. A series of flexible machines with maximum capabilities.
+Український виробник обладнання для пожежної сигналізації СКБ Електронмаш із Чернівців інвестував у виробничу лінію поверхневого монтажу на базі японського SMART установника RS-1 від JUKI.
 
 
 
