@@ -8,7 +8,7 @@ export const DropmenuWrap = styled.ul `
     position: absolute;
     top: 100%;
     right: 0;
-    left: 0;
+    left: -50px;
     padding: 0;
     margin: 0;
     list-style-type: none;

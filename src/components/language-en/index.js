@@ -88,12 +88,14 @@ export const Language = props => {
                                 const {id, name, flag, link} = lang;
                                 return (
                                     <DropdownItem key={id} onClick={() => onClickHandler(id)}>
-                                        <DropdownItemInner>
+                                        
                                         <a href={link}>
+                                            <DropdownItemInner>
                                             <img src={flag} alt={name}/>
                                             <span>{name}</span>
+                                             </DropdownItemInner>
                                             </a>
-                                        </DropdownItemInner>
+                                       
                                     </DropdownItem>
                                 )
                             })

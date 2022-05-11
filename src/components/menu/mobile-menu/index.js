@@ -43,7 +43,7 @@ export const MobileMenu = ({ menuData, headingStyle }) => {
                     const megamenu = menu.node.megamenu ? menu.node.megamenu : null;
                     const menuIndex = i;
                     return (
-                        <NavItem
+                        <NavItem 
                             key={`mainmenu-${menu.node.id}`}
                             hasSubmenu={submenu}
                             hasMegamenu={megamenu}
@@ -130,6 +130,7 @@ MobileMenu.defaultProps = {
         fontSize: '14px',
         mb: '0',
         texttransform: 'uppercase',
-        color: '#fff'
+        color: '#fff',
+        
     }
 }

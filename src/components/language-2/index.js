@@ -87,14 +87,21 @@ const Language = (props) => {
                             inActiveLanguage.map(lang => {
                                 const {id, name, flag, link} = lang;
                                 return (
-                                    <DropdownItem key={id} onClick={() => onClickHandler(id)}>
-                                        <DropdownItemInner >
-                                        <a href={link}>
+                                   
+                                    <DropdownItem  key={id} onClick={() => onClickHandler(id)}>
+                                        
+                                       <a href={link}>
+                                            <DropdownItemInner >
+
+
                                             <img src={flag} alt={name}/>
                                             <span>{name}</span>
-                                            </a>
+
                                         </DropdownItemInner>
+                                            
+                                        </a>
                                     </DropdownItem>
+                                     
                                 )
                             })
                         }

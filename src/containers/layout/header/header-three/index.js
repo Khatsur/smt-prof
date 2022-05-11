@@ -186,11 +186,11 @@ const Header = ({ path, ...styles }) => {
                     <SearchForm />
                 </FlyoutBody>
             </Flyout>
-            <OffCanvas scrollable={true} isOpen={offCanvasOpen} onClick={offCanvasHandler}>
+            <OffCanvas style={{ width: "100%", marginLeft: "0"}}  scrollable={true} isOpen={offCanvasOpen} onClick={offCanvasHandler}>
                 <OffCanvasHeader onClick={offCanvasHandler}>
                     <Logo darkLogo align={{ default: 'flex-start' }} />
                 </OffCanvasHeader>
-                <OffCanvasBody>
+                <OffCanvasBody style={{ width: "90%", marginLeft: "0", marginRight: "0", paddingRight: "0"}}>
                     <MobileMenu menuData={menuArr} />
                 </OffCanvasBody>
             </OffCanvas>

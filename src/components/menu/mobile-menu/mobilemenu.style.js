@@ -9,6 +9,7 @@ import { ExpandButtonWrap } from '../../ui/navbar/expand-button/expand-button.st
 export const MobileMenuWrap = styled.nav`
     ${NavbarWrap}{
         flex-direction: column;
+        
     } 
     ${NavItemWrap}{
         margin-left: 0;
@@ -32,6 +33,7 @@ export const MobileMenuWrap = styled.nav`
         & > ${SubmenuWrap},
         & > ${MegamenuWrap}{
             max-height: 1000px;
+            width: 200px;
             visibility: visible;
             opacity: 1;
             padding-top: 12px;
@@ -46,7 +48,7 @@ export const MobileMenuWrap = styled.nav`
         display: block;
         color: #ffffff;
         padding: 18px 0;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
         line-height: 1.5;
         transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
